@@ -1,0 +1,71 @@
+body {
+    background: #212121;
+    padding: 0px;
+    margin: 0px;
+}
+
+a.round-button {
+    display: table-cell;
+    vertical-align: center;
+    width: fit-content;
+    padding: 3px 55px;
+    height: 45px;
+    line-height: 45px;
+    text-align: center;
+    text-decoration: none;
+    background-color: #4CAF50;
+    font-size: 20px;
+    color: white;
+    border-radius: 45px;
+    box-shadow: 0px 0px 6px #111;
+}
+
+a.round-button:hover {
+    opacity: 0.9;
+}
+
+.top-wrap {
+    width: 100%;
+    height: 700px;
+    object-fit: contain;
+    background-image: url("../site-images/top.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.top-title-container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.top-main-title {
+    font-size: 32px;
+    color: white;
+    margin: 8px;
+}
+
+.top-sub-title {
+    font-size: 22px;
+    color: white;
+    margin: 8px;
+}
+
+.top-goto-download-page {
+    margin: 1px 0px;
+}
+
+.overlay-color {
+    height: 100%;
+    background: rgba(0, 0, 0, 0.8);
+}
+
+.container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -120px;
+    margin-left: -250px;
+    width: 500px;
+    height: 500px;
+}
