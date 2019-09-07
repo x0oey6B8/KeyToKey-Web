@@ -56,6 +56,13 @@
     "Website": "KeyToKey開発ブログ"
   },
   {
+    "Category": "Tutorial",
+    "Thumbnail": "http://",
+    "Url": "http://keytokey-dev.net/archives/割り当て設定のまとめ.html#入力イベントのロック",
+    "Title": "アプリからのキー入力による「各種割り当て」の実行を防止する",
+    "Website": "KeyToKey開発ブログ"
+  },
+  {
     "Category": "Assign",
     "Thumbnail": "http://",
     "Url": "http://keytokey-dev.net/archives/コントローラーの設定について.html",
