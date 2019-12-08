@@ -1,5 +1,5 @@
 ﻿{
-  "version": 191207,
+  "version": 191208.0,
   "entries": [
     {
       "RemotePath": "/KeyToKey/latest/ControlzEx.dll",
@@ -80,78 +80,6 @@
       "Hash": "8a44f90ff38370ca2afee37c04234366d2148edab2f67e1654d1b680cb77fa75"
     },
     {
-      "RemotePath": "/KeyToKey/latest/KeyToKey.DirectInput.dll",
-      "RelateivePath": "KeyToKey.DirectInput.dll",
-      "SharedLink": "https://dl.dropboxusercontent.com/s/yauxgfavnnaua19/KeyToKey.DirectInput.dll",
-      "Hash": "d17df204b3fb46669d8875d561312c075dd20204863cc9e9c168e28207693605"
-    },
-    {
-      "RemotePath": "/KeyToKey/latest/KeyToKey.DirectInput.pdb",
-      "RelateivePath": "KeyToKey.DirectInput.pdb",
-      "SharedLink": "https://dl.dropboxusercontent.com/s/vpaocofer85t5i6/KeyToKey.DirectInput.pdb",
-      "Hash": "79e27f935b5ff5ce7fdb9fcaf3d767f1ab82e0d61070ff6391bd1ff4e37d973a"
-    },
-    {
-      "RemotePath": "/KeyToKey/latest/KeyToKey.Enums.dll",
-      "RelateivePath": "KeyToKey.Enums.dll",
-      "SharedLink": "https://dl.dropboxusercontent.com/s/6pl7bdkitty5fom/KeyToKey.Enums.dll",
-      "Hash": "95686486f721f69b8795a600f785c5d6653b68e400c42e6ba416c4ab94558030"
-    },
-    {
-      "RemotePath": "/KeyToKey/latest/KeyToKey.Enums.pdb",
-      "RelateivePath": "KeyToKey.Enums.pdb",
-      "SharedLink": "https://dl.dropboxusercontent.com/s/jmglj31lewq4xbi/KeyToKey.Enums.pdb",
-      "Hash": "df02031285563e1cd2150aa20f0ba0c0480700eacecb06a7029a3ace60931bc2"
-    },
-    {
-      "RemotePath": "/KeyToKey/latest/KeyToKey.exe",
-      "RelateivePath": "KeyToKey.exe",
-      "SharedLink": "https://dl.dropboxusercontent.com/s/mf90ou1kx8eboak/KeyToKey.exe",
-      "Hash": "2c71c92cbb501da5d96c24177a252a407e24c13deb1654427852a640501b5028"
-    },
-    {
-      "RemotePath": "/KeyToKey/latest/KeyToKey.exe.config",
-      "RelateivePath": "KeyToKey.exe.config",
-      "SharedLink": "https://dl.dropboxusercontent.com/s/j7prjbychgucnyp/KeyToKey.exe.config",
-      "Hash": "9f6ae679e010fbf737b54eb11a60244196b66edf43b697e1937a0c09ebb160cc"
-    },
-    {
-      "RemotePath": "/KeyToKey/latest/KeyToKey.pdb",
-      "RelateivePath": "KeyToKey.pdb",
-      "SharedLink": "https://dl.dropboxusercontent.com/s/ns35apkgmwxpx6h/KeyToKey.pdb",
-      "Hash": "d1348e75b134fc118f12abb81e1497371c5feaefdd94f4049cb5f023ef166f1f"
-    },
-    {
-      "RemotePath": "/KeyToKey/latest/KeyToKey.Plugins.dll",
-      "RelateivePath": "KeyToKey.Plugins.dll",
-      "SharedLink": "https://dl.dropboxusercontent.com/s/rguu5n3ow27o3cl/KeyToKey.Plugins.dll",
-      "Hash": "569633631fadb0d6571fb8d95d652759d833e540a42b4bd16e488d0683c4c8d0"
-    },
-    {
-      "RemotePath": "/KeyToKey/latest/KeyToKey.Plugins.pdb",
-      "RelateivePath": "KeyToKey.Plugins.pdb",
-      "SharedLink": "https://dl.dropboxusercontent.com/s/wyxsnx4ld0ca8dh/KeyToKey.Plugins.pdb",
-      "Hash": "024a9a89c7747bf5149d1a97d96330e232e0f53cd74ef181a941c7ac2234a14d"
-    },
-    {
-      "RemotePath": "/KeyToKey/latest/KeyToKey.Plugins.xml",
-      "RelateivePath": "KeyToKey.Plugins.xml",
-      "SharedLink": "https://dl.dropboxusercontent.com/s/q7oejv16x1z1sb2/KeyToKey.Plugins.xml",
-      "Hash": "51d84099f564c4ec3fd8d14e5b8532249e6a49bf67db7dfe92911d8d113d1b14"
-    },
-    {
-      "RemotePath": "/KeyToKey/latest/KeyToKey.ScancodeConverter.dll",
-      "RelateivePath": "KeyToKey.ScancodeConverter.dll",
-      "SharedLink": "https://dl.dropboxusercontent.com/s/x7rlec3dui4pi44/KeyToKey.ScancodeConverter.dll",
-      "Hash": "4cb74d8e13f9e44e7e433003ae7d0f27fe65da300d97b7c3efb17d40fd60520d"
-    },
-    {
-      "RemotePath": "/KeyToKey/latest/KeyToKey.ScancodeConverter.pdb",
-      "RelateivePath": "KeyToKey.ScancodeConverter.pdb",
-      "SharedLink": "https://dl.dropboxusercontent.com/s/osphoxbrduamwtd/KeyToKey.ScancodeConverter.pdb",
-      "Hash": "0db7370a111d58813e89e87734a2f8bfba2abc233027566ef5a38bd433bca99c"
-    },
-    {
       "RemotePath": "/KeyToKey/latest/KeyToKey.ScriptEditor/Esent.Interop.dll",
       "RelateivePath": "KeyToKey.ScriptEditor/Esent.Interop.dll",
       "SharedLink": "https://dl.dropboxusercontent.com/s/42kz244mnbbj4so/Esent.Interop.dll",
@@ -220,8 +148,8 @@
     {
       "RemotePath": "/KeyToKey/latest/KeyToKey.ScriptEditor/KeyToKey.ScriptEditor.exe.config",
       "RelateivePath": "KeyToKey.ScriptEditor/KeyToKey.ScriptEditor.exe.config",
-      "SharedLink": "https://dl.dropboxusercontent.com/s/kpi4gafu6prbl61/KeyToKey.ScriptEditor.exe.config",
-      "Hash": "bf66afeb62fb138c4712926be32b8a2c0413e669b2909de11927385022581c5e"
+      "SharedLink": "https://dl.dropboxusercontent.com/s/41jujyzdldwoti0/KeyToKey.ScriptEditor.exe.config",
+      "Hash": "b190b4ee1de7ef8147412bedee674e6e8a5e4d14973cd3b753547ca91f59357f"
     },
     {
       "RemotePath": "/KeyToKey/latest/KeyToKey.ScriptEditor/KeyToKey.ScriptEditor.pdb",
@@ -692,16 +620,22 @@
       "Hash": "942a510835856f8bd1a23c4cd8343c71cfa2208b17b5b01aadd808595a045f35"
     },
     {
-      "RemotePath": "/KeyToKey/latest/KeyToKey.Shared.dll",
-      "RelateivePath": "KeyToKey.Shared.dll",
-      "SharedLink": "https://dl.dropboxusercontent.com/s/2uws2zi5ztdkph7/KeyToKey.Shared.dll",
-      "Hash": "ef67d85e59316ab92b13f4dbb9e5b8e4b944e7fd0cbd1a7a9c2b765384960025"
+      "RemotePath": "/KeyToKey/latest/KeyToKey.Update.exe",
+      "RelateivePath": "KeyToKey.Update.exe",
+      "SharedLink": "https://dl.dropboxusercontent.com/s/hnif2tln3y8rr5v/KeyToKey.Update.exe",
+      "Hash": "9e3816a263cbb0b37fdb0dd6455bb0ca0e07af0f065f882bb8417d7e547d743f"
     },
     {
-      "RemotePath": "/KeyToKey/latest/KeyToKey.Shared.pdb",
-      "RelateivePath": "KeyToKey.Shared.pdb",
-      "SharedLink": "https://dl.dropboxusercontent.com/s/sw4rj8vklr1wk9a/KeyToKey.Shared.pdb",
-      "Hash": "61dc79db747dd18e911af2f24a2abcb14ad25d6fb475830a020aeeb3aaae9ff5"
+      "RemotePath": "/KeyToKey/latest/KeyToKey.Update.exe.config",
+      "RelateivePath": "KeyToKey.Update.exe.config",
+      "SharedLink": "https://dl.dropboxusercontent.com/s/wyr1byspopoxp3z/KeyToKey.Update.exe.config",
+      "Hash": "498c7f8e872f9cef0cf04f7d290cf3804c82a007202c9b484128c94d03040fd0"
+    },
+    {
+      "RemotePath": "/KeyToKey/latest/KeyToKey.Update.pdb",
+      "RelateivePath": "KeyToKey.Update.pdb",
+      "SharedLink": "https://dl.dropboxusercontent.com/s/uosf13y1usf7l5y/KeyToKey.Update.pdb",
+      "Hash": "0e7a877720db33e56692f4c9f5eef661dedef4fe82f252388509876f15c5c8f9"
     },
     {
       "RemotePath": "/KeyToKey/latest/MahApps.Metro.dll",
