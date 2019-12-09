@@ -1,5 +1,5 @@
 ﻿{
-  "version": 191209.1,
+  "version": 191209.0,
   "entries": [
     {
       "RemotePath": "/KeyToKey/latest/ControlzEx.dll",
@@ -864,18 +864,6 @@
       "RelateivePath": "Microsoft.Win32.Primitives.dll",
       "SharedLink": "https://dl.dropboxusercontent.com/s/hvbifc4hzvlgk82/Microsoft.Win32.Primitives.dll",
       "Hash": "5eaa2e82a26b0b302280d08f54dc9da25165dd0e286be52440a271285d63f695"
-    },
-    {
-      "RemotePath": "/KeyToKey/latest/msvcp120.dll",
-      "RelateivePath": "msvcp120.dll",
-      "SharedLink": "https://dl.dropboxusercontent.com/s/ru716f7e42z8esz/msvcp120.dll",
-      "Hash": "87c42ca155473e4e71857d03497c8cbc28fa8ff7f2c8d72e8a1f39b71078f608"
-    },
-    {
-      "RemotePath": "/KeyToKey/latest/msvcr120.dll",
-      "RelateivePath": "msvcr120.dll",
-      "SharedLink": "https://dl.dropboxusercontent.com/s/v52c69g9qp8iywv/msvcr120.dll",
-      "Hash": "86e39b5995af0e042fcdaa85fe2aefd7c9ddc7ad65e6327bd5e7058bc3ab615f"
     },
     {
       "RemotePath": "/KeyToKey/latest/NAudio.dll",
@@ -1844,28 +1832,10 @@
       "Hash": "b33d08149a756a401628d11bfddfeeaca1f03c0578395bb061dae44f8a12ce5d"
     },
     {
-      "RemotePath": "/KeyToKey/latest/update.exe",
-      "RelateivePath": "update.exe",
-      "SharedLink": "https://dl.dropboxusercontent.com/s/ix5ab6s2kwxjvy9/update.exe",
-      "Hash": "d1f0d27fe70e02f7ebaa0378755047ebec953985eeb1b84f92be78352f74299a"
-    },
-    {
-      "RemotePath": "/KeyToKey/latest/vJoyInterface.dll",
-      "RelateivePath": "vJoyInterface.dll",
-      "SharedLink": "https://dl.dropboxusercontent.com/s/mxix2h6lvvwwsva/vJoyInterface.dll",
-      "Hash": "e4a777b03203edcc8a0b61c6c739df30d5b7576218328be37d7aa9f677af8700"
-    },
-    {
       "RemotePath": "/KeyToKey/latest/vJoyInterfaceWrap.dll",
       "RelateivePath": "vJoyInterfaceWrap.dll",
       "SharedLink": "https://dl.dropboxusercontent.com/s/1u6m4w7nbrscv2m/vJoyInterfaceWrap.dll",
       "Hash": "7b83f85e8d15dbf2e19573b5ee071aa3cdc278e273e90161b1bd595bf57bd00e"
-    },
-    {
-      "RemotePath": "/KeyToKey/latest/vXboxInterface.dll",
-      "RelateivePath": "vXboxInterface.dll",
-      "SharedLink": "https://dl.dropboxusercontent.com/s/f29x3f9lfw8x916/vXboxInterface.dll",
-      "Hash": "08a7535749fe08cecfe013df79822b6006c7f5f8830847111a8ec39b13de4a30"
     },
     {
       "RemotePath": "/KeyToKey/latest/Xceed.Wpf.AvalonDock.dll",
