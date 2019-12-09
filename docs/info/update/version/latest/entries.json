@@ -1,5 +1,5 @@
 ﻿{
-  "version": 191209.30000000002,
+  "version": 191209.0,
   "entries": [
     {
       "RemotePath": "/KeyToKey/latest/_最初にお読みください.txt",
@@ -108,6 +108,18 @@
       "RelateivePath": "KeyToKey.Enums.pdb",
       "SharedLink": "https://dl.dropboxusercontent.com/s/1cfqk0h33cueovl/KeyToKey.Enums.pdb",
       "Hash": "48d996c4affa85a9901fcfb2577e33d4cdeecd769bede62fd712bb15be431180"
+    },
+    {
+      "RemotePath": "/KeyToKey/latest/KeyToKey.exe",
+      "RelateivePath": "KeyToKey.exe",
+      "SharedLink": "https://dl.dropboxusercontent.com/s/8qz4kytfpjgk93z/KeyToKey.exe",
+      "Hash": "e10d0f41b963fe55a1b3e9d5cbced897ef3e139e34bf12ae47208e838c76d57c"
+    },
+    {
+      "RemotePath": "/KeyToKey/latest/KeyToKey.exe.config",
+      "RelateivePath": "KeyToKey.exe.config",
+      "SharedLink": "https://dl.dropboxusercontent.com/s/28bguwt9enwxrmx/KeyToKey.exe.config",
+      "Hash": "9f6ae679e010fbf737b54eb11a60244196b66edf43b697e1937a0c09ebb160cc"
     },
     {
       "RemotePath": "/KeyToKey/latest/KeyToKey.pdb",
