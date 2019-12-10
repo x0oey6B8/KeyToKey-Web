@@ -1,5 +1,5 @@
 ﻿{
-  "version": 191209.2,
+  "version": 191210.1,
   "entries": [
     {
       "RemotePath": "/KeyToKey/latest/_最初にお読みください.txt",
@@ -88,14 +88,14 @@
     {
       "RemotePath": "/KeyToKey/latest/KeyToKey.DirectInput.dll",
       "RelateivePath": "KeyToKey.DirectInput.dll",
-      "SharedLink": "https://dl.dropboxusercontent.com/s/wrodmikbp86pkdp/KeyToKey.DirectInput.dll",
-      "Hash": "7d6a5c6b0c1cf2e925a867a80c4186083eedd3bfa766be50ddf626a9494b63f6"
+      "SharedLink": "https://dl.dropboxusercontent.com/s/iq9xjc41o6ubgof/KeyToKey.DirectInput.dll",
+      "Hash": "d7ecf5cd30f54242ae683212d3b12feb3b52487de5510eb2f57d543d0eeaf380"
     },
     {
       "RemotePath": "/KeyToKey/latest/KeyToKey.DirectInput.pdb",
       "RelateivePath": "KeyToKey.DirectInput.pdb",
-      "SharedLink": "https://dl.dropboxusercontent.com/s/ooxqc6xoa9z29uq/KeyToKey.DirectInput.pdb",
-      "Hash": "45b30cdbf7d1aef176006b3008b343403515cb65470b8be47a5fc8b96c835e55"
+      "SharedLink": "https://dl.dropboxusercontent.com/s/x855oal88r6ha5p/KeyToKey.DirectInput.pdb",
+      "Hash": "a3202c912844ee5c7edbd4c1ce221c14a2f5dd834209ac3a5464872f53b362cd"
     },
     {
       "RemotePath": "/KeyToKey/latest/KeyToKey.Enums.dll",
@@ -112,8 +112,8 @@
     {
       "RemotePath": "/KeyToKey/latest/KeyToKey.exe",
       "RelateivePath": "KeyToKey.exe",
-      "SharedLink": "https://dl.dropboxusercontent.com/s/foufe8rr1jolgs4/KeyToKey.exe",
-      "Hash": "1d342e385f2fac57edfe80e892615e74407bac538dfab4b01fbcaee282757981"
+      "SharedLink": "https://dl.dropboxusercontent.com/s/0lk7vz1v718asta/KeyToKey.exe",
+      "Hash": "cf824250ef478598796d330ccd37e525f51b58d2385c0e18710d6be533a3b6d9"
     },
     {
       "RemotePath": "/KeyToKey/latest/KeyToKey.exe.config",
@@ -124,20 +124,20 @@
     {
       "RemotePath": "/KeyToKey/latest/KeyToKey.pdb",
       "RelateivePath": "KeyToKey.pdb",
-      "SharedLink": "https://dl.dropboxusercontent.com/s/7i50ze76k3ybct4/KeyToKey.pdb",
-      "Hash": "abfa6f73ed882cecfdebdbf37ab8b0dd6f7584790a65a5eda18bafa3a5ae5349"
+      "SharedLink": "https://dl.dropboxusercontent.com/s/rwtyrganqbygwa0/KeyToKey.pdb",
+      "Hash": "11066cc914c34222c17d5392f131fdb1162e9268515f8086c7a05dd518696417"
     },
     {
       "RemotePath": "/KeyToKey/latest/KeyToKey.Plugins.dll",
       "RelateivePath": "KeyToKey.Plugins.dll",
-      "SharedLink": "https://dl.dropboxusercontent.com/s/uzsemk27j3w78j2/KeyToKey.Plugins.dll",
-      "Hash": "dc2ef3a2cdb883a94a0bb902e3b9eb710fe8f0bfe2038cac8dbe730e3e1a54fe"
+      "SharedLink": "https://dl.dropboxusercontent.com/s/s7d69v19bu1u0pb/KeyToKey.Plugins.dll",
+      "Hash": "9894f8dfab22ac6e0df57e2f899a7fcddb7bb815604c2177e100f6976a9f19db"
     },
     {
       "RemotePath": "/KeyToKey/latest/KeyToKey.Plugins.pdb",
       "RelateivePath": "KeyToKey.Plugins.pdb",
-      "SharedLink": "https://dl.dropboxusercontent.com/s/fxo2xlynyq0k0yf/KeyToKey.Plugins.pdb",
-      "Hash": "e77a188daee78795ddd9e80ab9994af36f27b26b2d2a1e00797711f7531e1ef3"
+      "SharedLink": "https://dl.dropboxusercontent.com/s/3rxmqbbqkj644ie/KeyToKey.Plugins.pdb",
+      "Hash": "fa0f4a7d31109c7cb3154e58b0b75fc9978471bc0330d97745660a055a15e7cd"
     },
     {
       "RemotePath": "/KeyToKey/latest/KeyToKey.ScancodeConverter.dll",
@@ -1018,14 +1018,14 @@
     {
       "RemotePath": "/KeyToKey/latest/RadialMenu.dll",
       "RelateivePath": "RadialMenu.dll",
-      "SharedLink": "https://dl.dropboxusercontent.com/s/1s7xoosgrqnjf2j/RadialMenu.dll",
-      "Hash": "9fc3c34e4331e05720fbfffb4bf025b7c4f7d2e1d6c311717f13379172067452"
+      "SharedLink": "https://dl.dropboxusercontent.com/s/72h6bonet1iyqap/RadialMenu.dll",
+      "Hash": "a255446d7dff5728e8eb9aa899c60f2cecf67c09edff7e3c3b4d8d18e7541f72"
     },
     {
       "RemotePath": "/KeyToKey/latest/RadialMenu.pdb",
       "RelateivePath": "RadialMenu.pdb",
-      "SharedLink": "https://dl.dropboxusercontent.com/s/yay6wxc4cc657im/RadialMenu.pdb",
-      "Hash": "e021ae58c6f9fb477d27b180f7a5b7d2c9189d75f5bfafa975dc0890529ed4d4"
+      "SharedLink": "https://dl.dropboxusercontent.com/s/002tnnfnmwtd6at/RadialMenu.pdb",
+      "Hash": "797bed2738a81dc593b3656834862035e7c6e31ac22e4e0e3ec3a7fe4f96d363"
     },
     {
       "RemotePath": "/KeyToKey/latest/ScpVBus-x64/devcon.exe",
@@ -1854,12 +1854,6 @@
       "RelateivePath": "System.Xml.XPath.XDocument.dll",
       "SharedLink": "https://dl.dropboxusercontent.com/s/7p27fg1kmhtwf0s/System.Xml.XPath.XDocument.dll",
       "Hash": "b33d08149a756a401628d11bfddfeeaca1f03c0578395bb061dae44f8a12ce5d"
-    },
-    {
-      "RemotePath": "/KeyToKey/latest/update.exe",
-      "RelateivePath": "update.exe",
-      "SharedLink": "https://dl.dropboxusercontent.com/s/ix5ab6s2kwxjvy9/update.exe",
-      "Hash": "d1f0d27fe70e02f7ebaa0378755047ebec953985eeb1b84f92be78352f74299a"
     },
     {
       "RemotePath": "/KeyToKey/latest/vJoyInterface.dll",
