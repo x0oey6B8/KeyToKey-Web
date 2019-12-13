@@ -58,6 +58,89 @@
         </div>
     </div> -->
 
+<div>
+        <h1 class="version">19.12.13更新</h1>
+
+        <div class="notify-content">
+            <h2 class="fix-title">変更と修正</h2>
+            <ol class="modifieds">
+                <li>アクションとしてマクロを実行すると、メモリリークが発生する問題を修正しました。</li>
+                <li>アクションとして実行したマクロの中で「マクロを強制終了」を実行しても終了しない問題を修正しました。</li>
+                <li>「＠現在のループ処理をスキップ」「＠現在のループ処理を中断」が正常に動いていない問題を修正しました。</li>
+                <li>「C#スクリプトを実行」の実行前コンパイルに失敗すると次のコンパイルができなくなる問題を修正しました。</li>
+                <li>KeyToKey起動後、稀にロードが終わらなくなる問題を修正しました。</li>
+                <li>割り当て設定（画像認識）のレイアウトを変更しました。</li>
+                <li>アクション「ループ終了（EndWhile）」を再表示させました。</li>
+                <li>アクションの複製先を選択行の一番最後になるようにしました。</li>
+                <li>変数の代入アクションの表記が「$変数名 = 値」になるように変更しました。</li>
+            </ol>
+        </div>
+
+        <div class="notify-content">
+            <h2 class="modified-title">新しい機能</h2>
+            <ol class="modifieds">
+                <li>割り当て設定（メニュー）を追加しました。</li>
+                <li>「メニュー割り当て」を追加しました。</li>
+                <li>「何もしないマクロ」の割り当てる手順をスキップできるようにしました。</li>
+                <li>アクションリストのテンプレートに「ループ&lt;リスト&gt;」を追加しました。</li>
+                <li>アクションリストに「選択中のマクロ（アクション）を事前読み込みできるようにする」を追加しました。</li>
+                <li>マクロ設定に「引数のテンプレート」タブを追加しました。</li>
+                <li>マクロの引数の設定に「引数のテンプレートグループ名」を指定できるようにしました。</li>
+                <li>マクロ一覧のメニューに「マクロの割り当てを禁止／解禁」を追加しました。</li>
+                <li>マクロ一覧のメニューに「外部マクロとしての使用を禁止／解禁」を追加しました。</li>
+                <li>
+                    アプリケーションの設定に以下の設定を追加しました。
+                    <ul>
+                        <li>代入アクションの省略表示を有効にする</li>
+                        <li>代入アクションのローカル表記を有効にする</li>
+                        <li>代入アクションのグローバル表記を有効にする</li>
+                        <li>色設定「ローカル」と「グローバル」</li>
+                        <li>通知カテゴリー</li>
+                        <li>KeyToKeyの有効／無効が切り替わった際に音を通知する</li>
+                        <li>音量</li>
+                        <li>有効時に再生するファイル</li>
+                        <li>無効時に再生するファイル</li>
+                    </ul
+                </li>
+            </ol>
+        </div>
+
+        <div class="notify-content">
+            <h2 class="new-action-title">新しいアクション</h2>
+            <ol class="new-actions">
+                <li>IME.入力モードを設定</li>
+                <li>音声ファイルを再生</li>
+                <li>代入&lt;グローバル変数&gt;</li>
+                <li>代入&lt;ローカル変数&gt;</li>
+                <li>代入：ルート&lt;ローカル変数&gt;</li>
+                <li>代入：呼び出し元&lt;ローカル変数&gt;</li>
+                <li>クリップボードのテキストを変換／代入</li>
+                <li>@ループ&lt;リスト&gt;</li>
+                <li>@ループ終了</li>
+                <li>リストの生成：ファイル&lt;行&gt;</li>
+
+            </ol>
+        </div>
+
+        <div class="notify-content">
+            <h2 class="new-method-title">新しいメソッド</h2>
+            <ol class="new-actions">
+                <li>Global.GetVar</li>
+                <li>Local.GetVar</li>
+                <li>Local.Exists</li>
+                <li>GlobalExists</li>
+                <li>Controller.GetStick</li>
+                <li>Controller.GetStickAngle</li>
+                <li>Controller.GetTrigger</li>
+                <li>TemplateMatching.TryManyTimes</li>
+                <li>IF</li>
+                <li>GetType</li>
+                <li>TryToInt</li>
+                <li>TryToBoolean</li>
+            </ol>
+        </div>
+    </div>
+
     <div>
         <h1 class="version">19.10.22更新</h1>
 
