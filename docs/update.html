@@ -48,15 +48,101 @@
         </div>
     </div> -->
 
-    <!-- <div>
-        <h1 class="version">200621更新</h1>
+    <div>
+        <h1 class="version">200629更新</h1>
+
         <div class="notify-content">
-            <h2 class="fix-title">修正</h2>
+            <h2 class="fix-title">変更</h2>
             <ol class="modifieds">
-                <li>32bitOS向け仮想コントローラーのインストラーに不備がある問題を修正。</li>
+                <li>テーマを廃止しました。</li>
+                <li>アクション／メソッドに直接指定できる</li>
+                <li>アプリケーションの設定において「自動保存」の項目を削除しました。</li>
+                <li>整数を小数点あり数値を指定できるように変更</li>
+                <li>ScpVBus の名称を仮想</li>
+                <li>ループ(@For)を再度使用できるようにしました。</li>
+                <li>アクション「プロセスを実行」の利用を制限しました。</li>
+                <li>メニュー割り当てのオプション「仮想マウスポインターを表示」を廃止しました。</li>
+                <li>メニュー割り当てのオプション「選択解除する際の角度」を廃止しました。</li>
+                <li>メニュー割り当てのオプション「ペンモードに対応する」を廃止しました。</li>
+                <li>メニューを表示した際にポインターが正常に動かない問題を修正しました。</li>
+                <li>高DPI環境下でメニューが正常に表示されない問題を修正しました</li>
+                <li>マクロの名前を変更した際に事前読み込みマクロの名前がすべて変更されてしまう問題を修正しました。</li>
+                <li>事前読み込みマクロで再帰的な設定をしたときに KeyToKey がクラッシュする問題を修正しました。</li>
+                <li>32bitOS 向け仮想コントローラーのインストラーファイルに不備がある問題を修正しました。</li>
+                <li>KeyToKey 終了時に設定ファイルの保存に失敗する不具合を修正しました。</li>
             </ol>
         </div>
-    </div> -->
+
+        <div class="notify-content">
+            <h2 class="modified-title">新しい機能</h2>
+            <ol class="modifieds">
+                <li>新しい式解析機を導入しました。</li>
+                <li>入力記録（ファイル）に「カーソルの位置をループさせる」を追加しました。</li>
+                <li>入力記録（アクション）の設定を新しくしました。</li>
+                <li>「グローバル変数」のレイアウトを新しくしました。</li>
+                <li>「環境設定」のレイアウトを新しくしました。</li>
+                <li>ショートカットに「現在押しているキーの表示／非表示を切り替える」を追加しました。</li>
+                <li>プロセス名を指定するアクション／メソッドにおいてウィンドウハンドルを指定できるようにしました。</li>
+                <li>メインウィンドウから設定ファイルの選択ウィンドウを表示できるようにしました。</li>
+                <li>ウィンドウオーバーレイを追加しました。</li>
+                <li>アプリケーションの設定に「グローバルショートカット」を追加しました。</li>
+                <li>メニューアイテムをクリックしてマクロを実行できるようにしました。</li>
+                <li>メニューをスタイラスペンを使用して選択できるようにしました。</li>
+                <li>アクションリストのテンプレートに「@For」を追加しました。</li>
+                <li>アクションリストに記録ウィンドウのボタンをとショートカットキー表示するボタンを追加しました。</li>
+                <li>マクロ(アクション)の事前読み込みの設定する際に複数選択しながら一括変更出来るようにしました。</li>
+            </ol>
+        </div>
+
+        <div class="notify-content">
+            <h2 class="new-action-title">アクション</h2>
+            <ol class="new-actions">
+                <li><span style="color: green;">追加 </span>押す</li>
+                <li><span style="color: green;">追加 </span>離す</li>
+                <li><span style="color: green;">追加 </span>押して離す</li>
+                <li><span style="color: green;">追加 </span>テンプレートマッチング&lt;設定作成&gt;</li>
+                <li><span style="color: green;">追加 </span>テンプレートマッチング&lt;設定削除&gt;</li>
+                <li><span style="color: green;">追加 </span>テンプレートマッチング&lt;情報取得&gt;</li>
+                <li><span style="color: green;">追加 </span>テンプレートマッチング&lt;保存&gt;</li>
+                <li><span style="color: green;">追加 </span>式の評価</li>
+                <li><span style="color: red;">廃止 </span>@@</li>
+            </ol>
+        </div>
+
+        <div class="notify-content">
+            <h2 class="new-method-title">メソッド</h2>
+            <ol class="new-actions">
+                <li><span style="color: green;">追加 </span>CaptureKey</li>
+                <li><span style="color: green;">追加 </span>RandomF</li>
+                <li><span style="color: green;">追加 </span>ToKeys</li>
+                <li><span style="color: green;">追加 </span>ToMouseButton</li>
+                <li><span style="color: green;">追加 </span>KeysToMouseButton</li>
+                <li><span style="color: green;">追加 </span>MouseButtonToKeys</li>
+                <li><span style="color: green;">追加 </span>TemplateMatching.Load</li>
+                <li><span style="color: green;">追加 </span>TemplateMatching.Capture</li>
+                <li><span style="color: green;">追加 </span>TemplateMatching.Release</li>
+                <li><span style="color: green;">追加 </span>TemplateMatching.TrySingle2</li>
+                <li><span style="color: green;">追加 </span>TemplateMatching.TrySingle3</li>
+                <li><span style="color: red;">廃止 </span>IF</li>
+                <li><span style="color: red;">廃止 </span>GetType</li>
+                <li><span style="color: red;">廃止 </span>ToMinus</li>
+                <li><span style="color: red;">廃止 </span>Increment</li>
+                <li><span style="color: red;">廃止 </span>Decrement</li>
+                <li><span style="color: red;">廃止 </span>IF</li>
+                <li><span style="color: red;">廃止 </span>_sc</li>
+                <li><span style="color: red;">廃止 </span>String.Format</li>
+                <li>Length メソッドでリストの長さを取得できるようにしました。</li>
+            </ol>
+        </div>
+
+        <div class="notify-content">
+            <h2 class="new-method-title">C#スクリプト</h2>
+            <ol class="new-actions">
+                <li><span style="color: green;">追加 </span>VirtualXInput.GetMappingState</li>
+            </ol>
+        </div>
+    </div>
+
 
     <div>
         <h1 class="version">200522更新</h1>
@@ -143,8 +229,6 @@
             </ol>
         </div>
     </div>
-
-
 
     <div>
         <h1 class="version">200203更新</h1>
