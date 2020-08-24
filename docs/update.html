@@ -49,6 +49,83 @@
     </div> -->
 
     <div>
+        <h1 class="version">200824更新</h1>
+        <div class="notify-content">
+            <h2 class="important-title">重要なお知らせ</h2>
+            <div class="important-body">
+                <p>KeyToKeyの起動に必要な.Net Frameworkのバージョンを「4.6.2」から「4.8」へと引き上げました。</p>
+                <p>「質問・要望・不具合報告」にマクロに関するお知らせを掲載（予定）</p>
+            </div>
+        </div>
+        <div class="notify-content">
+            <h2 class="fix-title">修正と変更</h2>
+            <ol class="modifieds">
+                <li>割り当て設定（キー／マウス）の拡張キーを削除できない不具合を修正しました。</li>
+                <li>C#スクリプトのプリコンパイル／リアルタイムコンパイルに関する不具合を修正しました。</li>
+                <li>使用方法／チュートリアルボタンが動いていない問題を修正しました。</li>
+                <li>メインウィンドウの「現在押しているキー」を廃止しました。</li>
+                <li>旧割り当て設定（コントローラー）を廃止しました。</li>
+                <li>アプリケーションの設定から「セキュリティの許可」と「プラグインの許可」を廃止しました。</li>
+                <li>「ウィンドウを最小化する」をアプリの設定から画像認識の設定へ移動させました。</li>
+                <li>「高 DPI 向け設定を使用する」が常に使用されるようにしました。</li>
+                <li>環境設定の「設定ファイルを完全に信頼する」を廃止しました。</li>
+                <li>環境設定の「連続入力を許可する」を廃止しました。</li>
+                <li>「カーソル割り当ての挙動を変更」を廃止しました。</li>
+                <li>キーの名前「HanjaMode」「KanjiMode」を「ZenHan」に変更しました。</li>
+            </ol>
+        </div>
+        <div class="notify-content">
+            <h2 class="modified-title">新しい機能</h2>
+            <ol class="modifieds">
+                <li>C#スクリプト（マクロ）を追加しました。</li>
+                <li>アップデート処理前に仮想コントローラーの接続を解除するようにしました。</li>
+                <li>画像認識の設定画面にテンプレート画像の情報を表示するようにしました。</li>
+                <li>「環境設定」に「マウスの位置を示すウィンドウを表示する」を追加しました。</li>
+                <li>ショートカットに「開始／停止：マウスで仮想コントローラーのスティックを動かします。」を追加しました。</li>
+                <li>メインウィンドウのコンテキストメニューに「再起動」を追加しました。</li>
+            </ol>
+        </div>
+        <div class="notify-content">
+            <h2 class="new-method-title">C#スクリプト</h2>
+            <ol class="new-actions">
+                <li><span style="color: green;">追加 </span>MouseVirtualPositionService { get; }</li>
+                <li><span style="color: green;">追加 </span>IMosueAsStick MouseAsLeftStick { get; }</li>
+                <li><span style="color: green;">追加 </span>IMosueAsStick MouseAsRightStick { get; }</li>
+                <li><span style="color: green;">追加 </span>Trigger.Value { get; }</li>
+                <li><span style="color: green;">追加 </span>double RandomDouble();</li>
+                <li><span style="color: green;">追加 </span>Bounds GetBoundsByWindow();</li>
+                <li><span style="color: green;">追加 </span>Bounds ActiveWindowBounds { get; }</li>
+                <li><span style="color: green;">追加 </span>Bitmap Screenshot(int top, int left, int width, int height)
+                </li>
+                <li><span style="color: green;">追加 </span>Bitmap Screenshot(Bounds bounds)</li>
+                <li><span style="color: green;">追加 </span>void CreateDirectory(string path)</li>
+                <li><span style="color: green;">追加 </span>TemplateMatching.Match(string identifier, Bitmap sourceImage,
+                    out MatchResult result)</li>
+                <li><span style="color: green;">追加 </span>TemplateMatching.Match(string templateImagePath, double
+                    threshold, Bounds searchBounds, out MatchResult result)</li>
+                <li><span style="color: green;">追加 </span>TemplateMatching.Match(Bitmap templateImage, double threshold,
+                    Bounds searchBounds, out MatchResult result)</li>
+                <li><span style="color: green;">追加 </span>TemplateMatching.Match(Bitmap templateImage, Bitmap
+                    sourceImage, double threshold, out MatchResult result)</li>
+                <li><span style="color: green;">追加 </span>TemplateMatching.SetBounds(string identifier,Bounds bounds)
+                </li>
+                <li><span style="color: green;">追加 </span>VirtualXInput.SetStickValue(int userIndex, bool isLeftStick,
+                    int angle, bool isClockwise, short radius)</li>
+                <li><span style="color: green;">追加 </span>VirtualXInput.ResetStick(int userIndex, bool isLeftStick)</li>
+                <li><span style="color: red;">変更 </span>XInputSticks のメンバ名を変更しました。</li>
+                <li><span style="color: red;">変更 </span>MappingSources の一部メンバを Obsolete 扱いにしました。</li>
+                <li><span style="color: red;">変更 </span>TemplateMatching.TrySingle を TemplateMatching.Matchに変更</li>
+                <li><span style="color: red;">変更 </span>TemplateMatching.TryMultiple を TemplateMatching.Matchesに変更</li>
+                <li><span style="color: red;">変更 </span>TrySingle を Matchに変更</li>
+                <li><span style="color: red;">変更 </span>TryMultiple を Matchesに変更</li>
+                <li><span style="color: red;">変更 </span>MatchResult.Score の型を int から double に変更</li>
+                <li><span style="color: red;">廃止 </span>TemplateMatching.Start();</li>
+                <li><span style="color: red;">廃止 </span>TemplateMatching.Stop();</li>
+            </ol>
+        </div>
+    </div>
+
+    <div>
         <h1 class="version">200811更新</h1>
         <div class="notify-content">
             <h2 class="fix-title">修正</h2>
