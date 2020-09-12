@@ -1,0 +1,4081 @@
+﻿<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN">
+
+<HTML>
+  <BODY>
+
+  <UL>
+    <LI><OBJECT type="text/sitemap">
+      <param name="Name" value="KeyToKey.Enums">
+      <param name="Local" value="html/9f38c7bc-76fa-37c9-eb4b-53ae1e76a1cf.htm">
+    </OBJECT></LI>
+    <UL>
+      <LI><OBJECT type="text/sitemap">
+        <param name="Name" value="ControllerButtons Enumeration">
+        <param name="Local" value="html/9476b0fa-b8b8-09e9-df38-2e5a744d5943.htm">
+      </OBJECT></LI>
+    </UL>
+    <UL>
+      <LI><OBJECT type="text/sitemap">
+        <param name="Name" value="ExWindowStyles Enumeration">
+        <param name="Local" value="html/de4d793c-e691-1e68-9b73-3d8d9c14cbb4.htm">
+      </OBJECT></LI>
+    </UL>
+    <UL>
+      <LI><OBJECT type="text/sitemap">
+        <param name="Name" value="GWL Enumeration">
+        <param name="Local" value="html/4eabcaa5-2f56-c94c-60df-770c35056b2a.htm">
+      </OBJECT></LI>
+    </UL>
+    <UL>
+      <LI><OBJECT type="text/sitemap">
+        <param name="Name" value="IMEConversionModes Enumeration">
+        <param name="Local" value="html/96caca44-1e8b-dd8e-59a9-e97f6f283490.htm">
+      </OBJECT></LI>
+    </UL>
+    <UL>
+      <LI><OBJECT type="text/sitemap">
+        <param name="Name" value="Keys Enumeration">
+        <param name="Local" value="html/d7ac138e-1c3f-9bb5-c251-b53274bcef97.htm">
+      </OBJECT></LI>
+    </UL>
+    <UL>
+      <LI><OBJECT type="text/sitemap">
+        <param name="Name" value="ListenerTypes Enumeration">
+        <param name="Local" value="html/76579d28-42fe-0653-eec5-1eab39e8a33f.htm">
+      </OBJECT></LI>
+    </UL>
+    <UL>
+      <LI><OBJECT type="text/sitemap">
+        <param name="Name" value="MappingSources Enumeration">
+        <param name="Local" value="html/1bb7fbbb-ca8e-ca71-0b60-16cd16ec4d3b.htm">
+      </OBJECT></LI>
+    </UL>
+    <UL>
+      <LI><OBJECT type="text/sitemap">
+        <param name="Name" value="MouseButton Enumeration">
+        <param name="Local" value="html/1c008532-b4d9-42c1-cc43-953eab0ed284.htm">
+      </OBJECT></LI>
+    </UL>
+    <UL>
+      <LI><OBJECT type="text/sitemap">
+        <param name="Name" value="SystemSounds Enumeration">
+        <param name="Local" value="html/96e23656-5c30-f047-1519-80744501bf59.htm">
+      </OBJECT></LI>
+    </UL>
+    <UL>
+      <LI><OBJECT type="text/sitemap">
+        <param name="Name" value="VirtualPositionDetectionMethod Enumeration">
+        <param name="Local" value="html/b25b86e4-48be-3ce8-aa4b-25abdc3f978a.htm">
+      </OBJECT></LI>
+    </UL>
+    <UL>
+      <LI><OBJECT type="text/sitemap">
+        <param name="Name" value="WindowInsertAfter Class">
+        <param name="Local" value="html/ff923cdd-0a46-dcfa-2c6b-53d224680c4b.htm">
+      </OBJECT></LI>
+      <UL>
+        <LI><OBJECT type="text/sitemap">
+          <param name="Name" value="WindowInsertAfter Properties">
+          <param name="Local" value="html/a7cd62a7-e6ce-9b57-c88f-f5ef05504f9a.htm">
+        </OBJECT></LI>
+        <UL>
+          <LI><OBJECT type="text/sitemap">
+            <param name="Name" value="Bottom Property ">
+            <param name="Local" value="html/62313575-c39e-69f8-5707-32f9e0464dd4.htm">
+          </OBJECT></LI>
+        </UL>
+        <UL>
+          <LI><OBJECT type="text/sitemap">
+            <param name="Name" value="Handle Property ">
+            <param name="Local" value="html/fd619d58-0e5e-98ef-8bd2-5ae9029dabc0.htm">
+          </OBJECT></LI>
+        </UL>
+        <UL>
+          <LI><OBJECT type="text/sitemap">
+            <param name="Name" value="NoTopmost Property ">
+            <param name="Local" value="html/8bde0eb2-7fc5-6e69-9104-c5c251eaa773.htm">
+          </OBJECT></LI>
+        </UL>
+        <UL>
+          <LI><OBJECT type="text/sitemap">
+            <param name="Name" value="Top Property ">
+            <param name="Local" value="html/3572c873-1ffb-0521-5b74-c7f93d80f879.htm">
+          </OBJECT></LI>
+        </UL>
+        <UL>
+          <LI><OBJECT type="text/sitemap">
+            <param name="Name" value="Topmost Property ">
+            <param name="Local" value="html/9261b143-f31d-7389-8930-98cda468a1a9.htm">
+          </OBJECT></LI>
+        </UL>
+      </UL>
+      <UL>
+        <LI><OBJECT type="text/sitemap">
+          <param name="Name" value="WindowInsertAfter Methods">
+          <param name="Local" value="html/30e044f0-dd5d-f117-5242-e130fc8972db.htm">
+        </OBJECT></LI>
+      </UL>
+    </UL>
+    <UL>
+      <LI><OBJECT type="text/sitemap">
+        <param name="Name" value="WindowPositionFlags Enumeration">
+        <param name="Local" value="html/7ceddfcd-5f7a-0542-00e3-35bca3892fc9.htm">
+      </OBJECT></LI>
+    </UL>
+    <UL>
+      <LI><OBJECT type="text/sitemap">
+        <param name="Name" value="WindowStates Enumeration">
+        <param name="Local" value="html/a64a136d-7124-1f4e-c6a0-c3162e806c4c.htm">
+      </OBJECT></LI>
+    </UL>
+    <UL>
+      <LI><OBJECT type="text/sitemap">
+        <param name="Name" value="WindowStyles Enumeration">
+        <param name="Local" value="html/9a05ad7b-25d5-066c-8eb0-b84eab458564.htm">
+      </OBJECT></LI>
+    </UL>
+    <UL>
+      <LI><OBJECT type="text/sitemap">
+        <param name="Name" value="XInputButtons Enumeration">
+        <param name="Local" value="html/48ba1133-cc6e-92af-26bc-06054e70d663.htm">
+      </OBJECT></LI>
+    </UL>
+    <UL>
+      <LI><OBJECT type="text/sitemap">
+        <param name="Name" value="XInputSticks Enumeration">
+        <param name="Local" value="html/f40d4801-66c4-02c1-a2d1-8dba95b0b785.htm">
+      </OBJECT></LI>
+    </UL>
+    <UL>
+      <LI><OBJECT type="text/sitemap">
+        <param name="Name" value="XInputTriggers Enumeration">
+        <param name="Local" value="html/0b8b4933-74b4-a840-bda7-73f99cdc93e6.htm">
+      </OBJECT></LI>
+    </UL>
+  </UL>
+  <UL>
+    <LI><OBJECT type="text/sitemap">
+      <param name="Name" value="KeyToKey.Plugins">
+      <param name="Local" value="html/c10f01c4-f8b0-bfb7-7392-01829eaeec5c.htm">
+    </OBJECT></LI>
+    <UL>
+      <LI><OBJECT type="text/sitemap">
+        <param name="Name" value="Argument Class">
+        <param name="Local" value="html/5bb362d8-ce2a-4d78-1309-142947449653.htm">
+      </OBJECT></LI>
+      <UL>
+        <LI><OBJECT type="text/sitemap">
+          <param name="Name" value="Argument Constructor ">
+          <param name="Local" value="html/c57b862b-d8fa-87bb-e53d-6b8ff946da9a.htm">
+        </OBJECT></LI>
+      </UL>
+      <UL>
+        <LI><OBJECT type="text/sitemap">
+          <param name="Name" value="Argument Properties">
+          <param name="Local" value="html/d9675cf0-0a59-feb5-d0ec-4c1e1bbce03f.htm">
+        </OBJECT></LI>
+        <UL>
+          <LI><OBJECT type="text/sitemap">
+            <param name="Name" value="DefaultDisplayText Property ">
+            <param name="Local" value="html/9cc15c0b-a7b2-7104-e717-1a4985e82edf.htm">
+          </OBJECT></LI>
+        </UL>
+        <UL>
+          <LI><OBJECT type="text/sitemap">
+            <param name="Name" value="DefaultValue Property ">
+            <param name="Local" value="html/a9fa8e2e-65fa-86de-cd6e-85b01421e8b8.htm">
+          </OBJECT></LI>
+        </UL>
+        <UL>
+          <LI><OBJECT type="text/sitemap">
+            <param name="Name" value="Description Property ">
+            <param name="Local" value="html/14de1963-79bc-59e0-2009-b30f4cff1dbc.htm">
+          </OBJECT></LI>
+        </UL>
+        <UL>
+          <LI><OBJECT type="text/sitemap">
+            <param name="Name" value="EnumValues Property ">
+            <param name="Local" value="html/e953e2b0-b0fd-1062-7175-7fed4ee6ecd3.htm">
+          </OBJECT></LI>
+        </UL>
+        <UL>
+          <LI><OBJECT type="text/sitemap">
+            <param name="Name" value="GetVariableName Property ">
+            <param name="Local" value="html/5a62d9c8-a3c8-fb0f-490b-1e5ad51785ea.htm">
+          </OBJECT></LI>
+        </UL>
+        <UL>
+          <LI><OBJECT type="text/sitemap">
+            <param name="Name" value="Input Property ">
+            <param name="Local" value="html/10c2dd1a-7dc5-64d4-79e1-dc78fe5ae3cc.htm">
+          </OBJECT></LI>
+        </UL>
+        <UL>
+          <LI><OBJECT type="text/sitemap">
+            <param name="Name" value="Tag Property ">
+            <param name="Local" value="html/8c040694-f1f0-69e1-127c-4350b699bd2b.htm">
+          </OBJECT></LI>
+        </UL>
+        <UL>
+          <LI><OBJECT type="text/sitemap">
+            <param name="Name" value="Type Property ">
+            <param name="Local" value="html/5e4c9687-c0fa-398e-495f-c5581893c9e6.htm">
+          </OBJECT></LI>
+        </UL>
+      </UL>
+      <UL>
+        <LI><OBJECT type="text/sitemap">
+          <param name="Name" value="Argument Methods">
+          <param name="Local" value="html/bc8a90b5-5638-79ef-2391-c49c51ac57d2.htm">
+        </OBJECT></LI>
+      </UL>
+    </UL>
+    <UL>
+      <LI><OBJECT type="text/sitemap">
+        <param name="Name" value="BaseGlobals Class">
+        <param name="Local" value="html/f84b385c-4d18-55d9-14d2-1c74cf78241a.htm">
+      </OBJECT></LI>
+      <UL>
+        <LI><OBJECT type="text/sitemap">
+          <param name="Name" value="BaseGlobals Properties">
+          <param name="Local" value="html/43a264f5-c200-10f1-6360-1ae1bee34c0a.htm">
+        </OBJECT></LI>
+        <UL>
+          <LI><OBJECT type="text/sitemap">
+            <param name="Name" value="ActiveProcessName Property ">
+            <param name="Local" value="html/76c37b53-0f01-0f0f-e96d-5fef2258636f.htm">
+          </OBJECT></LI>
+        </UL>
+        <UL>
+          <LI><OBJECT type="text/sitemap">
+            <param name="Name" value="ActiveWindowBounds Property ">
+            <param name="Local" value="html/ee600d7e-675c-7627-b9bc-b407e9ef6007.htm">
+          </OBJECT></LI>
+        </UL>
+        <UL>
+          <LI><OBJECT type="text/sitemap">
+            <param name="Name" value="ActiveWindowHandle Property ">
+            <param name="Local" value="html/bce30842-cc38-128c-ef62-01d87cd0df02.htm">
+          </OBJECT></LI>
+        </UL>
+        <UL>
+          <LI><OBJECT type="text/sitemap">
+            <param name="Name" value="base Property ">
+            <param name="Local" value="html/58ef4834-cef3-8591-a6cf-c916e0e67763.htm">
+          </OBJECT></LI>
+        </UL>
+        <UL>
+          <LI><OBJECT type="text/sitemap">
+            <param name="Name" value="CanStop Property ">
+            <param name="Local" value="html/d1f15df0-89a4-ffec-3e14-7d924e9a80e3.htm">
+          </OBJECT></LI>
+        </UL>
+        <UL>
+          <LI><OBJECT type="text/sitemap">
+            <param name="Name" value="Clipboard Property ">
+            <param name="Local" value="html/ee526d62-0e2b-ea22-46b4-c206e37cd710.htm">
+          </OBJECT></LI>
+        </UL>
+        <UL>
+          <LI><OBJECT type="text/sitemap">
+            <param name="Name" value="Controller Property ">
+            <param name="Local" value="html/47de6194-36b0-d12d-eb76-eb09bbfd28a6.htm">
+          </OBJECT></LI>
+        </UL>
+        <UL>
+          <LI><OBJECT type="text/sitemap">
+            <param name="Name" value="Elapsed Property ">
+            <param name="Local" value="html/8a9d8eb7-5e16-0200-0ab4-640032fb22e8.htm">
+          </OBJECT></LI>
+        </UL>
+        <UL>
+          <LI><OBJECT type="text/sitemap">
+            <param name="Name" value="IME Property ">
+            <param name="Local" value="html/8df78f28-b235-8ea3-7b82-8973a3889942.htm">
+          </OBJECT></LI>
+        </UL>
+        <UL>
+          <LI><OBJECT type="text/sitemap">
+            <param name="Name" value="Input Property ">
+            <param name="Local" value="html/988b8e46-7998-b619-33a3-e179f7200117.htm">
+          </OBJECT></LI>
+        </UL>
+        <UL>
+          <LI><OBJECT type="text/sitemap">
+            <param name="Name" value="IsAvailable Property ">
+            <param name="Local" value="html/18bb4081-a467-c097-ea5a-ffc497ce494b.htm">
+          </OBJECT></LI>
+        </UL>
+        <UL>
+          <LI><OBJECT type="text/sitemap">
+            <param name="Name" value="IsEnabled Property ">
+            <param name="Local" value="html/e3ee340a-1a0b-bdbc-79ed-9b8764abb842.htm">
+          </OBJECT></LI>
+        </UL>
+        <UL>
+          <LI><OBJECT type="text/sitemap">
+            <param name="Name" value="IsModifiersPressed Property ">
+            <param name="Local" value="html/6be8674a-8088-69b2-3941-4f2ef53197a9.htm">
+          </OBJECT></LI>
+        </UL>
+        <UL>
+          <LI><OBJECT type="text/sitemap">
+            <param name="Name" value="IsTriggerPressed Property ">
+            <param name="Local" value="html/9a463faa-6611-29ec-cdaa-c2e3cfc60ca2.htm">
+          </OBJECT></LI>
+        </UL>
+        <UL>
+          <LI><OBJECT type="text/sitemap">
+            <param name="Name" value="IsTriggerReleased Property ">
+            <param name="Local" value="html/0376d90f-7712-1718-0b1b-24411fce86dc.htm">
+          </OBJECT></LI>
+        </UL>
+        <UL>
+          <LI><OBJECT type="text/sitemap">
+            <param name="Name" value="Item Property ">
+            <param name="Local" value="html/ba02d4c2-41af-208f-581e-47e8608e6f1c.htm">
+          </OBJECT></LI>
+        </UL>
+        <UL>
+          <LI><OBJECT type="text/sitemap">
+            <param name="Name" value="Keyboard Property ">
+            <param name="Local" value="html/07c5a45b-37d4-c97d-866d-dff791de618e.htm">
+          </OBJECT></LI>
+        </UL>
+        <UL>
+          <LI><OBJECT type="text/sitemap">
+            <param name="Name" value="Macro Property ">
+            <param name="Local" value="html/5a2dec90-9552-a04b-c955-916cfc280a0f.htm">
+          </OBJECT></LI>
+        </UL>
+        <UL>
+          <LI><OBJECT type="text/sitemap">
+            <param name="Name" value="Modifier Property ">
+            <param name="Local" value="html/76bbd536-3529-71dc-a228-9b70fddca11f.htm">
+          </OBJECT></LI>
+        </UL>
+        <UL>
+          <LI><OBJECT type="text/sitemap">
+            <param name="Name" value="Mouse Property ">
+            <param name="Local" value="html/b155e417-36a3-1a36-ff34-ceae2bc02c70.htm">
+          </OBJECT></LI>
+        </UL>
+        <UL>
+          <LI><OBJECT type="text/sitemap">
+            <param name="Name" value="MouseAsLeftStick Property ">
+            <param name="Local" value="html/5c08b47b-fb29-883e-7452-f5a8bb741523.htm">
+          </OBJECT></LI>
+        </UL>
+        <UL>
+          <LI><OBJECT type="text/sitemap">
+            <param name="Name" value="MouseAsRightStick Property ">
+            <param name="Local" value="html/355d2d03-55ad-84c7-0c27-7cba2d46b790.htm">
+          </OBJECT></LI>
+        </UL>
+        <UL>
+          <LI><OBJECT type="text/sitemap">
+            <param name="Name" value="MouseVirtualPositionService Property ">
+            <param name="Local" value="html/e9064569-845a-91a9-da8c-e83e5a22448d.htm">
+          </OBJECT></LI>
+        </UL>
+        <UL>
+          <LI><OBJECT type="text/sitemap">
+            <param name="Name" value="PathSelector Property ">
+            <param name="Local" value="html/95a9c6cc-0739-0f29-0f1f-21607a87ff0e.htm">
+          </OBJECT></LI>
+        </UL>
+        <UL>
+          <LI><OBJECT type="text/sitemap">
+            <param name="Name" value="SharedResources Property ">
+            <param name="Local" value="html/6efc799d-5462-6669-190b-65033a538182.htm">
+          </OBJECT></LI>
+        </UL>
+        <UL>
+          <LI><OBJECT type="text/sitemap">
+            <param name="Name" value="ShouldContinue Property ">
+            <param name="Local" value="html/c91fe656-e765-82c6-3127-21f605898979.htm">
+          </OBJECT></LI>
+        </UL>
+        <UL>
+          <LI><OBJECT type="text/sitemap">
+            <param name="Name" value="Sound Property ">
+            <param name="Local" value="html/bcfc7417-2aeb-35c3-13af-fa1ba9ff9ae4.htm">
+          </OBJECT></LI>
+        </UL>
+        <UL>
+          <LI><OBJECT type="text/sitemap">
+            <param name="Name" value="TemplateMatching Property ">
+            <param name="Local" value="html/ccabca9d-7358-f47b-8448-8074ee0305a9.htm">
+          </OBJECT></LI>
+        </UL>
+        <UL>
+          <LI><OBJECT type="text/sitemap">
+            <param name="Name" value="this Property ">
+            <param name="Local" value="html/472f19cc-1b7f-5655-e576-f4b87ec0370a.htm">
+          </OBJECT></LI>
+        </UL>
+        <UL>
+          <LI><OBJECT type="text/sitemap">
+            <param name="Name" value="Trigger Property ">
+            <param name="Local" value="html/597a3b98-5575-dd63-3457-569d37f140e9.htm">
+          </OBJECT></LI>
+        </UL>
+        <UL>
+          <LI><OBJECT type="text/sitemap">
+            <param name="Name" value="Variable Property ">
+            <param name="Local" value="html/d6f6dcd3-3688-987b-73ce-2bf4ad2f0240.htm">
+          </OBJECT></LI>
+        </UL>
+        <UL>
+          <LI><OBJECT type="text/sitemap">
+            <param name="Name" value="VirtualXInput Property ">
+            <param name="Local" value="html/324c35a4-71bb-0df4-dd1c-7409134ad750.htm">
+          </OBJECT></LI>
+        </UL>
+        <UL>
+          <LI><OBJECT type="text/sitemap">
+            <param name="Name" value="Window Property ">
+            <param name="Local" value="html/8e2dd36a-40b3-244e-fc2f-632a5f931382.htm">
+          </OBJECT></LI>
+        </UL>
+        <UL>
+          <LI><OBJECT type="text/sitemap">
+            <param name="Name" value="XInput Property ">
+            <param name="Local" value="html/fd383c80-cfc9-c513-9530-b80f9006d94a.htm">
+          </OBJECT></LI>
+        </UL>
+      </UL>
+      <UL>
+        <LI><OBJECT type="text/sitemap">
+          <param name="Name" value="BaseGlobals Methods">
+          <param name="Local" value="html/fae3d7b9-1a89-1c82-8671-71917e300084.htm">
+        </OBJECT></LI>
+        <UL>
+          <LI><OBJECT type="text/sitemap">
+            <param name="Name" value="Activate Method ">
+            <param name="Local" value="html/9f70ae19-2553-cd64-abb5-4a2d88d142c6.htm">
+          </OBJECT></LI>
+          <UL>
+            <LI><OBJECT type="text/sitemap">
+              <param name="Name" value="Activate Method (IntPtr)">
+              <param name="Local" value="html/15dd40be-5f57-055b-2393-97686450dc29.htm">
+            </OBJECT></LI>
+          </UL>
+          <UL>
+            <LI><OBJECT type="text/sitemap">
+              <param name="Name" value="Activate Method (String, Boolean)">
+              <param name="Local" value="html/3f0ca2a6-0331-2d29-abb5-603804471c1f.htm">
+            </OBJECT></LI>
+          </UL>
+        </UL>
+        <UL>
+          <LI><OBJECT type="text/sitemap">
+            <param name="Name" value="Cancel Method ">
+            <param name="Local" value="html/f0da74ca-8bfa-0906-2c82-4249bd29c96c.htm">
+          </OBJECT></LI>
+        </UL>
+        <UL>
+          <LI><OBJECT type="text/sitemap">
+            <param name="Name" value="ChangeFile Method ">
+            <param name="Local" value="html/812938e2-0af5-b961-1a1d-3982c785b7b0.htm">
+          </OBJECT></LI>
+        </UL>
+        <UL>
+          <LI><OBJECT type="text/sitemap">
+            <param name="Name" value="CreateDirectory Method ">
+            <param name="Local" value="html/cfe29f04-0a01-6d80-7265-dfdc5f854111.htm">
+          </OBJECT></LI>
+        </UL>
+        <UL>
+          <LI><OBJECT type="text/sitemap">
+            <param name="Name" value="Down Method ">
+            <param name="Local" value="html/220c02a3-2845-3778-d3a8-cb62998b6141.htm">
+          </OBJECT></LI>
+        </UL>
+        <UL>
+          <LI><OBJECT type="text/sitemap">
+            <param name="Name" value="GetBoundsByWindow Method ">
+            <param name="Local" value="html/777a6849-a2ab-b0fb-bc07-261058bcc488.htm">
+          </OBJECT></LI>
+        </UL>
+        <UL>
+          <LI><OBJECT type="text/sitemap">
+            <param name="Name" value="GetClassName Method ">
+            <param name="Local" value="html/3b6f2616-20c8-4d70-e20f-3a1edc6acd5e.htm">
+          </OBJECT></LI>
+        </UL>
+        <UL>
+          <LI><OBJECT type="text/sitemap">
+            <param name="Name" value="GetClientLocation Method ">
+            <param name="Local" value="html/3a2e419f-d19e-309b-16a2-1bcc89e61f82.htm">
+          </OBJECT></LI>
+        </UL>
+        <UL>
+          <LI><OBJECT type="text/sitemap">
+            <param name="Name" value="GetClientSize Method ">
+            <param name="Local" value="html/57bdfd7a-0bd4-814f-8a87-5590ca582efa.htm">
+          </OBJECT></LI>
+        </UL>
+        <UL>
+          <LI><OBJECT type="text/sitemap">
+            <param name="Name" value="GetCursorPosition Method ">
+            <param name="Local" value="html/4e203d20-1b2d-cdbc-b399-7ab56c2d0c4e.htm">
+          </OBJECT></LI>
+        </UL>
+        <UL>
+          <LI><OBJECT type="text/sitemap">
+            <param name="Name" value="GetEventLockState Method ">
+            <param name="Local" value="html/dd6424e8-bf22-d3ad-00e2-2988298f1497.htm">
+          </OBJECT></LI>
+        </UL>
+        <UL>
+          <LI><OBJECT type="text/sitemap">
+            <param name="Name" value="GetParameter(T) Method ">
+            <param name="Local" value="html/a17d3922-33aa-736f-cc74-c6e4d178d21f.htm">
+          </OBJECT></LI>
+        </UL>
+        <UL>
+          <LI><OBJECT type="text/sitemap">
+            <param name="Name" value="GetTextFromClipboard Method ">
+            <param name="Local" value="html/6d809a64-1ecb-6254-ec41-4e0030376641.htm">
+          </OBJECT></LI>
+        </UL>
+        <UL>
+          <LI><OBJECT type="text/sitemap">
+            <param name="Name" value="GetValueBy Method ">
+            <param name="Local" value="html/580a7be1-bc73-2a40-b6a0-8c7af1bf8c0a.htm">
+          </OBJECT></LI>
+          <UL>
+            <LI><OBJECT type="text/sitemap">
+              <param name="Name" value="GetValueBy Method (String)">
+              <param name="Local" value="html/54c8643b-82f6-58b0-5118-2a186f2e844a.htm">
+            </OBJECT></LI>
+          </UL>
+          <UL>
+            <LI><OBJECT type="text/sitemap">
+              <param name="Name" value="GetValueBy(T) Method (String)">
+              <param name="Local" value="html/b64a646d-3bcf-11d3-9430-1e437f00ebb8.htm">
+            </OBJECT></LI>
+          </UL>
+        </UL>
+        <UL>
+          <LI><OBJECT type="text/sitemap">
+            <param name="Name" value="GetVar Method ">
+            <param name="Local" value="html/b188b3fe-ffc8-acab-e676-a04faff84fa4.htm">
+          </OBJECT></LI>
+          <UL>
+            <LI><OBJECT type="text/sitemap">
+              <param name="Name" value="GetVar Method (String)">
+              <param name="Local" value="html/9f57d2c0-c81b-8dda-822c-358edbf15e99.htm">
+            </OBJECT></LI>
+          </UL>
+          <UL>
+            <LI><OBJECT type="text/sitemap">
+              <param name="Name" value="GetVar(T) Method (String)">
+              <param name="Local" value="html/c795700e-d7ba-04aa-b97f-b746e9b3b27c.htm">
+            </OBJECT></LI>
+          </UL>
+        </UL>
+        <UL>
+          <LI><OBJECT type="text/sitemap">
+            <param name="Name" value="GetWindowLocation Method ">
+            <param name="Local" value="html/bfd5f78d-bd1b-f543-48f3-747a7459621f.htm">
+          </OBJECT></LI>
+        </UL>
+        <UL>
+          <LI><OBJECT type="text/sitemap">
+            <param name="Name" value="GetWindowLong Method ">
+            <param name="Local" value="html/a67d6db2-f1cb-0678-1635-256b7f93096d.htm">
+          </OBJECT></LI>
+        </UL>
+        <UL>
+          <LI><OBJECT type="text/sitemap">
+            <param name="Name" value="GetWindowSize Method ">
+            <param name="Local" value="html/21118dc0-09c3-7168-4b98-e861f654d876.htm">
+          </OBJECT></LI>
+        </UL>
+        <UL>
+          <LI><OBJECT type="text/sitemap">
+            <param name="Name" value="GetWindowTitlte Method ">
+            <param name="Local" value="html/09b95f04-3b84-3b2e-5b24-d95011fb530d.htm">
+          </OBJECT></LI>
+        </UL>
+        <UL>
+          <LI><OBJECT type="text/sitemap">
+            <param name="Name" value="InputText Method ">
+            <param name="Local" value="html/7372d759-05ea-7af8-fa45-fec03b8e482c.htm">
+          </OBJECT></LI>
+        </UL>
+        <UL>
+          <LI><OBJECT type="text/sitemap">
+            <param name="Name" value="Invoke Method ">
+            <param name="Local" value="html/5585c9e7-21aa-9586-f72c-d389864dd92e.htm">
+          </OBJECT></LI>
+          <UL>
+            <LI><OBJECT type="text/sitemap">
+              <param name="Name" value="Invoke Method (Action)">
+              <param name="Local" value="html/024152ce-9f8f-9d64-810e-988e8acabb6f.htm">
+            </OBJECT></LI>
+          </UL>
+          <UL>
+            <LI><OBJECT type="text/sitemap">
+              <param name="Name" value="Invoke(T) Method (Func(T))">
+              <param name="Local" value="html/d6bba73e-a113-7016-787c-937c59956095.htm">
+            </OBJECT></LI>
+          </UL>
+        </UL>
+        <UL>
+          <LI><OBJECT type="text/sitemap">
+            <param name="Name" value="IsMaximized Method ">
+            <param name="Local" value="html/88e9c7d5-ab6d-6007-f6f3-f0e8672e5fb5.htm">
+          </OBJECT></LI>
+        </UL>
+        <UL>
+          <LI><OBJECT type="text/sitemap">
+            <param name="Name" value="IsMinimized Method ">
+            <param name="Local" value="html/e62520d4-5c4e-5689-8e36-a2b76e53dbe4.htm">
+          </OBJECT></LI>
+        </UL>
+        <UL>
+          <LI><OBJECT type="text/sitemap">
+            <param name="Name" value="IsPressed Method ">
+            <param name="Local" value="html/77de5f9c-5ebd-7141-539d-ff87fd1afb8f.htm">
+          </OBJECT></LI>
+          <UL>
+            <LI><OBJECT type="text/sitemap">
+              <param name="Name" value="IsPressed Method (ControllerButtons)">
+              <param name="Local" value="html/ce263912-27ca-f7f2-02de-662ccc9cf1e2.htm">
+            </OBJECT></LI>
+          </UL>
+          <UL>
+            <LI><OBJECT type="text/sitemap">
+              <param name="Name" value="IsPressed Method (Keys)">
+              <param name="Local" value="html/36806a1f-c891-eb83-4359-5a46bef2beda.htm">
+            </OBJECT></LI>
+          </UL>
+        </UL>
+        <UL>
+          <LI><OBJECT type="text/sitemap">
+            <param name="Name" value="Match Method ">
+            <param name="Local" value="html/0aa60be5-ac24-2b9a-55a7-5e615948ae48.htm">
+          </OBJECT></LI>
+          <UL>
+            <LI><OBJECT type="text/sitemap">
+              <param name="Name" value="Match Method (String, MatchResult)">
+              <param name="Local" value="html/276cff10-f8c6-80a3-b060-5e8f09f09e04.htm">
+            </OBJECT></LI>
+          </UL>
+          <UL>
+            <LI><OBJECT type="text/sitemap">
+              <param name="Name" value="Match Method (String, Bitmap, MatchResult)">
+              <param name="Local" value="html/6f84a2f4-9d66-984a-edec-0a89f119c3ee.htm">
+            </OBJECT></LI>
+          </UL>
+          <UL>
+            <LI><OBJECT type="text/sitemap">
+              <param name="Name" value="Match Method (Bitmap, Double, Bounds, MatchResult)">
+              <param name="Local" value="html/c4bf4c45-e504-99be-52f5-9c88d688df5a.htm">
+            </OBJECT></LI>
+          </UL>
+          <UL>
+            <LI><OBJECT type="text/sitemap">
+              <param name="Name" value="Match Method (Bitmap, Bitmap, Double, MatchResult)">
+              <param name="Local" value="html/9045e23d-9050-572c-ce3d-18c09e177659.htm">
+            </OBJECT></LI>
+          </UL>
+          <UL>
+            <LI><OBJECT type="text/sitemap">
+              <param name="Name" value="Match Method (String, Double, Bounds, MatchResult)">
+              <param name="Local" value="html/6b51a56e-2c29-08a6-98a8-46b7290c57f6.htm">
+            </OBJECT></LI>
+          </UL>
+          <UL>
+            <LI><OBJECT type="text/sitemap">
+              <param name="Name" value="Match Method (String, Int32, Int32, Int32, Int32, Double, MatchResult)">
+              <param name="Local" value="html/e6bacf3d-2d0a-36a1-9de3-b40772c60149.htm">
+            </OBJECT></LI>
+          </UL>
+        </UL>
+        <UL>
+          <LI><OBJECT type="text/sitemap">
+            <param name="Name" value="Matches Method ">
+            <param name="Local" value="html/4555e00c-dc6a-ba49-3e93-3e1f4f97ef15.htm">
+          </OBJECT></LI>
+          <UL>
+            <LI><OBJECT type="text/sitemap">
+              <param name="Name" value="Matches Method (String, IEnumerable(MatchResult))">
+              <param name="Local" value="html/8f40a029-4577-14ae-2daf-1acad6c85e44.htm">
+            </OBJECT></LI>
+          </UL>
+          <UL>
+            <LI><OBJECT type="text/sitemap">
+              <param name="Name" value="Matches Method (String, Int32, Int32, Int32, Int32, Double, IEnumerable(MatchResult))">
+              <param name="Local" value="html/fc21fc99-5662-93d7-1bbe-cb94eb8b6fca.htm">
+            </OBJECT></LI>
+          </UL>
+        </UL>
+        <UL>
+          <LI><OBJECT type="text/sitemap">
+            <param name="Name" value="Move Method ">
+            <param name="Local" value="html/deb626e9-9272-c499-b179-e656385d096e.htm">
+          </OBJECT></LI>
+          <UL>
+            <LI><OBJECT type="text/sitemap">
+              <param name="Name" value="Move Method (Int32, Int32, Int32)">
+              <param name="Local" value="html/9428ead4-c252-e24e-8bbc-68423c3a1e85.htm">
+            </OBJECT></LI>
+          </UL>
+          <UL>
+            <LI><OBJECT type="text/sitemap">
+              <param name="Name" value="Move Method (Int32, Int32, Int32, Int32, Boolean, Boolean)">
+              <param name="Local" value="html/ec23ed9b-ffdb-e37b-6348-5bbff9b75669.htm">
+            </OBJECT></LI>
+          </UL>
+        </UL>
+        <UL>
+          <LI><OBJECT type="text/sitemap">
+            <param name="Name" value="NotifyMessage Method ">
+            <param name="Local" value="html/ff119c7c-7a5a-96fe-9a5d-b3910e9de78a.htm">
+          </OBJECT></LI>
+        </UL>
+        <UL>
+          <LI><OBJECT type="text/sitemap">
+            <param name="Name" value="Offset Method ">
+            <param name="Local" value="html/d84c1d8b-7304-4931-6e6f-ca2cf6c7efa6.htm">
+          </OBJECT></LI>
+          <UL>
+            <LI><OBJECT type="text/sitemap">
+              <param name="Name" value="Offset Method (Int32, Int32, Int32)">
+              <param name="Local" value="html/0e84f8d9-8d9e-7650-0fee-fcf1943bca0f.htm">
+            </OBJECT></LI>
+          </UL>
+          <UL>
+            <LI><OBJECT type="text/sitemap">
+              <param name="Name" value="Offset Method (Int32, Int32, Int32, Int32, Boolean, Boolean)">
+              <param name="Local" value="html/5ef59d50-5db7-70a8-09a1-6a6f790b56b9.htm">
+            </OBJECT></LI>
+          </UL>
+        </UL>
+        <UL>
+          <LI><OBJECT type="text/sitemap">
+            <param name="Name" value="PlaySound Method ">
+            <param name="Local" value="html/df39255a-50e0-86dc-6bd0-1e021248a36f.htm">
+          </OBJECT></LI>
+        </UL>
+        <UL>
+          <LI><OBJECT type="text/sitemap">
+            <param name="Name" value="PlaySystemSound Method ">
+            <param name="Local" value="html/d9df9000-7f4f-8847-b106-6d606837212a.htm">
+          </OBJECT></LI>
+        </UL>
+        <UL>
+          <LI><OBJECT type="text/sitemap">
+            <param name="Name" value="Replay Method ">
+            <param name="Local" value="html/5b73db3f-1ef8-de57-be4d-6b58be98cd05.htm">
+          </OBJECT></LI>
+        </UL>
+        <UL>
+          <LI><OBJECT type="text/sitemap">
+            <param name="Name" value="Screenshot Method ">
+            <param name="Local" value="html/652c4b5e-338b-e89f-fc39-53f115dba650.htm">
+          </OBJECT></LI>
+          <UL>
+            <LI><OBJECT type="text/sitemap">
+              <param name="Name" value="Screenshot Method (Bounds)">
+              <param name="Local" value="html/f4d03e90-f395-622b-e9ea-6dd3f571cd75.htm">
+            </OBJECT></LI>
+          </UL>
+          <UL>
+            <LI><OBJECT type="text/sitemap">
+              <param name="Name" value="Screenshot Method (Int32, Int32, Int32, Int32)">
+              <param name="Local" value="html/bfadbbfe-23e2-0f93-88bb-153afd1f9edb.htm">
+            </OBJECT></LI>
+          </UL>
+        </UL>
+        <UL>
+          <LI><OBJECT type="text/sitemap">
+            <param name="Name" value="SetEventLockState Method ">
+            <param name="Local" value="html/83fd7faf-5885-7c77-0ca6-3c4984f08a1d.htm">
+          </OBJECT></LI>
+        </UL>
+        <UL>
+          <LI><OBJECT type="text/sitemap">
+            <param name="Name" value="SetForegroundWindow Method ">
+            <param name="Local" value="html/e39f5e64-7ce7-17a0-e771-299e9477b492.htm">
+          </OBJECT></LI>
+        </UL>
+        <UL>
+          <LI><OBJECT type="text/sitemap">
+            <param name="Name" value="SetProvider Method ">
+            <param name="Local" value="html/f816fe7d-701b-8a91-9563-f6b9a1326163.htm">
+          </OBJECT></LI>
+        </UL>
+        <UL>
+          <LI><OBJECT type="text/sitemap">
+            <param name="Name" value="SetTextToClipboard Method ">
+            <param name="Local" value="html/a40ed3dc-6514-cf25-f958-f3e220d1d250.htm">
+          </OBJECT></LI>
+        </UL>
+        <UL>
+          <LI><OBJECT type="text/sitemap">
+            <param name="Name" value="SetVar Method ">
+            <param name="Local" value="html/464ee336-79bd-870f-98ce-34eb2788f2f8.htm">
+          </OBJECT></LI>
+        </UL>
+        <UL>
+          <LI><OBJECT type="text/sitemap">
+            <param name="Name" value="SetWindowLong Method ">
+            <param name="Local" value="html/517598ab-75ed-723a-d094-2f4f457b63e1.htm">
+          </OBJECT></LI>
+        </UL>
+        <UL>
+          <LI><OBJECT type="text/sitemap">
+            <param name="Name" value="SetWindowPosition Method ">
+            <param name="Local" value="html/ffa867f2-9586-dc64-e585-7f3568f1afb2.htm">
+          </OBJECT></LI>
+        </UL>
+        <UL>
+          <LI><OBJECT type="text/sitemap">
+            <param name="Name" value="SetWindowState Method ">
+            <param name="Local" value="html/b3760258-b862-319b-d7ae-193cac625178.htm">
+          </OBJECT></LI>
+        </UL>
+        <UL>
+          <LI><OBJECT type="text/sitemap">
+            <param name="Name" value="SetWindowTitle Method ">
+            <param name="Local" value="html/fe6f1ed4-c7ae-8018-8c5e-1d63b9032b31.htm">
+          </OBJECT></LI>
+        </UL>
+        <UL>
+          <LI><OBJECT type="text/sitemap">
+            <param name="Name" value="ShowTextBoxDialog(T) Method ">
+            <param name="Local" value="html/980896b4-516d-7a34-f3ed-606e1faf3b00.htm">
+          </OBJECT></LI>
+        </UL>
+        <UL>
+          <LI><OBJECT type="text/sitemap">
+            <param name="Name" value="Tap Method ">
+            <param name="Local" value="html/80c6f109-297f-35c8-f179-70b575e16777.htm">
+          </OBJECT></LI>
+        </UL>
+        <UL>
+          <LI><OBJECT type="text/sitemap">
+            <param name="Name" value="ThrowIfShouldNotContinue Method ">
+            <param name="Local" value="html/7b8f14d3-5ab7-ec24-1375-aa16134ce53d.htm">
+          </OBJECT></LI>
+        </UL>
+        <UL>
+          <LI><OBJECT type="text/sitemap">
+            <param name="Name" value="TryParse(T) Method ">
+            <param name="Local" value="html/eed62d1b-a2a2-c845-2d30-7878d1c5ed47.htm">
+          </OBJECT></LI>
+        </UL>
+        <UL>
+          <LI><OBJECT type="text/sitemap">
+            <param name="Name" value="Up Method ">
+            <param name="Local" value="html/b363f735-7ab4-4bab-b236-ded615407fed.htm">
+          </OBJECT></LI>
+        </UL>
+        <UL>
+          <LI><OBJECT type="text/sitemap">
+            <param name="Name" value="Wait Method ">
+            <param name="Local" value="html/89775cd9-6adb-46c6-d0e4-78a94086ac87.htm">
+          </OBJECT></LI>
+          <UL>
+            <LI><OBJECT type="text/sitemap">
+              <param name="Name" value="Wait Method ">
+              <param name="Local" value="html/2faf5e30-1019-ed24-d00a-a5236a9d7aa6.htm">
+            </OBJECT></LI>
+          </UL>
+          <UL>
+            <LI><OBJECT type="text/sitemap">
+              <param name="Name" value="Wait Method (Int32)">
+              <param name="Local" value="html/e8cdd6e2-58db-8643-b622-f8d23ba7b806.htm">
+            </OBJECT></LI>
+          </UL>
+          <UL>
+            <LI><OBJECT type="text/sitemap">
+              <param name="Name" value="Wait Method (TimeSpan)">
+              <param name="Local" value="html/68ea9386-118d-42c7-7976-06d134126da2.htm">
+            </OBJECT></LI>
+          </UL>
+        </UL>
+        <UL>
+          <LI><OBJECT type="text/sitemap">
+            <param name="Name" value="WaitForInput Method ">
+            <param name="Local" value="html/54fbd89b-011a-f738-1eb8-70a5eb5df914.htm">
+          </OBJECT></LI>
+          <UL>
+            <LI><OBJECT type="text/sitemap">
+              <param name="Name" value="WaitForInput Method (ControllerButtons, Boolean)">
+              <param name="Local" value="html/318b18fc-6211-0150-6153-89a6f9014491.htm">
+            </OBJECT></LI>
+          </UL>
+          <UL>
+            <LI><OBJECT type="text/sitemap">
+              <param name="Name" value="WaitForInput Method (Keys, Boolean)">
+              <param name="Local" value="html/24f7dbbe-5ae7-3ddb-4a48-63bfb5ad075c.htm">
+            </OBJECT></LI>
+          </UL>
+          <UL>
+            <LI><OBJECT type="text/sitemap">
+              <param name="Name" value="WaitForInput Method (ControllerButtons, ControllerButtons, Boolean)">
+              <param name="Local" value="html/f420fd62-1f72-dba1-0e0f-0751f91956cd.htm">
+            </OBJECT></LI>
+          </UL>
+          <UL>
+            <LI><OBJECT type="text/sitemap">
+              <param name="Name" value="WaitForInput Method (Keys, Keys, Boolean)">
+              <param name="Local" value="html/48374471-dded-4b44-fcc9-203ff736b0ea.htm">
+            </OBJECT></LI>
+          </UL>
+        </UL>
+        <UL>
+          <LI><OBJECT type="text/sitemap">
+            <param name="Name" value="WheelDown Method ">
+            <param name="Local" value="html/2a377aed-1920-2b8f-43d9-f13050463b58.htm">
+          </OBJECT></LI>
+        </UL>
+        <UL>
+          <LI><OBJECT type="text/sitemap">
+            <param name="Name" value="WheelLeft Method ">
+            <param name="Local" value="html/324e8a9f-42c8-ae79-5151-b903f597d7b0.htm">
+          </OBJECT></LI>
+        </UL>
+        <UL>
+          <LI><OBJECT type="text/sitemap">
+            <param name="Name" value="WheelRight Method ">
+            <param name="Local" value="html/c5339c1b-f77a-17e7-7a24-cd3ffea2dab4.htm">
+          </OBJECT></LI>
+        </UL>
+        <UL>
+          <LI><OBJECT type="text/sitemap">
+            <param name="Name" value="WheelUp Method ">
+            <param name="Local" value="html/a0987525-1ba7-9913-68e0-14190593eaf0.htm">
+          </OBJECT></LI>
+        </UL>
+      </UL>
+      <UL>
+        <LI><OBJECT type="text/sitemap">
+          <param name="Name" value="BaseGlobals Events">
+          <param name="Local" value="html/5737b670-c888-6b01-3c05-c6a60d119c59.htm">
+        </OBJECT></LI>
+        <UL>
+          <LI><OBJECT type="text/sitemap">
+            <param name="Name" value="ControllerStateChanged Event">
+            <param name="Local" value="html/12d04370-3f4d-516c-c6de-7381c0af3208.htm">
+          </OBJECT></LI>
+        </UL>
+        <UL>
+          <LI><OBJECT type="text/sitemap">
+            <param name="Name" value="Disposing Event">
+            <param name="Local" value="html/20dd4d1b-5e49-0662-30a3-b43d47d9c8bb.htm">
+          </OBJECT></LI>
+        </UL>
+        <UL>
+          <LI><OBJECT type="text/sitemap">
+            <param name="Name" value="IsAvailableChanged Event">
+            <param name="Local" value="html/591f17e6-4b40-a99a-1019-5e22fe85216a.htm">
+          </OBJECT></LI>
+        </UL>
+        <UL>
+          <LI><OBJECT type="text/sitemap">
+            <param name="Name" value="IsEnabledChanged Event">
+            <param name="Local" value="html/247912dd-4173-8feb-022e-b2ac0bcd5516.htm">
+          </OBJECT></LI>
+        </UL>
+        <UL>
+          <LI><OBJECT type="text/sitemap">
+            <param name="Name" value="KeyStateChanged Event">
+            <param name="Local" value="html/51775a23-fe65-14f7-bb12-3823800414f5.htm">
+          </OBJECT></LI>
+        </UL>
+        <UL>
+          <LI><OBJECT type="text/sitemap">
+            <param name="Name" value="ShouldContinueChanged Event">
+            <param name="Local" value="html/537d1ea5-9c4a-b684-7bd0-3c24cef77e47.htm">
+          </OBJECT></LI>
+        </UL>
+        <UL>
+          <LI><OBJECT type="text/sitemap">
+            <param name="Name" value="TriggerReleased Event">
+            <param name="Local" value="html/a2903aa9-44d3-be06-dabe-02248dc7fedb.htm">
+          </OBJECT></LI>
+        </UL>
+      </UL>
+    </UL>
+    <UL>
+      <LI><OBJECT type="text/sitemap">
+        <param name="Name" value="Bounds Class">
+        <param name="Local" value="html/4c6c6705-2acc-773c-6060-b5e4e36a1207.htm">
+      </OBJECT></LI>
+      <UL>
+        <LI><OBJECT type="text/sitemap">
+          <param name="Name" value="Bounds Constructor ">
+          <param name="Local" value="html/2a0de75b-c3d4-3978-b078-e56e7569eea8.htm">
+        </OBJECT></LI>
+      </UL>
+      <UL>
+        <LI><OBJECT type="text/sitemap">
+          <param name="Name" value="Bounds Properties">
+          <param name="Local" value="html/17b8b661-5ae9-9465-d47a-0afec05fdca2.htm">
+        </OBJECT></LI>
+        <UL>
+          <LI><OBJECT type="text/sitemap">
+            <param name="Name" value="Height Property ">
+            <param name="Local" value="html/9da12edd-0986-d974-d113-36ea3072335e.htm">
+          </OBJECT></LI>
+        </UL>
+        <UL>
+          <LI><OBJECT type="text/sitemap">
+            <param name="Name" value="Left Property ">
+            <param name="Local" value="html/c8941c61-e33a-d26c-6621-785f3db97588.htm">
+          </OBJECT></LI>
+        </UL>
+        <UL>
+          <LI><OBJECT type="text/sitemap">
+            <param name="Name" value="Top Property ">
+            <param name="Local" value="html/5dcafdd2-c9f5-dcc4-91c0-d6d4b69ba219.htm">
+          </OBJECT></LI>
+        </UL>
+        <UL>
+          <LI><OBJECT type="text/sitemap">
+            <param name="Name" value="Width Property ">
+            <param name="Local" value="html/c54ee20d-a91f-5bfb-d0bd-4d9b703923a4.htm">
+          </OBJECT></LI>
+        </UL>
+      </UL>
+      <UL>
+        <LI><OBJECT type="text/sitemap">
+          <param name="Name" value="Bounds Methods">
+          <param name="Local" value="html/3a4e0510-a655-55db-41a2-ac165ec26637.htm">
+        </OBJECT></LI>
+        <UL>
+          <LI><OBJECT type="text/sitemap">
+            <param name="Name" value="ToTuple Method ">
+            <param name="Local" value="html/d41f0322-3d6d-a64d-c436-134f5b1847fc.htm">
+          </OBJECT></LI>
+        </UL>
+      </UL>
+    </UL>
+    <UL>
+      <LI><OBJECT type="text/sitemap">
+        <param name="Name" value="ControllerStateChangedEventArgs Class">
+        <param name="Local" value="html/b202f50b-7f4a-1e6a-471b-38672a097ed3.htm">
+      </OBJECT></LI>
+      <UL>
+        <LI><OBJECT type="text/sitemap">
+          <param name="Name" value="ControllerStateChangedEventArgs Constructor ">
+          <param name="Local" value="html/8ba9e99c-fbcf-9803-ebef-ae4f8b0bf3dd.htm">
+        </OBJECT></LI>
+      </UL>
+      <UL>
+        <LI><OBJECT type="text/sitemap">
+          <param name="Name" value="ControllerStateChangedEventArgs Properties">
+          <param name="Local" value="html/a2343c87-e365-ca46-d335-1b0748f68cee.htm">
+        </OBJECT></LI>
+        <UL>
+          <LI><OBJECT type="text/sitemap">
+            <param name="Name" value="Button Property ">
+            <param name="Local" value="html/8c890703-beb3-6c1b-6ac7-302ef9f0fdf8.htm">
+          </OBJECT></LI>
+        </UL>
+        <UL>
+          <LI><OBJECT type="text/sitemap">
+            <param name="Name" value="IsPressed Property ">
+            <param name="Local" value="html/f9e3e310-3d2e-918a-85a1-f3d96d642df3.htm">
+          </OBJECT></LI>
+        </UL>
+      </UL>
+      <UL>
+        <LI><OBJECT type="text/sitemap">
+          <param name="Name" value="ControllerStateChangedEventArgs Methods">
+          <param name="Local" value="html/f3bd1cea-5242-b4ce-af09-3cf18f9161ec.htm">
+        </OBJECT></LI>
+      </UL>
+    </UL>
+    <UL>
+      <LI><OBJECT type="text/sitemap">
+        <param name="Name" value="Delta Class">
+        <param name="Local" value="html/f3e12e71-c27f-2b9b-905f-45f30d4a0185.htm">
+      </OBJECT></LI>
+      <UL>
+        <LI><OBJECT type="text/sitemap">
+          <param name="Name" value="Delta Constructor ">
+          <param name="Local" value="html/79ca3991-45b0-5a3a-5fe4-49cb9f9740b6.htm">
+        </OBJECT></LI>
+      </UL>
+      <UL>
+        <LI><OBJECT type="text/sitemap">
+          <param name="Name" value="Delta Properties">
+          <param name="Local" value="html/1149077b-e7b9-e017-e062-55a45f90b8d4.htm">
+        </OBJECT></LI>
+        <UL>
+          <LI><OBJECT type="text/sitemap">
+            <param name="Name" value="X Property ">
+            <param name="Local" value="html/ca580489-45d0-af1c-d8fa-af97785599d1.htm">
+          </OBJECT></LI>
+        </UL>
+        <UL>
+          <LI><OBJECT type="text/sitemap">
+            <param name="Name" value="Y Property ">
+            <param name="Local" value="html/615ce8d9-0244-8a8a-3abf-6ab22924ae46.htm">
+          </OBJECT></LI>
+        </UL>
+      </UL>
+      <UL>
+        <LI><OBJECT type="text/sitemap">
+          <param name="Name" value="Delta Methods">
+          <param name="Local" value="html/5ad5decc-0d5f-f003-e7c7-39f30f06ff06.htm">
+        </OBJECT></LI>
+      </UL>
+    </UL>
+    <UL>
+      <LI><OBJECT type="text/sitemap">
+        <param name="Name" value="DeviceTypes Enumeration">
+        <param name="Local" value="html/f97169bd-10b6-2785-79f0-f110a4af5f8d.htm">
+      </OBJECT></LI>
+    </UL>
+    <UL>
+      <LI><OBJECT type="text/sitemap">
+        <param name="Name" value="EnumValue Class">
+        <param name="Local" value="html/5d87fe57-50ce-749f-4fd6-89378e47be83.htm">
+      </OBJECT></LI>
+      <UL>
+        <LI><OBJECT type="text/sitemap">
+          <param name="Name" value="EnumValue Constructor ">
+          <param name="Local" value="html/3a4f5bf9-a2c1-5399-1baf-fa6602fbe069.htm">
+        </OBJECT></LI>
+      </UL>
+      <UL>
+        <LI><OBJECT type="text/sitemap">
+          <param name="Name" value="EnumValue Properties">
+          <param name="Local" value="html/1c7aa949-afb1-9ff7-aa2a-46ff4646bf69.htm">
+        </OBJECT></LI>
+        <UL>
+          <LI><OBJECT type="text/sitemap">
+            <param name="Name" value="Callback Property ">
+            <param name="Local" value="html/c0c4d111-7912-5740-0aea-7afb609f1af7.htm">
+          </OBJECT></LI>
+        </UL>
+        <UL>
+          <LI><OBJECT type="text/sitemap">
+            <param name="Name" value="DisplayText Property ">
+            <param name="Local" value="html/5ea129bc-69bf-60cc-fbd0-71bbe0b09aa7.htm">
+          </OBJECT></LI>
+        </UL>
+      </UL>
+      <UL>
+        <LI><OBJECT type="text/sitemap">
+          <param name="Name" value="EnumValue Methods">
+          <param name="Local" value="html/87bf543c-2905-f90d-88fa-8805d7aedb93.htm">
+        </OBJECT></LI>
+      </UL>
+    </UL>
+    <UL>
+      <LI><OBJECT type="text/sitemap">
+        <param name="Name" value="IArgumentsProvider Interface">
+        <param name="Local" value="html/8290b345-ffe8-4801-29f0-862b15073c48.htm">
+      </OBJECT></LI>
+      <UL>
+        <LI><OBJECT type="text/sitemap">
+          <param name="Name" value="IArgumentsProvider Methods">
+          <param name="Local" value="html/2ee37cc0-16fb-3687-9c83-b0b1cb958d01.htm">
+        </OBJECT></LI>
+        <UL>
+          <LI><OBJECT type="text/sitemap">
+            <param name="Name" value="GetValueBy Method ">
+            <param name="Local" value="html/2a7404d1-1405-8b66-48bb-4b437cd1b981.htm">
+          </OBJECT></LI>
+          <UL>
+            <LI><OBJECT type="text/sitemap">
+              <param name="Name" value="GetValueBy Method (String)">
+              <param name="Local" value="html/40381db3-c313-3dc7-c29d-c21066be96f2.htm">
+            </OBJECT></LI>
+          </UL>
+          <UL>
+            <LI><OBJECT type="text/sitemap">
+              <param name="Name" value="GetValueBy(T) Method (String)">
+              <param name="Local" value="html/6deaccc2-e11a-0df1-b50b-cdb3e7e00413.htm">
+            </OBJECT></LI>
+          </UL>
+        </UL>
+      </UL>
+    </UL>
+    <UL>
+      <LI><OBJECT type="text/sitemap">
+        <param name="Name" value="IClipboard Interface">
+        <param name="Local" value="html/23cc7bbf-d24e-16c5-3476-bda6a8c14efb.htm">
+      </OBJECT></LI>
+      <UL>
+        <LI><OBJECT type="text/sitemap">
+          <param name="Name" value="IClipboard Methods">
+          <param name="Local" value="html/8c8f9cc0-b159-bf9f-e70e-224f24e438d7.htm">
+        </OBJECT></LI>
+        <UL>
+          <LI><OBJECT type="text/sitemap">
+            <param name="Name" value="GetText Method ">
+            <param name="Local" value="html/c7f76a62-95b4-63db-669e-860ecb167cb0.htm">
+          </OBJECT></LI>
+        </UL>
+        <UL>
+          <LI><OBJECT type="text/sitemap">
+            <param name="Name" value="SetText Method ">
+            <param name="Local" value="html/bb282271-21e2-f54a-4996-aca64b6b2121.htm">
+          </OBJECT></LI>
+        </UL>
+      </UL>
+    </UL>
+    <UL>
+      <LI><OBJECT type="text/sitemap">
+        <param name="Name" value="IController Interface">
+        <param name="Local" value="html/fb0aa6a4-dc96-4acb-fdc8-78b5e96c5968.htm">
+      </OBJECT></LI>
+      <UL>
+        <LI><OBJECT type="text/sitemap">
+          <param name="Name" value="IController Properties">
+          <param name="Local" value="html/501fe2b4-4f5c-12b5-e12d-e776e5d17f7d.htm">
+        </OBJECT></LI>
+        <UL>
+          <LI><OBJECT type="text/sitemap">
+            <param name="Name" value="DeviceType Property ">
+            <param name="Local" value="html/d364a504-7cf3-7d7d-e637-1a01c19fa844.htm">
+          </OBJECT></LI>
+        </UL>
+        <UL>
+          <LI><OBJECT type="text/sitemap">
+            <param name="Name" value="IsConnected Property ">
+            <param name="Local" value="html/bcaa77ac-cdc1-b537-211f-73cb8bdd99e3.htm">
+          </OBJECT></LI>
+        </UL>
+        <UL>
+          <LI><OBJECT type="text/sitemap">
+            <param name="Name" value="LeftStick Property ">
+            <param name="Local" value="html/a4ef4c6d-e2e1-862b-69a7-e1eff595dbbf.htm">
+          </OBJECT></LI>
+        </UL>
+        <UL>
+          <LI><OBJECT type="text/sitemap">
+            <param name="Name" value="LeftTrigger Property ">
+            <param name="Local" value="html/79a09c5b-34a1-4040-fc99-834d7d764265.htm">
+          </OBJECT></LI>
+        </UL>
+        <UL>
+          <LI><OBJECT type="text/sitemap">
+            <param name="Name" value="RightStick Property ">
+            <param name="Local" value="html/351faf2a-4e82-9d1a-9378-75683e531f7a.htm">
+          </OBJECT></LI>
+        </UL>
+        <UL>
+          <LI><OBJECT type="text/sitemap">
+            <param name="Name" value="RightTrigger Property ">
+            <param name="Local" value="html/2acc58c2-6cb3-23b6-21b5-cfdd1b50802c.htm">
+          </OBJECT></LI>
+        </UL>
+      </UL>
+      <UL>
+        <LI><OBJECT type="text/sitemap">
+          <param name="Name" value="IController Methods">
+          <param name="Local" value="html/07066398-653f-9ab6-899f-68f6d903b97f.htm">
+        </OBJECT></LI>
+        <UL>
+          <LI><OBJECT type="text/sitemap">
+            <param name="Name" value="GetDeadZones Method ">
+            <param name="Local" value="html/83d95259-60f1-566f-82ef-02b22e6f397a.htm">
+          </OBJECT></LI>
+        </UL>
+        <UL>
+          <LI><OBJECT type="text/sitemap">
+            <param name="Name" value="GetState Method ">
+            <param name="Local" value="html/ab575357-b137-9c0c-fd6b-3f7a0909b9a0.htm">
+          </OBJECT></LI>
+        </UL>
+        <UL>
+          <LI><OBJECT type="text/sitemap">
+            <param name="Name" value="GetStateAt Method ">
+            <param name="Local" value="html/8bbd2b61-05a4-859f-857f-9ed4ee2907a2.htm">
+          </OBJECT></LI>
+        </UL>
+        <UL>
+          <LI><OBJECT type="text/sitemap">
+            <param name="Name" value="GetThumbs Method ">
+            <param name="Local" value="html/3136eb65-2cd8-1c15-026c-e0f22c9a4d40.htm">
+          </OBJECT></LI>
+        </UL>
+      </UL>
+      <UL>
+        <LI><OBJECT type="text/sitemap">
+          <param name="Name" value="IController Events">
+          <param name="Local" value="html/db3a8fff-a3f2-3ee7-9e7d-181ab87fc025.htm">
+        </OBJECT></LI>
+        <UL>
+          <LI><OBJECT type="text/sitemap">
+            <param name="Name" value="ControllerStateChanged Event">
+            <param name="Local" value="html/12602602-0572-1bac-d745-91eb5d5b8c1b.htm">
+          </OBJECT></LI>
+        </UL>
+      </UL>
+    </UL>
+    <UL>
+      <LI><OBJECT type="text/sitemap">
+        <param name="Name" value="IGlobals Interface">
+        <param name="Local" value="html/752e9d66-d338-6279-5053-6460fdcd1131.htm">
+      </OBJECT></LI>
+      <UL>
+        <LI><OBJECT type="text/sitemap">
+          <param name="Name" value="IGlobals Properties">
+          <param name="Local" value="html/4bc97f0b-4a94-2ffd-50a3-7b6365425e29.htm">
+        </OBJECT></LI>
+        <UL>
+          <LI><OBJECT type="text/sitemap">
+            <param name="Name" value="ActiveProcessName Property ">
+            <param name="Local" value="html/2016f7ad-545c-680c-e559-1faae18ea26e.htm">
+          </OBJECT></LI>
+        </UL>
+        <UL>
+          <LI><OBJECT type="text/sitemap">
+            <param name="Name" value="ActiveWindowBounds Property ">
+            <param name="Local" value="html/51901bfb-9e55-77c4-7bc6-b0bce816f099.htm">
+          </OBJECT></LI>
+        </UL>
+        <UL>
+          <LI><OBJECT type="text/sitemap">
+            <param name="Name" value="ActiveWindowHandle Property ">
+            <param name="Local" value="html/9f326668-3c94-f343-ad3d-e086bc60d9b9.htm">
+          </OBJECT></LI>
+        </UL>
+        <UL>
+          <LI><OBJECT type="text/sitemap">
+            <param name="Name" value="base Property ">
+            <param name="Local" value="html/00a53376-8a7a-e6a6-2024-c25410e22af0.htm">
+          </OBJECT></LI>
+        </UL>
+        <UL>
+          <LI><OBJECT type="text/sitemap">
+            <param name="Name" value="CanStop Property ">
+            <param name="Local" value="html/ad88f844-9f15-283c-f976-b7d9c0b7a0b1.htm">
+          </OBJECT></LI>
+        </UL>
+        <UL>
+          <LI><OBJECT type="text/sitemap">
+            <param name="Name" value="Clipboard Property ">
+            <param name="Local" value="html/d2b709a0-11de-8177-93c5-0f6cd553c2e9.htm">
+          </OBJECT></LI>
+        </UL>
+        <UL>
+          <LI><OBJECT type="text/sitemap">
+            <param name="Name" value="Controller Property ">
+            <param name="Local" value="html/e2396542-27f7-7b38-8b27-502614bfc6ec.htm">
+          </OBJECT></LI>
+        </UL>
+        <UL>
+          <LI><OBJECT type="text/sitemap">
+            <param name="Name" value="Elapsed Property ">
+            <param name="Local" value="html/8e827b5f-cb36-4a15-223f-e5d3225f1ab1.htm">
+          </OBJECT></LI>
+        </UL>
+        <UL>
+          <LI><OBJECT type="text/sitemap">
+            <param name="Name" value="IME Property ">
+            <param name="Local" value="html/32cacb14-3e4f-5244-1c9c-07fdc6f56e32.htm">
+          </OBJECT></LI>
+        </UL>
+        <UL>
+          <LI><OBJECT type="text/sitemap">
+            <param name="Name" value="Input Property ">
+            <param name="Local" value="html/ddb5cc74-38d9-6c88-9430-a8a26724d00d.htm">
+          </OBJECT></LI>
+        </UL>
+        <UL>
+          <LI><OBJECT type="text/sitemap">
+            <param name="Name" value="IsAvailable Property ">
+            <param name="Local" value="html/acf501e7-fd73-f864-0563-45ff989e4a42.htm">
+          </OBJECT></LI>
+        </UL>
+        <UL>
+          <LI><OBJECT type="text/sitemap">
+            <param name="Name" value="IsEnabled Property ">
+            <param name="Local" value="html/525be4bc-79fe-f8bc-9864-f86e484cca2a.htm">
+          </OBJECT></LI>
+        </UL>
+        <UL>
+          <LI><OBJECT type="text/sitemap">
+            <param name="Name" value="IsModifiersPressed Property ">
+            <param name="Local" value="html/701f8b2b-e0a5-36e2-b090-d46b9769f1bd.htm">
+          </OBJECT></LI>
+        </UL>
+        <UL>
+          <LI><OBJECT type="text/sitemap">
+            <param name="Name" value="IsTriggerPressed Property ">
+            <param name="Local" value="html/194b52a6-72ca-0ef7-190f-27b5c4888a88.htm">
+          </OBJECT></LI>
+        </UL>
+        <UL>
+          <LI><OBJECT type="text/sitemap">
+            <param name="Name" value="IsTriggerReleased Property ">
+            <param name="Local" value="html/46cf7cf3-db34-f27b-a918-dfec2c602a2b.htm">
+          </OBJECT></LI>
+        </UL>
+        <UL>
+          <LI><OBJECT type="text/sitemap">
+            <param name="Name" value="Item Property ">
+            <param name="Local" value="html/b6124c18-af2e-16eb-b381-ff061c28c101.htm">
+          </OBJECT></LI>
+        </UL>
+        <UL>
+          <LI><OBJECT type="text/sitemap">
+            <param name="Name" value="Keyboard Property ">
+            <param name="Local" value="html/e440dfe5-c2f0-faea-28b0-8c7ef948b9c2.htm">
+          </OBJECT></LI>
+        </UL>
+        <UL>
+          <LI><OBJECT type="text/sitemap">
+            <param name="Name" value="Macro Property ">
+            <param name="Local" value="html/f704f5d0-a598-5744-77f9-117f0b0dec54.htm">
+          </OBJECT></LI>
+        </UL>
+        <UL>
+          <LI><OBJECT type="text/sitemap">
+            <param name="Name" value="Modifier Property ">
+            <param name="Local" value="html/7953cc08-68e3-d0a9-e431-6c96039ff956.htm">
+          </OBJECT></LI>
+        </UL>
+        <UL>
+          <LI><OBJECT type="text/sitemap">
+            <param name="Name" value="Mouse Property ">
+            <param name="Local" value="html/5295d692-d901-6911-90f6-7fd1fce8b960.htm">
+          </OBJECT></LI>
+        </UL>
+        <UL>
+          <LI><OBJECT type="text/sitemap">
+            <param name="Name" value="MouseAsLeftStick Property ">
+            <param name="Local" value="html/79c5213e-7160-5760-2b46-da6db6b31628.htm">
+          </OBJECT></LI>
+        </UL>
+        <UL>
+          <LI><OBJECT type="text/sitemap">
+            <param name="Name" value="MouseAsRightStick Property ">
+            <param name="Local" value="html/2aac9073-ef53-f55e-faf4-6bbc2bacf48c.htm">
+          </OBJECT></LI>
+        </UL>
+        <UL>
+          <LI><OBJECT type="text/sitemap">
+            <param name="Name" value="MouseVirtualPositionService Property ">
+            <param name="Local" value="html/bdca484e-3870-70b1-e017-65a24ce937bb.htm">
+          </OBJECT></LI>
+        </UL>
+        <UL>
+          <LI><OBJECT type="text/sitemap">
+            <param name="Name" value="PathSelector Property ">
+            <param name="Local" value="html/7e447117-d447-d3ac-79ce-b495cdacc5f3.htm">
+          </OBJECT></LI>
+        </UL>
+        <UL>
+          <LI><OBJECT type="text/sitemap">
+            <param name="Name" value="SharedResources Property ">
+            <param name="Local" value="html/96c56611-f036-e011-4644-010a1e97d9cf.htm">
+          </OBJECT></LI>
+        </UL>
+        <UL>
+          <LI><OBJECT type="text/sitemap">
+            <param name="Name" value="ShouldContinue Property ">
+            <param name="Local" value="html/aa5c49fa-b65c-31e3-4fbf-8fd4a833d101.htm">
+          </OBJECT></LI>
+        </UL>
+        <UL>
+          <LI><OBJECT type="text/sitemap">
+            <param name="Name" value="Sound Property ">
+            <param name="Local" value="html/5b9624f5-c645-0c18-db67-427a6fe7c8cf.htm">
+          </OBJECT></LI>
+        </UL>
+        <UL>
+          <LI><OBJECT type="text/sitemap">
+            <param name="Name" value="TemplateMatching Property ">
+            <param name="Local" value="html/2e1f42df-09b8-e8ef-18f9-7d14ebebe1ad.htm">
+          </OBJECT></LI>
+        </UL>
+        <UL>
+          <LI><OBJECT type="text/sitemap">
+            <param name="Name" value="this Property ">
+            <param name="Local" value="html/a2ab9ff7-2d30-7abc-390d-49cbe79d139a.htm">
+          </OBJECT></LI>
+        </UL>
+        <UL>
+          <LI><OBJECT type="text/sitemap">
+            <param name="Name" value="Trigger Property ">
+            <param name="Local" value="html/6bc1c333-6381-f0fb-5a31-bae22ff3ade7.htm">
+          </OBJECT></LI>
+        </UL>
+        <UL>
+          <LI><OBJECT type="text/sitemap">
+            <param name="Name" value="Variable Property ">
+            <param name="Local" value="html/203bb7d8-1f98-a9be-c9f4-7032006c12d8.htm">
+          </OBJECT></LI>
+        </UL>
+        <UL>
+          <LI><OBJECT type="text/sitemap">
+            <param name="Name" value="VirtualXInput Property ">
+            <param name="Local" value="html/048a4d1f-54b5-2f57-e585-11f916e8838c.htm">
+          </OBJECT></LI>
+        </UL>
+        <UL>
+          <LI><OBJECT type="text/sitemap">
+            <param name="Name" value="Window Property ">
+            <param name="Local" value="html/f86c5ffe-6731-a20d-3b42-d3c403add90b.htm">
+          </OBJECT></LI>
+        </UL>
+        <UL>
+          <LI><OBJECT type="text/sitemap">
+            <param name="Name" value="XInput Property ">
+            <param name="Local" value="html/47a367e1-4b82-4188-927f-497ab2a01dcb.htm">
+          </OBJECT></LI>
+        </UL>
+      </UL>
+      <UL>
+        <LI><OBJECT type="text/sitemap">
+          <param name="Name" value="IGlobals Methods">
+          <param name="Local" value="html/3191eebf-278f-bc2f-16ad-f53eed181be2.htm">
+        </OBJECT></LI>
+        <UL>
+          <LI><OBJECT type="text/sitemap">
+            <param name="Name" value="Activate Method ">
+            <param name="Local" value="html/cfb37497-54a8-7bbb-56ad-22597c9be19e.htm">
+          </OBJECT></LI>
+          <UL>
+            <LI><OBJECT type="text/sitemap">
+              <param name="Name" value="Activate Method (IntPtr)">
+              <param name="Local" value="html/deef8d66-12e2-bed7-41a4-4f1ab7993261.htm">
+            </OBJECT></LI>
+          </UL>
+          <UL>
+            <LI><OBJECT type="text/sitemap">
+              <param name="Name" value="Activate Method (String, Boolean)">
+              <param name="Local" value="html/c8e50e7c-0504-bc85-d756-2566b772851e.htm">
+            </OBJECT></LI>
+          </UL>
+        </UL>
+        <UL>
+          <LI><OBJECT type="text/sitemap">
+            <param name="Name" value="Cancel Method ">
+            <param name="Local" value="html/6aecd820-3e62-5ffc-7852-08b0b432b23a.htm">
+          </OBJECT></LI>
+        </UL>
+        <UL>
+          <LI><OBJECT type="text/sitemap">
+            <param name="Name" value="ChangeFile Method ">
+            <param name="Local" value="html/36fca597-19f4-5fa5-0254-27058fb713de.htm">
+          </OBJECT></LI>
+        </UL>
+        <UL>
+          <LI><OBJECT type="text/sitemap">
+            <param name="Name" value="CreateDirectory Method ">
+            <param name="Local" value="html/67c89a7a-7128-b064-7144-c00aaf4ef5e0.htm">
+          </OBJECT></LI>
+        </UL>
+        <UL>
+          <LI><OBJECT type="text/sitemap">
+            <param name="Name" value="Down Method ">
+            <param name="Local" value="html/4f61f2cd-7cca-a771-7368-833553992e7d.htm">
+          </OBJECT></LI>
+        </UL>
+        <UL>
+          <LI><OBJECT type="text/sitemap">
+            <param name="Name" value="GetBoundsByWindow Method ">
+            <param name="Local" value="html/e951d6ec-b7e1-4aaa-a816-a02322d8920b.htm">
+          </OBJECT></LI>
+        </UL>
+        <UL>
+          <LI><OBJECT type="text/sitemap">
+            <param name="Name" value="GetClassName Method ">
+            <param name="Local" value="html/ac7922ca-fdc7-6f5c-70cd-62456f588cb6.htm">
+          </OBJECT></LI>
+        </UL>
+        <UL>
+          <LI><OBJECT type="text/sitemap">
+            <param name="Name" value="GetClientLocation Method ">
+            <param name="Local" value="html/0cfd794d-5c55-d6b3-f8c4-d6b483f18a9e.htm">
+          </OBJECT></LI>
+        </UL>
+        <UL>
+          <LI><OBJECT type="text/sitemap">
+            <param name="Name" value="GetClientSize Method ">
+            <param name="Local" value="html/f5e54ebb-13f4-a229-050b-3cd6d5ec0b8a.htm">
+          </OBJECT></LI>
+        </UL>
+        <UL>
+          <LI><OBJECT type="text/sitemap">
+            <param name="Name" value="GetCursorPosition Method ">
+            <param name="Local" value="html/631ddbeb-9eb9-874b-c3bd-8e74dd9ebc3f.htm">
+          </OBJECT></LI>
+        </UL>
+        <UL>
+          <LI><OBJECT type="text/sitemap">
+            <param name="Name" value="GetEventLockState Method ">
+            <param name="Local" value="html/8947ade9-fa4e-5e7a-b421-a7e6799511fe.htm">
+          </OBJECT></LI>
+        </UL>
+        <UL>
+          <LI><OBJECT type="text/sitemap">
+            <param name="Name" value="GetTextFromClipboard Method ">
+            <param name="Local" value="html/22c3a941-a362-a77c-e538-84bb854fb82b.htm">
+          </OBJECT></LI>
+        </UL>
+        <UL>
+          <LI><OBJECT type="text/sitemap">
+            <param name="Name" value="GetVar Method ">
+            <param name="Local" value="html/bb102935-e04a-1232-61e9-7ff2e7fe1518.htm">
+          </OBJECT></LI>
+          <UL>
+            <LI><OBJECT type="text/sitemap">
+              <param name="Name" value="GetVar Method (String)">
+              <param name="Local" value="html/1bbdc07b-05c3-f05c-d533-8fccfd063f4d.htm">
+            </OBJECT></LI>
+          </UL>
+          <UL>
+            <LI><OBJECT type="text/sitemap">
+              <param name="Name" value="GetVar(T) Method (String)">
+              <param name="Local" value="html/93ee6e80-711b-ed51-45a0-7b633cc36e03.htm">
+            </OBJECT></LI>
+          </UL>
+        </UL>
+        <UL>
+          <LI><OBJECT type="text/sitemap">
+            <param name="Name" value="GetWindowLocation Method ">
+            <param name="Local" value="html/3cc030c3-0361-cbb2-e191-7d0fbc9df284.htm">
+          </OBJECT></LI>
+        </UL>
+        <UL>
+          <LI><OBJECT type="text/sitemap">
+            <param name="Name" value="GetWindowLong Method ">
+            <param name="Local" value="html/bcc6dddb-9093-4c5b-30b6-806c01055e5c.htm">
+          </OBJECT></LI>
+        </UL>
+        <UL>
+          <LI><OBJECT type="text/sitemap">
+            <param name="Name" value="GetWindowSize Method ">
+            <param name="Local" value="html/513a9bee-898a-3608-ba04-e3a2b4f9b401.htm">
+          </OBJECT></LI>
+        </UL>
+        <UL>
+          <LI><OBJECT type="text/sitemap">
+            <param name="Name" value="GetWindowTitlte Method ">
+            <param name="Local" value="html/dd776387-f4fd-0a8d-97ff-fd3e9f48bb2b.htm">
+          </OBJECT></LI>
+        </UL>
+        <UL>
+          <LI><OBJECT type="text/sitemap">
+            <param name="Name" value="InputText Method ">
+            <param name="Local" value="html/1b23645d-1dcc-1abd-3387-5853e116cdd3.htm">
+          </OBJECT></LI>
+        </UL>
+        <UL>
+          <LI><OBJECT type="text/sitemap">
+            <param name="Name" value="Invoke Method ">
+            <param name="Local" value="html/15a8ca5a-aefe-dca5-9301-2b6b48c736e3.htm">
+          </OBJECT></LI>
+          <UL>
+            <LI><OBJECT type="text/sitemap">
+              <param name="Name" value="Invoke Method (Action)">
+              <param name="Local" value="html/c366ec63-992b-c479-8592-e7ea056dab76.htm">
+            </OBJECT></LI>
+          </UL>
+          <UL>
+            <LI><OBJECT type="text/sitemap">
+              <param name="Name" value="Invoke(T) Method (Func(T))">
+              <param name="Local" value="html/a8b3044d-c70a-4537-933a-5f646e63086c.htm">
+            </OBJECT></LI>
+          </UL>
+        </UL>
+        <UL>
+          <LI><OBJECT type="text/sitemap">
+            <param name="Name" value="IsMaximized Method ">
+            <param name="Local" value="html/58efd153-9698-e2c6-85bf-e6a3f7c9a266.htm">
+          </OBJECT></LI>
+        </UL>
+        <UL>
+          <LI><OBJECT type="text/sitemap">
+            <param name="Name" value="IsMinimized Method ">
+            <param name="Local" value="html/bdf1dcd3-1e2b-e6d1-21c3-63ba94f315d4.htm">
+          </OBJECT></LI>
+        </UL>
+        <UL>
+          <LI><OBJECT type="text/sitemap">
+            <param name="Name" value="IsPressed Method ">
+            <param name="Local" value="html/86ccafbd-5daa-741d-04dd-e18eea8de455.htm">
+          </OBJECT></LI>
+          <UL>
+            <LI><OBJECT type="text/sitemap">
+              <param name="Name" value="IsPressed Method (ControllerButtons)">
+              <param name="Local" value="html/7198b227-1682-ea3e-0dac-7cff38b7d46b.htm">
+            </OBJECT></LI>
+          </UL>
+          <UL>
+            <LI><OBJECT type="text/sitemap">
+              <param name="Name" value="IsPressed Method (Keys)">
+              <param name="Local" value="html/95efa289-2dd4-f64f-737e-3f716507f834.htm">
+            </OBJECT></LI>
+          </UL>
+        </UL>
+        <UL>
+          <LI><OBJECT type="text/sitemap">
+            <param name="Name" value="Match Method ">
+            <param name="Local" value="html/b3180772-f573-ebe0-56b7-51f79c337d3c.htm">
+          </OBJECT></LI>
+          <UL>
+            <LI><OBJECT type="text/sitemap">
+              <param name="Name" value="Match Method (String, MatchResult)">
+              <param name="Local" value="html/f4ee696f-50bf-fc45-a8f0-2c30aac935f8.htm">
+            </OBJECT></LI>
+          </UL>
+          <UL>
+            <LI><OBJECT type="text/sitemap">
+              <param name="Name" value="Match Method (String, Bitmap, MatchResult)">
+              <param name="Local" value="html/81745d2d-ecd1-0cb1-093a-b87df68cc152.htm">
+            </OBJECT></LI>
+          </UL>
+          <UL>
+            <LI><OBJECT type="text/sitemap">
+              <param name="Name" value="Match Method (Bitmap, Double, Bounds, MatchResult)">
+              <param name="Local" value="html/db4b2d19-382d-10de-f6eb-609d948c0f05.htm">
+            </OBJECT></LI>
+          </UL>
+          <UL>
+            <LI><OBJECT type="text/sitemap">
+              <param name="Name" value="Match Method (Bitmap, Bitmap, Double, MatchResult)">
+              <param name="Local" value="html/07d675c8-f0dc-52f9-dcc7-db96ce6dbf46.htm">
+            </OBJECT></LI>
+          </UL>
+          <UL>
+            <LI><OBJECT type="text/sitemap">
+              <param name="Name" value="Match Method (String, Double, Bounds, MatchResult)">
+              <param name="Local" value="html/eca482a8-2331-700a-5797-4a976fcd7470.htm">
+            </OBJECT></LI>
+          </UL>
+          <UL>
+            <LI><OBJECT type="text/sitemap">
+              <param name="Name" value="Match Method (String, Int32, Int32, Int32, Int32, Double, MatchResult)">
+              <param name="Local" value="html/67d5b3cc-fcfb-bd5f-bf6a-580f41dee0e7.htm">
+            </OBJECT></LI>
+          </UL>
+        </UL>
+        <UL>
+          <LI><OBJECT type="text/sitemap">
+            <param name="Name" value="Matches Method ">
+            <param name="Local" value="html/5c8e1644-d2aa-6bfb-bcba-877b89330580.htm">
+          </OBJECT></LI>
+          <UL>
+            <LI><OBJECT type="text/sitemap">
+              <param name="Name" value="Matches Method (String, IEnumerable(MatchResult))">
+              <param name="Local" value="html/2e6da4da-9779-18b9-83ab-5da22a568efc.htm">
+            </OBJECT></LI>
+          </UL>
+          <UL>
+            <LI><OBJECT type="text/sitemap">
+              <param name="Name" value="Matches Method (String, Int32, Int32, Int32, Int32, Double, IEnumerable(MatchResult))">
+              <param name="Local" value="html/65dd05d7-58a2-49f8-b1e8-3aadf8d72b99.htm">
+            </OBJECT></LI>
+          </UL>
+        </UL>
+        <UL>
+          <LI><OBJECT type="text/sitemap">
+            <param name="Name" value="Move Method ">
+            <param name="Local" value="html/a1dfde29-2e6d-5cff-24fe-8c49655e7fe5.htm">
+          </OBJECT></LI>
+          <UL>
+            <LI><OBJECT type="text/sitemap">
+              <param name="Name" value="Move Method (Int32, Int32, Int32)">
+              <param name="Local" value="html/9d0de608-ce50-fa6d-534a-85afb7f13cf9.htm">
+            </OBJECT></LI>
+          </UL>
+          <UL>
+            <LI><OBJECT type="text/sitemap">
+              <param name="Name" value="Move Method (Int32, Int32, Int32, Int32, Boolean, Boolean)">
+              <param name="Local" value="html/355f5254-8f05-693c-56cd-316c75019016.htm">
+            </OBJECT></LI>
+          </UL>
+        </UL>
+        <UL>
+          <LI><OBJECT type="text/sitemap">
+            <param name="Name" value="NotifyMessage Method ">
+            <param name="Local" value="html/c21dccfd-19b4-33e1-f940-2a83d94f82da.htm">
+          </OBJECT></LI>
+        </UL>
+        <UL>
+          <LI><OBJECT type="text/sitemap">
+            <param name="Name" value="Offset Method ">
+            <param name="Local" value="html/9d1ec341-bd57-f887-f647-9027b9bfece1.htm">
+          </OBJECT></LI>
+          <UL>
+            <LI><OBJECT type="text/sitemap">
+              <param name="Name" value="Offset Method (Int32, Int32, Int32)">
+              <param name="Local" value="html/5a8811dc-de98-8da5-374a-f5a1e199df70.htm">
+            </OBJECT></LI>
+          </UL>
+          <UL>
+            <LI><OBJECT type="text/sitemap">
+              <param name="Name" value="Offset Method (Int32, Int32, Int32, Int32, Boolean, Boolean)">
+              <param name="Local" value="html/b2be1412-b167-970f-8541-1f622a4e8cd3.htm">
+            </OBJECT></LI>
+          </UL>
+        </UL>
+        <UL>
+          <LI><OBJECT type="text/sitemap">
+            <param name="Name" value="PlaySound Method ">
+            <param name="Local" value="html/178e91ff-914f-9b32-0cc5-f771a6265a3a.htm">
+          </OBJECT></LI>
+        </UL>
+        <UL>
+          <LI><OBJECT type="text/sitemap">
+            <param name="Name" value="PlaySystemSound Method ">
+            <param name="Local" value="html/376cd352-3ec7-59a8-a52a-52e6703015f8.htm">
+          </OBJECT></LI>
+        </UL>
+        <UL>
+          <LI><OBJECT type="text/sitemap">
+            <param name="Name" value="Random Method ">
+            <param name="Local" value="html/009f10f2-787b-b642-0ac4-05ec6ee35162.htm">
+          </OBJECT></LI>
+        </UL>
+        <UL>
+          <LI><OBJECT type="text/sitemap">
+            <param name="Name" value="RandomDouble Method ">
+            <param name="Local" value="html/c1a9cb11-bf53-fc4f-0e84-b5822c1054c0.htm">
+          </OBJECT></LI>
+        </UL>
+        <UL>
+          <LI><OBJECT type="text/sitemap">
+            <param name="Name" value="Replay Method ">
+            <param name="Local" value="html/65fdc9d3-35fa-0f97-2fd4-09bf937ad1c3.htm">
+          </OBJECT></LI>
+        </UL>
+        <UL>
+          <LI><OBJECT type="text/sitemap">
+            <param name="Name" value="Screenshot Method ">
+            <param name="Local" value="html/57cf0f49-97a0-6af8-f269-3bf0807289e2.htm">
+          </OBJECT></LI>
+          <UL>
+            <LI><OBJECT type="text/sitemap">
+              <param name="Name" value="Screenshot Method (Bounds)">
+              <param name="Local" value="html/a9b6c2c6-071c-be3d-32af-d5d315f3ee50.htm">
+            </OBJECT></LI>
+          </UL>
+          <UL>
+            <LI><OBJECT type="text/sitemap">
+              <param name="Name" value="Screenshot Method (Int32, Int32, Int32, Int32)">
+              <param name="Local" value="html/1b55d378-2be5-0250-423f-8e97a0279de8.htm">
+            </OBJECT></LI>
+          </UL>
+        </UL>
+        <UL>
+          <LI><OBJECT type="text/sitemap">
+            <param name="Name" value="SetEventLockState Method ">
+            <param name="Local" value="html/bed10f4c-d54b-df6a-ada0-b5b3eb56bec9.htm">
+          </OBJECT></LI>
+        </UL>
+        <UL>
+          <LI><OBJECT type="text/sitemap">
+            <param name="Name" value="SetForegroundWindow Method ">
+            <param name="Local" value="html/c4caec5c-607f-0727-355f-b8f9e4208386.htm">
+          </OBJECT></LI>
+        </UL>
+        <UL>
+          <LI><OBJECT type="text/sitemap">
+            <param name="Name" value="SetTextToClipboard Method ">
+            <param name="Local" value="html/f4811fc6-b7eb-ef8c-ebc5-fe9a4304ee6a.htm">
+          </OBJECT></LI>
+        </UL>
+        <UL>
+          <LI><OBJECT type="text/sitemap">
+            <param name="Name" value="SetVar Method ">
+            <param name="Local" value="html/4c280dd9-b2ea-8132-c963-a782e6a1281e.htm">
+          </OBJECT></LI>
+        </UL>
+        <UL>
+          <LI><OBJECT type="text/sitemap">
+            <param name="Name" value="SetWindowLong Method ">
+            <param name="Local" value="html/d9e1a841-9140-e9ac-bef2-95f2829a73a2.htm">
+          </OBJECT></LI>
+        </UL>
+        <UL>
+          <LI><OBJECT type="text/sitemap">
+            <param name="Name" value="SetWindowPosition Method ">
+            <param name="Local" value="html/e027afaa-0755-c194-fd61-fb81eabb53b0.htm">
+          </OBJECT></LI>
+        </UL>
+        <UL>
+          <LI><OBJECT type="text/sitemap">
+            <param name="Name" value="SetWindowState Method ">
+            <param name="Local" value="html/9d45e53b-6190-8e77-2855-f18d26535ac7.htm">
+          </OBJECT></LI>
+        </UL>
+        <UL>
+          <LI><OBJECT type="text/sitemap">
+            <param name="Name" value="SetWindowTitle Method ">
+            <param name="Local" value="html/d30abb17-9137-f79c-eda0-e635b7e815ee.htm">
+          </OBJECT></LI>
+        </UL>
+        <UL>
+          <LI><OBJECT type="text/sitemap">
+            <param name="Name" value="ShowTextBoxDialog(T) Method ">
+            <param name="Local" value="html/ac4c7e05-f516-e8d5-d526-83a053f3fd9e.htm">
+          </OBJECT></LI>
+        </UL>
+        <UL>
+          <LI><OBJECT type="text/sitemap">
+            <param name="Name" value="Tap Method ">
+            <param name="Local" value="html/5e5480b5-10f9-727b-a66b-d879ade7fe96.htm">
+          </OBJECT></LI>
+        </UL>
+        <UL>
+          <LI><OBJECT type="text/sitemap">
+            <param name="Name" value="ThrowIfShouldNotContinue Method ">
+            <param name="Local" value="html/76e0acdf-b675-d6ef-9b2f-7908697a7122.htm">
+          </OBJECT></LI>
+        </UL>
+        <UL>
+          <LI><OBJECT type="text/sitemap">
+            <param name="Name" value="TryParse(T) Method ">
+            <param name="Local" value="html/91ac55a7-15ed-f248-b955-54fc91a191ab.htm">
+          </OBJECT></LI>
+        </UL>
+        <UL>
+          <LI><OBJECT type="text/sitemap">
+            <param name="Name" value="Up Method ">
+            <param name="Local" value="html/43574a15-35dc-5ce6-52db-630ff2a71d2f.htm">
+          </OBJECT></LI>
+        </UL>
+        <UL>
+          <LI><OBJECT type="text/sitemap">
+            <param name="Name" value="Wait Method ">
+            <param name="Local" value="html/c19752fc-fc93-fb0a-49dd-3070f7a9bcf3.htm">
+          </OBJECT></LI>
+          <UL>
+            <LI><OBJECT type="text/sitemap">
+              <param name="Name" value="Wait Method ">
+              <param name="Local" value="html/7c762af3-54ae-875f-4827-0d86d7e596bd.htm">
+            </OBJECT></LI>
+          </UL>
+          <UL>
+            <LI><OBJECT type="text/sitemap">
+              <param name="Name" value="Wait Method (Int32)">
+              <param name="Local" value="html/95aa46cf-f826-3e7d-eee1-627c641d265c.htm">
+            </OBJECT></LI>
+          </UL>
+          <UL>
+            <LI><OBJECT type="text/sitemap">
+              <param name="Name" value="Wait Method (TimeSpan)">
+              <param name="Local" value="html/6eab9f85-09ce-93f1-3aea-5c35271726a8.htm">
+            </OBJECT></LI>
+          </UL>
+        </UL>
+        <UL>
+          <LI><OBJECT type="text/sitemap">
+            <param name="Name" value="WaitForInput Method ">
+            <param name="Local" value="html/213a2c46-242b-d24d-c867-6313133f9a87.htm">
+          </OBJECT></LI>
+          <UL>
+            <LI><OBJECT type="text/sitemap">
+              <param name="Name" value="WaitForInput Method (ControllerButtons, Boolean)">
+              <param name="Local" value="html/f910fc12-834b-46f6-9681-8346ae683949.htm">
+            </OBJECT></LI>
+          </UL>
+          <UL>
+            <LI><OBJECT type="text/sitemap">
+              <param name="Name" value="WaitForInput Method (Keys, Boolean)">
+              <param name="Local" value="html/f9233282-a023-4510-8d42-19b0b24199d4.htm">
+            </OBJECT></LI>
+          </UL>
+          <UL>
+            <LI><OBJECT type="text/sitemap">
+              <param name="Name" value="WaitForInput Method (ControllerButtons, ControllerButtons, Boolean)">
+              <param name="Local" value="html/3865881d-d623-c6ac-13b5-83ce43e58ed9.htm">
+            </OBJECT></LI>
+          </UL>
+          <UL>
+            <LI><OBJECT type="text/sitemap">
+              <param name="Name" value="WaitForInput Method (Keys, Keys, Boolean)">
+              <param name="Local" value="html/a118d811-e43d-d114-02bc-817912081750.htm">
+            </OBJECT></LI>
+          </UL>
+        </UL>
+        <UL>
+          <LI><OBJECT type="text/sitemap">
+            <param name="Name" value="WheelDown Method ">
+            <param name="Local" value="html/68f923f2-b2da-cfd6-e9e1-f43435a9803d.htm">
+          </OBJECT></LI>
+        </UL>
+        <UL>
+          <LI><OBJECT type="text/sitemap">
+            <param name="Name" value="WheelLeft Method ">
+            <param name="Local" value="html/557ba54e-0b31-ed49-ca7a-2ca269909742.htm">
+          </OBJECT></LI>
+        </UL>
+        <UL>
+          <LI><OBJECT type="text/sitemap">
+            <param name="Name" value="WheelRight Method ">
+            <param name="Local" value="html/c251351d-f0aa-79ec-4f18-64de1527b793.htm">
+          </OBJECT></LI>
+        </UL>
+        <UL>
+          <LI><OBJECT type="text/sitemap">
+            <param name="Name" value="WheelUp Method ">
+            <param name="Local" value="html/b0b96116-263b-9335-3adf-0d3e739bf166.htm">
+          </OBJECT></LI>
+        </UL>
+      </UL>
+      <UL>
+        <LI><OBJECT type="text/sitemap">
+          <param name="Name" value="IGlobals Events">
+          <param name="Local" value="html/ce475114-b923-d572-85e5-5b5ad6c21b88.htm">
+        </OBJECT></LI>
+        <UL>
+          <LI><OBJECT type="text/sitemap">
+            <param name="Name" value="ControllerStateChanged Event">
+            <param name="Local" value="html/72f10219-b8c3-aebb-0df3-966ebdc794ad.htm">
+          </OBJECT></LI>
+        </UL>
+        <UL>
+          <LI><OBJECT type="text/sitemap">
+            <param name="Name" value="Disposing Event">
+            <param name="Local" value="html/8b1c290c-0c29-65e9-5c73-c433323a6edc.htm">
+          </OBJECT></LI>
+        </UL>
+        <UL>
+          <LI><OBJECT type="text/sitemap">
+            <param name="Name" value="IsAvailableChanged Event">
+            <param name="Local" value="html/05e513aa-3747-e29e-9614-f4bc9248d6dd.htm">
+          </OBJECT></LI>
+        </UL>
+        <UL>
+          <LI><OBJECT type="text/sitemap">
+            <param name="Name" value="IsEnabledChanged Event">
+            <param name="Local" value="html/359f61e8-37a8-69b5-a5da-e55dc3ae42c3.htm">
+          </OBJECT></LI>
+        </UL>
+        <UL>
+          <LI><OBJECT type="text/sitemap">
+            <param name="Name" value="KeyStateChanged Event">
+            <param name="Local" value="html/571da33a-01b0-9bc5-f467-647db73d0433.htm">
+          </OBJECT></LI>
+        </UL>
+        <UL>
+          <LI><OBJECT type="text/sitemap">
+            <param name="Name" value="ShouldContinueChanged Event">
+            <param name="Local" value="html/635ebb1c-8b48-6c0a-4725-f92b82fe91f9.htm">
+          </OBJECT></LI>
+        </UL>
+        <UL>
+          <LI><OBJECT type="text/sitemap">
+            <param name="Name" value="TriggerReleased Event">
+            <param name="Local" value="html/5b5c3547-c7e4-84e4-e73f-d04b44e9d574.htm">
+          </OBJECT></LI>
+        </UL>
+      </UL>
+    </UL>
+    <UL>
+      <LI><OBJECT type="text/sitemap">
+        <param name="Name" value="IIme Interface">
+        <param name="Local" value="html/4bd91134-7915-25ac-7129-1bb87f89e915.htm">
+      </OBJECT></LI>
+      <UL>
+        <LI><OBJECT type="text/sitemap">
+          <param name="Name" value="IIme Properties">
+          <param name="Local" value="html/4b0f3255-e944-95fe-9840-773189033536.htm">
+        </OBJECT></LI>
+        <UL>
+          <LI><OBJECT type="text/sitemap">
+            <param name="Name" value="IsEnabled Property ">
+            <param name="Local" value="html/ac1cfd2d-79b8-7353-5e2e-24b357554df1.htm">
+          </OBJECT></LI>
+        </UL>
+        <UL>
+          <LI><OBJECT type="text/sitemap">
+            <param name="Name" value="IsHan Property ">
+            <param name="Local" value="html/e4611f17-9824-c3ea-1f5d-4c3d81a60485.htm">
+          </OBJECT></LI>
+        </UL>
+        <UL>
+          <LI><OBJECT type="text/sitemap">
+            <param name="Name" value="Mode Property ">
+            <param name="Local" value="html/f6b51de1-36fa-8dc8-8f14-94584d7e25eb.htm">
+          </OBJECT></LI>
+        </UL>
+      </UL>
+      <UL>
+        <LI><OBJECT type="text/sitemap">
+          <param name="Name" value="IIme Methods">
+          <param name="Local" value="html/2541e29d-e1e4-a708-2dfa-c568c1c8d756.htm">
+        </OBJECT></LI>
+        <UL>
+          <LI><OBJECT type="text/sitemap">
+            <param name="Name" value="SetConversionMode Method ">
+            <param name="Local" value="html/eb18531e-11cf-66d8-f807-16214f94eaa1.htm">
+          </OBJECT></LI>
+        </UL>
+      </UL>
+    </UL>
+    <UL>
+      <LI><OBJECT type="text/sitemap">
+        <param name="Name" value="IInput Interface">
+        <param name="Local" value="html/bdab5fac-3a40-a2a3-4085-bcd0cce4bf55.htm">
+      </OBJECT></LI>
+      <UL>
+        <LI><OBJECT type="text/sitemap">
+          <param name="Name" value="IInput Properties">
+          <param name="Local" value="html/3f102298-78ab-a1b6-d25c-3b4b31b11a7d.htm">
+        </OBJECT></LI>
+        <UL>
+          <LI><OBJECT type="text/sitemap">
+            <param name="Name" value="CursorPosition Property ">
+            <param name="Local" value="html/a4bcf619-4239-aa72-b374-1a30b68ef4fd.htm">
+          </OBJECT></LI>
+        </UL>
+        <UL>
+          <LI><OBJECT type="text/sitemap">
+            <param name="Name" value="InputHistory Property ">
+            <param name="Local" value="html/917e4288-5bb8-6a97-0f77-aa49e1439fb8.htm">
+          </OBJECT></LI>
+        </UL>
+      </UL>
+      <UL>
+        <LI><OBJECT type="text/sitemap">
+          <param name="Name" value="IInput Methods">
+          <param name="Local" value="html/6335b3d7-956b-534e-d3d4-1b4f081a1e03.htm">
+        </OBJECT></LI>
+        <UL>
+          <LI><OBJECT type="text/sitemap">
+            <param name="Name" value="GetControllerButtonState Method ">
+            <param name="Local" value="html/ea9f5756-2ad7-6da2-832f-c562c20efd9d.htm">
+          </OBJECT></LI>
+        </UL>
+        <UL>
+          <LI><OBJECT type="text/sitemap">
+            <param name="Name" value="GetInputState Method ">
+            <param name="Local" value="html/95e917ad-141b-707b-20dd-121cfd247b18.htm">
+          </OBJECT></LI>
+        </UL>
+        <UL>
+          <LI><OBJECT type="text/sitemap">
+            <param name="Name" value="GetTriggerState Method ">
+            <param name="Local" value="html/edfd7c96-3ebe-11e7-abb9-9d604b986721.htm">
+          </OBJECT></LI>
+        </UL>
+        <UL>
+          <LI><OBJECT type="text/sitemap">
+            <param name="Name" value="Replay Method ">
+            <param name="Local" value="html/831b1bf7-5ecf-efba-4663-4afd26d63e98.htm">
+          </OBJECT></LI>
+        </UL>
+        <UL>
+          <LI><OBJECT type="text/sitemap">
+            <param name="Name" value="SetEventLock Method ">
+            <param name="Local" value="html/4eb7307a-4c20-026a-0b08-2a210c5610d6.htm">
+          </OBJECT></LI>
+        </UL>
+      </UL>
+    </UL>
+    <UL>
+      <LI><OBJECT type="text/sitemap">
+        <param name="Name" value="IKeyboard Interface">
+        <param name="Local" value="html/aa92819f-5818-c5bd-458c-9c3a0495f92d.htm">
+      </OBJECT></LI>
+      <UL>
+        <LI><OBJECT type="text/sitemap">
+          <param name="Name" value="IKeyboard Methods">
+          <param name="Local" value="html/9123cf3b-8b65-bcf7-5fb9-d7d75b19e862.htm">
+        </OBJECT></LI>
+        <UL>
+          <LI><OBJECT type="text/sitemap">
+            <param name="Name" value="Down Method ">
+            <param name="Local" value="html/2c21abb4-0842-36eb-9455-92bc1753b805.htm">
+          </OBJECT></LI>
+        </UL>
+        <UL>
+          <LI><OBJECT type="text/sitemap">
+            <param name="Name" value="GetState Method ">
+            <param name="Local" value="html/ad7e8a34-b160-8904-ca7b-2be6d161a4b0.htm">
+          </OBJECT></LI>
+        </UL>
+        <UL>
+          <LI><OBJECT type="text/sitemap">
+            <param name="Name" value="InputText Method ">
+            <param name="Local" value="html/2e793aea-953f-7cc9-3774-108e58dad78f.htm">
+          </OBJECT></LI>
+        </UL>
+        <UL>
+          <LI><OBJECT type="text/sitemap">
+            <param name="Name" value="Tap Method ">
+            <param name="Local" value="html/88864d4f-966c-b355-6943-1f2a310375f8.htm">
+          </OBJECT></LI>
+        </UL>
+        <UL>
+          <LI><OBJECT type="text/sitemap">
+            <param name="Name" value="Up Method ">
+            <param name="Local" value="html/0a82f336-89a2-82b2-f846-cc453a57f68a.htm">
+          </OBJECT></LI>
+        </UL>
+      </UL>
+    </UL>
+    <UL>
+      <LI><OBJECT type="text/sitemap">
+        <param name="Name" value="IMacro Interface">
+        <param name="Local" value="html/b1c91a7a-e8b5-8217-2b80-19dfeb13e877.htm">
+      </OBJECT></LI>
+      <UL>
+        <LI><OBJECT type="text/sitemap">
+          <param name="Name" value="IMacro Methods">
+          <param name="Local" value="html/e1737ad6-c4dc-0a35-8b2d-07fe794bb573.htm">
+        </OBJECT></LI>
+        <UL>
+          <LI><OBJECT type="text/sitemap">
+            <param name="Name" value="Call Method ">
+            <param name="Local" value="html/343d18a9-2670-ac4f-db2d-c77f489b0a9b.htm">
+          </OBJECT></LI>
+        </UL>
+      </UL>
+    </UL>
+    <UL>
+      <LI><OBJECT type="text/sitemap">
+        <param name="Name" value="IModifier Interface">
+        <param name="Local" value="html/6b1a4163-032b-0af3-d7c5-6a47bb11b9db.htm">
+      </OBJECT></LI>
+      <UL>
+        <LI><OBJECT type="text/sitemap">
+          <param name="Name" value="IModifier Properties">
+          <param name="Local" value="html/4ffbfcd0-49e4-3c15-e8e9-a3c948bf1a76.htm">
+        </OBJECT></LI>
+        <UL>
+          <LI><OBJECT type="text/sitemap">
+            <param name="Name" value="Inputs Property ">
+            <param name="Local" value="html/0209a317-208b-ec9a-9ca3-cc6b4d201713.htm">
+          </OBJECT></LI>
+        </UL>
+        <UL>
+          <LI><OBJECT type="text/sitemap">
+            <param name="Name" value="IsPressed Property ">
+            <param name="Local" value="html/85f4f826-d695-447b-0f4f-ad7f8d9a24ee.htm">
+          </OBJECT></LI>
+        </UL>
+      </UL>
+    </UL>
+    <UL>
+      <LI><OBJECT type="text/sitemap">
+        <param name="Name" value="IMouse Interface">
+        <param name="Local" value="html/4133ee1d-283c-09dc-8074-c5d828149d74.htm">
+      </OBJECT></LI>
+      <UL>
+        <LI><OBJECT type="text/sitemap">
+          <param name="Name" value="IMouse Properties">
+          <param name="Local" value="html/f9027467-303d-734b-9308-e3b40be09b83.htm">
+        </OBJECT></LI>
+        <UL>
+          <LI><OBJECT type="text/sitemap">
+            <param name="Name" value="Position Property ">
+            <param name="Local" value="html/4ff5bb80-0242-b18f-4ce6-0cf6fd29924b.htm">
+          </OBJECT></LI>
+        </UL>
+      </UL>
+      <UL>
+        <LI><OBJECT type="text/sitemap">
+          <param name="Name" value="IMouse Methods">
+          <param name="Local" value="html/28da2e35-3c4e-2a85-2dd3-8e63783c89cd.htm">
+        </OBJECT></LI>
+        <UL>
+          <LI><OBJECT type="text/sitemap">
+            <param name="Name" value="Click Method ">
+            <param name="Local" value="html/3690b862-8de3-ebb8-867e-b7cc76f49f6f.htm">
+          </OBJECT></LI>
+        </UL>
+        <UL>
+          <LI><OBJECT type="text/sitemap">
+            <param name="Name" value="Down Method ">
+            <param name="Local" value="html/ac607d80-100e-edf1-9902-24c5a522e159.htm">
+          </OBJECT></LI>
+        </UL>
+        <UL>
+          <LI><OBJECT type="text/sitemap">
+            <param name="Name" value="GetState Method ">
+            <param name="Local" value="html/9d60c35b-360a-4571-55e4-0f17b91cbf31.htm">
+          </OBJECT></LI>
+        </UL>
+        <UL>
+          <LI><OBJECT type="text/sitemap">
+            <param name="Name" value="Move Method ">
+            <param name="Local" value="html/30169254-b150-2342-9b69-b92b0ab9c063.htm">
+          </OBJECT></LI>
+        </UL>
+        <UL>
+          <LI><OBJECT type="text/sitemap">
+            <param name="Name" value="MoveBySteps Method ">
+            <param name="Local" value="html/615715e3-da59-b8c5-4aab-6b36ed2bb7fa.htm">
+          </OBJECT></LI>
+        </UL>
+        <UL>
+          <LI><OBJECT type="text/sitemap">
+            <param name="Name" value="Offset Method ">
+            <param name="Local" value="html/a3d345d9-6d9b-1210-55c6-e9f7eaa512bd.htm">
+          </OBJECT></LI>
+        </UL>
+        <UL>
+          <LI><OBJECT type="text/sitemap">
+            <param name="Name" value="OffsetBySteps Method ">
+            <param name="Local" value="html/4f999c7d-f9fd-6fb4-7661-9ac3ea39d841.htm">
+          </OBJECT></LI>
+        </UL>
+        <UL>
+          <LI><OBJECT type="text/sitemap">
+            <param name="Name" value="SetOriginPoint Method ">
+            <param name="Local" value="html/11c2633c-8174-cf5c-dd6e-a26b3aed3d02.htm">
+          </OBJECT></LI>
+        </UL>
+        <UL>
+          <LI><OBJECT type="text/sitemap">
+            <param name="Name" value="Up Method ">
+            <param name="Local" value="html/8c7c8784-0d34-64b5-b37a-fd09b87e903c.htm">
+          </OBJECT></LI>
+        </UL>
+        <UL>
+          <LI><OBJECT type="text/sitemap">
+            <param name="Name" value="WheelDown Method ">
+            <param name="Local" value="html/3abde259-fc3b-c028-0189-9d0f04085388.htm">
+          </OBJECT></LI>
+        </UL>
+        <UL>
+          <LI><OBJECT type="text/sitemap">
+            <param name="Name" value="WheelLeft Method ">
+            <param name="Local" value="html/7dd0130a-d1fa-c267-1c7c-e4903426b8be.htm">
+          </OBJECT></LI>
+        </UL>
+        <UL>
+          <LI><OBJECT type="text/sitemap">
+            <param name="Name" value="WheelRight Method ">
+            <param name="Local" value="html/707a7f8a-8eed-2c19-8bff-964389dc2e33.htm">
+          </OBJECT></LI>
+        </UL>
+        <UL>
+          <LI><OBJECT type="text/sitemap">
+            <param name="Name" value="WheelUp Method ">
+            <param name="Local" value="html/545cbfb0-7589-7bbd-d3c8-69602d9f53c0.htm">
+          </OBJECT></LI>
+        </UL>
+      </UL>
+    </UL>
+    <UL>
+      <LI><OBJECT type="text/sitemap">
+        <param name="Name" value="IMouseAsStick Interface">
+        <param name="Local" value="html/5cfff2ab-ddbc-c57c-7b0b-4a53c9a2aab3.htm">
+      </OBJECT></LI>
+      <UL>
+        <LI><OBJECT type="text/sitemap">
+          <param name="Name" value="IMouseAsStick Properties">
+          <param name="Local" value="html/f09584a7-c607-50f6-9859-1f4453917212.htm">
+        </OBJECT></LI>
+        <UL>
+          <LI><OBJECT type="text/sitemap">
+            <param name="Name" value="IsEnabled Property ">
+            <param name="Local" value="html/699c9f0b-7d2b-0928-2ebc-84f7203d28fd.htm">
+          </OBJECT></LI>
+        </UL>
+        <UL>
+          <LI><OBJECT type="text/sitemap">
+            <param name="Name" value="MouseVirtualPositionService Property ">
+            <param name="Local" value="html/685f18d0-b341-f618-d957-99d65b566a9e.htm">
+          </OBJECT></LI>
+        </UL>
+      </UL>
+      <UL>
+        <LI><OBJECT type="text/sitemap">
+          <param name="Name" value="IMouseAsStick Methods">
+          <param name="Local" value="html/4239778c-05b4-948c-339e-8751f9f7c76e.htm">
+        </OBJECT></LI>
+        <UL>
+          <LI><OBJECT type="text/sitemap">
+            <param name="Name" value="ResetPosition Method ">
+            <param name="Local" value="html/af5c0c28-c8c1-8fdb-671f-68fc8ccac70c.htm">
+          </OBJECT></LI>
+        </UL>
+      </UL>
+    </UL>
+    <UL>
+      <LI><OBJECT type="text/sitemap">
+        <param name="Name" value="IMouseVirtualPositionService Interface">
+        <param name="Local" value="html/7b97aef0-1c58-0717-c8f9-1612ddcd6b04.htm">
+      </OBJECT></LI>
+      <UL>
+        <LI><OBJECT type="text/sitemap">
+          <param name="Name" value="IMouseVirtualPositionService Properties">
+          <param name="Local" value="html/6bb038d9-3365-2a94-ea05-a9e8fdb977c5.htm">
+        </OBJECT></LI>
+        <UL>
+          <LI><OBJECT type="text/sitemap">
+            <param name="Name" value="AllowsInjectedMove Property ">
+            <param name="Local" value="html/23104382-55fc-1398-eefa-10019224a22c.htm">
+          </OBJECT></LI>
+        </UL>
+        <UL>
+          <LI><OBJECT type="text/sitemap">
+            <param name="Name" value="IsEnabled Property ">
+            <param name="Local" value="html/456e3373-c493-6fa5-bd80-fca947f71cd2.htm">
+          </OBJECT></LI>
+        </UL>
+        <UL>
+          <LI><OBJECT type="text/sitemap">
+            <param name="Name" value="State Property ">
+            <param name="Local" value="html/bc5b7447-e73b-24b7-5014-02f07e0387e0.htm">
+          </OBJECT></LI>
+        </UL>
+        <UL>
+          <LI><OBJECT type="text/sitemap">
+            <param name="Name" value="VirtualRadius Property ">
+            <param name="Local" value="html/cdc747d6-78a3-107a-fa45-040969e9955b.htm">
+          </OBJECT></LI>
+        </UL>
+      </UL>
+      <UL>
+        <LI><OBJECT type="text/sitemap">
+          <param name="Name" value="IMouseVirtualPositionService Methods">
+          <param name="Local" value="html/f7fb8deb-6cb8-871f-513d-d0965860d579.htm">
+        </OBJECT></LI>
+        <UL>
+          <LI><OBJECT type="text/sitemap">
+            <param name="Name" value="ResetInternalFields Method ">
+            <param name="Local" value="html/a6e94b13-94a9-8cea-d2a6-246977ab009e.htm">
+          </OBJECT></LI>
+        </UL>
+        <UL>
+          <LI><OBJECT type="text/sitemap">
+            <param name="Name" value="Start Method ">
+            <param name="Local" value="html/6981e3f5-554c-eea7-adf4-7da69947b039.htm">
+          </OBJECT></LI>
+        </UL>
+        <UL>
+          <LI><OBJECT type="text/sitemap">
+            <param name="Name" value="Stop Method ">
+            <param name="Local" value="html/b686b641-b1e5-b7fc-8b75-30372da76c3f.htm">
+          </OBJECT></LI>
+        </UL>
+      </UL>
+      <UL>
+        <LI><OBJECT type="text/sitemap">
+          <param name="Name" value="IMouseVirtualPositionService Events">
+          <param name="Local" value="html/c5ec639b-3756-6a87-52ce-646640b7069d.htm">
+        </OBJECT></LI>
+        <UL>
+          <LI><OBJECT type="text/sitemap">
+            <param name="Name" value="Moving Event">
+            <param name="Local" value="html/b9c4f9e7-2269-8f47-a1ce-23dcab55e053.htm">
+          </OBJECT></LI>
+        </UL>
+      </UL>
+    </UL>
+    <UL>
+      <LI><OBJECT type="text/sitemap">
+        <param name="Name" value="IMouseVirtualPositionState Interface">
+        <param name="Local" value="html/066eb119-987a-b730-a9c6-6768310be295.htm">
+      </OBJECT></LI>
+      <UL>
+        <LI><OBJECT type="text/sitemap">
+          <param name="Name" value="IMouseVirtualPositionState Properties">
+          <param name="Local" value="html/501e5561-2022-da4f-92fc-0efe5127f3a1.htm">
+        </OBJECT></LI>
+        <UL>
+          <LI><OBJECT type="text/sitemap">
+            <param name="Name" value="Distance Property ">
+            <param name="Local" value="html/9c54b2da-1cd5-ae8f-08b9-61908c56f9bd.htm">
+          </OBJECT></LI>
+        </UL>
+        <UL>
+          <LI><OBJECT type="text/sitemap">
+            <param name="Name" value="LastDelta Property ">
+            <param name="Local" value="html/e40f68d6-844f-7e79-0219-b8a4d6df4a26.htm">
+          </OBJECT></LI>
+        </UL>
+        <UL>
+          <LI><OBJECT type="text/sitemap">
+            <param name="Name" value="NormalizedDistance Property ">
+            <param name="Local" value="html/1c1e2930-70da-4878-65de-125c177889d8.htm">
+          </OBJECT></LI>
+        </UL>
+        <UL>
+          <LI><OBJECT type="text/sitemap">
+            <param name="Name" value="Position Property ">
+            <param name="Local" value="html/a2e141bd-c2bb-6510-a3d6-8448ed9f6823.htm">
+          </OBJECT></LI>
+        </UL>
+      </UL>
+      <UL>
+        <LI><OBJECT type="text/sitemap">
+          <param name="Name" value="IMouseVirtualPositionState Methods">
+          <param name="Local" value="html/5034b459-477a-1320-752c-fafe2858e3bc.htm">
+        </OBJECT></LI>
+        <UL>
+          <LI><OBJECT type="text/sitemap">
+            <param name="Name" value="GetAngle Method ">
+            <param name="Local" value="html/f66470f9-f0ec-699f-6768-6350ca66cad8.htm">
+          </OBJECT></LI>
+        </UL>
+      </UL>
+    </UL>
+    <UL>
+      <LI><OBJECT type="text/sitemap">
+        <param name="Name" value="Inputs Enumeration">
+        <param name="Local" value="html/fb154bec-b0c6-3fdd-fd59-b33430379968.htm">
+      </OBJECT></LI>
+    </UL>
+    <UL>
+      <LI><OBJECT type="text/sitemap">
+        <param name="Name" value="IPathSelector Interface">
+        <param name="Local" value="html/2776f80e-9917-8f17-b01f-22bb9bdd6b5e.htm">
+      </OBJECT></LI>
+      <UL>
+        <LI><OBJECT type="text/sitemap">
+          <param name="Name" value="IPathSelector Methods">
+          <param name="Local" value="html/9a12eccf-e511-44f9-76ba-892f15592d5c.htm">
+        </OBJECT></LI>
+        <UL>
+          <LI><OBJECT type="text/sitemap">
+            <param name="Name" value="SelectFile Method ">
+            <param name="Local" value="html/7c1c1056-31e6-98ff-7327-3e3857bd95c7.htm">
+          </OBJECT></LI>
+          <UL>
+            <LI><OBJECT type="text/sitemap">
+              <param name="Name" value="SelectFile Method ">
+              <param name="Local" value="html/b577c830-8d23-d7c9-cec5-a337a45a47b8.htm">
+            </OBJECT></LI>
+          </UL>
+          <UL>
+            <LI><OBJECT type="text/sitemap">
+              <param name="Name" value="SelectFile Method (String, String[])">
+              <param name="Local" value="html/f32f01a9-e4fd-875d-b481-5abf1857dd17.htm">
+            </OBJECT></LI>
+          </UL>
+        </UL>
+        <UL>
+          <LI><OBJECT type="text/sitemap">
+            <param name="Name" value="SelectFolder Method ">
+            <param name="Local" value="html/d15f8a7c-eb73-b1f1-86f8-ccf955fac73d.htm">
+          </OBJECT></LI>
+        </UL>
+        <UL>
+          <LI><OBJECT type="text/sitemap">
+            <param name="Name" value="SelectNewFile Method ">
+            <param name="Local" value="html/23a74965-8a23-5e32-96a9-06b237ffe9ff.htm">
+          </OBJECT></LI>
+          <UL>
+            <LI><OBJECT type="text/sitemap">
+              <param name="Name" value="SelectNewFile Method ">
+              <param name="Local" value="html/a4bc7fd5-352f-ba17-8b2b-f5b7114b2670.htm">
+            </OBJECT></LI>
+          </UL>
+          <UL>
+            <LI><OBJECT type="text/sitemap">
+              <param name="Name" value="SelectNewFile Method (String, String[])">
+              <param name="Local" value="html/2375dea1-0065-a19c-4552-876ba28948ce.htm">
+            </OBJECT></LI>
+          </UL>
+        </UL>
+      </UL>
+    </UL>
+    <UL>
+      <LI><OBJECT type="text/sitemap">
+        <param name="Name" value="IPlugin Interface">
+        <param name="Local" value="html/2f2c64ce-ce19-332b-a065-b8fea8637734.htm">
+      </OBJECT></LI>
+    </UL>
+    <UL>
+      <LI><OBJECT type="text/sitemap">
+        <param name="Name" value="ISound Interface">
+        <param name="Local" value="html/7e1353fd-57db-a413-2c4c-8b13aa23110a.htm">
+      </OBJECT></LI>
+      <UL>
+        <LI><OBJECT type="text/sitemap">
+          <param name="Name" value="ISound Methods">
+          <param name="Local" value="html/a575d1c1-c733-5e84-a62e-dc1d14f05472.htm">
+        </OBJECT></LI>
+        <UL>
+          <LI><OBJECT type="text/sitemap">
+            <param name="Name" value="Play Method ">
+            <param name="Local" value="html/60121f1f-3c75-a68a-1e73-64c52628d010.htm">
+          </OBJECT></LI>
+        </UL>
+        <UL>
+          <LI><OBJECT type="text/sitemap">
+            <param name="Name" value="PlaySystem Method ">
+            <param name="Local" value="html/1fc6641c-a2b1-f6d8-6c62-ee58ca8c0ebf.htm">
+          </OBJECT></LI>
+        </UL>
+      </UL>
+    </UL>
+    <UL>
+      <LI><OBJECT type="text/sitemap">
+        <param name="Name" value="IStickState Interface">
+        <param name="Local" value="html/28d337fc-ea84-a287-92dc-0537a0bb93e4.htm">
+      </OBJECT></LI>
+      <UL>
+        <LI><OBJECT type="text/sitemap">
+          <param name="Name" value="IStickState Properties">
+          <param name="Local" value="html/f776369e-a70d-6c7c-662e-675ddbb8e00a.htm">
+        </OBJECT></LI>
+        <UL>
+          <LI><OBJECT type="text/sitemap">
+            <param name="Name" value="Angle Property ">
+            <param name="Local" value="html/b548af97-f8a8-7bf6-b402-d55f346b5d7e.htm">
+          </OBJECT></LI>
+        </UL>
+        <UL>
+          <LI><OBJECT type="text/sitemap">
+            <param name="Name" value="DeadZone Property ">
+            <param name="Local" value="html/860124a8-9c99-597e-521f-86e34c94c1ac.htm">
+          </OBJECT></LI>
+        </UL>
+        <UL>
+          <LI><OBJECT type="text/sitemap">
+            <param name="Name" value="DistanceRate Property ">
+            <param name="Local" value="html/500533d7-4980-9ac8-d624-a401ac36beaf.htm">
+          </OBJECT></LI>
+        </UL>
+        <UL>
+          <LI><OBJECT type="text/sitemap">
+            <param name="Name" value="Thumb Property ">
+            <param name="Local" value="html/175cba22-082c-2491-1104-e60f3196adca.htm">
+          </OBJECT></LI>
+        </UL>
+      </UL>
+      <UL>
+        <LI><OBJECT type="text/sitemap">
+          <param name="Name" value="IStickState Methods">
+          <param name="Local" value="html/a1ca1d06-7d90-b490-087b-c457df0a2922.htm">
+        </OBJECT></LI>
+        <UL>
+          <LI><OBJECT type="text/sitemap">
+            <param name="Name" value="GetAngle Method ">
+            <param name="Local" value="html/fbf8bf89-5d25-a1c8-ea7a-05b5c954521e.htm">
+          </OBJECT></LI>
+        </UL>
+        <UL>
+          <LI><OBJECT type="text/sitemap">
+            <param name="Name" value="IsOverDeadZone Method ">
+            <param name="Local" value="html/332bf864-0201-b951-257c-e4d2b4da8010.htm">
+          </OBJECT></LI>
+          <UL>
+            <LI><OBJECT type="text/sitemap">
+              <param name="Name" value="IsOverDeadZone Method ">
+              <param name="Local" value="html/00d1a081-cb5f-f3ee-747b-a4b36d685d32.htm">
+            </OBJECT></LI>
+          </UL>
+          <UL>
+            <LI><OBJECT type="text/sitemap">
+              <param name="Name" value="IsOverDeadZone Method (Int32)">
+              <param name="Local" value="html/8015d80f-50dc-dfae-c00c-da8cb9907f30.htm">
+            </OBJECT></LI>
+          </UL>
+        </UL>
+      </UL>
+    </UL>
+    <UL>
+      <LI><OBJECT type="text/sitemap">
+        <param name="Name" value="ITemplateMatching Interface">
+        <param name="Local" value="html/e108081e-6bee-493b-1858-08d85fd198b3.htm">
+      </OBJECT></LI>
+      <UL>
+        <LI><OBJECT type="text/sitemap">
+          <param name="Name" value="ITemplateMatching Properties">
+          <param name="Local" value="html/679f5cb0-1188-4985-25a7-5f48edc9e299.htm">
+        </OBJECT></LI>
+        <UL>
+          <LI><OBJECT type="text/sitemap">
+            <param name="Name" value="Configs Property ">
+            <param name="Local" value="html/080da738-aa62-b1d1-6ffb-24ed6cb615ef.htm">
+          </OBJECT></LI>
+        </UL>
+      </UL>
+      <UL>
+        <LI><OBJECT type="text/sitemap">
+          <param name="Name" value="ITemplateMatching Methods">
+          <param name="Local" value="html/ca4a578b-c053-8cf5-fb39-74962d1daf53.htm">
+        </OBJECT></LI>
+        <UL>
+          <LI><OBJECT type="text/sitemap">
+            <param name="Name" value="Filter Method ">
+            <param name="Local" value="html/b0eebe17-f7e4-d12b-6e85-5f9e0c2e7a3f.htm">
+          </OBJECT></LI>
+          <UL>
+            <LI><OBJECT type="text/sitemap">
+              <param name="Name" value="Filter Method (String, Int32)">
+              <param name="Local" value="html/cc8e9891-e721-1946-d582-3c94b17660d9.htm">
+            </OBJECT></LI>
+          </UL>
+          <UL>
+            <LI><OBJECT type="text/sitemap">
+              <param name="Name" value="Filter Method (IEnumerable(MatchResult), Int32)">
+              <param name="Local" value="html/e5e1db6d-cc22-3029-9b62-ee05032a5ecd.htm">
+            </OBJECT></LI>
+          </UL>
+          <UL>
+            <LI><OBJECT type="text/sitemap">
+              <param name="Name" value="Filter Method (String, Int32, Int32)">
+              <param name="Local" value="html/2fcbe758-cc15-a859-ed55-43eab51b14ea.htm">
+            </OBJECT></LI>
+          </UL>
+          <UL>
+            <LI><OBJECT type="text/sitemap">
+              <param name="Name" value="Filter Method (IEnumerable(MatchResult), Int32, Int32)">
+              <param name="Local" value="html/37b4451b-30e9-4460-617d-b1b9ee4fdd9c.htm">
+            </OBJECT></LI>
+          </UL>
+        </UL>
+        <UL>
+          <LI><OBJECT type="text/sitemap">
+            <param name="Name" value="GetResults Method ">
+            <param name="Local" value="html/5a4ff80a-bc49-ee59-5e87-2123f2c90793.htm">
+          </OBJECT></LI>
+        </UL>
+        <UL>
+          <LI><OBJECT type="text/sitemap">
+            <param name="Name" value="Match Method ">
+            <param name="Local" value="html/d10677c4-dd58-fbb1-5dd3-3997089cac4b.htm">
+          </OBJECT></LI>
+          <UL>
+            <LI><OBJECT type="text/sitemap">
+              <param name="Name" value="Match Method (String, MatchResult)">
+              <param name="Local" value="html/55975e79-5f9f-8877-45d1-81bd5f7363c1.htm">
+            </OBJECT></LI>
+          </UL>
+          <UL>
+            <LI><OBJECT type="text/sitemap">
+              <param name="Name" value="Match Method (String, Bitmap, MatchResult)">
+              <param name="Local" value="html/616acd07-9703-08ea-5118-03512973a97a.htm">
+            </OBJECT></LI>
+          </UL>
+          <UL>
+            <LI><OBJECT type="text/sitemap">
+              <param name="Name" value="Match Method (Bitmap, Double, Bounds, MatchResult)">
+              <param name="Local" value="html/35608e62-84c5-fdb1-50f5-8cb44c66d6b8.htm">
+            </OBJECT></LI>
+          </UL>
+          <UL>
+            <LI><OBJECT type="text/sitemap">
+              <param name="Name" value="Match Method (Bitmap, Bitmap, Double, MatchResult)">
+              <param name="Local" value="html/b8dccc45-2854-ea26-d284-f3e0ff9e02c8.htm">
+            </OBJECT></LI>
+          </UL>
+          <UL>
+            <LI><OBJECT type="text/sitemap">
+              <param name="Name" value="Match Method (String, Double, Bounds, MatchResult)">
+              <param name="Local" value="html/38d4828e-accc-e78d-1c3c-c7aed1bb5154.htm">
+            </OBJECT></LI>
+          </UL>
+          <UL>
+            <LI><OBJECT type="text/sitemap">
+              <param name="Name" value="Match Method (String, Int32, Int32, Int32, Int32, Double, MatchResult)">
+              <param name="Local" value="html/90cd2f50-a805-a391-e8b8-7790115071ff.htm">
+            </OBJECT></LI>
+          </UL>
+        </UL>
+        <UL>
+          <LI><OBJECT type="text/sitemap">
+            <param name="Name" value="Matches Method ">
+            <param name="Local" value="html/5ae81892-a683-453a-e1b9-25263ee0f130.htm">
+          </OBJECT></LI>
+          <UL>
+            <LI><OBJECT type="text/sitemap">
+              <param name="Name" value="Matches Method (String, IEnumerable(MatchResult))">
+              <param name="Local" value="html/93b8a2f9-07b4-f8ad-8957-a94eedbffa3f.htm">
+            </OBJECT></LI>
+          </UL>
+          <UL>
+            <LI><OBJECT type="text/sitemap">
+              <param name="Name" value="Matches Method (String, Int32, Int32, Int32, Int32, Double, IEnumerable(MatchResult))">
+              <param name="Local" value="html/6284dbdf-0587-2041-9181-00e90a9195af.htm">
+            </OBJECT></LI>
+          </UL>
+        </UL>
+        <UL>
+          <LI><OBJECT type="text/sitemap">
+            <param name="Name" value="SelectBounds Method ">
+            <param name="Local" value="html/8e74985d-b8b1-b217-e74e-8b1c4fa6b949.htm">
+          </OBJECT></LI>
+        </UL>
+        <UL>
+          <LI><OBJECT type="text/sitemap">
+            <param name="Name" value="SetBounds Method ">
+            <param name="Local" value="html/67672639-6ede-54d7-3bba-14facef5b980.htm">
+          </OBJECT></LI>
+          <UL>
+            <LI><OBJECT type="text/sitemap">
+              <param name="Name" value="SetBounds Method (String, Bounds)">
+              <param name="Local" value="html/4c1c9a1a-ab5c-1b3b-ff2e-8924f99d6d6e.htm">
+            </OBJECT></LI>
+          </UL>
+          <UL>
+            <LI><OBJECT type="text/sitemap">
+              <param name="Name" value="SetBounds Method (String, Int32, Int32, Int32, Int32)">
+              <param name="Local" value="html/2e4c3ade-36d3-61af-2488-ee2c03b00d2f.htm">
+            </OBJECT></LI>
+          </UL>
+        </UL>
+        <UL>
+          <LI><OBJECT type="text/sitemap">
+            <param name="Name" value="SetResults Method ">
+            <param name="Local" value="html/a652f8f9-28d6-a4b1-f130-d5db6e009536.htm">
+          </OBJECT></LI>
+        </UL>
+      </UL>
+    </UL>
+    <UL>
+      <LI><OBJECT type="text/sitemap">
+        <param name="Name" value="ITrigger Interface">
+        <param name="Local" value="html/2b05761b-3f87-7d46-c2da-07c88b1070ba.htm">
+      </OBJECT></LI>
+      <UL>
+        <LI><OBJECT type="text/sitemap">
+          <param name="Name" value="ITrigger Properties">
+          <param name="Local" value="html/9a591c03-06aa-02d5-6dde-c3f096ccab02.htm">
+        </OBJECT></LI>
+        <UL>
+          <LI><OBJECT type="text/sitemap">
+            <param name="Name" value="IsPressed Property ">
+            <param name="Local" value="html/a0b5ff91-dbc9-30fc-9572-bcf76ad2681c.htm">
+          </OBJECT></LI>
+        </UL>
+        <UL>
+          <LI><OBJECT type="text/sitemap">
+            <param name="Name" value="Value Property ">
+            <param name="Local" value="html/5243ec33-ec8c-9672-7af9-ecabf2a5bb42.htm">
+          </OBJECT></LI>
+        </UL>
+      </UL>
+    </UL>
+    <UL>
+      <LI><OBJECT type="text/sitemap">
+        <param name="Name" value="ITriggerState Interface">
+        <param name="Local" value="html/6bc6ef08-4404-ac3c-5664-942b4e037365.htm">
+      </OBJECT></LI>
+      <UL>
+        <LI><OBJECT type="text/sitemap">
+          <param name="Name" value="ITriggerState Properties">
+          <param name="Local" value="html/80ad4774-8162-9b57-6396-eaced6f3252f.htm">
+        </OBJECT></LI>
+        <UL>
+          <LI><OBJECT type="text/sitemap">
+            <param name="Name" value="DeadZone Property ">
+            <param name="Local" value="html/df2dddb1-9003-432e-d0d9-ee2ee62c4365.htm">
+          </OBJECT></LI>
+        </UL>
+        <UL>
+          <LI><OBJECT type="text/sitemap">
+            <param name="Name" value="IsEnabled Property ">
+            <param name="Local" value="html/e66b0722-0eba-0be4-69f3-b2ae2a4cefce.htm">
+          </OBJECT></LI>
+        </UL>
+        <UL>
+          <LI><OBJECT type="text/sitemap">
+            <param name="Name" value="Thumb Property ">
+            <param name="Local" value="html/baf315c3-f29f-54a0-db25-922a2122f874.htm">
+          </OBJECT></LI>
+        </UL>
+      </UL>
+    </UL>
+    <UL>
+      <LI><OBJECT type="text/sitemap">
+        <param name="Name" value="IVariable Interface">
+        <param name="Local" value="html/9577f7ec-7645-78cb-f5d5-3ad9318f3fdb.htm">
+      </OBJECT></LI>
+      <UL>
+        <LI><OBJECT type="text/sitemap">
+          <param name="Name" value="IVariable Properties">
+          <param name="Local" value="html/0f4c0577-27d6-8fa3-45ee-69fc206ec509.htm">
+        </OBJECT></LI>
+        <UL>
+          <LI><OBJECT type="text/sitemap">
+            <param name="Name" value="GlobalVariables Property ">
+            <param name="Local" value="html/02f36d51-8032-8b95-9552-7218e11a4613.htm">
+          </OBJECT></LI>
+        </UL>
+        <UL>
+          <LI><OBJECT type="text/sitemap">
+            <param name="Name" value="LocalVariables Property ">
+            <param name="Local" value="html/be65d697-17d5-f3c9-d8ea-5327b32b5bfe.htm">
+          </OBJECT></LI>
+        </UL>
+        <UL>
+          <LI><OBJECT type="text/sitemap">
+            <param name="Name" value="Parameters Property ">
+            <param name="Local" value="html/87754cf7-f3fd-0cb8-c7ee-bfc7dec3d39c.htm">
+          </OBJECT></LI>
+        </UL>
+      </UL>
+      <UL>
+        <LI><OBJECT type="text/sitemap">
+          <param name="Name" value="IVariable Methods">
+          <param name="Local" value="html/0d75d071-8076-bd75-2493-d61495c67c9a.htm">
+        </OBJECT></LI>
+        <UL>
+          <LI><OBJECT type="text/sitemap">
+            <param name="Name" value="Exists Method ">
+            <param name="Local" value="html/61d6e505-2982-3dba-4ca1-0c60b1f7bf1c.htm">
+          </OBJECT></LI>
+        </UL>
+        <UL>
+          <LI><OBJECT type="text/sitemap">
+            <param name="Name" value="Get Method ">
+            <param name="Local" value="html/6409355e-c392-cae1-ff8b-1175ebc22ce1.htm">
+          </OBJECT></LI>
+          <UL>
+            <LI><OBJECT type="text/sitemap">
+              <param name="Name" value="Get Method (String)">
+              <param name="Local" value="html/8b189640-ab24-9856-0f17-a55603f575bd.htm">
+            </OBJECT></LI>
+          </UL>
+          <UL>
+            <LI><OBJECT type="text/sitemap">
+              <param name="Name" value="Get(T) Method (String)">
+              <param name="Local" value="html/d80730bb-b1e5-2955-22a1-b59294d3a475.htm">
+            </OBJECT></LI>
+          </UL>
+        </UL>
+        <UL>
+          <LI><OBJECT type="text/sitemap">
+            <param name="Name" value="GetList Method ">
+            <param name="Local" value="html/7068a78f-28ea-f18f-15c0-54890db7f9fc.htm">
+          </OBJECT></LI>
+        </UL>
+        <UL>
+          <LI><OBJECT type="text/sitemap">
+            <param name="Name" value="Set Method ">
+            <param name="Local" value="html/ddec58fb-e3ad-fea8-4662-38b044d08b69.htm">
+          </OBJECT></LI>
+        </UL>
+        <UL>
+          <LI><OBJECT type="text/sitemap">
+            <param name="Name" value="SetGlobal Method ">
+            <param name="Local" value="html/41003502-08f9-84ad-84e4-7ad01d84a65c.htm">
+          </OBJECT></LI>
+        </UL>
+        <UL>
+          <LI><OBJECT type="text/sitemap">
+            <param name="Name" value="SetList Method ">
+            <param name="Local" value="html/231eb7bf-f17c-6d65-4f25-7f6972172397.htm">
+          </OBJECT></LI>
+        </UL>
+        <UL>
+          <LI><OBJECT type="text/sitemap">
+            <param name="Name" value="SetLocal Method ">
+            <param name="Local" value="html/6dfaf87a-7fa0-20f0-cd34-26978967efc8.htm">
+          </OBJECT></LI>
+        </UL>
+      </UL>
+    </UL>
+    <UL>
+      <LI><OBJECT type="text/sitemap">
+        <param name="Name" value="IVirtualXInput Interface">
+        <param name="Local" value="html/5d29aed6-9d08-0948-e491-d5136b8e6861.htm">
+      </OBJECT></LI>
+      <UL>
+        <LI><OBJECT type="text/sitemap">
+          <param name="Name" value="IVirtualXInput Methods">
+          <param name="Local" value="html/4a2fe866-80c7-754f-8551-4a7210176d6f.htm">
+        </OBJECT></LI>
+        <UL>
+          <LI><OBJECT type="text/sitemap">
+            <param name="Name" value="Down Method ">
+            <param name="Local" value="html/edfd2ad8-d20a-e25a-76ce-3a3cfa4398ea.htm">
+          </OBJECT></LI>
+        </UL>
+        <UL>
+          <LI><OBJECT type="text/sitemap">
+            <param name="Name" value="GetMappingState Method ">
+            <param name="Local" value="html/91720b96-da3e-b6b6-f2f2-803348c9aeb8.htm">
+          </OBJECT></LI>
+        </UL>
+        <UL>
+          <LI><OBJECT type="text/sitemap">
+            <param name="Name" value="ResetAll Method ">
+            <param name="Local" value="html/b465dc06-f114-f24d-9963-f82476d24f68.htm">
+          </OBJECT></LI>
+        </UL>
+        <UL>
+          <LI><OBJECT type="text/sitemap">
+            <param name="Name" value="ResetStick Method ">
+            <param name="Local" value="html/fa878445-b85f-8f69-c8d6-9173afc47494.htm">
+          </OBJECT></LI>
+        </UL>
+        <UL>
+          <LI><OBJECT type="text/sitemap">
+            <param name="Name" value="SetMappingState Method ">
+            <param name="Local" value="html/69698ab3-f81a-0735-6508-2bb2394eafd3.htm">
+          </OBJECT></LI>
+        </UL>
+        <UL>
+          <LI><OBJECT type="text/sitemap">
+            <param name="Name" value="SetStickValue Method ">
+            <param name="Local" value="html/eb6cc123-1e78-9bf8-a15d-47e1e74e48ce.htm">
+          </OBJECT></LI>
+          <UL>
+            <LI><OBJECT type="text/sitemap">
+              <param name="Name" value="SetStickValue Method (Int32, XInputSticks, Int16)">
+              <param name="Local" value="html/d983cc78-e373-d9a9-3a37-1689f09b2279.htm">
+            </OBJECT></LI>
+          </UL>
+          <UL>
+            <LI><OBJECT type="text/sitemap">
+              <param name="Name" value="SetStickValue Method (Int32, Boolean, Int32, Boolean, Int16)">
+              <param name="Local" value="html/861a5476-85b5-692b-1a60-75e09ffe352c.htm">
+            </OBJECT></LI>
+          </UL>
+        </UL>
+        <UL>
+          <LI><OBJECT type="text/sitemap">
+            <param name="Name" value="SetTriggerValue Method ">
+            <param name="Local" value="html/9373c2b1-61a7-66fd-817c-47fcbc4172f3.htm">
+          </OBJECT></LI>
+        </UL>
+        <UL>
+          <LI><OBJECT type="text/sitemap">
+            <param name="Name" value="Tap Method ">
+            <param name="Local" value="html/c008abc3-add9-4665-ab3f-3f9dc87ba0f9.htm">
+          </OBJECT></LI>
+        </UL>
+        <UL>
+          <LI><OBJECT type="text/sitemap">
+            <param name="Name" value="Up Method ">
+            <param name="Local" value="html/82cbec36-aee0-5712-4da8-187d4336ee9c.htm">
+          </OBJECT></LI>
+        </UL>
+      </UL>
+    </UL>
+    <UL>
+      <LI><OBJECT type="text/sitemap">
+        <param name="Name" value="IWindow Interface">
+        <param name="Local" value="html/68c42b8d-05b6-78fd-ac5c-48a6b03529b7.htm">
+      </OBJECT></LI>
+      <UL>
+        <LI><OBJECT type="text/sitemap">
+          <param name="Name" value="IWindow Properties">
+          <param name="Local" value="html/8a9acd1a-f950-87cb-fd8f-9bb3a2266c18.htm">
+        </OBJECT></LI>
+        <UL>
+          <LI><OBJECT type="text/sitemap">
+            <param name="Name" value="ActiveProcessName Property ">
+            <param name="Local" value="html/88b1489e-edd7-8564-4546-dbf687fb7053.htm">
+          </OBJECT></LI>
+        </UL>
+        <UL>
+          <LI><OBJECT type="text/sitemap">
+            <param name="Name" value="ActiveWindowBounds Property ">
+            <param name="Local" value="html/f2d52077-5f9d-840d-8b1b-b0b97e00bb7e.htm">
+          </OBJECT></LI>
+        </UL>
+        <UL>
+          <LI><OBJECT type="text/sitemap">
+            <param name="Name" value="ActiveWindowHandle Property ">
+            <param name="Local" value="html/97247cc2-8d70-0dd3-0820-4f52eaa08cd1.htm">
+          </OBJECT></LI>
+        </UL>
+      </UL>
+      <UL>
+        <LI><OBJECT type="text/sitemap">
+          <param name="Name" value="IWindow Methods">
+          <param name="Local" value="html/521a525e-5af3-87e7-3369-defab36398af.htm">
+        </OBJECT></LI>
+        <UL>
+          <LI><OBJECT type="text/sitemap">
+            <param name="Name" value="Activate Method ">
+            <param name="Local" value="html/ad99d992-75ab-fb91-b1a0-2291c8a211bb.htm">
+          </OBJECT></LI>
+          <UL>
+            <LI><OBJECT type="text/sitemap">
+              <param name="Name" value="Activate Method (IntPtr)">
+              <param name="Local" value="html/52fdea09-4da6-ef24-98a8-1338a00eb68d.htm">
+            </OBJECT></LI>
+          </UL>
+          <UL>
+            <LI><OBJECT type="text/sitemap">
+              <param name="Name" value="Activate Method (String, Boolean)">
+              <param name="Local" value="html/6c9332b4-93fc-05f9-6765-760966c12bde.htm">
+            </OBJECT></LI>
+          </UL>
+        </UL>
+        <UL>
+          <LI><OBJECT type="text/sitemap">
+            <param name="Name" value="GetClassName Method ">
+            <param name="Local" value="html/1e2c8fc7-4113-271f-f73c-0ee5dce5b635.htm">
+          </OBJECT></LI>
+        </UL>
+        <UL>
+          <LI><OBJECT type="text/sitemap">
+            <param name="Name" value="GetClientLocation Method ">
+            <param name="Local" value="html/84fd0fe6-513e-797c-e4eb-f5bce298d7d7.htm">
+          </OBJECT></LI>
+        </UL>
+        <UL>
+          <LI><OBJECT type="text/sitemap">
+            <param name="Name" value="GetClientSize Method ">
+            <param name="Local" value="html/a5c01498-864f-7b66-4ec4-6dca603e3edd.htm">
+          </OBJECT></LI>
+        </UL>
+        <UL>
+          <LI><OBJECT type="text/sitemap">
+            <param name="Name" value="GetLocation Method ">
+            <param name="Local" value="html/6bafd242-2e64-3a93-fc52-1cade86cb8b6.htm">
+          </OBJECT></LI>
+        </UL>
+        <UL>
+          <LI><OBJECT type="text/sitemap">
+            <param name="Name" value="GetSize Method ">
+            <param name="Local" value="html/6f2c94be-7c73-693c-e720-7ba2d7b3b661.htm">
+          </OBJECT></LI>
+        </UL>
+        <UL>
+          <LI><OBJECT type="text/sitemap">
+            <param name="Name" value="GetWindowLong Method ">
+            <param name="Local" value="html/82264062-87ad-ed0d-0d6b-d30cab978dbb.htm">
+          </OBJECT></LI>
+        </UL>
+        <UL>
+          <LI><OBJECT type="text/sitemap">
+            <param name="Name" value="GetWindowTitlte Method ">
+            <param name="Local" value="html/a18530c7-7de1-8e43-3887-55b0dc00628d.htm">
+          </OBJECT></LI>
+        </UL>
+        <UL>
+          <LI><OBJECT type="text/sitemap">
+            <param name="Name" value="IsMaximized Method ">
+            <param name="Local" value="html/7046ef08-574b-eca8-59dc-d32473f961e8.htm">
+          </OBJECT></LI>
+        </UL>
+        <UL>
+          <LI><OBJECT type="text/sitemap">
+            <param name="Name" value="IsMinimized Method ">
+            <param name="Local" value="html/80706914-a32d-9e32-e339-07b206b8375a.htm">
+          </OBJECT></LI>
+        </UL>
+        <UL>
+          <LI><OBJECT type="text/sitemap">
+            <param name="Name" value="SetForegroundWindow Method ">
+            <param name="Local" value="html/e947f5d2-5532-fac0-d81b-f1098fed4520.htm">
+          </OBJECT></LI>
+        </UL>
+        <UL>
+          <LI><OBJECT type="text/sitemap">
+            <param name="Name" value="SetWindowLong Method ">
+            <param name="Local" value="html/05486e28-ff94-c5c5-1437-2ab756f56e2d.htm">
+          </OBJECT></LI>
+        </UL>
+        <UL>
+          <LI><OBJECT type="text/sitemap">
+            <param name="Name" value="SetWindowPosition Method ">
+            <param name="Local" value="html/31648e1f-e67d-d3b2-44f7-f309e8c4e927.htm">
+          </OBJECT></LI>
+        </UL>
+        <UL>
+          <LI><OBJECT type="text/sitemap">
+            <param name="Name" value="SetWindowState Method ">
+            <param name="Local" value="html/68920c49-9f7b-260a-d436-cd104e751c58.htm">
+          </OBJECT></LI>
+        </UL>
+        <UL>
+          <LI><OBJECT type="text/sitemap">
+            <param name="Name" value="SetWindowText Method ">
+            <param name="Local" value="html/92e71126-0fdb-031c-abe6-656f1940c7e5.htm">
+          </OBJECT></LI>
+        </UL>
+        <UL>
+          <LI><OBJECT type="text/sitemap">
+            <param name="Name" value="ShowTextBoxDialog(T) Method ">
+            <param name="Local" value="html/13990ce5-2917-3e32-4396-09ef5004ce01.htm">
+          </OBJECT></LI>
+        </UL>
+      </UL>
+    </UL>
+    <UL>
+      <LI><OBJECT type="text/sitemap">
+        <param name="Name" value="IXInput Interface">
+        <param name="Local" value="html/705a27db-5d3e-1859-c5f6-0c6d4ff321a2.htm">
+      </OBJECT></LI>
+      <UL>
+        <LI><OBJECT type="text/sitemap">
+          <param name="Name" value="IXInput Methods">
+          <param name="Local" value="html/fee78444-99fd-9510-0d14-85e82cbadf31.htm">
+        </OBJECT></LI>
+        <UL>
+          <LI><OBJECT type="text/sitemap">
+            <param name="Name" value="GetState Method ">
+            <param name="Local" value="html/7b2a97d1-c423-c80d-8de3-2527affb58ae.htm">
+          </OBJECT></LI>
+        </UL>
+        <UL>
+          <LI><OBJECT type="text/sitemap">
+            <param name="Name" value="IsConnected Method ">
+            <param name="Local" value="html/6c2c3919-459b-932f-7dd7-95dae12bc27d.htm">
+          </OBJECT></LI>
+        </UL>
+        <UL>
+          <LI><OBJECT type="text/sitemap">
+            <param name="Name" value="SetVibration Method ">
+            <param name="Local" value="html/c25ef8fc-c6f9-0836-b776-47c38df7ef7e.htm">
+          </OBJECT></LI>
+        </UL>
+      </UL>
+    </UL>
+    <UL>
+      <LI><OBJECT type="text/sitemap">
+        <param name="Name" value="IXInputState Interface">
+        <param name="Local" value="html/80a70016-7047-1f05-dd1c-ea742c0168ca.htm">
+      </OBJECT></LI>
+      <UL>
+        <LI><OBJECT type="text/sitemap">
+          <param name="Name" value="IXInputState Properties">
+          <param name="Local" value="html/417ab0a3-ba51-adde-d63b-ef4ca2df3e50.htm">
+        </OBJECT></LI>
+        <UL>
+          <LI><OBJECT type="text/sitemap">
+            <param name="Name" value="LeftStickX Property ">
+            <param name="Local" value="html/2994a18d-266e-3c40-177e-5b99a0dba035.htm">
+          </OBJECT></LI>
+        </UL>
+        <UL>
+          <LI><OBJECT type="text/sitemap">
+            <param name="Name" value="LeftStickY Property ">
+            <param name="Local" value="html/64736eb4-0e67-135e-aee4-e7842f2ac4e8.htm">
+          </OBJECT></LI>
+        </UL>
+        <UL>
+          <LI><OBJECT type="text/sitemap">
+            <param name="Name" value="LeftTrigger Property ">
+            <param name="Local" value="html/205745ee-643d-0fe9-b9cf-e3a30a097516.htm">
+          </OBJECT></LI>
+        </UL>
+        <UL>
+          <LI><OBJECT type="text/sitemap">
+            <param name="Name" value="RightStickX Property ">
+            <param name="Local" value="html/dc71fd21-860f-17d8-c1dc-136a0d0dfef8.htm">
+          </OBJECT></LI>
+        </UL>
+        <UL>
+          <LI><OBJECT type="text/sitemap">
+            <param name="Name" value="RightStickY Property ">
+            <param name="Local" value="html/a25f6166-747d-811b-0589-8abd932c361d.htm">
+          </OBJECT></LI>
+        </UL>
+        <UL>
+          <LI><OBJECT type="text/sitemap">
+            <param name="Name" value="RightTrigger Property ">
+            <param name="Local" value="html/51ab0e53-95f3-d676-01e9-7dc669162ccf.htm">
+          </OBJECT></LI>
+        </UL>
+      </UL>
+      <UL>
+        <LI><OBJECT type="text/sitemap">
+          <param name="Name" value="IXInputState Methods">
+          <param name="Local" value="html/420bff28-00f5-4b29-dee5-b39b1eb52684.htm">
+        </OBJECT></LI>
+        <UL>
+          <LI><OBJECT type="text/sitemap">
+            <param name="Name" value="IsPressed Method ">
+            <param name="Local" value="html/69981f3f-b290-2b9f-3fa2-0e027e87b7be.htm">
+          </OBJECT></LI>
+        </UL>
+      </UL>
+    </UL>
+    <UL>
+      <LI><OBJECT type="text/sitemap">
+        <param name="Name" value="KeyStateChangedEventArgs Class">
+        <param name="Local" value="html/635b1a4a-0403-f8fd-399d-0c2a44ea62e3.htm">
+      </OBJECT></LI>
+      <UL>
+        <LI><OBJECT type="text/sitemap">
+          <param name="Name" value="KeyStateChangedEventArgs Constructor ">
+          <param name="Local" value="html/ca63df26-e4e6-bee0-61cb-93fa12adc39f.htm">
+        </OBJECT></LI>
+      </UL>
+      <UL>
+        <LI><OBJECT type="text/sitemap">
+          <param name="Name" value="KeyStateChangedEventArgs Properties">
+          <param name="Local" value="html/a7120ab5-56d0-b829-b29f-336ed4264028.htm">
+        </OBJECT></LI>
+        <UL>
+          <LI><OBJECT type="text/sitemap">
+            <param name="Name" value="IsCancel Property ">
+            <param name="Local" value="html/0bf32db9-991d-1c7b-416b-cf957ba86bb8.htm">
+          </OBJECT></LI>
+        </UL>
+        <UL>
+          <LI><OBJECT type="text/sitemap">
+            <param name="Name" value="IsInjected Property ">
+            <param name="Local" value="html/bcbd453a-3d8e-78f0-9bf7-b4d709da6266.htm">
+          </OBJECT></LI>
+        </UL>
+        <UL>
+          <LI><OBJECT type="text/sitemap">
+            <param name="Name" value="IsPressed Property ">
+            <param name="Local" value="html/9c02acf6-e15a-f338-295b-746a17f07557.htm">
+          </OBJECT></LI>
+        </UL>
+        <UL>
+          <LI><OBJECT type="text/sitemap">
+            <param name="Name" value="Key Property ">
+            <param name="Local" value="html/68b23b8d-d68e-ef8c-b17a-6ed3b8937c8b.htm">
+          </OBJECT></LI>
+        </UL>
+      </UL>
+      <UL>
+        <LI><OBJECT type="text/sitemap">
+          <param name="Name" value="KeyStateChangedEventArgs Methods">
+          <param name="Local" value="html/527ba8af-807f-e04b-60ab-ceae2d214adb.htm">
+        </OBJECT></LI>
+      </UL>
+    </UL>
+    <UL>
+      <LI><OBJECT type="text/sitemap">
+        <param name="Name" value="MatchResult Class">
+        <param name="Local" value="html/aeab2c4e-783b-e69c-9b19-09007de61a01.htm">
+      </OBJECT></LI>
+      <UL>
+        <LI><OBJECT type="text/sitemap">
+          <param name="Name" value="MatchResult Constructor ">
+          <param name="Local" value="html/8f211030-c812-56dc-c521-b78aea7b6cac.htm">
+        </OBJECT></LI>
+      </UL>
+      <UL>
+        <LI><OBJECT type="text/sitemap">
+          <param name="Name" value="MatchResult Properties">
+          <param name="Local" value="html/b134fc2c-de28-f9c0-cee7-0dd4dc6bced9.htm">
+        </OBJECT></LI>
+        <UL>
+          <LI><OBJECT type="text/sitemap">
+            <param name="Name" value="Score Property ">
+            <param name="Local" value="html/7df08bc2-f5cb-4848-b0a1-7b1869c27d50.htm">
+          </OBJECT></LI>
+        </UL>
+        <UL>
+          <LI><OBJECT type="text/sitemap">
+            <param name="Name" value="X Property ">
+            <param name="Local" value="html/875f860f-ac59-f5af-7ea0-f9b9d99f4401.htm">
+          </OBJECT></LI>
+        </UL>
+        <UL>
+          <LI><OBJECT type="text/sitemap">
+            <param name="Name" value="Y Property ">
+            <param name="Local" value="html/0bef8aac-c1e6-1695-2e59-9b78f556d9cf.htm">
+          </OBJECT></LI>
+        </UL>
+      </UL>
+      <UL>
+        <LI><OBJECT type="text/sitemap">
+          <param name="Name" value="MatchResult Methods">
+          <param name="Local" value="html/d433604a-1ceb-8d2a-5bb4-88236d1c3f7c.htm">
+        </OBJECT></LI>
+      </UL>
+    </UL>
+    <UL>
+      <LI><OBJECT type="text/sitemap">
+        <param name="Name" value="MouseMoveEventArgs Class">
+        <param name="Local" value="html/04ee18be-c59f-bc67-a872-bab31d8b952e.htm">
+      </OBJECT></LI>
+      <UL>
+        <LI><OBJECT type="text/sitemap">
+          <param name="Name" value="MouseMoveEventArgs Constructor ">
+          <param name="Local" value="html/00b738c1-be80-52b7-f2e8-b86fcf093fe6.htm">
+        </OBJECT></LI>
+      </UL>
+      <UL>
+        <LI><OBJECT type="text/sitemap">
+          <param name="Name" value="MouseMoveEventArgs Properties">
+          <param name="Local" value="html/a66bab03-9fe0-68dd-912c-735dd4e6b352.htm">
+        </OBJECT></LI>
+        <UL>
+          <LI><OBJECT type="text/sitemap">
+            <param name="Name" value="Delta Property ">
+            <param name="Local" value="html/bec3a074-4067-f333-8cfe-ad966db77640.htm">
+          </OBJECT></LI>
+        </UL>
+        <UL>
+          <LI><OBJECT type="text/sitemap">
+            <param name="Name" value="IsCancel Property ">
+            <param name="Local" value="html/9161e5c9-52f9-373c-e1aa-e9b84d2fee6a.htm">
+          </OBJECT></LI>
+        </UL>
+        <UL>
+          <LI><OBJECT type="text/sitemap">
+            <param name="Name" value="IsInjected Property ">
+            <param name="Local" value="html/ab6aac62-d496-10cf-3b9b-dfb22bd7ace3.htm">
+          </OBJECT></LI>
+        </UL>
+        <UL>
+          <LI><OBJECT type="text/sitemap">
+            <param name="Name" value="NewPoint Property ">
+            <param name="Local" value="html/d61aecd4-a479-ce8d-b827-127b58a24d0b.htm">
+          </OBJECT></LI>
+        </UL>
+        <UL>
+          <LI><OBJECT type="text/sitemap">
+            <param name="Name" value="OldPoint Property ">
+            <param name="Local" value="html/6340d1a9-c283-3d5c-43f4-23bce9ca1b37.htm">
+          </OBJECT></LI>
+        </UL>
+      </UL>
+      <UL>
+        <LI><OBJECT type="text/sitemap">
+          <param name="Name" value="MouseMoveEventArgs Methods">
+          <param name="Local" value="html/360af630-d348-63a8-4de6-a2e83551f642.htm">
+        </OBJECT></LI>
+      </UL>
+    </UL>
+    <UL>
+      <LI><OBJECT type="text/sitemap">
+        <param name="Name" value="PluginAction Class">
+        <param name="Local" value="html/b2c38f30-7752-7221-884b-d4c4661e0a5b.htm">
+      </OBJECT></LI>
+      <UL>
+        <LI><OBJECT type="text/sitemap">
+          <param name="Name" value="PluginAction Constructor ">
+          <param name="Local" value="html/44638ccf-3683-c110-3c67-692984325a09.htm">
+        </OBJECT></LI>
+      </UL>
+      <UL>
+        <LI><OBJECT type="text/sitemap">
+          <param name="Name" value="PluginAction Properties">
+          <param name="Local" value="html/35c7e0a8-f1c6-d2fa-7c71-555f0294ac21.htm">
+        </OBJECT></LI>
+        <UL>
+          <LI><OBJECT type="text/sitemap">
+            <param name="Name" value="Category Property ">
+            <param name="Local" value="html/67cc2d2e-012b-507f-0d3e-4394265b2ed4.htm">
+          </OBJECT></LI>
+        </UL>
+        <UL>
+          <LI><OBJECT type="text/sitemap">
+            <param name="Name" value="Description Property ">
+            <param name="Local" value="html/f0d79f12-8e6a-126a-7b48-3f74bbee7a62.htm">
+          </OBJECT></LI>
+        </UL>
+        <UL>
+          <LI><OBJECT type="text/sitemap">
+            <param name="Name" value="JpName Property ">
+            <param name="Local" value="html/48d21791-aac6-3f4e-e5fc-2681ca09ecb8.htm">
+          </OBJECT></LI>
+        </UL>
+        <UL>
+          <LI><OBJECT type="text/sitemap">
+            <param name="Name" value="Name Property ">
+            <param name="Local" value="html/c6c139d0-faee-03a4-a3e0-4d768bf653fd.htm">
+          </OBJECT></LI>
+        </UL>
+      </UL>
+      <UL>
+        <LI><OBJECT type="text/sitemap">
+          <param name="Name" value="PluginAction Methods">
+          <param name="Local" value="html/ed283095-f171-04c8-0223-0a003ea0c171.htm">
+        </OBJECT></LI>
+        <UL>
+          <LI><OBJECT type="text/sitemap">
+            <param name="Name" value="OnCreateArguments Method ">
+            <param name="Local" value="html/d222b9e5-5f6c-584c-083a-d45149727a29.htm">
+          </OBJECT></LI>
+        </UL>
+        <UL>
+          <LI><OBJECT type="text/sitemap">
+            <param name="Name" value="OnDispose Method ">
+            <param name="Local" value="html/f3cf39f9-70c2-cd8f-f9be-e892276badf6.htm">
+          </OBJECT></LI>
+        </UL>
+        <UL>
+          <LI><OBJECT type="text/sitemap">
+            <param name="Name" value="OnExecute Method ">
+            <param name="Local" value="html/7c29c512-0610-f7db-b3d4-a750b8939751.htm">
+          </OBJECT></LI>
+        </UL>
+      </UL>
+      <UL>
+        <LI><OBJECT type="text/sitemap">
+          <param name="Name" value="PluginAction Events">
+          <param name="Local" value="html/90ec14d9-10b9-6e4e-eb49-10e6d4d9ef8e.htm">
+        </OBJECT></LI>
+      </UL>
+    </UL>
+    <UL>
+      <LI><OBJECT type="text/sitemap">
+        <param name="Name" value="PluginMethod Class">
+        <param name="Local" value="html/3c8ec889-ed88-fd30-612d-70021f5b2733.htm">
+      </OBJECT></LI>
+      <UL>
+        <LI><OBJECT type="text/sitemap">
+          <param name="Name" value="PluginMethod Constructor ">
+          <param name="Local" value="html/01dabea7-ae36-38d1-ab4c-f2c93a5ede16.htm">
+        </OBJECT></LI>
+      </UL>
+      <UL>
+        <LI><OBJECT type="text/sitemap">
+          <param name="Name" value="PluginMethod Properties">
+          <param name="Local" value="html/3d442b1a-a864-8538-8e65-ca158e82eb48.htm">
+        </OBJECT></LI>
+        <UL>
+          <LI><OBJECT type="text/sitemap">
+            <param name="Name" value="Category Property ">
+            <param name="Local" value="html/53f9af64-a79a-3d76-3482-0f85ee98d99e.htm">
+          </OBJECT></LI>
+        </UL>
+        <UL>
+          <LI><OBJECT type="text/sitemap">
+            <param name="Name" value="Description Property ">
+            <param name="Local" value="html/abaa3090-191f-9fae-6629-cb1d10b030c8.htm">
+          </OBJECT></LI>
+        </UL>
+        <UL>
+          <LI><OBJECT type="text/sitemap">
+            <param name="Name" value="Name Property ">
+            <param name="Local" value="html/ed345b40-0014-67a7-3ebd-00bcc9706be0.htm">
+          </OBJECT></LI>
+        </UL>
+        <UL>
+          <LI><OBJECT type="text/sitemap">
+            <param name="Name" value="ReturnType Property ">
+            <param name="Local" value="html/c305470e-082d-7c38-f587-d7b21bef4862.htm">
+          </OBJECT></LI>
+        </UL>
+      </UL>
+      <UL>
+        <LI><OBJECT type="text/sitemap">
+          <param name="Name" value="PluginMethod Methods">
+          <param name="Local" value="html/87fe2b40-ea17-7698-87e7-7d567bb09928.htm">
+        </OBJECT></LI>
+        <UL>
+          <LI><OBJECT type="text/sitemap">
+            <param name="Name" value="OnCreateArguments Method ">
+            <param name="Local" value="html/e8d4f33a-e3cb-b7bd-1d5a-b6bbc6f2f00d.htm">
+          </OBJECT></LI>
+        </UL>
+        <UL>
+          <LI><OBJECT type="text/sitemap">
+            <param name="Name" value="OnReturn Method ">
+            <param name="Local" value="html/d4f136b7-bf25-3760-43ae-4455c4c9d7f3.htm">
+          </OBJECT></LI>
+        </UL>
+      </UL>
+      <UL>
+        <LI><OBJECT type="text/sitemap">
+          <param name="Name" value="PluginMethod Events">
+          <param name="Local" value="html/e596d002-4672-3ec8-e1f1-f3454d6cccb9.htm">
+        </OBJECT></LI>
+      </UL>
+    </UL>
+    <UL>
+      <LI><OBJECT type="text/sitemap">
+        <param name="Name" value="PluginShortcut Class">
+        <param name="Local" value="html/31f5c6d3-1f6f-8776-b990-23a3f12e3a05.htm">
+      </OBJECT></LI>
+      <UL>
+        <LI><OBJECT type="text/sitemap">
+          <param name="Name" value="PluginShortcut Constructor ">
+          <param name="Local" value="html/741b29e7-31e4-2e7e-07df-53e55651b712.htm">
+        </OBJECT></LI>
+      </UL>
+      <UL>
+        <LI><OBJECT type="text/sitemap">
+          <param name="Name" value="PluginShortcut Properties">
+          <param name="Local" value="html/16c03d8c-da6f-6d9e-4dca-e5fb8e0d49c5.htm">
+        </OBJECT></LI>
+        <UL>
+          <LI><OBJECT type="text/sitemap">
+            <param name="Name" value="Description Property ">
+            <param name="Local" value="html/a98a25dc-41e0-7b0b-1ca4-92100fc9e06f.htm">
+          </OBJECT></LI>
+        </UL>
+        <UL>
+          <LI><OBJECT type="text/sitemap">
+            <param name="Name" value="Inputs Property ">
+            <param name="Local" value="html/3f96ee6f-8a86-bc96-5483-defee5227a9f.htm">
+          </OBJECT></LI>
+        </UL>
+        <UL>
+          <LI><OBJECT type="text/sitemap">
+            <param name="Name" value="Tag Property ">
+            <param name="Local" value="html/cca2276b-7330-8487-4380-64d43d0b2d52.htm">
+          </OBJECT></LI>
+        </UL>
+      </UL>
+      <UL>
+        <LI><OBJECT type="text/sitemap">
+          <param name="Name" value="PluginShortcut Methods">
+          <param name="Local" value="html/aa89e350-e475-edf4-e005-2b92b311fab1.htm">
+        </OBJECT></LI>
+        <UL>
+          <LI><OBJECT type="text/sitemap">
+            <param name="Name" value="OnExecute Method ">
+            <param name="Local" value="html/a664af9a-971d-d50a-698a-e17a8bfc0033.htm">
+          </OBJECT></LI>
+        </UL>
+      </UL>
+      <UL>
+        <LI><OBJECT type="text/sitemap">
+          <param name="Name" value="PluginShortcut Events">
+          <param name="Local" value="html/87b6e4a1-c07b-a4eb-16fd-c4c397799a26.htm">
+        </OBJECT></LI>
+      </UL>
+    </UL>
+    <UL>
+      <LI><OBJECT type="text/sitemap">
+        <param name="Name" value="Point Class">
+        <param name="Local" value="html/a3d1e33a-f557-727f-7c80-1214ba52b3c3.htm">
+      </OBJECT></LI>
+      <UL>
+        <LI><OBJECT type="text/sitemap">
+          <param name="Name" value="Point Constructor ">
+          <param name="Local" value="html/37a8d94c-73d2-598f-7cf7-9bacd29b482b.htm">
+        </OBJECT></LI>
+      </UL>
+      <UL>
+        <LI><OBJECT type="text/sitemap">
+          <param name="Name" value="Point Properties">
+          <param name="Local" value="html/19f5389a-7ad7-9932-978d-5cd00963b33d.htm">
+        </OBJECT></LI>
+        <UL>
+          <LI><OBJECT type="text/sitemap">
+            <param name="Name" value="X Property ">
+            <param name="Local" value="html/6bad2de4-368f-18e9-40d3-a845056e967e.htm">
+          </OBJECT></LI>
+        </UL>
+        <UL>
+          <LI><OBJECT type="text/sitemap">
+            <param name="Name" value="Y Property ">
+            <param name="Local" value="html/10dbc439-12ad-602d-ac67-c97dff12394f.htm">
+          </OBJECT></LI>
+        </UL>
+      </UL>
+      <UL>
+        <LI><OBJECT type="text/sitemap">
+          <param name="Name" value="Point Methods">
+          <param name="Local" value="html/fb5a46be-a9c2-e1f1-451e-b85cb4b0f2d9.htm">
+        </OBJECT></LI>
+      </UL>
+    </UL>
+    <UL>
+      <LI><OBJECT type="text/sitemap">
+        <param name="Name" value="SettingsProvider Class">
+        <param name="Local" value="html/648fba39-0d16-6b1a-4048-09368a0e35d5.htm">
+      </OBJECT></LI>
+      <UL>
+        <LI><OBJECT type="text/sitemap">
+          <param name="Name" value="SettingsProvider Constructor ">
+          <param name="Local" value="html/73629cb8-9e79-7366-95cb-dc242c2f4f34.htm">
+        </OBJECT></LI>
+      </UL>
+      <UL>
+        <LI><OBJECT type="text/sitemap">
+          <param name="Name" value="SettingsProvider Properties">
+          <param name="Local" value="html/53ebb040-66b8-a4e0-25c8-6405e46b425e.htm">
+        </OBJECT></LI>
+        <UL>
+          <LI><OBJECT type="text/sitemap">
+            <param name="Name" value="Current Property ">
+            <param name="Local" value="html/ea8ce0ae-93c9-eb05-d03f-6aa7f8049128.htm">
+          </OBJECT></LI>
+        </UL>
+        <UL>
+          <LI><OBJECT type="text/sitemap">
+            <param name="Name" value="EditingValue Property ">
+            <param name="Local" value="html/bec7401b-367d-71f9-1fcb-efe6d0b85aa5.htm">
+          </OBJECT></LI>
+        </UL>
+        <UL>
+          <LI><OBJECT type="text/sitemap">
+            <param name="Name" value="GlobalVariables Property ">
+            <param name="Local" value="html/8ec1d6af-fe46-0cbe-8ed8-413d5f0d32cc.htm">
+          </OBJECT></LI>
+        </UL>
+        <UL>
+          <LI><OBJECT type="text/sitemap">
+            <param name="Name" value="Macros Property ">
+            <param name="Local" value="html/7005782b-9c91-6a55-83db-7470aa403300.htm">
+          </OBJECT></LI>
+        </UL>
+        <UL>
+          <LI><OBJECT type="text/sitemap">
+            <param name="Name" value="PathSelector Property ">
+            <param name="Local" value="html/c4b8599c-4bfb-4e3f-2301-a6157c42c77e.htm">
+          </OBJECT></LI>
+        </UL>
+      </UL>
+      <UL>
+        <LI><OBJECT type="text/sitemap">
+          <param name="Name" value="SettingsProvider Methods">
+          <param name="Local" value="html/0d796120-a895-3c61-7706-a3941316a594.htm">
+        </OBJECT></LI>
+        <UL>
+          <LI><OBJECT type="text/sitemap">
+            <param name="Name" value="TryParse(T) Method ">
+            <param name="Local" value="html/612e231f-b3be-854f-07f3-ea38c2d0733d.htm">
+          </OBJECT></LI>
+        </UL>
+      </UL>
+    </UL>
+    <UL>
+      <LI><OBJECT type="text/sitemap">
+        <param name="Name" value="SettingsProvider.Action Class">
+        <param name="Local" value="html/de6dbaa7-9bda-5ac9-5831-6a4bd7ec022c.htm">
+      </OBJECT></LI>
+      <UL>
+        <LI><OBJECT type="text/sitemap">
+          <param name="Name" value="SettingsProvider.Action Constructor ">
+          <param name="Local" value="html/df8dec94-1a6c-73cb-aeab-5370315ec60c.htm">
+        </OBJECT></LI>
+      </UL>
+      <UL>
+        <LI><OBJECT type="text/sitemap">
+          <param name="Name" value="Action Properties">
+          <param name="Local" value="html/2562ae59-6a6e-f547-1d92-3f4f2bc206de.htm">
+        </OBJECT></LI>
+        <UL>
+          <LI><OBJECT type="text/sitemap">
+            <param name="Name" value="Arguments Property ">
+            <param name="Local" value="html/4c97da5d-257c-feba-6a2d-31c08f743ef8.htm">
+          </OBJECT></LI>
+        </UL>
+        <UL>
+          <LI><OBJECT type="text/sitemap">
+            <param name="Name" value="IsEnabled Property ">
+            <param name="Local" value="html/3903e71a-6787-a438-53be-768b718ce9b1.htm">
+          </OBJECT></LI>
+        </UL>
+        <UL>
+          <LI><OBJECT type="text/sitemap">
+            <param name="Name" value="Name Property ">
+            <param name="Local" value="html/fedb6e5d-2d8e-1b86-8a87-683fca3cc5b8.htm">
+          </OBJECT></LI>
+        </UL>
+      </UL>
+      <UL>
+        <LI><OBJECT type="text/sitemap">
+          <param name="Name" value="Action Methods">
+          <param name="Local" value="html/b8f2baa5-c64a-2904-4f00-2e1ac458c1ca.htm">
+        </OBJECT></LI>
+      </UL>
+    </UL>
+    <UL>
+      <LI><OBJECT type="text/sitemap">
+        <param name="Name" value="SettingsProvider.Macro Class">
+        <param name="Local" value="html/80476cba-ec06-cae5-d82c-e3fccc0f02da.htm">
+      </OBJECT></LI>
+      <UL>
+        <LI><OBJECT type="text/sitemap">
+          <param name="Name" value="SettingsProvider.Macro Constructor ">
+          <param name="Local" value="html/e0852849-5d9e-f595-9e18-d64ffe48dba1.htm">
+        </OBJECT></LI>
+      </UL>
+      <UL>
+        <LI><OBJECT type="text/sitemap">
+          <param name="Name" value="Macro Properties">
+          <param name="Local" value="html/e3925d08-7467-e230-269f-abe42412a8c1.htm">
+        </OBJECT></LI>
+        <UL>
+          <LI><OBJECT type="text/sitemap">
+            <param name="Name" value="Actions Property ">
+            <param name="Local" value="html/6f698fbd-e82b-d49a-0582-934b812554f8.htm">
+          </OBJECT></LI>
+        </UL>
+        <UL>
+          <LI><OBJECT type="text/sitemap">
+            <param name="Name" value="LocalVariables Property ">
+            <param name="Local" value="html/86a7b9cd-ca8b-9276-af53-b30a4bd5692e.htm">
+          </OBJECT></LI>
+        </UL>
+        <UL>
+          <LI><OBJECT type="text/sitemap">
+            <param name="Name" value="Name Property ">
+            <param name="Local" value="html/6eb467f2-5aa1-b266-dd0d-48d5ada2339a.htm">
+          </OBJECT></LI>
+        </UL>
+        <UL>
+          <LI><OBJECT type="text/sitemap">
+            <param name="Name" value="Parameters Property ">
+            <param name="Local" value="html/e2e99536-318c-db7f-59e8-be46b0dc6eb4.htm">
+          </OBJECT></LI>
+        </UL>
+      </UL>
+      <UL>
+        <LI><OBJECT type="text/sitemap">
+          <param name="Name" value="Macro Methods">
+          <param name="Local" value="html/310885ec-0a8d-4496-7498-74fe0c83dda3.htm">
+        </OBJECT></LI>
+      </UL>
+    </UL>
+    <UL>
+      <LI><OBJECT type="text/sitemap">
+        <param name="Name" value="SettingsProvider.Parameter Class">
+        <param name="Local" value="html/3fcd315f-1e23-866b-3308-1802608599cc.htm">
+      </OBJECT></LI>
+      <UL>
+        <LI><OBJECT type="text/sitemap">
+          <param name="Name" value="SettingsProvider.Parameter Constructor ">
+          <param name="Local" value="html/d33ea165-abb5-f09e-6716-4f3bb9e7aec7.htm">
+        </OBJECT></LI>
+      </UL>
+      <UL>
+        <LI><OBJECT type="text/sitemap">
+          <param name="Name" value="Parameter Properties">
+          <param name="Local" value="html/cdcfb2a2-b03c-b195-e003-899771da6b47.htm">
+        </OBJECT></LI>
+        <UL>
+          <LI><OBJECT type="text/sitemap">
+            <param name="Name" value="DefaultValue Property ">
+            <param name="Local" value="html/69298658-c7dd-6c68-444c-f362def47556.htm">
+          </OBJECT></LI>
+        </UL>
+        <UL>
+          <LI><OBJECT type="text/sitemap">
+            <param name="Name" value="Description Property ">
+            <param name="Local" value="html/d101a2b0-6d7a-09fd-8e69-45348b2ea5d4.htm">
+          </OBJECT></LI>
+        </UL>
+        <UL>
+          <LI><OBJECT type="text/sitemap">
+            <param name="Name" value="Name Property ">
+            <param name="Local" value="html/d8f616fc-4286-7342-64c8-153b4d00cd90.htm">
+          </OBJECT></LI>
+        </UL>
+        <UL>
+          <LI><OBJECT type="text/sitemap">
+            <param name="Name" value="TypeName Property ">
+            <param name="Local" value="html/e92abf4d-3c94-04c7-3145-4e34f00b0373.htm">
+          </OBJECT></LI>
+        </UL>
+      </UL>
+      <UL>
+        <LI><OBJECT type="text/sitemap">
+          <param name="Name" value="Parameter Methods">
+          <param name="Local" value="html/9e9161e1-6ac6-e645-b63a-6aaf1555eab8.htm">
+        </OBJECT></LI>
+      </UL>
+    </UL>
+    <UL>
+      <LI><OBJECT type="text/sitemap">
+        <param name="Name" value="SettingsProvider.Variable Class">
+        <param name="Local" value="html/f26208e4-d521-399e-68ee-3719acfb6261.htm">
+      </OBJECT></LI>
+      <UL>
+        <LI><OBJECT type="text/sitemap">
+          <param name="Name" value="SettingsProvider.Variable Constructor ">
+          <param name="Local" value="html/fdd24985-4287-7270-4c36-d30efcd0bd0f.htm">
+        </OBJECT></LI>
+      </UL>
+      <UL>
+        <LI><OBJECT type="text/sitemap">
+          <param name="Name" value="Variable Properties">
+          <param name="Local" value="html/55979d72-a697-dce8-0c96-e5375581e27c.htm">
+        </OBJECT></LI>
+        <UL>
+          <LI><OBJECT type="text/sitemap">
+            <param name="Name" value="IsExtern Property ">
+            <param name="Local" value="html/673013fb-66a5-e9b9-8ce9-2b860bac977d.htm">
+          </OBJECT></LI>
+        </UL>
+        <UL>
+          <LI><OBJECT type="text/sitemap">
+            <param name="Name" value="Name Property ">
+            <param name="Local" value="html/18d4cbfc-918b-89c9-b67f-de8f80b64e7a.htm">
+          </OBJECT></LI>
+        </UL>
+        <UL>
+          <LI><OBJECT type="text/sitemap">
+            <param name="Name" value="Syntax Property ">
+            <param name="Local" value="html/2082cbc6-a232-4638-cd8f-aac17ea58d81.htm">
+          </OBJECT></LI>
+        </UL>
+      </UL>
+      <UL>
+        <LI><OBJECT type="text/sitemap">
+          <param name="Name" value="Variable Methods">
+          <param name="Local" value="html/9a48cafe-ed55-89c6-165b-5389ec780588.htm">
+        </OBJECT></LI>
+      </UL>
+    </UL>
+    <UL>
+      <LI><OBJECT type="text/sitemap">
+        <param name="Name" value="ShortcutInput Class">
+        <param name="Local" value="html/7c18118a-35bd-123c-4694-1b00f6b208e3.htm">
+      </OBJECT></LI>
+      <UL>
+        <LI><OBJECT type="text/sitemap">
+          <param name="Name" value="ShortcutInput Constructor ">
+          <param name="Local" value="html/18b70e8c-46b1-4a17-1f7a-3e61f884c0af.htm">
+        </OBJECT></LI>
+      </UL>
+      <UL>
+        <LI><OBJECT type="text/sitemap">
+          <param name="Name" value="ShortcutInput Properties">
+          <param name="Local" value="html/d3f2020d-9bd7-8bbe-ffbc-bf2129a92b5e.htm">
+        </OBJECT></LI>
+        <UL>
+          <LI><OBJECT type="text/sitemap">
+            <param name="Name" value="Input Property ">
+            <param name="Local" value="html/1753a6fa-98ff-2f10-1996-b0d5b35b61a4.htm">
+          </OBJECT></LI>
+        </UL>
+        <UL>
+          <LI><OBJECT type="text/sitemap">
+            <param name="Name" value="Type Property ">
+            <param name="Local" value="html/783f7722-a2b4-3c7a-e2d6-be0ca2b1eadd.htm">
+          </OBJECT></LI>
+        </UL>
+      </UL>
+      <UL>
+        <LI><OBJECT type="text/sitemap">
+          <param name="Name" value="ShortcutInput Methods">
+          <param name="Local" value="html/3c7d1d2c-5ac0-ce0c-6740-bbeb38a01377.htm">
+        </OBJECT></LI>
+      </UL>
+    </UL>
+    <UL>
+      <LI><OBJECT type="text/sitemap">
+        <param name="Name" value="TemplateImage Class">
+        <param name="Local" value="html/84e298f8-1b37-5471-6d20-1c94234dbbb5.htm">
+      </OBJECT></LI>
+      <UL>
+        <LI><OBJECT type="text/sitemap">
+          <param name="Name" value="TemplateImage Constructor ">
+          <param name="Local" value="html/9c911b33-84a6-e883-7486-336a80a24870.htm">
+        </OBJECT></LI>
+      </UL>
+      <UL>
+        <LI><OBJECT type="text/sitemap">
+          <param name="Name" value="TemplateImage Properties">
+          <param name="Local" value="html/bffe177c-d024-a533-8e40-616d0ec3ebcb.htm">
+        </OBJECT></LI>
+        <UL>
+          <LI><OBJECT type="text/sitemap">
+            <param name="Name" value="Height Property ">
+            <param name="Local" value="html/35106bf2-f327-1cfe-fd56-9e536d4df335.htm">
+          </OBJECT></LI>
+        </UL>
+        <UL>
+          <LI><OBJECT type="text/sitemap">
+            <param name="Name" value="Path Property ">
+            <param name="Local" value="html/66f37088-82b9-b00c-996a-4b8fc5ca75b7.htm">
+          </OBJECT></LI>
+        </UL>
+        <UL>
+          <LI><OBJECT type="text/sitemap">
+            <param name="Name" value="Width Property ">
+            <param name="Local" value="html/ac720c93-a8a9-c92c-c2af-a889132835ab.htm">
+          </OBJECT></LI>
+        </UL>
+      </UL>
+      <UL>
+        <LI><OBJECT type="text/sitemap">
+          <param name="Name" value="TemplateImage Methods">
+          <param name="Local" value="html/095786ad-7453-3814-7b55-2a1fb9daa4dc.htm">
+        </OBJECT></LI>
+      </UL>
+    </UL>
+    <UL>
+      <LI><OBJECT type="text/sitemap">
+        <param name="Name" value="TemplateMatchingConfig Class">
+        <param name="Local" value="html/6c64106a-3219-3b68-ceb0-bc4b9b4cf272.htm">
+      </OBJECT></LI>
+      <UL>
+        <LI><OBJECT type="text/sitemap">
+          <param name="Name" value="TemplateMatchingConfig Constructor ">
+          <param name="Local" value="html/f23f672b-519b-6799-56bf-d373dc85ca3d.htm">
+        </OBJECT></LI>
+      </UL>
+      <UL>
+        <LI><OBJECT type="text/sitemap">
+          <param name="Name" value="TemplateMatchingConfig Properties">
+          <param name="Local" value="html/ed7dedef-a07d-33d3-e141-e4fc8a3d4442.htm">
+        </OBJECT></LI>
+        <UL>
+          <LI><OBJECT type="text/sitemap">
+            <param name="Name" value="Identifier Property ">
+            <param name="Local" value="html/e37d6999-392f-b4df-78ca-4a91cd848fb1.htm">
+          </OBJECT></LI>
+        </UL>
+        <UL>
+          <LI><OBJECT type="text/sitemap">
+            <param name="Name" value="Process Property ">
+            <param name="Local" value="html/05e9e728-269f-2f79-6f82-0ca27ecdbcea.htm">
+          </OBJECT></LI>
+        </UL>
+        <UL>
+          <LI><OBJECT type="text/sitemap">
+            <param name="Name" value="Score Property ">
+            <param name="Local" value="html/57c81e0f-8d79-465b-8c97-8ac79b9d55d1.htm">
+          </OBJECT></LI>
+        </UL>
+        <UL>
+          <LI><OBJECT type="text/sitemap">
+            <param name="Name" value="SearchBounds Property ">
+            <param name="Local" value="html/fe48f7f7-e76b-f6ce-5c6d-088fc2c9e299.htm">
+          </OBJECT></LI>
+        </UL>
+        <UL>
+          <LI><OBJECT type="text/sitemap">
+            <param name="Name" value="TemplateImage Property ">
+            <param name="Local" value="html/c860784f-e951-a7b2-667d-92e1f34e87f3.htm">
+          </OBJECT></LI>
+        </UL>
+      </UL>
+      <UL>
+        <LI><OBJECT type="text/sitemap">
+          <param name="Name" value="TemplateMatchingConfig Methods">
+          <param name="Local" value="html/0b68cb6a-fa50-b6a6-116f-2b458a818dc6.htm">
+        </OBJECT></LI>
+      </UL>
+    </UL>
+    <UL>
+      <LI><OBJECT type="text/sitemap">
+        <param name="Name" value="Trigger Class">
+        <param name="Local" value="html/e2b808c3-39c2-701d-ba57-ffd90fd1980a.htm">
+      </OBJECT></LI>
+      <UL>
+        <LI><OBJECT type="text/sitemap">
+          <param name="Name" value="Trigger Constructor ">
+          <param name="Local" value="html/e961a11f-6e2b-243f-3ab8-b9a10e6527bd.htm">
+        </OBJECT></LI>
+      </UL>
+      <UL>
+        <LI><OBJECT type="text/sitemap">
+          <param name="Name" value="Trigger Methods">
+          <param name="Local" value="html/fc5515c1-9c08-51f2-a7a0-fe9b6d4d8436.htm">
+        </OBJECT></LI>
+      </UL>
+    </UL>
+    <UL>
+      <LI><OBJECT type="text/sitemap">
+        <param name="Name" value="Trigger.IController Interface">
+        <param name="Local" value="html/efcf04ac-80ec-5338-d088-667731871632.htm">
+      </OBJECT></LI>
+      <UL>
+        <LI><OBJECT type="text/sitemap">
+          <param name="Name" value="IController Properties">
+          <param name="Local" value="html/31a5c8a7-7f8c-b3b4-44d7-4613dc8d9cc6.htm">
+        </OBJECT></LI>
+        <UL>
+          <LI><OBJECT type="text/sitemap">
+            <param name="Name" value="Trigger Property ">
+            <param name="Local" value="html/df67dd3b-dc9f-73fd-45d6-7749a1eae787.htm">
+          </OBJECT></LI>
+        </UL>
+      </UL>
+    </UL>
+    <UL>
+      <LI><OBJECT type="text/sitemap">
+        <param name="Name" value="Trigger.IKeyboard Interface">
+        <param name="Local" value="html/947a9164-cc61-2633-5abd-4a89729b59ad.htm">
+      </OBJECT></LI>
+      <UL>
+        <LI><OBJECT type="text/sitemap">
+          <param name="Name" value="IKeyboard Properties">
+          <param name="Local" value="html/d9d7df20-6019-632d-c32a-26e486cb7258.htm">
+        </OBJECT></LI>
+        <UL>
+          <LI><OBJECT type="text/sitemap">
+            <param name="Name" value="Trigger Property ">
+            <param name="Local" value="html/4ea4de20-d640-316e-a896-607d9b008be6.htm">
+          </OBJECT></LI>
+        </UL>
+      </UL>
+    </UL>
+  </UL>
+  </BODY>
+</HTML>
