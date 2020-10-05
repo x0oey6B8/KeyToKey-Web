@@ -2,934 +2,271 @@
 <html lang="ja">
 
 <head>
-    <title>Update</title>
     <meta charset="UTF-8" />
-    <link rel="stylesheet" type="text/css" href="styles/update-style.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous" />
+    <title>KeyToKey Release Notes</title>
+
+    <style>
+        body {
+            background-color: #212121;
+            color: #e7e7e7;
+        }
+
+        li {
+            padding: 5px 0 5px;
+        }
+
+        .no-dot {
+            list-style: none;
+        }
+
+        kbd {
+            background-color: #e1e1e1;
+            color: black;
+            margin: 0 10px;
+        }
+
+        table thead th {
+            color: #e7e7e7;
+        }
+
+        .th-col-state {
+            color: #e7e7e7;
+            width: 65px;
+            text-align: center;
+        }
+
+        table tbody tr td {
+            color: #e7e7e7;
+        }
+
+        table tbody tr td pre {
+            color: #e7e7e7;
+        }
+    </style>
 
 </head>
 
 <body>
-    <!-- テンプレート -->
-    <!-- <div>
-        <h1 class="version">190307更新</h1>
-        <div class="notify-content">
-            <h2 class="important-title">重要なお知らせ</h2>
-            <div class="important-body">
-                <p>Message</p>
-            </div>
-        </div>
 
-        <div class="notify-content">
-            <h2 class="fix-title">不具合の修正</h2>
-            <ol class="modifieds">
-                <li>Message</li>
-            </ol>
+    <div class="container py-5 mb-5">
+        <div class="alert alert-danger">
+            <h4 class="alert-heading">重要なお知らせ</h4>
+            <hr>
+            <p>20年10月05日のアップデートにおいて高 DPI 環境における、画像のキャプチャに関する不具合の修正を行いました。この修正はモニターの表示倍率を変更している方に影響があり、以下の設定に影響を与えます。</p>
+            <ul>
+                <li class="font-weight-bold">画像認識を行う座標設定</li>
+                <li class="font-weight-bold">アクション「画像を保存」の座標設定</li>
+            </ul>
         </div>
+        <div class="alert alert-danger">
+            <h4 class="alert-heading">重要なお知らせ</h4>
+            <hr>
+            <p>KeyToKeyの実行に必要な.Net Frameworkのバージョンを<b>「4.6.2」</b>から<b>「4.8」</b>へと引き上げました。</p>
+        </div>
+        <h2 class="mt-5">変更点</h2>
+        <ul>
+            <li>C#スクリプトエディタでスクロールが出来ない問題を修正しました。</li>
+            <li>C#スクリプトエディタでテンプレートコードの挿入をできるようにしました。</li>
+            <li>C#スクリプトエディタでコンパイルテストをできるようにしました。</li>
+            <li>入力の記録で C#スクリプト用にデータをコピーできるようにしました。</li>
+            <li>割り当て設定（コントローラー）のリストを廃止し、コントローラーの画像で割り当てられるようにしました。</li>
+            <li><span class="text-success font-weight-bold">入力の可視化</span>に<span class="text-success font-weight-bold">現在押しているキー</span>を追加しました。</li>
+            <li><kbd>半角／全角</kbd>キーに割り当てをできるようにしました。</li>
+            <li>
+                各種割り当ての一部設定の変更を行いました。
+                <ul class="px-3 no-dot">
+                    <li><span class="text-danger font-weight-bold">削除</span>トリガーの連続入力をキャンセルする</li>
+                    <li><span class="text-danger font-weight-bold">削除</span>トリガーの最初の入力をキャンセルする</li>
+                    <li><span class="text-success">追加</span>トリガーの入力をキャンセルする</li>
+                </ul>
+            </li>
+            <li>円形メニューの挙動の調整を行いました。</li>
+            <li>引数やローカル変数のリストを折りたためられるようにしました。</li>
+            <li>アプリケーションの設定の<span class="text-success font-weight-bold">マクロの作成・設定／アクション</span>カテゴリに<span class="text-success font-weight-bold">起動時のタブ</span>を追加しました。</li>
+            <li>設定ファイルをコピーして作成するときにコピー元のスクリプトフォルダを新しい設定ファイル用にコピーするようにしました。</li>
+        </ul>
+        <h2 class="mt-5 mb-3">スクリプトエディタのショートカット</h2>
+        <p>以下のショートカットをエディタに追加しました。</p>
+        <table class="table table-striped table-dark my-4 table-bordered">
+            <thead class=" thead-dark">
+                <th>アクション</th>
+                <th>ショートカットキー</th>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>行の複製</td>
+                    <td><kbd>Ctrl + D</kbd></td>
+                </tr>
+                <tr>
+                    <td>行を上に移動</td>
+                    <td><kbd>Alt + ↑</kbd></td>
+                </tr>
+                <tr>
+                    <td>行を下にに移動</td>
+                    <td><kbd>Alt + ↓</kbd></td>
+                </tr>
+                <tr>
+                    <td>行をコメントアウト</td>
+                    <td><kbd>Ctrl + K</kbd>+<kbd>Ctrl + C</kbd></td>
+                </tr>
+                <tr>
+                    <td>行のコメントアウトを解除</td>
+                    <td><kbd>Ctrl + K</kbd>+<kbd>Ctrl + U</kbd></td>
+                </tr>
+                <tr>
+                    <td>テンプレートの挿入</td>
+                    <td><kbd>Ctrl + T</kbd></td>
+                </tr>
+                <tr>
+                    <td>行の削除</td>
+                    <td><kbd>Shift + Delete</kbd></td>
+                </tr>
+            </tbody>
+        </table>
+        <h2 class="mt-5 mb-3">C#スクリプトの変更点</h2>
 
-        <div class="notify-content">
-            <h2 class="modified-title">新しい機能</h2>
-            <ol class="modifieds">
-                <li>Message</li>
-            </ol>
-        </div>
+        <table class="table table-dark table- my-4 table-bordered table-triped">
+            <thead>
+                <tr>
+                    <th class="th-col-state">状態</th>
+                    <th style="text-align: center;">内容</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td class="text-danger font-weight-bold">削除</td>
+                    <td>IME.Mode { get; }</td>
+                </tr>
+                <tr>
+                    <td class="text-danger font-weight-bold">削除</td>
+                    <td>IME.SetConversionMode { get; }</td>
+                </tr>
+                <tr>
+                    <td class="text-warning font-weight-bold">変更</td>
+                    <td>
+                        void CreateDirectory(string path) を
+                        string CreateDirectory(params string[] path)に変更しました。
+                    </td>
+                </tr>
+                <tr>
+                    <td class="text-warning font-weight-bold">変更</td>
+                    <td>
+                        Match()メソッドで画像認識に失敗した時も結果を取得できるようにしました。
+                    </td>
+                </tr>
+                <tr>
+                    <td class="text-success font-weight-bold">追加</td>
+                    <td>event Hooked</td>
+                </tr>
+                <tr>
+                    <td class="text-success font-weight-bold">追加</td>
+                    <td>IME.ConversinMode { get; set; }</td>
+                </tr>
+                <tr>
+                    <td class="text-success font-weight-bold">追加</td>
+                    <td>ActiveWindowClientBounds { get; }</td>
+                </tr>
+                <tr>
+                    <td class="text-success font-weight-bold">追加</td>
+                    <td>Controller.Trigger.ThumbAsByte { get; }</td>
+                </tr>
+                <tr>
+                    <td class="text-success font-weight-bold">追加</td>
+                    <td>Controller.Stick.ThumbAsShort { get; }</td>
+                </tr>
+                <tr>
+                    <td class="text-success font-weight-bold">追加</td>
+                    <td>TemplateMatching.Configs { get; }</td>
+                </tr>
+                <tr>
+                    <td class="text-success font-weight-bold">追加</td>
+                    <td>Parameters { get; }</td>
+                </tr>
+                <tr>
+                    <td class="text-success font-weight-bold">追加</td>
+                    <td>LocalVariables { get; }</td>
+                </tr>
+                <tr>
+                    <td class="text-success font-weight-bold">追加</td>
+                    <td>GlobalVariables { get; }</td>
+                </tr>
+                <tr>
+                    <td class="text-success font-weight-bold">追加</td>
+                    <td>GetDpiFromPoint(int x, int y)</td>
+                </tr>
+                <tr>
+                    <td class="text-success font-weight-bold">追加</td>
+                    <td>GetDpiFromPoint(Bounds bounds)</td>
+                </tr>
+                <tr>
+                    <td class="text-success font-weight-bold">追加</td>
+                    <td>GetDpiFromWindowHandle(IntPtr handle)</td>
+                </tr>
+                <tr>
+                    <td class="text-success font-weight-bold">追加</td>
+                    <td>GetBoundsByWindow(WindowPopLocation pop)</td>
+                </tr>
+                <tr>
+                    <td class="text-success font-weight-bold">追加</td>
+                    <td>Bounds.ToCenter()</td>
+                </tr>
+                <tr>
+                    <td class="text-success font-weight-bold">追加</td>
+                    <td>Bounds.ToEvenNumber()</td>
+                </tr>
+                <tr>
+                    <td class="text-success font-weight-bold">追加</td>
+                    <td>Bounds.ToOddNumber()</td>
+                </tr>
+                <tr>
+                    <td class="text-success font-weight-bold">追加</td>
+                    <td>Bounds.ToInsideOf(Bounds bounds)</td>
+                </tr>
+                <tr>
+                    <td class="text-success font-weight-bold">追加</td>
+                    <td>Angle(x1, y1, x2, y2, isClockwise)</td>
+                </tr>
+                <tr>
+                    <td class="text-success font-weight-bold">追加</td>
+                    <td>Distance(x1, y1, x2, y2)</td>
+                </tr>
+                <tr>
+                    <td class="text-success font-weight-bold">追加</td>
+                    <td>Clamp(min, max, value)</td>
+                </tr>
+                <tr>
+                    <td class="text-success font-weight-bold">追加</td>
+                    <td>Controller.GetThumbsAsShort()</td>
+                </tr>
+                <tr>
+                    <td class="text-success font-weight-bold">追加</td>
+                    <td>IsTrigger(Keys key)</td>
+                </tr>
+                <tr>
+                    <td class="text-success font-weight-bold">追加</td>
+                    <td>IsTrigger(ControllerButtons button)</td>
+                </tr>
+                <tr>
+                    <td class="text-success font-weight-bold">追加</td>
+                    <td>Abort()</td>
+                </tr>
+                <tr>
+                    <td class="text-success font-weight-bold">追加</td>
+                    <td>CreateWaiter(bool highPricisionWait = false)</td>
+                </tr>
+            </tbody>
+        </table>
 
-        <div class="notify-content">
-            <h2 class="new-action-title">新しいアクション</h2>
-            <ol class="new-actions">
-                <li>Message</li>
-            </ol>
-        </div>
+        <a href="/update2.html" class="btn btn-primary">過去の更新履歴</a>
 
-        <div class="notify-content">
-            <h2 class="new-method-title">新しいメソッド</h2>
-            <ol class="new-actions">
-                <li>Message</li>
-            </ol>
-        </div>
-    </div> -->
-
-    <div>
-        <h1 class="version">200831更新</h1>
-        <div class="notify-content">
-            <h2 class="important-title">重要なお知らせ</h2>
-            <div class="important-body">
-                <p>KeyToKeyの起動に必要な.Net Frameworkのバージョンを「4.6.2」から「4.8」へと引き上げました。</p>
-                <p>「質問・要望・不具合報告」にマクロに関するお知らせを掲載（予定）</p>
-            </div>
-        </div>
-        <div class="notify-content">
-            <h2 class="fix-title">修正と変更</h2>
-            <ol class="modifieds">
-                <li>旧マクロがないと割り当てできない問題を修正しました。</li>
-                <li>外部ファイルのスクリプトの読み込みが失敗する問題を修正しました。</li>
-            </ol>
-        </div>
-        <div class="notify-content">
-            <h2 class="new-method-title">C#スクリプト</h2>
-            <ol class="new-actions">
-                <li><span style="color: green;">追加 </span>XInput { get; }</li>
-            </ol>
-        </div>
-    </div>
-
-    <div>
-        <h1 class="version">200824.2更新</h1>
-        <div class="notify-content">
-            <h2 class="fix-title">修正と変更</h2>
-            <ol class="modifieds">
-                <li>割り当て設定（キー／マウス）の拡張キーを削除できない不具合を修正しました。</li>
-                <li>C#スクリプトのプリコンパイル／リアルタイムコンパイルに関する不具合を修正しました。</li>
-                <li>使用方法／チュートリアルボタンが動いていない問題を修正しました。</li>
-                <li>メインウィンドウの「現在押しているキー」を廃止しました。</li>
-                <li>旧割り当て設定（コントローラー）を廃止しました。</li>
-                <li>アプリケーションの設定から「セキュリティの許可」と「プラグインの許可」を廃止しました。</li>
-                <li>「ウィンドウを最小化する」をアプリの設定から画像認識の設定へ移動させました。</li>
-                <li>「高 DPI 向け設定を使用する」が常に使用されるようにしました。</li>
-                <li>環境設定の「設定ファイルを完全に信頼する」を廃止しました。</li>
-                <li>環境設定の「連続入力を許可する」を廃止しました。</li>
-                <li>「カーソル割り当ての挙動を変更」を廃止しました。</li>
-                <li>キーの名前「HanjaMode」「KanjiMode」を「ZenHan」に変更しました。</li>
-            </ol>
-        </div>
-        <div class="notify-content">
-            <h2 class="modified-title">新しい機能</h2>
-            <ol class="modifieds">
-                <li>C#スクリプト（マクロ）を追加しました。</li>
-                <li>アップデート処理前に仮想コントローラーの接続を解除するようにしました。</li>
-                <li>画像認識の設定画面にテンプレート画像の情報を表示するようにしました。</li>
-                <li>「環境設定」に「マウスの位置を示すウィンドウを表示する」を追加しました。</li>
-                <li>ショートカットに「開始／停止：マウスで仮想コントローラーのスティックを動かします。」を追加しました。</li>
-                <li>メインウィンドウのコンテキストメニューに「再起動」を追加しました。</li>
-            </ol>
-        </div>
-        <div class="notify-content">
-            <h2 class="new-method-title">C#スクリプト</h2>
-            <ol class="new-actions">
-                <li><span style="color: green;">追加 </span>MouseVirtualPositionService { get; }</li>
-                <li><span style="color: green;">追加 </span>IMosueAsStick MouseAsLeftStick { get; }</li>
-                <li><span style="color: green;">追加 </span>IMosueAsStick MouseAsRightStick { get; }</li>
-                <li><span style="color: green;">追加 </span>Trigger.Value { get; }</li>
-                <li><span style="color: green;">追加 </span>double RandomDouble();</li>
-                <li><span style="color: green;">追加 </span>Bounds GetBoundsByWindow();</li>
-                <li><span style="color: green;">追加 </span>Bounds ActiveWindowBounds { get; }</li>
-                <li><span style="color: green;">追加 </span>Bitmap Screenshot(int top, int left, int width, int height)
-                </li>
-                <li><span style="color: green;">追加 </span>Bitmap Screenshot(Bounds bounds)</li>
-                <li><span style="color: green;">追加 </span>void CreateDirectory(string path)</li>
-                <li><span style="color: green;">追加 </span>TemplateMatching.Match(string identifier, Bitmap sourceImage,
-                    out MatchResult result)</li>
-                <li><span style="color: green;">追加 </span>TemplateMatching.Match(string templateImagePath, double
-                    threshold, Bounds searchBounds, out MatchResult result)</li>
-                <li><span style="color: green;">追加 </span>TemplateMatching.Match(Bitmap templateImage, double threshold,
-                    Bounds searchBounds, out MatchResult result)</li>
-                <li><span style="color: green;">追加 </span>TemplateMatching.Match(Bitmap templateImage, Bitmap
-                    sourceImage, double threshold, out MatchResult result)</li>
-                <li><span style="color: green;">追加 </span>TemplateMatching.SetBounds(string identifier,Bounds bounds)
-                </li>
-                <li><span style="color: green;">追加 </span>VirtualXInput.SetStickValue(int userIndex, bool isLeftStick,
-                    int angle, bool isClockwise, short radius)</li>
-                <li><span style="color: green;">追加 </span>VirtualXInput.ResetStick(int userIndex, bool isLeftStick)</li>
-                <li><span style="color: red;">変更 </span>XInputSticks のメンバ名を変更しました。</li>
-                <li><span style="color: red;">変更 </span>MappingSources の一部メンバを Obsolete 扱いにしました。</li>
-                <li><span style="color: red;">変更 </span>TemplateMatching.TrySingle を TemplateMatching.Matchに変更</li>
-                <li><span style="color: red;">変更 </span>TemplateMatching.TryMultiple を TemplateMatching.Matchesに変更</li>
-                <li><span style="color: red;">変更 </span>TrySingle を Matchに変更</li>
-                <li><span style="color: red;">変更 </span>TryMultiple を Matchesに変更</li>
-                <li><span style="color: red;">変更 </span>MatchResult.Score の型を int から double に変更</li>
-                <li><span style="color: red;">廃止 </span>TemplateMatching.Start();</li>
-                <li><span style="color: red;">廃止 </span>TemplateMatching.Stop();</li>
-            </ol>
-        </div>
-    </div>
-
-    <div>
-        <h1 class="version">200811更新</h1>
-        <div class="notify-content">
-            <h2 class="fix-title">修正</h2>
-            <ol class="modifieds">
-                <li>メソッドに関する不具合の修正を行いました。</li>
-            </ol>
-        </div>
-    </div>
-
-    <div>
-        <h1 class="version">200725更新</h1>
-        <div class="notify-content">
-            <h2 class="fix-title">修正</h2>
-            <ol class="modifieds">
-                <li>仮想コントローラーのマッピングに関する調整を行いました。</li>
-            </ol>
-        </div>
-    </div>
-
-    <div>
-        <h1 class="version">200719更新</h1>
-        <div class="notify-content">
-            <h2 class="fix-title">修正</h2>
-            <ol class="modifieds">
-                <li>XInput.マッピングの一時停止（XInput.SuspendMapping）とXInput.マッピングの再開（XInput.ResumeMapping）に関する不具合を修正しました。</li>
-                <li>XInput.トリガー（XInput.SetTriggerValue）のトリガーの選択を（左、右）から（LT、RT）へと変更しました。</li>
-            </ol>
-        </div>
-    </div>
-
-
-    <div>
-        <h1 class="version">200716更新</h1>
-        <div class="notify-content">
-            <h2 class="fix-title">修正</h2>
-            <ol class="modifieds">
-                <li>画像認識の設定画面に不具合がある問題を修正しました。</li>
-            </ol>
-        </div>
-    </div>
-
-    <div>
-        <h1 class="version">200709更新</h1>
-        <div class="notify-content">
-            <h2 class="fix-title">修正</h2>
-            <ol class="modifieds">
-                <li>連射とトグルモードの表記が入れ替わっている問題を修正しました。</li>
-                <li>仮想コントローラーのアクションの不具合を修正しました。</li>
-                <li>割り当て設定（コントローラー）で「マクロ割り当て（押したとき、離したとき）」が正常に動いていない問題を修正しました。</li>
-            </ol>
-        </div>
-    </div>
-
-    <div>
-        <h1 class="version">200708更新</h1>
-        <div class="notify-content">
-            <h2 class="fix-title">調整</h2>
-            <ol class="modifieds">
-                <li>マクロの強制終了アクションに関する調整を行いました。</li>
-            </ol>
-        </div>
-    </div>
-
-    <div>
-        <h1 class="version">200630.1更新</h1>
-        <div class="notify-content">
-            <h2 class="fix-title">変更と修正</h2>
-            <ol class="modifieds">
-                <li>代入アクションに関する不具合を修正しました。</li>
-            </ol>
-        </div>
-    </div>
-
-    <div>
-        <h1 class="version">200630更新</h1>
-        <div class="notify-content">
-            <h2 class="fix-title">変更と修正</h2>
-            <ol class="modifieds">
-                <li>変数に関する調整を行いました。</li>
-            </ol>
-        </div>
-    </div>
-
-    <div>
-        <h1 class="version">200629.1更新</h1>
-
-        <div class="notify-content">
-            <h2 class="fix-title">変更</h2>
-            <ol class="modifieds">
-                <li>テーマを廃止しました。</li>
-                <li>アクション／メソッドに直接指定できる</li>
-                <li>アプリケーションの設定において「自動保存」の項目を削除しました。</li>
-                <li>整数を小数点あり数値を指定できるように変更</li>
-                <li>ScpVBus の名称を仮想</li>
-                <li>ループ(@For)を再度使用できるようにしました。</li>
-                <li>アクション「プロセスを実行」の利用を制限しました。</li>
-                <li>メニュー割り当てのオプション「仮想マウスポインターを表示」を廃止しました。</li>
-                <li>メニュー割り当てのオプション「選択解除する際の角度」を廃止しました。</li>
-                <li>メニュー割り当てのオプション「ペンモードに対応する」を廃止しました。</li>
-                <li>メニューを表示した際にポインターが正常に動かない問題を修正しました。</li>
-                <li>高DPI環境下でメニューが正常に表示されない問題を修正しました</li>
-                <li>マクロの名前を変更した際に事前読み込みマクロの名前がすべて変更されてしまう問題を修正しました。</li>
-                <li>事前読み込みマクロで再帰的な設定をしたときに KeyToKey がクラッシュする問題を修正しました。</li>
-                <li>32bitOS 向け仮想コントローラーのインストラーファイルに不備がある問題を修正しました。</li>
-                <li>KeyToKey 終了時に設定ファイルの保存に失敗する不具合を修正しました。</li>
-                <li>ループに関する不具合を修正しました。</li>
-            </ol>
-        </div>
-
-        <div class="notify-content">
-            <h2 class="modified-title">新しい機能</h2>
-            <ol class="modifieds">
-                <li>新しい式解析機を導入しました。</li>
-                <li>入力記録（ファイル）に「カーソルの位置をループさせる」を追加しました。</li>
-                <li>入力記録（アクション）の設定を新しくしました。</li>
-                <li>「グローバル変数」のレイアウトを新しくしました。</li>
-                <li>「環境設定」のレイアウトを新しくしました。</li>
-                <li>ショートカットに「現在押しているキーの表示／非表示を切り替える」を追加しました。</li>
-                <li>プロセス名を指定するアクション／メソッドにおいてウィンドウハンドルを指定できるようにしました。</li>
-                <li>メインウィンドウから設定ファイルの選択ウィンドウを表示できるようにしました。</li>
-                <li>ウィンドウオーバーレイを追加しました。</li>
-                <li>アプリケーションの設定に「グローバルショートカット」を追加しました。</li>
-                <li>メニューアイテムをクリックしてマクロを実行できるようにしました。</li>
-                <li>メニューをスタイラスペンを使用して選択できるようにしました。</li>
-                <li>アクションリストのテンプレートに「@For」を追加しました。</li>
-                <li>アクションリストに記録ウィンドウのボタンをとショートカットキー表示するボタンを追加しました。</li>
-                <li>マクロ(アクション)の事前読み込みの設定する際に複数選択しながら一括変更出来るようにしました。</li>
-            </ol>
-        </div>
-
-        <div class="notify-content">
-            <h2 class="new-action-title">アクション</h2>
-            <ol class="new-actions">
-                <li><span style="color: green;">追加 </span>押す</li>
-                <li><span style="color: green;">追加 </span>離す</li>
-                <li><span style="color: green;">追加 </span>押して離す</li>
-                <li><span style="color: green;">追加 </span>テンプレートマッチング&lt;設定作成&gt;</li>
-                <li><span style="color: green;">追加 </span>テンプレートマッチング&lt;設定削除&gt;</li>
-                <li><span style="color: green;">追加 </span>テンプレートマッチング&lt;情報取得&gt;</li>
-                <li><span style="color: green;">追加 </span>テンプレートマッチング&lt;保存&gt;</li>
-                <li><span style="color: green;">追加 </span>式の評価</li>
-                <li><span style="color: red;">廃止 </span>@@</li>
-            </ol>
-        </div>
-
-        <div class="notify-content">
-            <h2 class="new-method-title">メソッド</h2>
-            <ol class="new-actions">
-                <li><span style="color: green;">追加 </span>CaptureKey</li>
-                <li><span style="color: green;">追加 </span>RandomF</li>
-                <li><span style="color: green;">追加 </span>ToKeys</li>
-                <li><span style="color: green;">追加 </span>ToMouseButton</li>
-                <li><span style="color: green;">追加 </span>KeysToMouseButton</li>
-                <li><span style="color: green;">追加 </span>MouseButtonToKeys</li>
-                <li><span style="color: green;">追加 </span>TemplateMatching.Load</li>
-                <li><span style="color: green;">追加 </span>TemplateMatching.Capture</li>
-                <li><span style="color: green;">追加 </span>TemplateMatching.Release</li>
-                <li><span style="color: green;">追加 </span>TemplateMatching.TrySingle2</li>
-                <li><span style="color: green;">追加 </span>TemplateMatching.TrySingle3</li>
-                <li><span style="color: red;">廃止 </span>IF</li>
-                <li><span style="color: red;">廃止 </span>GetType</li>
-                <li><span style="color: red;">廃止 </span>ToMinus</li>
-                <li><span style="color: red;">廃止 </span>Increment</li>
-                <li><span style="color: red;">廃止 </span>Decrement</li>
-                <li><span style="color: red;">廃止 </span>IF</li>
-                <li><span style="color: red;">廃止 </span>_sc</li>
-                <li><span style="color: red;">廃止 </span>String.Format</li>
-                <li>Length メソッドでリストの長さを取得できるようにしました。</li>
-            </ol>
-        </div>
-
-        <div class="notify-content">
-            <h2 class="new-method-title">C#スクリプト</h2>
-            <ol class="new-actions">
-                <li><span style="color: green;">追加 </span>VirtualXInput.GetMappingState</li>
-            </ol>
-        </div>
     </div>
 
 
-    <div>
-        <h1 class="version">200522更新</h1>
-        <div class="notify-content">
-            <h2 class="fix-title">変更と修正</h2>
-            <ol class="modifieds">
-                <li>画像認識のプロセス名に関する不具合を修正しました。</li>
-            </ol>
-        </div>
-    </div>
-
-    <div>
-        <h1 class="version">200417更新</h1>
-        <div class="notify-content">
-            <h2 class="modified-title">新しい機能</h2>
-            <ol class="modifieds">
-                <li>アプリケーションの設定に「現在押しているキーを表示する」を追加しました。</li>
-            </ol>
-        </div>
-    </div>
-
-    <div>
-        <h1 class="version">200412更新</h1>
-        <div class="notify-content">
-            <h2 class="fix-title">変更と修正</h2>
-            <ol class="modifieds">
-                <li>マクロ割り当ての「トリガーを離したときに実行中のマクロを終了させる」が正常に動いていない問題を修正しました。</li>
-            </ol>
-        </div>
-    </div>
-
-    <div>
-        <h1 class="version">200316更新</h1>
-        <div class="notify-content">
-            <h2 class="modified-title">新しい機能</h2>
-            <ol class="modifieds">
-                <li>「キー入力の記録（ファイル）」でマウスの位置を相対座標で記録できるようにしました。</li>
-            </ol>
-        </div>
-    </div>
-
-    <div>
-        <h1 class="version">200229更新</h1>
-        <div class="notify-content">
-            <h2 class="modified-title">新しい機能</h2>
-            <ol class="modifieds">
-                <li>入力ステータスに「コントローラー（アーケード）」を追加しました。</li>
-            </ol>
-        </div>
-    </div>
-
-
-    <div>
-        <h1 class="version">200222更新</h1>
-
-        <div class="notify-content">
-            <h2 class="fix-title">変更と修正</h2>
-            <ol class="modifieds">
-                <li>軽微な不具合を修正しました。</li>
-            </ol>
-        </div>
-
-        <div class="notify-content">
-            <h2 class="new-method-title">C#スクリプト</h2>
-            <ol class="new-actions">
-                <li>IsRunningChanged を廃止しました。</li>
-                <li>IsRunning を廃止しました。</li>
-                <li>TriggerReleased を追加しました。</li>
-                <li>IsTriggerReleased を追加しました。</li>
-                <li>SetEventLockState() を追加しました。</li>
-                <li>GetEventLockState() を追加しました。</li>
-            </ol>
-        </div>
-    </div>
-
-
-
-    <div>
-        <h1 class="version">200203.1更新</h1>
-        <div class="notify-content">
-            <h2 class="fix-title">変更と修正</h2>
-            <ol class="modifieds">
-                <li>軽微な不具合を修正しました。</li>
-            </ol>
-        </div>
-    </div>
-
-    <div>
-        <h1 class="version">200203更新</h1>
-
-        <div class="notify-content">
-            <h2 class="important-title">重要なお知らせ</h2>
-            <div class="important-body">
-                <p>KeyToKey.19.12.13を使用している方へ</p>
-                <p>自動更新プログラムに不具合があるため修正ファイルのダウンロードをお願いします。詳しくは「KeyToKey開発ブログ」を参照してください。</p>
-                <p>バージョンの確認はKeyToKeyの編集ウィンドウを開き、左上にある三本線のアイコンをクリックしてください。</p>
-                <p>メニューのヘッダー部分にバージョンが記載されています。</p>
-            </div>
-        </div>
-
-
-        <div class="notify-content">
-            <h2 class="fix-title">変更と修正</h2>
-            <ol class="modifieds">
-                <li>軽微な不具合を修正しました。</li>
-                <li>事前読み込みマクロが正常に動かない不具合を修正しました。</li>
-                <li>「テンプレートマッチング&lt;開始&gt;」と「テンプレートマッチング&lt;停止&gt;」および、関連する設定を非推奨扱いにしました。</li>
-                <li>テンプレート画像を選択したときにキーに画像のファイル名を設定するようにしました。</li>
-            </ol>
-        </div>
-
-        <div class="notify-content">
-            <h2 class="modified-title">新しい機能</h2>
-            <ol class="modifieds">
-                <li>ショートカットに「コンソールの表示／非表示を切り替えます」を追加しました。</li>
-                <li>ショートカットに「ファイルの選択ウィンドウを表示する」を追加しました。</li>
-                <li>画像認識の設定からテンプレート画像を撮影できるようにしました。</li>
-                <li>マクロを複製できるようにしました。</li>
-                <li>環境設定のオプションでファイル選択ウィンドウの初期検索ワードを指定できるようにしました。</li>
-                <li>環境設定のオプションに「高精度／高負荷な待機処理を使用する」を追加しました。</li>
-                <li>「外部ファイルのマクロを使用する」と「外部割り当てを使用する」を「外部マクロ／設定を継承する」に統合しました。</li>
-                <li>「外部マクロ／設定を継承する」の変更点</li>
-                <li>・外部ファイルが継承しているすべての外部ファイルを継承するようにしました。</li>
-                <li>・画像認識の設定を削除してすべての画像認識の設定を継承できるようにしました。</li>
-                <li>・環境設定／コントローラー／入力ロックの設定を継承できるようにしました。</li>
-            </ol>
-        </div>
-
-        <div>
-            <h1 class="version">191230.1更新</h1>
-
-            <div class="notify-content">
-                <h2 class="fix-title">変更と修正</h2>
-                <ol class="modifieds">
-                    <li>軽微な不具合の修正を行いました。</li>
-                    <li>「メインウィンドウ」 > 「ツール」 > 「入力ステータス」に「コントローラー」を追加しました。</li>
-                    <li>191230.1追加：並列実行に関する処理の改善を行いました。</li>
-                </ol>
-            </div>
-        </div>
-
-        <div>
-            <h1 class="version">19.12.27更新</h1>
-            <div class="notify-content">
-                <h2 class="fix-title">変更と修正</h2>
-                <ol class="modifieds">
-                    <li>設定を再読み込み時にメモリリーク／ハンドルリークする問題を一部改善しました。</li>
-                    <li>並列実行における不具合を修正しました。</li>
-                    <li>高DPI用設定を使用した際に正常に画像がキャプチャされない問題を修正しました。</li>
-                    <li>メニュー割り当てのコピーペースができない問題を修正しました。</li>
-                    <li>アクション選択画面のカテゴリーを折り畳めるように変更しました。</li>
-                </ol>
-            </div>
-        </div>
-
-
-        <div>
-            <h1 class="version">19.12.13更新</h1>
-
-            <div class="notify-content">
-                <h2 class="fix-title">変更と修正</h2>
-                <ol class="modifieds">
-                    <li>アクションとしてマクロを実行すると、メモリリークが発生する問題を修正しました。</li>
-                    <li>アクションとして実行したマクロの中で「マクロを強制終了」を実行しても終了しない問題を修正しました。</li>
-                    <li>「＠現在のループ処理をスキップ」「＠現在のループ処理を中断」が正常に動いていない問題を修正しました。</li>
-                    <li>「C#スクリプトを実行」の実行前コンパイルに失敗すると次のコンパイルができなくなる問題を修正しました。</li>
-                    <li>KeyToKey起動後、稀にロードが終わらなくなる問題を修正しました。</li>
-                    <li>割り当て設定（画像認識）のレイアウトを変更しました。</li>
-                    <li>アクション「ループ終了（EndWhile）」を再表示させました。</li>
-                    <li>アクションの複製先を選択行の一番最後になるようにしました。</li>
-                    <li>変数の代入アクションの表記が「$変数名 = 値」になるように変更しました。</li>
-                </ol>
-            </div>
-
-            <div class="notify-content">
-                <h2 class="modified-title">新しい機能</h2>
-                <ol class="modifieds">
-                    <li>割り当て設定（メニュー）を追加しました。</li>
-                    <li>「メニュー割り当て」を追加しました。</li>
-                    <li>「何もしないマクロ」の割り当てる手順をスキップできるようにしました。</li>
-                    <li>アクションリストのテンプレートに「ループ&lt;リスト&gt;」を追加しました。</li>
-                    <li>アクションリストに「選択中のマクロ（アクション）を事前読み込みできるようにする」を追加しました。</li>
-                    <li>マクロ設定に「引数のテンプレート」タブを追加しました。</li>
-                    <li>マクロの引数の設定に「引数のテンプレートグループ名」を指定できるようにしました。</li>
-                    <li>マクロ一覧のメニューに「マクロの割り当てを禁止／解禁」を追加しました。</li>
-                    <li>マクロ一覧のメニューに「外部マクロとしての使用を禁止／解禁」を追加しました。</li>
-                    <li>
-                        アプリケーションの設定に以下の設定を追加しました。
-                        <ul>
-                            <li>代入アクションの省略表示を有効にする</li>
-                            <li>代入アクションのローカル表記を有効にする</li>
-                            <li>代入アクションのグローバル表記を有効にする</li>
-                            <li>色設定「ローカル」と「グローバル」</li>
-                            <li>通知カテゴリー</li>
-                            <li>KeyToKeyの有効／無効が切り替わった際に音を通知する</li>
-                            <li>音量</li>
-                            <li>有効時に再生するファイル</li>
-                            <li>無効時に再生するファイル</li>
-                        </ul </li>
-                </ol>
-            </div>
-            <div class="notify-content">
-                <h2 class="new-action-title">新しいアクション</h2>
-                <ol class="new-actions">
-                    <li>IME.入力モードを設定</li>
-                    <li>音声ファイルを再生</li>
-                    <li>代入&lt;グローバル変数&gt;</li>
-                    <li>代入&lt;ローカル変数&gt;</li>
-                    <li>代入：ルート&lt;ローカル変数&gt;</li>
-                    <li>代入：呼び出し元&lt;ローカル変数&gt;</li>
-                    <li>クリップボードのテキストを変換／代入</li>
-                    <li>@ループ&lt;リスト&gt;</li>
-                    <li>@ループ終了</li>
-                    <li>リストの生成：ファイル&lt;行&gt;</li>
-
-                </ol>
-            </div>
-
-            <div class="notify-content">
-                <h2 class="new-method-title">新しいメソッド</h2>
-                <ol class="new-actions">
-                    <li>Global.GetVar</li>
-                    <li>Local.GetVar</li>
-                    <li>Local.Exists</li>
-                    <li>GlobalExists</li>
-                    <li>Controller.GetStick</li>
-                    <li>Controller.GetStickAngle</li>
-                    <li>Controller.GetTrigger</li>
-                    <li>TemplateMatching.TryManyTimes</li>
-                    <li>IF</li>
-                    <li>GetType</li>
-                    <li>TryToInt</li>
-                    <li>TryToBoolean</li>
-                </ol>
-            </div>
-        </div>
-
-        <div>
-            <h1 class="version">19.10.22更新</h1>
-
-            <div class="notify-content">
-                <h2 class="fix-title">変更と修正</h2>
-                <ol class="modifieds">
-                    <li>KeyToKey-Console.exeを廃止しました。</li>
-                    <li>ログウィンドウをコマンドプロンプトに変更しました。</li>
-                    <li>KeyToKeyの起動速度を向上させました。</li>
-                    <li>編集ウィンドウの起動速度を向上させました。</li>
-                    <li>アクション／マクロ選択画面の初回以降の表示速度を向上させました。</li>
-                    <li>同時押しの設定を削除した際に外部ファイルの割り当てが解除されない問題を修正しました。</li>
-                    <li>アプリケーションの設定画面を新しくしました。</li>
-                    <li>変数一覧ウィンドウを新しくしました</li>
-                </ol>
-            </div>
-
-            <div class="notify-content">
-                <h2 class="modified-title">新しい機能</h2>
-                <ol class="modifieds">
-                    <li>仮想コントローラーのvJoyとvXboxとの連携をできるようにしました。</li>
-                    <li>アプリケーションの設定で「vXbox」のインストール／アンインストールと仮想デバイスの有効／無効の切り替えをできるようにしました。</li>
-                    <li>vJoyデバイスを検出できるようにしました。</li>
-                    <li>割り当て設定（コントローラー）のオプションに以下の項目を追加しました。</li>
-                    <li>
-                        割り当て設定（コントローラー）のオプションに以下の項目を追加しました。
-                        <ul>
-                            <li>コントローラーの入力を仮想のXInputコントローラーにマッピングする</li>
-                            <li>コントローラーの入力を仮想のDirectInputコントローラーにマッピングする</li>
-                            <li>「XInput Device 1」にマッピングする</li>
-                            <li>「XInput Device 2」にマッピングする</li>
-                            <li>「XInput Device 3」にマッピングする</li>
-                        </ul>
-                    </li>
-                    <li>コントローラーのデバイスリストを更新できるボタンを配置しました。</li>
-                    <li>「キー割り当て」の「割り当てるキー」においてキーの押す／離すを細かく指定できるようにしました。</li>
-                    <li>C#スクリプトでプラグインを作成できるようにしました。</li>
-                    <li>アプリケーションの設定に「プラグインの許可」を追加しました（プラグインは許可をしないとロードしないようにしました）</li>
-                    <li>環境設定のオプションに「選択中の設定ファイルと関連する設定ファイルを信頼してC#スクリプトを使用できるようにする」を追加しました（C#スクリプトはこのオプションを有効にしない限り使用できないようにしました）。
-                    </li>
-                    <li>入力履歴ウィンドウでコントローラーの入力を表示できるようにしました。</li>
-                    <li>アクションリストの一部テンプレートに「選択行が入れ子になるように追加する」を追加しました。</li>
-                    <li>「C#スクリプトを実行」にアクション実行前にコンパイルを行える設定を追加しました。</li>
-                    <li>スクリプトエディタにKeyToKeyを使ってビルドテストできる機能を追加しました。</li>
-                </ol>
-            </div>
-
-            <div class="notify-content">
-                <h2 class="new-action-title">新しいアクション</h2>
-                <ol class="new-actions">
-                    <li>「XInput.マッピングの一時停止」</li>
-                    <li>「XInput.マッピングの再開」</li>
-                    <li>「XInput.スティック」</li>
-                    <li>「XInput.トリガー」</li>
-                    <li>「XInput.押す」</li>
-                    <li>「XInput.離す」</li>
-                    <li>「XInput.押して離す」</li>
-                    <li>「XInput.リセット」</li>
-                    <li>「DirectInput.マッピングの一時停止」</li>
-                    <li>「DirectInput.マッピングの再開」</li>
-                    <li>「DirectInput.押す」</li>
-                    <li>「DirectInput.離す」</li>
-                    <li>「DirectInput.押して離す」</li>
-                    <li>「DirectInput.スティック」</li>
-                </ol>
-            </div>
-        </div>
-
-        <div>
-            <h1 class="version">19.09.07更新</h1>
-            <div class="notify-content">
-                <h2 class="fix-title">修正</h2>
-                <ol class="modifieds">
-                    <li>KeyToKeyを無効から有効にした後に、待機系処理が一度だけ正常に動かない問題を修正しました</li>
-                </ol>
-            </div>
-        </div>
-
-        <div>
-            <h1 class="version">19.09.01更新</h1>
-
-            <div class="notify-content">
-                <h2 class="fix-title">変更と修正</h2>
-                <ol class="modifieds">
-                    <li>アクション選択画面の検索ボックスで日本語を入力すると重くなる問題を修正しました。</li>
-                    <li>「GetClientX」メソッドを使用した際にマクロが進まなくなる問題を修正しました。</li>
-                    <li>ログウィンドウを表示するときに大量のログが存在するとフリーズする問題を修正しました。</li>
-                    <li>Windows10(1903)においてウィンドウの移動とリサイズの描画処理が正常に行われていない問題を修正しました。</li>
-                    <li>同時押しの設定（～が押された時）を割り当て設定（キーボード／マウス）と割り当て設定（コントローラー）とで共有するようにしました。</li>
-                    <li>いくつかの設定の名称を変更しました。</li>
-                </ol>
-            </div>
-
-            <div class="notify-content">
-                <h2 class="modified-title">新しい機能</h2>
-                <ol class="modifieds">
-                    <li>割り当て設定（タイマー）を追加しました。</li>
-                    <li>アプリケーションの設定に高DPI用処理を有効／無効の設定を追加しました（デフォルトで無効に）。</li>
-                    <li>チュートリアルウィンドウを追加しました。</li>
-                    <li>XBOX360(DirectInput系)のトリガーに対応しました。</li>
-                    <li>割り当て設定（コントローラー）の設定画面を一部新しくしました。</li>
-                    <li>コントローラーのセットアップ機能を追加しました。</li>
-                    <li>コントローラーを使用したハイライト表示機能において設定中のデッドゾーンを反映するようにしました。</li>
-                    <li>カーソル移動の遅延時間をファイル毎に設定できるようにしました。</li>
-                    <li>カーソル割り当てのオプション「トラッキングモード」と関連する複数の設定を追加しました。</li>
-                    <li>カーソル割り当てのオプション「キーを押す」と関連する設定を追加しました。</li>
-                    <li>アクションリストのテンプレートに「並列実行」を追加しました。</li>
-                    <li>「マクロ割り当て」「割り当て設定（画像認識）」においてマクロの表示上の名前を変更できるようにしました。</li>
-                    <li>メインウィンドウのメニューに「ウィンドウを最前面に表示する」を追加しました。</li>
-                    <li>メインウィンドウのメニューに「選択中のファイルの名前を変更する」を追加しました。</li>
-                    <li>メインウィンドウのメニューに「選択中のファイルを削除する」を追加しました。</li>
-                    <li>プロセスの優先度が「リアルタイム」になるようにしました。</li>
-                    <li>
-                        以下の箇所においてキーボード／マウス／コントローラーを同時に指定できるようにしました。
-                        <ul>
-                            <li>割り当て設定（キーボード／マウス）の同時押しの設定（～が押されている時）</li>
-                            <li>割り当て設定（コントローラー）の同時押しの設定（～が押されている時）</li>
-                            <li>環境設定のホットキー（ショートカット）</li>
-                        </ul>
-                    </li>
-
-                </ol>
-            </div>
-
-            <div class="notify-content">
-                <h2 class="new-action-title">新しいアクション</h2>
-                <ol class="new-actions">
-                    <li>「タイマーの設定を変更」</li>
-                    <li>「並列実行&lt;開始&gt;」</li>
-                    <li>「並列実行&lt;終了&gt;」</li>
-                    <li>「テンプレートマッチング：範囲&lt;同期&gt;」</li>
-                    <li>「テンプレートマッチング：&lt;画像保存&gt;」</li>
-                </ol>
-            </div>
-
-            <div class="notify-content">
-                <h2 class="new-method-title">新しいメソッド</h2>
-                <ol class="new-actions">
-                    <li>「ConditionalWait」</li>
-                    <li>「WaitKey1」</li>
-                    <li>「WaitKey2」</li>
-                    <li>「WaitController1」</li>
-                    <li>「WaitController2」</li>
-                    <li>「TimerAssign.GetState」</li>
-                    <li>「TimerAssign.GetState」</li>
-                </ol>
-            </div>
-        </div>
-
-        <div>
-            <h1 class="version">19.07.13更新</h1>
-            <div class="notify-content">
-                <h2 class="important-title">重要なお知らせ</h2>
-                <div class="important-body">
-                    <p>キー割り当ておよびアクションの「割り当ての実行を防ぐ」機能の変更を行いました。詳細についてはダウンロードページにある更新履歴を参照してください。</p>
-                </div>
-            </div>
-
-            <div class="notify-content">
-                <h2 class="fix-title">変更と修正</h2>
-                <ol class="modifieds">
-                    <li>ホットキーを使用した際に強制終了する問題を修正しました。</li>
-                    <li>キー割り当ての連射を無効にした際にトグルモードも無効になる問題を修正しました。</li>
-                    <li>高DPI環境の画像処理において位置やサイズにズレが生じる問題を修正しました。</li>
-                    <li>ShiftKeyを押しながら矢印キーを押すと、ShiftKeyが一度離される問題を修正しました。</li>
-                    <li>割り当てメニューに「マクロ割り当て」を「マクロ割り当て（押したら）」に変更しました。</li>
-                </ol>
-            </div>
-
-            <div class="notify-content">
-                <h2 class="modified-title">新しい機能</h2>
-                <ol class="modifieds">
-                    <li>キーの入力情報をコンソールに表示する設定の切り替えを行うホットキーを追加しました。</li>
-                    <li>割り当てメニューに「マクロ割り当て（離したら）」を追加しました。</li>
-                    <li>割り当てメニューに「マクロ割り当て（短く押したら）」を追加しました。</li>
-                    <li>割り当てメニューに「マクロ割り当て（長く押したら）」を追加しました。</li>
-                    <li>割り当てメニューに「マクロ割り当て（ダブルクリックしたら）」を追加しました。</li>
-                    <li>割り当てメニューに「マクロ割り当て（長押ししたとき、ダブルクリックしたとき）」を追加しました。</li>
-                </ol>
-            </div>
-
-            <div class="notify-content">
-                <h2 class="new-action-title">新しいアクション</h2>
-                <ol class="new-actions">
-                    <li>「テキストボックス表示」</li>
-                    <li>「イベントロック」</li>
-                </ol>
-            </div>
-        </div>
-
-        <div>
-            <h1 class="version">19.06.24更新</h1>
-
-            <div class="notify-content">
-                <h2 class="modified-title">お知らせ</h2>
-                <ol class="modifieds">
-                    <li>棒読みちゃんをリモート再生するプラグインを公開しました。</li>
-                </ol>
-            </div>
-
-            <div class="notify-content">
-                <h2 class="fix-title">変更</h2>
-                <ol class="modifieds">
-                    <li>テンプレート画像の読み込みが失敗する問題を修正しました。</li>
-                    <li>割り当て設定（キーアップ）を廃止しました。</li>
-                    <li>アクションの「WriteLine」を廃止しました。</li>
-                    <li>UIの調整を行いました。</li>
-                    <li>一部設定の名称を変更しました。</li>
-                    <li>「TemplateMathing.TryMatch」を「TemplateMathing.TrySingle」に変更しました。</li>
-                    <li>外部ファイルの設定を「マクロ作成・設定」から「環境設定」へ移動させました。</li>
-                    <li>アクション・マクロ割り当ての途中停止設定をデフォルトで無効にしました。</li>
-                </ol>
-            </div>
-
-            <div class="notify-content">
-                <h2 class="modified-title">新しい機能</h2>
-                <ol class="modifieds">
-                    <li>C#スクリプトを実装しました。</li>
-                    <li>「キー割り当て」で一度に複数のキー・ボタンを割り当てられるようにしました。</li>
-                    <li>「キー割り当て」で連射設定でなくても「トグルモード」を使用できるようにしました。</li>
-                    <li>「キー割り当て」でホイールを割り当てられるようにしました。</li>
-                    <li>「キー割り当て」にホイール用の設定を追加しました。</li>
-                    <li>「キー割り当て」、「アクション割り当て」、「マクロ割り当て」にコメント設定を追加しました。</li>
-                    <li>割り当てメニューに「マクロを割り当てる（押したとき、離したとき）」を追加しました。</li>
-                    <li>割り当てメニューに「マクロを割り当てる（短く押したとき、長く押したとき）」を追加しました。</li>
-                    <li>ステートメント系アクションに日本語名を設定しました。</li>
-                    <li>ループ&lt;回数&gt;(@EasyFor)の「ループ回数」に変数を指定できるようにしました。</li>
-                    <li>アクションリストに画像認識用のテンプレートを追加しました。</li>
-                    <li>アクションリストに「選択中のアクションを複製する」を追加しました。</li>
-                    <li>引数入力欄のメニューに「マクロの引数」「ローカル変数」「グローバル変数」を表示するようにしました。</li>
-                    <li>メインウィンドウの「ツール」-「キーステータス」に「入力履歴」を追加しました。</li>
-                    <li>メインウィンドウの「ツール」-「キー入力の記録」に「キー入力の記録（ファイル）」を追加しました。</li>
-                    <li>メッセージボックスを表示」「MesssageBox.Show」においてダイアログを閉じた後にウィンドウを元に戻すかどうかの設定を追加しました。</li>
-                    <li>変数名を指定する項目において変数を直接指定できるようにしました。</li>
-                    <li>アプリケーションの設定に「カテゴリーの並び順」を追加しました。</li>
-                </ol>
-            </div>
-
-            <div class="notify-content">
-                <h2 class="new-action-title">新しいアクション</h2>
-                <ol class="new-actions">
-                    <li>「C#スクリプトを実行」</li>
-                    <li>「@@」</li>
-                    <li>「マクロを強制終了」</li>
-                    <li>「入力再生」</li>
-                    <li>「テンプレートマッチング&lt;結果取得&gt;」</li>
-                    <li>「テンプレートマッチング：フィルター&lt;距離&gt;」</li>
-                    <li>「テンプレートマッチング：フィルター&lt;範囲&gt;」</li>
-                    <li>「キーボードフックを使用する」</li>
-                    <li>「マウスフックを使用する」</li>
-                    <li>「再フック」</li>
-                    <li>「待機&lt;キー入力1&gt;」</li>
-                    <li>「待機&lt;キー入力2&gt;」</li>
-                    <li>「待機&lt;コントローラー入力1&gt;」</li>
-                    <li>「待機&lt;コントローラー入力2&gt;」</li>
-                </ol>
-            </div>
-
-            <div class="notify-content">
-                <h2 class="new-method-title">新しいメソッド</h2>
-                <ol class="new-actions">
-                    <li>「TemplateMatching.TryMultiple」</li>
-                    <li>「TemplateMatching.GetResultCount」</li>
-                    <li>「CSharpScript.Evaluate」</li>
-                </ol>
-            </div>
-        </div>
-
-
-        <div>
-            <h1 class="version">19.03.18更新</h1>
-            <div class="notify-content">
-                <h2 class="fix-title">不具合の修正</h2>
-                <ol class="modifieds">
-                    <li>テンプレートマッチング用アクションの不具合を修正しました。</li>
-                    <li>「ウィンドウのサイズを取得するメソッドの不具合を修正しました。</li>
-                    <li>変数一覧における不具合を修正しました。</li>
-                </ol>
-            </div>
-
-            <div class="notify-content">
-                <h2 class="modified-title">新しい機能</h2>
-                <ol class="modifieds">
-                    <li>プロセスを指定するメソッドにおいてアクティブウィンドウを指定できるようにしました。</li>
-                </ol>
-            </div>
-
-            <div class="notify-content">
-                <h2 class="new-action-title">新しいアクション</h2>
-                <ol class="new-actions">
-                    <li>「画像を保存」</li>
-                    <li>「画像を保存&lt;ウィンドウ&gt;</li>
-                </ol>
-            </div>
-        </div>
-
-        <div>
-            <h1 class="version">19.03.16更新</h1>
-
-            <div class="notify-content">
-                <h2 class="modified-title">新しい機能</h2>
-                <ol class="modifieds">
-                    <li>アプリケーションの設定に「アプリによる設定ファイルの切り替え」を追加しました。</li>
-                    <li>画像認識テストのスコアの表示位置を変更しました。</li>
-                </ol>
-            </div>
-
-            <div class="notify-content">
-                <h2 class="new-action-title">新しいアクション</h2>
-                <ol class="new-actions">
-                    <li>「テンプレートマッチング&lt;範囲選択&gt;」</li>
-                    <li>「テンプレートマッチング&lt;範囲指定&gt;</li>
-                    <li>「テキストの書き込み&lt;改行あり&gt;</li>
-                    <li>「テキストの書き込み&lt;改行なし&gt;</li>
-                </ol>
-            </div>
-
-            <div class="notify-content">
-                <h2 class="new-method-title">新しいメソッド</h2>
-                <ol class="new-actions">
-                    <li>Window.GetActiveProcessName</li>
-                    <li>File.Exists</li>
-                </ol>
-            </div>
-        </div>
-
-        <div>
-            <h1 class="version">19.03.07更新</h1>
-            <div class="notify-content">
-                <h2 class="fix-title">不具合の修正</h2>
-                <ol class="modifieds">
-                    <li>「マウスフックを使用する」を有効にするとアプリが終了しなくなる問題を修正しました。</li>
-                    <li>「マクロ割り当て」「アクション割り当て」で実行キーのキーアップをキャンセルしない問題を修正しました。</li>
-                    <li>「マクロ割り当て」で複数の設定が使用できなくなっている問題を修正しました。</li>
-                </ol>
-            </div>
-
-            <div class="notify-content">
-                <h2 class="modified-title">新しい機能</h2>
-                <ol class="modifieds">
-                    <li>割り当ての設定を複製できるようにしました。</li>
-                    <li>割り当てをコピー・貼り付けをできるようにしました。</li>
-                    <li>アクションリストの「テンプレート」や「貼り付け」で挿入位置を指定できるようにしました。</li>
-                    <li>「割り当て設定（画像認識）」の設定に「画像を選択したときにサイズを変更しない」を追加しました。</li>
-                </ol>
-            </div>
-        </div>
-
-        <div>
-            <h1 class="version">19.03.01更新</h1>
-            <div class="notify-content">
-                <h2 class="fix-title">不具合の修正</h2>
-                <ol class="modifieds">
-                    <li>マウスホイールの割り当てで「連射」を有効にするとアクションが止まらない不具合を修正しました。</li>
-                </ol>
-            </div>
-
-            <div class="notify-content">
-                <h2 class="modified-title">新しい機能</h2>
-                <ol class="modifieds">
-                    <li>設定ファイルの読み込み速度を改善しました。</li>
-                    <li>CapsLockキー、テンキーのEnterキー、PrintScreenキー、KanaHiraキーを使用できるようにしました。</li>
-                    <li>文字列内で特殊な文字「\r」「\n」「\t」「\"」を使用できるようにしました。</li>
-                    <li>「キー入力の記録」の設定変更・追加を行いました。</li>
-                    <li>メソッドの作成ウィンドウを多重表示できるようにしました。</li>
-                    <li>アプリケーションの設定の割り当て設定（コントローラー）に「古い設定画面を使用する」を追加しました。</li>
-                    <li>KeyToKeyにアイコンを設定しました。</li>
-                </ol>
-            </div>
-        </div>
-
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
 </body>
 
 </html>
