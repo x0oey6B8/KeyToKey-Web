@@ -5,47 +5,8 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no" />
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous" />
+    <link rel="stylesheet" href="styles/style.css">
     <title>KeyToKey Release Notes</title>
-
-    <style>
-        body {
-            background-color: #212121;
-            color: #e7e7e7;
-        }
-
-        li {
-            padding: 5px 0 5px;
-        }
-
-        .no-dot {
-            list-style: none;
-        }
-
-        kbd {
-            background-color: #e1e1e1;
-            color: black;
-            margin: 0 10px;
-        }
-
-        table thead th {
-            color: #e7e7e7;
-        }
-
-        .th-col-state {
-            color: #e7e7e7;
-            width: 65px;
-            text-align: center;
-        }
-
-        table tbody tr td {
-            color: #e7e7e7;
-        }
-
-        table tbody tr td pre {
-            color: #e7e7e7;
-        }
-    </style>
-
 </head>
 
 <body>
@@ -65,11 +26,182 @@
             <hr>
             <p>KeyToKeyの実行に必要な.Net Frameworkのバージョンを<b>「4.6.2」</b>から<b>「4.8」</b>へと引き上げました。</p>
         </div>
-        <h2 class="mt-5">201008 追加変更点</h2>
+
+        <h2 class="px-2 my-5 text-center">20/11/24アップデート</h2>
+        <div class="mt-5 header-container">
+            <h4 class="px-2">変更と新しい機能</h4>
+        </div>
+        <ul>
+            <li>マクロの引数に「任意」の項目を追加した時、マクロの選択画面で正常に表示されない不具合を修正しました。</li>
+            <li>高 DPI 環境下における画像認識の位置範囲選択ウィンドウとテストウィンドウの不具合を修正しました。</li>
+            <li>スクリプトやフォルダの名前が一部正常に変更されない問題を修正しました。</li>
+            <li>環境設定のオプション「テンキーで入力されたキーを変更します」を廃止しました。</li>
+            <li>アプリケーションの設定の「その他」カテゴリに「テンキーの入力を変換する」を追加しました。</li>
+            <li>アプリケーションの設定の「割り当て」カテゴリに「デフォルトで事前コンパイルを有効にする」を追加しました。</li>
+            <li>スクリプトに関するヘルプを追加しました。</li>
+            <li>編集ウィンドウのホームに「支援する」ボタンを追加しました。</li>
+        </ul>
+        <div class="mt-5 header-container">
+            <h4 class="px-2">ショートカットの追加</h4>
+        </div>
+        <p>以下のショートカットをエディタに追加しました。</p>
+        <table class="table table-striped table-dark my-4 table-bordered">
+            <thead class=" thead-dark">
+                <th>アクション</th>
+                <th>ショートカットキー</th>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>洗濯業の上に空行を挿入</td>
+                    <td><kbd>Ctrl + Enter</kbd></td>
+                </tr>
+                <tr>
+                    <td>コードのフォーマット（整形）</td>
+                    <td>
+                        <kbd>Ctrl + K</kbd> + <kbd>Ctrl + D</kbd>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <div class="mt-5 header-container">
+            <h4 class="px-2">テンプレートの追加</h4>
+        </div>
+        <p>以下のテンプレートをエディタに追加しました。</p>
+        <table class="table table-striped table-dark my-4 table-bordered">
+            <thead class=" thead-dark">
+                <th>タイトル</th>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>引数の挿入</td>
+                </tr>
+                <tr>
+                    <td>Keys 型の値を入力して挿入（Keys.値）</td>
+                </tr>
+                <tr>
+                    <td>型の値を入力して挿入（値のみ）</td>
+                </tr>
+                <tr>
+                    <td>キーを押す</td>
+                </tr>
+                <tr>
+                    <td>キーを離す</td>
+                </tr>
+                <tr>
+                    <td>キーを押して離す</td>
+                </tr>
+                <tr>
+                    <td>画像認識：単体（識別キーを選択）</td>
+                </tr>
+                <tr>
+                    <td>画像認識：複数（識別キーを選択）</td>
+                </tr>
+                <tr>
+                    <td>画像認識の識別キーを選択</td>
+                </tr>
+                <tr>
+                    <td>Hooked（メソッド）</td>
+                </tr>
+                <tr>
+                    <td>Hooked（ラムダ式）</td>
+                </tr>
+                <tr>
+                    <td>Disposing（メソッド）</td>
+                </tr>
+                <tr>
+                    <td>Disposing（ラムダ式）</td>
+                </tr>
+            </tbody>
+        </table>
+        <div class="mt-5 header-container">
+            <h4 class="px-2">C#スクリプトの変更</h4>
+        </div>
+        <p>C#スクリプトにいくつかの変更を行いました。</p>
+        <table class="table table-dark table- my-4 table-bordered table-triped">
+            <thead>
+                <tr>
+                    <th class="th-col-state">状態</th>
+                    <th style="text-align: center;">内容</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td class="text-danger font-weight-bold">削除</td>
+                    <td>GetVar()</td>
+                </tr>
+                <tr>
+                    <td class="text-danger font-weight-bold">削除</td>
+                    <td>SetVar()</td>
+                </tr>
+                <tr>
+                    <td class="text-warning font-weight-bold">変更</td>
+                    <td>
+                        実行不可なアプリだった場合に C#スクリプトを強制終了するように変更しました。
+                    </td>
+                </tr>
+                <tr>
+                    <td class="text-warning font-weight-bold">変更</td>
+                    <td>
+                        Hooked イベントでマウスの移動を検出できるようにしました。
+                    </td>
+                </tr>
+                <tr>
+                    <td class="text-warning font-weight-bold">変更</td>
+                    <td>
+                        LocalVariables と GlobalVriables プロパティの型を IVaraibleDictionary へと変更しました。
+                    </td>
+                </tr>
+                <tr>
+                    <td class="text-warning font-weight-bold">変更</td>
+                    <td>
+                        Offset を OffsetWithSteps に変更しました。
+                    </td>
+                </tr>
+                <tr>
+                    <td class="text-warning font-weight-bold">変更</td>
+                    <td>
+                        一部プロパティを Obsolete 扱いにしました（使用可能）
+                    </td>
+                </tr>
+                <tr>
+                    <td class="text-success font-weight-bold">追加</td>
+                    <td>event Polling <span class="text-danger">※試験的</span></td>
+                </tr>
+                <tr>
+                    <td class="text-success font-weight-bold">追加</td>
+                    <td>ScriptConfig { get; }</td>
+                </tr>
+                <tr>
+                    <td class="text-success font-weight-bold">追加</td>
+                    <td>WaitConfig { get; }</td>
+                </tr>
+                <tr>
+                    <td class="text-success font-weight-bold">追加</td>
+                    <td>CallNext(params Actions callbacks)</td>
+                </tr>
+                <tr>
+                    <td class="text-success font-weight-bold">追加</td>
+                    <td>Speech()</td>
+                </tr>
+                <tr>
+                    <td class="text-success font-weight-bold">追加</td>
+                    <td>SpeechAsync()</td>
+                </tr>
+                <tr>
+                    <td class="text-success font-weight-bold">追加</td>
+                    <td>bool Match(string identifier, Bounds bounds, out MatchResult result)</td>
+                </tr>
+                <tr>
+                    <td class="text-success font-weight-bold">追加</td>
+                    <td>bool Matches(string identifier, Bounds bounds, out IEnumerable&lt;MatchResult&gt; Results)</td>
+                </tr>
+            </tbody>
+        </table>
+        <h2 class="mt-5">20/10/08 追加変更点</h2>
         <ul>
             <li>マクロの引数の設定を変更しても反映されない問題を修正しました。</li>
         </ul>
-        <h2 class="mt-5">201007 追加変更点</h2>
+        <h2 class="mt-5">20/10/07 追加変更点</h2>
         <ul>
             <li>コントローラーのトリガーに関する不具合を修正しました。</li>
             <li>割り当て設定（コントローラー）において割り当て時の不具合を修正しました。</li>
@@ -268,7 +400,7 @@
             </tbody>
         </table>
 
-        <a href="https://x0oey6b8.github.io/KeyToKey-Web/old_release_notes.html" class="btn btn-primary">過去の更新履歴</a>
+        <a href="./old_release_notes.html" class="btn btn-primary">過去の更新履歴</a>
 
     </div>
 
