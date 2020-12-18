@@ -39,6 +39,14 @@
         </OBJECT></LI>
       </UL>
       <LI><OBJECT type="text/sitemap">
+        <param name="Name" value="AbortWhenDisabled property">
+        <param name="Local" value="html/3b20bf69-a0a9-9513-71b0-27280451fa90.htm">
+      </OBJECT></LI>
+      <LI><OBJECT type="text/sitemap">
+        <param name="Name" value="AbortWhenUnavailableProcess property">
+        <param name="Local" value="html/7c335d0a-2308-1211-8417-da46dc82a2e9.htm">
+      </OBJECT></LI>
+      <LI><OBJECT type="text/sitemap">
         <param name="Name" value="Action class">
         <param name="See Also" value="Action class">
       </OBJECT></LI>
@@ -469,6 +477,20 @@
         <param name="Local" value="html/c0c4d111-7912-5740-0aea-7afb609f1af7.htm">
       </OBJECT></LI>
       <LI><OBJECT type="text/sitemap">
+        <param name="Name" value="CallNext method">
+        <param name="See Also" value="CallNext method">
+      </OBJECT></LI>
+      <UL>
+        <LI><OBJECT type="text/sitemap">
+          <param name="Name" value="GlobalsBridge.CallNext Method ">
+          <param name="Local" value="html/d55b25af-7b9e-f904-b55b-d8c9208d48d7.htm">
+        </OBJECT></LI>
+        <LI><OBJECT type="text/sitemap">
+          <param name="Name" value="IGlobals.CallNext Method ">
+          <param name="Local" value="html/9fcfbe46-4b60-79dd-0f9d-fd106f8cbb93.htm">
+        </OBJECT></LI>
+      </UL>
+      <LI><OBJECT type="text/sitemap">
         <param name="Name" value="Cancel enumeration member">
         <param name="Local" value="html/d7ac138e-1c3f-9bb5-c251-b53274bcef97.htm">
       </OBJECT></LI>
@@ -663,7 +685,7 @@
         </OBJECT></LI>
         <LI><OBJECT type="text/sitemap">
           <param name="Name" value="constructor">
-          <param name="Local" value="html/8ba9e99c-fbcf-9803-ebef-ae4f8b0bf3dd.htm">
+          <param name="Local" value="html/cfe9b4f1-415a-f030-0760-0dd473ed8e7f.htm">
         </OBJECT></LI>
         <LI><OBJECT type="text/sitemap">
           <param name="Name" value="methods">
@@ -680,11 +702,15 @@
       </OBJECT></LI>
       <LI><OBJECT type="text/sitemap">
         <param name="Name" value="ControllerStateChangedEventArgs.ControllerStateChangedEventArgs constructor">
-        <param name="Local" value="html/8ba9e99c-fbcf-9803-ebef-ae4f8b0bf3dd.htm">
+        <param name="Local" value="html/cfe9b4f1-415a-f030-0760-0dd473ed8e7f.htm">
       </OBJECT></LI>
       <LI><OBJECT type="text/sitemap">
         <param name="Name" value="ControllerStateChangedEventArgs.IsPressed property">
         <param name="Local" value="html/f9e3e310-3d2e-918a-85a1-f3d96d642df3.htm">
+      </OBJECT></LI>
+      <LI><OBJECT type="text/sitemap">
+        <param name="Name" value="ControllerStateChangedEventArgs.IsVirtualPadEvent property">
+        <param name="Local" value="html/793434e3-88fa-1485-f12a-affe98fac17b.htm">
       </OBJECT></LI>
       <LI><OBJECT type="text/sitemap">
         <param name="Name" value="ConversionMode property">
@@ -815,6 +841,10 @@
         <param name="Local" value="html/7ceddfcd-5f7a-0542-00e3-35bca3892fc9.htm">
       </OBJECT></LI>
       <LI><OBJECT type="text/sitemap">
+        <param name="Name" value="Defualt enumeration member">
+        <param name="Local" value="html/f529e2b6-fe25-a629-9ff1-a0d856ae894c.htm">
+      </OBJECT></LI>
+      <LI><OBJECT type="text/sitemap">
         <param name="Name" value="Delete enumeration member">
         <param name="Local" value="html/d7ac138e-1c3f-9bb5-c251-b53274bcef97.htm">
       </OBJECT></LI>
@@ -900,8 +930,18 @@
       </OBJECT></LI>
       <LI><OBJECT type="text/sitemap">
         <param name="Name" value="Disabled enumeration member">
-        <param name="Local" value="html/9a05ad7b-25d5-066c-8eb0-b84eab458564.htm">
+        <param name="See Also" value="Disabled enumeration member">
       </OBJECT></LI>
+      <UL>
+        <LI><OBJECT type="text/sitemap">
+          <param name="Name" value="DisposingReason Enumeration">
+          <param name="Local" value="html/2df9c87e-7b4b-734a-8373-cf066a6b7542.htm">
+        </OBJECT></LI>
+        <LI><OBJECT type="text/sitemap">
+          <param name="Name" value="WindowStyles Enumeration">
+          <param name="Local" value="html/9a05ad7b-25d5-066c-8eb0-b84eab458564.htm">
+        </OBJECT></LI>
+      </UL>
       <LI><OBJECT type="text/sitemap">
         <param name="Name" value="DisplayText property">
         <param name="Local" value="html/5ea129bc-69bf-60cc-fbd0-71bbe0b09aa7.htm">
@@ -920,6 +960,44 @@
           <param name="Local" value="html/8b1c290c-0c29-65e9-5c73-c433323a6edc.htm">
         </OBJECT></LI>
       </UL>
+      <LI><OBJECT type="text/sitemap">
+        <param name="Name" value="DisposingEventArgs class">
+        <param name="See Also" value="DisposingEventArgs class">
+      </OBJECT></LI>
+      <UL>
+        <LI><OBJECT type="text/sitemap">
+          <param name="Name" value="DisposingEventArgs Class">
+          <param name="Local" value="html/271c2b3c-9f80-7d91-e0c9-924b6135b750.htm">
+        </OBJECT></LI>
+        <LI><OBJECT type="text/sitemap">
+          <param name="Name" value="constructor">
+          <param name="Local" value="html/57526890-9e3d-5c2c-51a0-f0d8f269d5fb.htm">
+        </OBJECT></LI>
+        <LI><OBJECT type="text/sitemap">
+          <param name="Name" value="methods">
+          <param name="Local" value="html/f6c4e9bb-c528-2413-143e-9ae6477d1c4e.htm">
+        </OBJECT></LI>
+        <LI><OBJECT type="text/sitemap">
+          <param name="Name" value="properties">
+          <param name="Local" value="html/7df0a4d5-e216-0580-b715-8a047f04dc8d.htm">
+        </OBJECT></LI>
+      </UL>
+      <LI><OBJECT type="text/sitemap">
+        <param name="Name" value="DisposingEventArgs.DisposingEventArgs constructor">
+        <param name="Local" value="html/57526890-9e3d-5c2c-51a0-f0d8f269d5fb.htm">
+      </OBJECT></LI>
+      <LI><OBJECT type="text/sitemap">
+        <param name="Name" value="DisposingEventArgs.IsTemporary property">
+        <param name="Local" value="html/b8c1afa8-327f-5f42-6341-f51760806db2.htm">
+      </OBJECT></LI>
+      <LI><OBJECT type="text/sitemap">
+        <param name="Name" value="DisposingEventArgs.Reason property">
+        <param name="Local" value="html/9ac80715-a7b0-f2fc-13b6-8cacc3abe87d.htm">
+      </OBJECT></LI>
+      <LI><OBJECT type="text/sitemap">
+        <param name="Name" value="DisposingReason enumeration">
+        <param name="Local" value="html/2df9c87e-7b4b-734a-8373-cf066a6b7542.htm">
+      </OBJECT></LI>
       <LI><OBJECT type="text/sitemap">
         <param name="Name" value="Distance method">
         <param name="See Also" value="Distance method">
@@ -1084,7 +1162,21 @@
       </UL>
       <LI><OBJECT type="text/sitemap">
         <param name="Name" value="End enumeration member">
-        <param name="Local" value="html/d7ac138e-1c3f-9bb5-c251-b53274bcef97.htm">
+        <param name="See Also" value="End enumeration member">
+      </OBJECT></LI>
+      <UL>
+        <LI><OBJECT type="text/sitemap">
+          <param name="Name" value="DisposingReason Enumeration">
+          <param name="Local" value="html/2df9c87e-7b4b-734a-8373-cf066a6b7542.htm">
+        </OBJECT></LI>
+        <LI><OBJECT type="text/sitemap">
+          <param name="Name" value="Keys Enumeration">
+          <param name="Local" value="html/d7ac138e-1c3f-9bb5-c251-b53274bcef97.htm">
+        </OBJECT></LI>
+      </UL>
+      <LI><OBJECT type="text/sitemap">
+        <param name="Name" value="Enlgish enumeration member">
+        <param name="Local" value="html/4bacccbc-fa3b-4a31-ef54-40a7eed09a1f.htm">
       </OBJECT></LI>
       <LI><OBJECT type="text/sitemap">
         <param name="Name" value="Enter enumeration member">
@@ -1135,6 +1227,14 @@
       <LI><OBJECT type="text/sitemap">
         <param name="Name" value="Escape enumeration member">
         <param name="Local" value="html/d7ac138e-1c3f-9bb5-c251-b53274bcef97.htm">
+      </OBJECT></LI>
+      <LI><OBJECT type="text/sitemap">
+        <param name="Name" value="EventType enumeration">
+        <param name="Local" value="html/b3395702-0705-77e2-9e6a-debf0bd0268b.htm">
+      </OBJECT></LI>
+      <LI><OBJECT type="text/sitemap">
+        <param name="Name" value="EventType property">
+        <param name="Local" value="html/819f1c89-3f21-67af-53a3-1fa9b82c1aac.htm">
       </OBJECT></LI>
       <LI><OBJECT type="text/sitemap">
         <param name="Name" value="ExButton0 enumeration member">
@@ -1371,6 +1471,10 @@
         <param name="Local" value="html/4eabcaa5-2f56-c94c-60df-770c35056b2a.htm">
       </OBJECT></LI>
       <LI><OBJECT type="text/sitemap">
+        <param name="Name" value="ExtendedKeyOptions enumeration">
+        <param name="Local" value="html/f529e2b6-fe25-a629-9ff1-a0d856ae894c.htm">
+      </OBJECT></LI>
+      <LI><OBJECT type="text/sitemap">
         <param name="Name" value="ExtraInfo field">
         <param name="See Also" value="ExtraInfo field">
       </OBJECT></LI>
@@ -1510,6 +1614,10 @@
           <param name="Local" value="html/009202d3-5ba7-23cd-33da-081f332ca3db.htm">
         </OBJECT></LI>
       </UL>
+      <LI><OBJECT type="text/sitemap">
+        <param name="Name" value="Force enumeration member">
+        <param name="Local" value="html/f529e2b6-fe25-a629-9ff1-a0d856ae894c.htm">
+      </OBJECT></LI>
       <LI><OBJECT type="text/sitemap">
         <param name="Name" value="ForceMinimize enumeration member">
         <param name="Local" value="html/a64a136d-7124-1f4e-c6a0-c3162e806c4c.htm">
@@ -1775,19 +1883,13 @@
         </OBJECT></LI>
       </UL>
       <LI><OBJECT type="text/sitemap">
-        <param name="Name" value="GetVar method">
-        <param name="See Also" value="GetVar method">
+        <param name="Name" value="GetValueOrCreateNew(Of T) method">
+        <param name="Local" value="html/8ac9822e-0fac-9329-2075-8eb719d65b85.htm">
       </OBJECT></LI>
-      <UL>
-        <LI><OBJECT type="text/sitemap">
-          <param name="Name" value="GlobalsBridge.GetVar Method ">
-          <param name="Local" value="html/fb80fcb1-f5bf-d0e7-5a3a-8b0f2d9d1c61.htm">
-        </OBJECT></LI>
-        <LI><OBJECT type="text/sitemap">
-          <param name="Name" value="IGlobals.GetVar Method ">
-          <param name="Local" value="html/bb102935-e04a-1232-61e9-7ff2e7fe1518.htm">
-        </OBJECT></LI>
-      </UL>
+      <LI><OBJECT type="text/sitemap">
+        <param name="Name" value="GetValueOrCreateNew&lt;T&gt; method">
+        <param name="Local" value="html/8ac9822e-0fac-9329-2075-8eb719d65b85.htm">
+      </OBJECT></LI>
       <LI><OBJECT type="text/sitemap">
         <param name="Name" value="GetVariableName property">
         <param name="Local" value="html/5a62d9c8-a3c8-fb0f-490b-1e5ad51785ea.htm">
@@ -1943,6 +2045,10 @@
         <param name="Local" value="html/72c36f3b-fd4e-2d4d-5b3d-03ed6370c2d7.htm">
       </OBJECT></LI>
       <LI><OBJECT type="text/sitemap">
+        <param name="Name" value="GlobalsBridge.CallNext method">
+        <param name="Local" value="html/d55b25af-7b9e-f904-b55b-d8c9208d48d7.htm">
+      </OBJECT></LI>
+      <LI><OBJECT type="text/sitemap">
         <param name="Name" value="GlobalsBridge.Cancel method">
         <param name="Local" value="html/4ccae010-c9ec-29a8-b4f2-bf38c7899550.htm">
       </OBJECT></LI>
@@ -2043,10 +2149,6 @@
         <param name="Local" value="html/484924f6-9473-52db-744c-3ed407cebbb1.htm">
       </OBJECT></LI>
       <LI><OBJECT type="text/sitemap">
-        <param name="Name" value="GlobalsBridge.GetVar method">
-        <param name="Local" value="html/fb80fcb1-f5bf-d0e7-5a3a-8b0f2d9d1c61.htm">
-      </OBJECT></LI>
-      <LI><OBJECT type="text/sitemap">
         <param name="Name" value="GlobalsBridge.GetWindowBounds method">
         <param name="Local" value="html/6e9be915-0718-1b10-48fd-7a400b992443.htm">
       </OBJECT></LI>
@@ -2085,6 +2187,10 @@
       <LI><OBJECT type="text/sitemap">
         <param name="Name" value="GlobalsBridge.IME property">
         <param name="Local" value="html/fa158c88-a81f-5563-ef3d-285a8e445d68.htm">
+      </OBJECT></LI>
+      <LI><OBJECT type="text/sitemap">
+        <param name="Name" value="GlobalsBridge.InjectedStatus property">
+        <param name="Local" value="html/693e4470-5c61-cf96-83cd-c9002f206e6b.htm">
       </OBJECT></LI>
       <LI><OBJECT type="text/sitemap">
         <param name="Name" value="GlobalsBridge.Input property">
@@ -2204,7 +2310,11 @@
       </OBJECT></LI>
       <LI><OBJECT type="text/sitemap">
         <param name="Name" value="GlobalsBridge.Offset method">
-        <param name="Local" value="html/c444a4fd-8d42-e034-b555-2375384427b8.htm">
+        <param name="Local" value="html/24e8c1ee-fa4d-9046-b7d2-db10f513dc9c.htm">
+      </OBJECT></LI>
+      <LI><OBJECT type="text/sitemap">
+        <param name="Name" value="GlobalsBridge.OffsetWithSteps method">
+        <param name="Local" value="html/3a7e623c-05e2-d38c-0544-650876e78904.htm">
       </OBJECT></LI>
       <LI><OBJECT type="text/sitemap">
         <param name="Name" value="GlobalsBridge.Parameters property">
@@ -2215,6 +2325,10 @@
         <param name="Local" value="html/5f1464df-5c4c-928b-53c6-f60984e9418b.htm">
       </OBJECT></LI>
       <LI><OBJECT type="text/sitemap">
+        <param name="Name" value="GlobalsBridge.PhysicalStatus property">
+        <param name="Local" value="html/df556de3-e201-0bbd-c601-f8de37dd4784.htm">
+      </OBJECT></LI>
+      <LI><OBJECT type="text/sitemap">
         <param name="Name" value="GlobalsBridge.PlaySound method">
         <param name="Local" value="html/2168b5eb-f3ce-0040-5b49-b3e101732f60.htm">
       </OBJECT></LI>
@@ -2223,12 +2337,20 @@
         <param name="Local" value="html/49fb2499-cbe2-4aed-e5af-e79e231014d1.htm">
       </OBJECT></LI>
       <LI><OBJECT type="text/sitemap">
+        <param name="Name" value="GlobalsBridge.Polling event">
+        <param name="Local" value="html/784a955a-17ad-7000-f8b5-607b9a782d11.htm">
+      </OBJECT></LI>
+      <LI><OBJECT type="text/sitemap">
         <param name="Name" value="GlobalsBridge.Replay method">
         <param name="Local" value="html/e10ec8ac-f7c1-8359-5786-0649a0d5ec29.htm">
       </OBJECT></LI>
       <LI><OBJECT type="text/sitemap">
         <param name="Name" value="GlobalsBridge.Screenshot method">
         <param name="Local" value="html/832c32ed-d1ed-8d1a-6713-ac8c30b8f98f.htm">
+      </OBJECT></LI>
+      <LI><OBJECT type="text/sitemap">
+        <param name="Name" value="GlobalsBridge.ScriptConfig property">
+        <param name="Local" value="html/477fabe3-aa25-c83d-fa3e-adc37fba26cf.htm">
       </OBJECT></LI>
       <LI><OBJECT type="text/sitemap">
         <param name="Name" value="GlobalsBridge.SetEventLockState method">
@@ -2245,10 +2367,6 @@
       <LI><OBJECT type="text/sitemap">
         <param name="Name" value="GlobalsBridge.SetTextToClipboard method">
         <param name="Local" value="html/55eff2f3-633b-f7c1-319c-094df1bf1b5b.htm">
-      </OBJECT></LI>
-      <LI><OBJECT type="text/sitemap">
-        <param name="Name" value="GlobalsBridge.SetVar method">
-        <param name="Local" value="html/3c504448-ee0d-e82b-5851-47cf220d15d0.htm">
       </OBJECT></LI>
       <LI><OBJECT type="text/sitemap">
         <param name="Name" value="GlobalsBridge.SetWindowLong method">
@@ -2289,6 +2407,14 @@
       <LI><OBJECT type="text/sitemap">
         <param name="Name" value="GlobalsBridge.Sound property">
         <param name="Local" value="html/8e1b16dc-99ba-079c-d20d-5234a66ea245.htm">
+      </OBJECT></LI>
+      <LI><OBJECT type="text/sitemap">
+        <param name="Name" value="GlobalsBridge.Speech method">
+        <param name="Local" value="html/bde5ab7f-8443-92d8-6f16-5393576f13cb.htm">
+      </OBJECT></LI>
+      <LI><OBJECT type="text/sitemap">
+        <param name="Name" value="GlobalsBridge.SpeechAsync method">
+        <param name="Local" value="html/d35759d7-ae15-b84c-eca8-9006f8fad9bc.htm">
       </OBJECT></LI>
       <LI><OBJECT type="text/sitemap">
         <param name="Name" value="GlobalsBridge.Tap method">
@@ -2337,6 +2463,10 @@
       <LI><OBJECT type="text/sitemap">
         <param name="Name" value="GlobalsBridge.Wait method">
         <param name="Local" value="html/53f479c2-20ee-1911-f759-1215b5923797.htm">
+      </OBJECT></LI>
+      <LI><OBJECT type="text/sitemap">
+        <param name="Name" value="GlobalsBridge.WaitConfig property">
+        <param name="Local" value="html/7a1a419f-dc24-18d8-c02f-d892b025481b.htm">
       </OBJECT></LI>
       <LI><OBJECT type="text/sitemap">
         <param name="Name" value="GlobalsBridge.WaitForInput method">
@@ -2448,8 +2578,18 @@
       </OBJECT></LI>
       <LI><OBJECT type="text/sitemap">
         <param name="Name" value="HighPrecision property">
-        <param name="Local" value="html/d0d72f50-34a7-d476-7932-5b900065ca59.htm">
+        <param name="See Also" value="HighPrecision property">
       </OBJECT></LI>
+      <UL>
+        <LI><OBJECT type="text/sitemap">
+          <param name="Name" value="IWaitConfigProperties.HighPrecision Property ">
+          <param name="Local" value="html/9d932509-bedc-1399-6794-9ce804fe2f7f.htm">
+        </OBJECT></LI>
+        <LI><OBJECT type="text/sitemap">
+          <param name="Name" value="IWaiter.HighPrecision Property ">
+          <param name="Local" value="html/d0d72f50-34a7-d476-7932-5b900065ca59.htm">
+        </OBJECT></LI>
+      </UL>
       <LI><OBJECT type="text/sitemap">
         <param name="Name" value="HInstance enumeration member">
         <param name="Local" value="html/4eabcaa5-2f56-c94c-60df-770c35056b2a.htm">
@@ -2491,7 +2631,7 @@
         </OBJECT></LI>
         <LI><OBJECT type="text/sitemap">
           <param name="Name" value="constructor">
-          <param name="Local" value="html/f62518f6-44bb-106a-b0b2-474132609416.htm">
+          <param name="Local" value="html/5b8faa23-3dc0-e264-fd0c-eca4e5a3891c.htm">
         </OBJECT></LI>
         <LI><OBJECT type="text/sitemap">
           <param name="Name" value="methods">
@@ -2503,8 +2643,12 @@
         </OBJECT></LI>
       </UL>
       <LI><OBJECT type="text/sitemap">
+        <param name="Name" value="HookEventArgs.EventType property">
+        <param name="Local" value="html/819f1c89-3f21-67af-53a3-1fa9b82c1aac.htm">
+      </OBJECT></LI>
+      <LI><OBJECT type="text/sitemap">
         <param name="Name" value="HookEventArgs.HookEventArgs constructor">
-        <param name="Local" value="html/f62518f6-44bb-106a-b0b2-474132609416.htm">
+        <param name="Local" value="html/5b8faa23-3dc0-e264-fd0c-eca4e5a3891c.htm">
       </OBJECT></LI>
       <LI><OBJECT type="text/sitemap">
         <param name="Name" value="HookEventArgs.HookType property">
@@ -2521,6 +2665,10 @@
       <LI><OBJECT type="text/sitemap">
         <param name="Name" value="HookEventArgs.IsPressed property">
         <param name="Local" value="html/1b540d6b-bbe4-f0c3-861b-c6b3f86c1000.htm">
+      </OBJECT></LI>
+      <LI><OBJECT type="text/sitemap">
+        <param name="Name" value="HookEventArgs.IsToggleKey property">
+        <param name="Local" value="html/874647c8-498e-3d91-e94e-682d1399c713.htm">
       </OBJECT></LI>
       <LI><OBJECT type="text/sitemap">
         <param name="Name" value="HookEventArgs.Key property">
@@ -2609,11 +2757,11 @@
         </OBJECT></LI>
         <LI><OBJECT type="text/sitemap">
           <param name="Name" value="properties">
-          <param name="Local" value="html/31a5c8a7-7f8c-b3b4-44d7-4613dc8d9cc6.htm">
+          <param name="Local" value="html/501fe2b4-4f5c-12b5-e12d-e776e5d17f7d.htm">
         </OBJECT></LI>
         <LI><OBJECT type="text/sitemap">
           <param name="Name" value="properties">
-          <param name="Local" value="html/501fe2b4-4f5c-12b5-e12d-e776e5d17f7d.htm">
+          <param name="Local" value="html/31a5c8a7-7f8c-b3b4-44d7-4613dc8d9cc6.htm">
         </OBJECT></LI>
       </UL>
       <LI><OBJECT type="text/sitemap">
@@ -2731,6 +2879,10 @@
         <param name="Local" value="html/00a53376-8a7a-e6a6-2024-c25410e22af0.htm">
       </OBJECT></LI>
       <LI><OBJECT type="text/sitemap">
+        <param name="Name" value="IGlobals.CallNext method">
+        <param name="Local" value="html/9fcfbe46-4b60-79dd-0f9d-fd106f8cbb93.htm">
+      </OBJECT></LI>
+      <LI><OBJECT type="text/sitemap">
         <param name="Name" value="IGlobals.Cancel method">
         <param name="Local" value="html/6aecd820-3e62-5ffc-7852-08b0b432b23a.htm">
       </OBJECT></LI>
@@ -2819,10 +2971,6 @@
         <param name="Local" value="html/22c3a941-a362-a77c-e538-84bb854fb82b.htm">
       </OBJECT></LI>
       <LI><OBJECT type="text/sitemap">
-        <param name="Name" value="IGlobals.GetVar method">
-        <param name="Local" value="html/bb102935-e04a-1232-61e9-7ff2e7fe1518.htm">
-      </OBJECT></LI>
-      <LI><OBJECT type="text/sitemap">
         <param name="Name" value="IGlobals.GetWindowBounds method">
         <param name="Local" value="html/33e1dea6-f3cd-ee92-4f5b-f9e4eb89ff6d.htm">
       </OBJECT></LI>
@@ -2857,6 +3005,10 @@
       <LI><OBJECT type="text/sitemap">
         <param name="Name" value="IGlobals.IME property">
         <param name="Local" value="html/32cacb14-3e4f-5244-1c9c-07fdc6f56e32.htm">
+      </OBJECT></LI>
+      <LI><OBJECT type="text/sitemap">
+        <param name="Name" value="IGlobals.InjectedStatus property">
+        <param name="Local" value="html/26a2a951-8594-5e73-8ea8-f29b19b71dd2.htm">
       </OBJECT></LI>
       <LI><OBJECT type="text/sitemap">
         <param name="Name" value="IGlobals.Input property">
@@ -2976,7 +3128,11 @@
       </OBJECT></LI>
       <LI><OBJECT type="text/sitemap">
         <param name="Name" value="IGlobals.Offset method">
-        <param name="Local" value="html/9d1ec341-bd57-f887-f647-9027b9bfece1.htm">
+        <param name="Local" value="html/5a8811dc-de98-8da5-374a-f5a1e199df70.htm">
+      </OBJECT></LI>
+      <LI><OBJECT type="text/sitemap">
+        <param name="Name" value="IGlobals.OffsetWithSteps method">
+        <param name="Local" value="html/3d4a2101-cebc-44f2-40cb-b53cae97eda4.htm">
       </OBJECT></LI>
       <LI><OBJECT type="text/sitemap">
         <param name="Name" value="IGlobals.Parameters property">
@@ -2987,12 +3143,20 @@
         <param name="Local" value="html/7e447117-d447-d3ac-79ce-b495cdacc5f3.htm">
       </OBJECT></LI>
       <LI><OBJECT type="text/sitemap">
+        <param name="Name" value="IGlobals.PhysicalStatus property">
+        <param name="Local" value="html/f19b8000-a864-d9f7-0978-01683df9ebec.htm">
+      </OBJECT></LI>
+      <LI><OBJECT type="text/sitemap">
         <param name="Name" value="IGlobals.PlaySound method">
         <param name="Local" value="html/178e91ff-914f-9b32-0cc5-f771a6265a3a.htm">
       </OBJECT></LI>
       <LI><OBJECT type="text/sitemap">
         <param name="Name" value="IGlobals.PlaySystemSound method">
         <param name="Local" value="html/376cd352-3ec7-59a8-a52a-52e6703015f8.htm">
+      </OBJECT></LI>
+      <LI><OBJECT type="text/sitemap">
+        <param name="Name" value="IGlobals.Polling event">
+        <param name="Local" value="html/3546cadd-5f3e-2600-e012-b35a5a33e2b2.htm">
       </OBJECT></LI>
       <LI><OBJECT type="text/sitemap">
         <param name="Name" value="IGlobals.Random method">
@@ -3011,6 +3175,10 @@
         <param name="Local" value="html/57cf0f49-97a0-6af8-f269-3bf0807289e2.htm">
       </OBJECT></LI>
       <LI><OBJECT type="text/sitemap">
+        <param name="Name" value="IGlobals.ScriptConfig property">
+        <param name="Local" value="html/03ee33b8-d08a-4a19-d58e-fc4bfd199a4d.htm">
+      </OBJECT></LI>
+      <LI><OBJECT type="text/sitemap">
         <param name="Name" value="IGlobals.SetEventLockState method">
         <param name="Local" value="html/bed10f4c-d54b-df6a-ada0-b5b3eb56bec9.htm">
       </OBJECT></LI>
@@ -3021,10 +3189,6 @@
       <LI><OBJECT type="text/sitemap">
         <param name="Name" value="IGlobals.SetTextToClipboard method">
         <param name="Local" value="html/f4811fc6-b7eb-ef8c-ebc5-fe9a4304ee6a.htm">
-      </OBJECT></LI>
-      <LI><OBJECT type="text/sitemap">
-        <param name="Name" value="IGlobals.SetVar method">
-        <param name="Local" value="html/4c280dd9-b2ea-8132-c963-a782e6a1281e.htm">
       </OBJECT></LI>
       <LI><OBJECT type="text/sitemap">
         <param name="Name" value="IGlobals.SetWindowLong method">
@@ -3065,6 +3229,14 @@
       <LI><OBJECT type="text/sitemap">
         <param name="Name" value="IGlobals.Sound property">
         <param name="Local" value="html/5b9624f5-c645-0c18-db67-427a6fe7c8cf.htm">
+      </OBJECT></LI>
+      <LI><OBJECT type="text/sitemap">
+        <param name="Name" value="IGlobals.Speech method">
+        <param name="Local" value="html/363d570a-5c48-bd88-7dca-a6a2a31d24f4.htm">
+      </OBJECT></LI>
+      <LI><OBJECT type="text/sitemap">
+        <param name="Name" value="IGlobals.SpeechAsync method">
+        <param name="Local" value="html/cde93fb2-c650-2e8b-8a22-00fa91886123.htm">
       </OBJECT></LI>
       <LI><OBJECT type="text/sitemap">
         <param name="Name" value="IGlobals.Tap method">
@@ -3115,6 +3287,10 @@
         <param name="Local" value="html/c19752fc-fc93-fb0a-49dd-3070f7a9bcf3.htm">
       </OBJECT></LI>
       <LI><OBJECT type="text/sitemap">
+        <param name="Name" value="IGlobals.WaitConfig property">
+        <param name="Local" value="html/62c42721-6c97-19a2-d67e-ba3f01e1b19a.htm">
+      </OBJECT></LI>
+      <LI><OBJECT type="text/sitemap">
         <param name="Name" value="IGlobals.WaitForInput method">
         <param name="Local" value="html/213a2c46-242b-d24d-c867-6313133f9a87.htm">
       </OBJECT></LI>
@@ -3141,6 +3317,10 @@
       <LI><OBJECT type="text/sitemap">
         <param name="Name" value="IGlobals.XInput property">
         <param name="Local" value="html/47a367e1-4b82-4188-927f-497ab2a01dcb.htm">
+      </OBJECT></LI>
+      <LI><OBJECT type="text/sitemap">
+        <param name="Name" value="Ignore enumeration member">
+        <param name="Local" value="html/f529e2b6-fe25-a629-9ff1-a0d856ae894c.htm">
       </OBJECT></LI>
       <LI><OBJECT type="text/sitemap">
         <param name="Name" value="IIME interface">
@@ -3523,6 +3703,20 @@
         <param name="Local" value="html/a2e141bd-c2bb-6510-a3d6-8448ed9f6823.htm">
       </OBJECT></LI>
       <LI><OBJECT type="text/sitemap">
+        <param name="Name" value="InjectedStatus property">
+        <param name="See Also" value="InjectedStatus property">
+      </OBJECT></LI>
+      <UL>
+        <LI><OBJECT type="text/sitemap">
+          <param name="Name" value="GlobalsBridge.InjectedStatus Property ">
+          <param name="Local" value="html/693e4470-5c61-cf96-83cd-c9002f206e6b.htm">
+        </OBJECT></LI>
+        <LI><OBJECT type="text/sitemap">
+          <param name="Name" value="IGlobals.InjectedStatus Property ">
+          <param name="Local" value="html/26a2a951-8594-5e73-8ea8-f29b19b71dd2.htm">
+        </OBJECT></LI>
+      </UL>
+      <LI><OBJECT type="text/sitemap">
         <param name="Name" value="Input property">
         <param name="See Also" value="Input property">
       </OBJECT></LI>
@@ -3685,6 +3879,28 @@
       <LI><OBJECT type="text/sitemap">
         <param name="Name" value="IsConnected property">
         <param name="Local" value="html/bcaa77ac-cdc1-b537-211f-73cb8bdd99e3.htm">
+      </OBJECT></LI>
+      <LI><OBJECT type="text/sitemap">
+        <param name="Name" value="IScriptConfig interface">
+        <param name="See Also" value="IScriptConfig interface">
+      </OBJECT></LI>
+      <UL>
+        <LI><OBJECT type="text/sitemap">
+          <param name="Name" value="IScriptConfig Interface">
+          <param name="Local" value="html/8e74416b-f8b3-56e0-6162-ee7dd33ad335.htm">
+        </OBJECT></LI>
+        <LI><OBJECT type="text/sitemap">
+          <param name="Name" value="properties">
+          <param name="Local" value="html/9b11c495-0453-0c68-bd40-f7e237d8b43f.htm">
+        </OBJECT></LI>
+      </UL>
+      <LI><OBJECT type="text/sitemap">
+        <param name="Name" value="IScriptConfig.AbortWhenDisabled property">
+        <param name="Local" value="html/3b20bf69-a0a9-9513-71b0-27280451fa90.htm">
+      </OBJECT></LI>
+      <LI><OBJECT type="text/sitemap">
+        <param name="Name" value="IScriptConfig.AbortWhenUnavailableProcess property">
+        <param name="Local" value="html/7c335d0a-2308-1211-8417-da46dc82a2e9.htm">
       </OBJECT></LI>
       <LI><OBJECT type="text/sitemap">
         <param name="Name" value="IsEnabled property">
@@ -3885,6 +4101,28 @@
         </OBJECT></LI>
       </UL>
       <LI><OBJECT type="text/sitemap">
+        <param name="Name" value="IStatusTable interface">
+        <param name="See Also" value="IStatusTable interface">
+      </OBJECT></LI>
+      <UL>
+        <LI><OBJECT type="text/sitemap">
+          <param name="Name" value="IStatusTable Interface">
+          <param name="Local" value="html/92f852e7-263d-1a0d-124b-a8f3886d0955.htm">
+        </OBJECT></LI>
+        <LI><OBJECT type="text/sitemap">
+          <param name="Name" value="properties">
+          <param name="Local" value="html/322f45d3-45d7-834f-7530-17fae72930b8.htm">
+        </OBJECT></LI>
+      </UL>
+      <LI><OBJECT type="text/sitemap">
+        <param name="Name" value="IStatusTable.Item property">
+        <param name="Local" value="html/78c4694d-638c-846f-a5ae-514dba265f81.htm">
+      </OBJECT></LI>
+      <LI><OBJECT type="text/sitemap">
+        <param name="Name" value="IsTemporary property">
+        <param name="Local" value="html/b8c1afa8-327f-5f42-6341-f51760806db2.htm">
+      </OBJECT></LI>
+      <LI><OBJECT type="text/sitemap">
         <param name="Name" value="IStickState interface">
         <param name="See Also" value="IStickState interface">
       </OBJECT></LI>
@@ -3931,6 +4169,10 @@
         <param name="Local" value="html/b1e9acc6-c127-6975-8113-9aef1cdc58b1.htm">
       </OBJECT></LI>
       <LI><OBJECT type="text/sitemap">
+        <param name="Name" value="IsToggleKey property">
+        <param name="Local" value="html/874647c8-498e-3d91-e94e-682d1399c713.htm">
+      </OBJECT></LI>
+      <LI><OBJECT type="text/sitemap">
         <param name="Name" value="IsTrigger method">
         <param name="See Also" value="IsTrigger method">
       </OBJECT></LI>
@@ -3973,6 +4215,10 @@
         </OBJECT></LI>
       </UL>
       <LI><OBJECT type="text/sitemap">
+        <param name="Name" value="IsVirtualPadEvent property">
+        <param name="Local" value="html/793434e3-88fa-1485-f12a-affe98fac17b.htm">
+      </OBJECT></LI>
+      <LI><OBJECT type="text/sitemap">
         <param name="Name" value="Item property">
         <param name="See Also" value="Item property">
       </OBJECT></LI>
@@ -3984,6 +4230,10 @@
         <LI><OBJECT type="text/sitemap">
           <param name="Name" value="IGlobals.Item Property ">
           <param name="Local" value="html/b6124c18-af2e-16eb-b381-ff061c28c101.htm">
+        </OBJECT></LI>
+        <LI><OBJECT type="text/sitemap">
+          <param name="Name" value="IStatusTable.Item Property ">
+          <param name="Local" value="html/78c4694d-638c-846f-a5ae-514dba265f81.htm">
         </OBJECT></LI>
         <LI><OBJECT type="text/sitemap">
           <param name="Name" value="ITemplateMatchingConfigsHolder.Item Property ">
@@ -4181,6 +4431,32 @@
         <param name="Local" value="html/6dfaf87a-7fa0-20f0-cd34-26978967efc8.htm">
       </OBJECT></LI>
       <LI><OBJECT type="text/sitemap">
+        <param name="Name" value="IVariableDictionary interface">
+        <param name="See Also" value="IVariableDictionary interface">
+      </OBJECT></LI>
+      <UL>
+        <LI><OBJECT type="text/sitemap">
+          <param name="Name" value="IVariableDictionary Interface">
+          <param name="Local" value="html/44d37f7c-3e35-ccfa-f9b5-01dfc82fb5fa.htm">
+        </OBJECT></LI>
+        <LI><OBJECT type="text/sitemap">
+          <param name="Name" value="methods">
+          <param name="Local" value="html/893ed4c3-99ba-b4cb-00d9-3e09557d2f17.htm">
+        </OBJECT></LI>
+        <LI><OBJECT type="text/sitemap">
+          <param name="Name" value="properties">
+          <param name="Local" value="html/afe215e9-c11b-5248-351f-65cc50461d78.htm">
+        </OBJECT></LI>
+      </UL>
+      <LI><OBJECT type="text/sitemap">
+        <param name="Name" value="IVariableDictionary.GetValueOrCreateNew(Of T) method">
+        <param name="Local" value="html/8ac9822e-0fac-9329-2075-8eb719d65b85.htm">
+      </OBJECT></LI>
+      <LI><OBJECT type="text/sitemap">
+        <param name="Name" value="IVariableDictionary.GetValueOrCreateNew&lt;T&gt; method">
+        <param name="Local" value="html/8ac9822e-0fac-9329-2075-8eb719d65b85.htm">
+      </OBJECT></LI>
+      <LI><OBJECT type="text/sitemap">
         <param name="Name" value="IVirtualXInput interface">
         <param name="See Also" value="IVirtualXInput interface">
       </OBJECT></LI>
@@ -4229,6 +4505,50 @@
       <LI><OBJECT type="text/sitemap">
         <param name="Name" value="IVirtualXInput.Up method">
         <param name="Local" value="html/82cbec36-aee0-5712-4da8-187d4336ee9c.htm">
+      </OBJECT></LI>
+      <LI><OBJECT type="text/sitemap">
+        <param name="Name" value="IWaitConfig interface">
+        <param name="See Also" value="IWaitConfig interface">
+      </OBJECT></LI>
+      <UL>
+        <LI><OBJECT type="text/sitemap">
+          <param name="Name" value="IWaitConfig Interface">
+          <param name="Local" value="html/83b2b192-b88d-1e0b-7229-c69865c2f983.htm">
+        </OBJECT></LI>
+        <LI><OBJECT type="text/sitemap">
+          <param name="Name" value="properties">
+          <param name="Local" value="html/52db2efd-ca46-e11d-fb60-a7b64ff0e6b0.htm">
+        </OBJECT></LI>
+      </UL>
+      <LI><OBJECT type="text/sitemap">
+        <param name="Name" value="IWaitConfig.Keyboard property">
+        <param name="Local" value="html/53b00b1a-0fea-5756-9fd0-03e97dc579d3.htm">
+      </OBJECT></LI>
+      <LI><OBJECT type="text/sitemap">
+        <param name="Name" value="IWaitConfig.Mouse property">
+        <param name="Local" value="html/2c1f820b-bb6c-03b5-1c88-c5b5d5b0c404.htm">
+      </OBJECT></LI>
+      <LI><OBJECT type="text/sitemap">
+        <param name="Name" value="IWaitConfig.Wait property">
+        <param name="Local" value="html/f7a03073-4b72-5e30-d0a3-f1d279c944aa.htm">
+      </OBJECT></LI>
+      <LI><OBJECT type="text/sitemap">
+        <param name="Name" value="IWaitConfigProperties interface">
+        <param name="See Also" value="IWaitConfigProperties interface">
+      </OBJECT></LI>
+      <UL>
+        <LI><OBJECT type="text/sitemap">
+          <param name="Name" value="IWaitConfigProperties Interface">
+          <param name="Local" value="html/aa4d4ff9-4c7e-dca1-b6ad-1ccbd3238321.htm">
+        </OBJECT></LI>
+        <LI><OBJECT type="text/sitemap">
+          <param name="Name" value="properties">
+          <param name="Local" value="html/e1e133c9-97d7-467d-703d-f22408c08dcb.htm">
+        </OBJECT></LI>
+      </UL>
+      <LI><OBJECT type="text/sitemap">
+        <param name="Name" value="IWaitConfigProperties.HighPrecision property">
+        <param name="Local" value="html/9d932509-bedc-1399-6794-9ce804fe2f7f.htm">
       </OBJECT></LI>
       <LI><OBJECT type="text/sitemap">
         <param name="Name" value="IWaiter interface">
@@ -4443,6 +4763,10 @@
         <param name="Local" value="html/d7ac138e-1c3f-9bb5-c251-b53274bcef97.htm">
       </OBJECT></LI>
       <LI><OBJECT type="text/sitemap">
+        <param name="Name" value="Japanese enumeration member">
+        <param name="Local" value="html/4bacccbc-fa3b-4a31-ef54-40a7eed09a1f.htm">
+      </OBJECT></LI>
+      <LI><OBJECT type="text/sitemap">
         <param name="Name" value="JpName property">
         <param name="Local" value="html/48d21791-aac6-3f4e-e5fc-2681ca09ecb8.htm">
       </OBJECT></LI>
@@ -4510,6 +4834,10 @@
         <LI><OBJECT type="text/sitemap">
           <param name="Name" value="IGlobals.Keyboard Property ">
           <param name="Local" value="html/e440dfe5-c2f0-faea-28b0-8c7ef948b9c2.htm">
+        </OBJECT></LI>
+        <LI><OBJECT type="text/sitemap">
+          <param name="Name" value="IWaitConfig.Keyboard Property ">
+          <param name="Local" value="html/53b00b1a-0fea-5756-9fd0-03e97dc579d3.htm">
         </OBJECT></LI>
       </UL>
       <LI><OBJECT type="text/sitemap">
@@ -4593,6 +4921,10 @@
         <param name="Local" value="html/9476b0fa-b8b8-09e9-df38-2e5a744d5943.htm">
       </OBJECT></LI>
       <LI><OBJECT type="text/sitemap">
+        <param name="Name" value="KeyToKey.Enums.ExtendedKeyOptions enumeration">
+        <param name="Local" value="html/f529e2b6-fe25-a629-9ff1-a0d856ae894c.htm">
+      </OBJECT></LI>
+      <LI><OBJECT type="text/sitemap">
         <param name="Name" value="KeyToKey.Enums.ExWindowStyles enumeration">
         <param name="Local" value="html/de4d793c-e691-1e68-9b73-3d8d9c14cbb4.htm">
       </OBJECT></LI>
@@ -4619,6 +4951,10 @@
       <LI><OBJECT type="text/sitemap">
         <param name="Name" value="KeyToKey.Enums.MouseButton enumeration">
         <param name="Local" value="html/1c008532-b4d9-42c1-cc43-953eab0ed284.htm">
+      </OBJECT></LI>
+      <LI><OBJECT type="text/sitemap">
+        <param name="Name" value="KeyToKey.Enums.SpeechLanguage enumeration">
+        <param name="Local" value="html/4bacccbc-fa3b-4a31-ef54-40a7eed09a1f.htm">
       </OBJECT></LI>
       <LI><OBJECT type="text/sitemap">
         <param name="Name" value="KeyToKey.Enums.SystemSounds enumeration">
@@ -4685,8 +5021,20 @@
         <param name="Local" value="html/f97169bd-10b6-2785-79f0-f110a4af5f8d.htm">
       </OBJECT></LI>
       <LI><OBJECT type="text/sitemap">
+        <param name="Name" value="KeyToKey.Plugins.DisposingEventArgs class">
+        <param name="Local" value="html/271c2b3c-9f80-7d91-e0c9-924b6135b750.htm">
+      </OBJECT></LI>
+      <LI><OBJECT type="text/sitemap">
+        <param name="Name" value="KeyToKey.Plugins.DisposingReason enumeration">
+        <param name="Local" value="html/2df9c87e-7b4b-734a-8373-cf066a6b7542.htm">
+      </OBJECT></LI>
+      <LI><OBJECT type="text/sitemap">
         <param name="Name" value="KeyToKey.Plugins.EnumValue class">
         <param name="Local" value="html/5d87fe57-50ce-749f-4fd6-89378e47be83.htm">
+      </OBJECT></LI>
+      <LI><OBJECT type="text/sitemap">
+        <param name="Name" value="KeyToKey.Plugins.EventType enumeration">
+        <param name="Local" value="html/b3395702-0705-77e2-9e6a-debf0bd0268b.htm">
       </OBJECT></LI>
       <LI><OBJECT type="text/sitemap">
         <param name="Name" value="KeyToKey.Plugins.GlobalsBridge class">
@@ -4765,8 +5113,16 @@
         <param name="Local" value="html/2f2c64ce-ce19-332b-a065-b8fea8637734.htm">
       </OBJECT></LI>
       <LI><OBJECT type="text/sitemap">
+        <param name="Name" value="KeyToKey.Plugins.IScriptConfig interface">
+        <param name="Local" value="html/8e74416b-f8b3-56e0-6162-ee7dd33ad335.htm">
+      </OBJECT></LI>
+      <LI><OBJECT type="text/sitemap">
         <param name="Name" value="KeyToKey.Plugins.ISound interface">
         <param name="Local" value="html/7e1353fd-57db-a413-2c4c-8b13aa23110a.htm">
+      </OBJECT></LI>
+      <LI><OBJECT type="text/sitemap">
+        <param name="Name" value="KeyToKey.Plugins.IStatusTable interface">
+        <param name="Local" value="html/92f852e7-263d-1a0d-124b-a8f3886d0955.htm">
       </OBJECT></LI>
       <LI><OBJECT type="text/sitemap">
         <param name="Name" value="KeyToKey.Plugins.IStickState interface">
@@ -4793,8 +5149,20 @@
         <param name="Local" value="html/9577f7ec-7645-78cb-f5d5-3ad9318f3fdb.htm">
       </OBJECT></LI>
       <LI><OBJECT type="text/sitemap">
+        <param name="Name" value="KeyToKey.Plugins.IVariableDictionary interface">
+        <param name="Local" value="html/44d37f7c-3e35-ccfa-f9b5-01dfc82fb5fa.htm">
+      </OBJECT></LI>
+      <LI><OBJECT type="text/sitemap">
         <param name="Name" value="KeyToKey.Plugins.IVirtualXInput interface">
         <param name="Local" value="html/5d29aed6-9d08-0948-e491-d5136b8e6861.htm">
+      </OBJECT></LI>
+      <LI><OBJECT type="text/sitemap">
+        <param name="Name" value="KeyToKey.Plugins.IWaitConfig interface">
+        <param name="Local" value="html/83b2b192-b88d-1e0b-7229-c69865c2f983.htm">
+      </OBJECT></LI>
+      <LI><OBJECT type="text/sitemap">
+        <param name="Name" value="KeyToKey.Plugins.IWaitConfigProperties interface">
+        <param name="Local" value="html/aa4d4ff9-4c7e-dca1-b6ad-1ccbd3238321.htm">
       </OBJECT></LI>
       <LI><OBJECT type="text/sitemap">
         <param name="Name" value="KeyToKey.Plugins.IWaiter interface">
@@ -5255,6 +5623,10 @@
         <param name="Local" value="html/7005782b-9c91-6a55-83db-7470aa403300.htm">
       </OBJECT></LI>
       <LI><OBJECT type="text/sitemap">
+        <param name="Name" value="Manually enumeration member">
+        <param name="Local" value="html/2df9c87e-7b4b-734a-8373-cf066a6b7542.htm">
+      </OBJECT></LI>
+      <LI><OBJECT type="text/sitemap">
         <param name="Name" value="MappingSources enumeration">
         <param name="Local" value="html/1bb7fbbb-ca8e-ca71-0b60-16cd16ec4d3b.htm">
       </OBJECT></LI>
@@ -5433,6 +5805,10 @@
           <param name="Name" value="IGlobals.Mouse Property ">
           <param name="Local" value="html/5295d692-d901-6911-90f6-7fd1fce8b960.htm">
         </OBJECT></LI>
+        <LI><OBJECT type="text/sitemap">
+          <param name="Name" value="IWaitConfig.Mouse Property ">
+          <param name="Local" value="html/2c1f820b-bb6c-03b5-1c88-c5b5d5b0c404.htm">
+        </OBJECT></LI>
       </UL>
       <LI><OBJECT type="text/sitemap">
         <param name="Name" value="MouseAsLeftStick property">
@@ -5542,6 +5918,10 @@
           <param name="Local" value="html/685f18d0-b341-f618-d957-99d65b566a9e.htm">
         </OBJECT></LI>
       </UL>
+      <LI><OBJECT type="text/sitemap">
+        <param name="Name" value="Move enumeration member">
+        <param name="Local" value="html/b3395702-0705-77e2-9e6a-debf0bd0268b.htm">
+      </OBJECT></LI>
       <LI><OBJECT type="text/sitemap">
         <param name="Name" value="Move method">
         <param name="See Also" value="Move method">
@@ -5793,11 +6173,11 @@
       <UL>
         <LI><OBJECT type="text/sitemap">
           <param name="Name" value="GlobalsBridge.Offset Method ">
-          <param name="Local" value="html/c444a4fd-8d42-e034-b555-2375384427b8.htm">
+          <param name="Local" value="html/24e8c1ee-fa4d-9046-b7d2-db10f513dc9c.htm">
         </OBJECT></LI>
         <LI><OBJECT type="text/sitemap">
           <param name="Name" value="IGlobals.Offset Method ">
-          <param name="Local" value="html/9d1ec341-bd57-f887-f647-9027b9bfece1.htm">
+          <param name="Local" value="html/5a8811dc-de98-8da5-374a-f5a1e199df70.htm">
         </OBJECT></LI>
         <LI><OBJECT type="text/sitemap">
           <param name="Name" value="IMouse.Offset Method ">
@@ -5808,6 +6188,20 @@
         <param name="Name" value="OffsetBySteps method">
         <param name="Local" value="html/4f999c7d-f9fd-6fb4-7661-9ac3ea39d841.htm">
       </OBJECT></LI>
+      <LI><OBJECT type="text/sitemap">
+        <param name="Name" value="OffsetWithSteps method">
+        <param name="See Also" value="OffsetWithSteps method">
+      </OBJECT></LI>
+      <UL>
+        <LI><OBJECT type="text/sitemap">
+          <param name="Name" value="GlobalsBridge.OffsetWithSteps Method ">
+          <param name="Local" value="html/3a7e623c-05e2-d38c-0544-650876e78904.htm">
+        </OBJECT></LI>
+        <LI><OBJECT type="text/sitemap">
+          <param name="Name" value="IGlobals.OffsetWithSteps Method ">
+          <param name="Local" value="html/3d4a2101-cebc-44f2-40cb-b53cae97eda4.htm">
+        </OBJECT></LI>
+      </UL>
       <LI><OBJECT type="text/sitemap">
         <param name="Name" value="OldPoint property">
         <param name="Local" value="html/6340d1a9-c283-3d5c-43f4-23bce9ca1b37.htm">
@@ -5938,6 +6332,20 @@
         <param name="Name" value="Pause enumeration member">
         <param name="Local" value="html/d7ac138e-1c3f-9bb5-c251-b53274bcef97.htm">
       </OBJECT></LI>
+      <LI><OBJECT type="text/sitemap">
+        <param name="Name" value="PhysicalStatus property">
+        <param name="See Also" value="PhysicalStatus property">
+      </OBJECT></LI>
+      <UL>
+        <LI><OBJECT type="text/sitemap">
+          <param name="Name" value="GlobalsBridge.PhysicalStatus Property ">
+          <param name="Local" value="html/df556de3-e201-0bbd-c601-f8de37dd4784.htm">
+        </OBJECT></LI>
+        <LI><OBJECT type="text/sitemap">
+          <param name="Name" value="IGlobals.PhysicalStatus Property ">
+          <param name="Local" value="html/f19b8000-a864-d9f7-0978-01683df9ebec.htm">
+        </OBJECT></LI>
+      </UL>
       <LI><OBJECT type="text/sitemap">
         <param name="Name" value="Play enumeration member">
         <param name="Local" value="html/d7ac138e-1c3f-9bb5-c251-b53274bcef97.htm">
@@ -6167,6 +6575,10 @@
         <param name="Local" value="html/37a8d94c-73d2-598f-7cf7-9bacd29b482b.htm">
       </OBJECT></LI>
       <LI><OBJECT type="text/sitemap">
+        <param name="Name" value="Point.ToTuple method">
+        <param name="Local" value="html/6d1545af-24d5-ad69-dcc4-c79f1cbed4c1.htm">
+      </OBJECT></LI>
+      <LI><OBJECT type="text/sitemap">
         <param name="Name" value="Point.X property">
         <param name="Local" value="html/6bad2de4-368f-18e9-40d3-a845056e967e.htm">
       </OBJECT></LI>
@@ -6174,6 +6586,20 @@
         <param name="Name" value="Point.Y property">
         <param name="Local" value="html/10dbc439-12ad-602d-ac67-c97dff12394f.htm">
       </OBJECT></LI>
+      <LI><OBJECT type="text/sitemap">
+        <param name="Name" value="Polling event">
+        <param name="See Also" value="Polling event">
+      </OBJECT></LI>
+      <UL>
+        <LI><OBJECT type="text/sitemap">
+          <param name="Name" value="GlobalsBridge.Polling Event">
+          <param name="Local" value="html/784a955a-17ad-7000-f8b5-607b9a782d11.htm">
+        </OBJECT></LI>
+        <LI><OBJECT type="text/sitemap">
+          <param name="Name" value="IGlobals.Polling Event">
+          <param name="Local" value="html/3546cadd-5f3e-2600-e012-b35a5a33e2b2.htm">
+        </OBJECT></LI>
+      </UL>
       <LI><OBJECT type="text/sitemap">
         <param name="Name" value="Popup enumeration member">
         <param name="Local" value="html/9a05ad7b-25d5-066c-8eb0-b84eab458564.htm">
@@ -6261,6 +6687,10 @@
       <LI><OBJECT type="text/sitemap">
         <param name="Name" value="RControlKey enumeration member">
         <param name="Local" value="html/d7ac138e-1c3f-9bb5-c251-b53274bcef97.htm">
+      </OBJECT></LI>
+      <LI><OBJECT type="text/sitemap">
+        <param name="Name" value="Reason property">
+        <param name="Local" value="html/9ac80715-a7b0-f2fc-13b6-8cacc3abe87d.htm">
       </OBJECT></LI>
       <LI><OBJECT type="text/sitemap">
         <param name="Name" value="Replay method">
@@ -6508,6 +6938,20 @@
         <LI><OBJECT type="text/sitemap">
           <param name="Name" value="IGlobals.Screenshot Method ">
           <param name="Local" value="html/57cf0f49-97a0-6af8-f269-3bf0807289e2.htm">
+        </OBJECT></LI>
+      </UL>
+      <LI><OBJECT type="text/sitemap">
+        <param name="Name" value="ScriptConfig property">
+        <param name="See Also" value="ScriptConfig property">
+      </OBJECT></LI>
+      <UL>
+        <LI><OBJECT type="text/sitemap">
+          <param name="Name" value="GlobalsBridge.ScriptConfig Property ">
+          <param name="Local" value="html/477fabe3-aa25-c83d-fa3e-adc37fba26cf.htm">
+        </OBJECT></LI>
+        <LI><OBJECT type="text/sitemap">
+          <param name="Name" value="IGlobals.ScriptConfig Property ">
+          <param name="Local" value="html/03ee33b8-d08a-4a19-d58e-fc4bfd199a4d.htm">
         </OBJECT></LI>
       </UL>
       <LI><OBJECT type="text/sitemap">
@@ -6827,20 +7271,6 @@
         <param name="Local" value="html/9373c2b1-61a7-66fd-817c-47fcbc4172f3.htm">
       </OBJECT></LI>
       <LI><OBJECT type="text/sitemap">
-        <param name="Name" value="SetVar method">
-        <param name="See Also" value="SetVar method">
-      </OBJECT></LI>
-      <UL>
-        <LI><OBJECT type="text/sitemap">
-          <param name="Name" value="GlobalsBridge.SetVar Method ">
-          <param name="Local" value="html/3c504448-ee0d-e82b-5851-47cf220d15d0.htm">
-        </OBJECT></LI>
-        <LI><OBJECT type="text/sitemap">
-          <param name="Name" value="IGlobals.SetVar Method ">
-          <param name="Local" value="html/4c280dd9-b2ea-8132-c963-a782e6a1281e.htm">
-        </OBJECT></LI>
-      </UL>
-      <LI><OBJECT type="text/sitemap">
         <param name="Name" value="SetVibration method">
         <param name="Local" value="html/c25ef8fc-c6f9-0836-b776-47c38df7ef7e.htm">
       </OBJECT></LI>
@@ -7099,6 +7529,38 @@
         <param name="Local" value="html/d7ac138e-1c3f-9bb5-c251-b53274bcef97.htm">
       </OBJECT></LI>
       <LI><OBJECT type="text/sitemap">
+        <param name="Name" value="Speech method">
+        <param name="See Also" value="Speech method">
+      </OBJECT></LI>
+      <UL>
+        <LI><OBJECT type="text/sitemap">
+          <param name="Name" value="GlobalsBridge.Speech Method ">
+          <param name="Local" value="html/bde5ab7f-8443-92d8-6f16-5393576f13cb.htm">
+        </OBJECT></LI>
+        <LI><OBJECT type="text/sitemap">
+          <param name="Name" value="IGlobals.Speech Method ">
+          <param name="Local" value="html/363d570a-5c48-bd88-7dca-a6a2a31d24f4.htm">
+        </OBJECT></LI>
+      </UL>
+      <LI><OBJECT type="text/sitemap">
+        <param name="Name" value="SpeechAsync method">
+        <param name="See Also" value="SpeechAsync method">
+      </OBJECT></LI>
+      <UL>
+        <LI><OBJECT type="text/sitemap">
+          <param name="Name" value="GlobalsBridge.SpeechAsync Method ">
+          <param name="Local" value="html/d35759d7-ae15-b84c-eca8-9006f8fad9bc.htm">
+        </OBJECT></LI>
+        <LI><OBJECT type="text/sitemap">
+          <param name="Name" value="IGlobals.SpeechAsync Method ">
+          <param name="Local" value="html/cde93fb2-c650-2e8b-8a22-00fa91886123.htm">
+        </OBJECT></LI>
+      </UL>
+      <LI><OBJECT type="text/sitemap">
+        <param name="Name" value="SpeechLanguage enumeration">
+        <param name="Local" value="html/4bacccbc-fa3b-4a31-ef54-40a7eed09a1f.htm">
+      </OBJECT></LI>
+      <LI><OBJECT type="text/sitemap">
         <param name="Name" value="Start enumeration member">
         <param name="See Also" value="Start enumeration member">
       </OBJECT></LI>
@@ -7127,6 +7589,10 @@
       <LI><OBJECT type="text/sitemap">
         <param name="Name" value="Stop method">
         <param name="Local" value="html/b686b641-b1e5-b7fc-8b75-30372da76c3f.htm">
+      </OBJECT></LI>
+      <LI><OBJECT type="text/sitemap">
+        <param name="Name" value="Stroke enumeration member">
+        <param name="Local" value="html/b3395702-0705-77e2-9e6a-debf0bd0268b.htm">
       </OBJECT></LI>
       <LI><OBJECT type="text/sitemap">
         <param name="Name" value="Style enumeration member">
@@ -7299,6 +7765,10 @@
         <param name="Local" value="html/f23f672b-519b-6799-56bf-d373dc85ca3d.htm">
       </OBJECT></LI>
       <LI><OBJECT type="text/sitemap">
+        <param name="Name" value="TemporaryDisabled enumeration member">
+        <param name="Local" value="html/2df9c87e-7b4b-734a-8373-cf066a6b7542.htm">
+      </OBJECT></LI>
+      <LI><OBJECT type="text/sitemap">
         <param name="Name" value="ThickFrame enumeration member">
         <param name="Local" value="html/9a05ad7b-25d5-066c-8eb0-b84eab458564.htm">
       </OBJECT></LI>
@@ -7414,8 +7884,18 @@
       </OBJECT></LI>
       <LI><OBJECT type="text/sitemap">
         <param name="Name" value="ToTuple method">
-        <param name="Local" value="html/d41f0322-3d6d-a64d-c436-134f5b1847fc.htm">
+        <param name="See Also" value="ToTuple method">
       </OBJECT></LI>
+      <UL>
+        <LI><OBJECT type="text/sitemap">
+          <param name="Name" value="Bounds.ToTuple Method ">
+          <param name="Local" value="html/d41f0322-3d6d-a64d-c436-134f5b1847fc.htm">
+        </OBJECT></LI>
+        <LI><OBJECT type="text/sitemap">
+          <param name="Name" value="Point.ToTuple Method ">
+          <param name="Local" value="html/6d1545af-24d5-ad69-dcc4-c79f1cbed4c1.htm">
+        </OBJECT></LI>
+      </UL>
       <LI><OBJECT type="text/sitemap">
         <param name="Name" value="Trigger class">
         <param name="See Also" value="Trigger class">
@@ -7549,6 +8029,10 @@
         <param name="Local" value="html/d7ac138e-1c3f-9bb5-c251-b53274bcef97.htm">
       </OBJECT></LI>
       <LI><OBJECT type="text/sitemap">
+        <param name="Name" value="UnavailableProcess enumeration member">
+        <param name="Local" value="html/2df9c87e-7b4b-734a-8373-cf066a6b7542.htm">
+      </OBJECT></LI>
+      <LI><OBJECT type="text/sitemap">
         <param name="Name" value="Unknown enumeration member">
         <param name="See Also" value="Unknown enumeration member">
       </OBJECT></LI>
@@ -7556,6 +8040,10 @@
         <LI><OBJECT type="text/sitemap">
           <param name="Name" value="ControllerButtons Enumeration">
           <param name="Local" value="html/9476b0fa-b8b8-09e9-df38-2e5a744d5943.htm">
+        </OBJECT></LI>
+        <LI><OBJECT type="text/sitemap">
+          <param name="Name" value="DisposingReason Enumeration">
+          <param name="Local" value="html/2df9c87e-7b4b-734a-8373-cf066a6b7542.htm">
         </OBJECT></LI>
         <LI><OBJECT type="text/sitemap">
           <param name="Name" value="IMEConversionModes Enumeration">
@@ -7701,6 +8189,24 @@
         </OBJECT></LI>
       </UL>
       <LI><OBJECT type="text/sitemap">
+        <param name="Name" value="Wait property">
+        <param name="Local" value="html/f7a03073-4b72-5e30-d0a3-f1d279c944aa.htm">
+      </OBJECT></LI>
+      <LI><OBJECT type="text/sitemap">
+        <param name="Name" value="WaitConfig property">
+        <param name="See Also" value="WaitConfig property">
+      </OBJECT></LI>
+      <UL>
+        <LI><OBJECT type="text/sitemap">
+          <param name="Name" value="GlobalsBridge.WaitConfig Property ">
+          <param name="Local" value="html/7a1a419f-dc24-18d8-c02f-d892b025481b.htm">
+        </OBJECT></LI>
+        <LI><OBJECT type="text/sitemap">
+          <param name="Name" value="IGlobals.WaitConfig Property ">
+          <param name="Local" value="html/62c42721-6c97-19a2-d67e-ba3f01e1b19a.htm">
+        </OBJECT></LI>
+      </UL>
+      <LI><OBJECT type="text/sitemap">
         <param name="Name" value="WaitForInput method">
         <param name="See Also" value="WaitForInput method">
       </OBJECT></LI>
@@ -7714,6 +8220,10 @@
           <param name="Local" value="html/213a2c46-242b-d24d-c867-6313133f9a87.htm">
         </OBJECT></LI>
       </UL>
+      <LI><OBJECT type="text/sitemap">
+        <param name="Name" value="Wheel enumeration member">
+        <param name="Local" value="html/b3395702-0705-77e2-9e6a-debf0bd0268b.htm">
+      </OBJECT></LI>
       <LI><OBJECT type="text/sitemap">
         <param name="Name" value="WheelDown enumeration member">
         <param name="Local" value="html/d7ac138e-1c3f-9bb5-c251-b53274bcef97.htm">
