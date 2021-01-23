@@ -26,6 +26,85 @@
             <hr>
             <p>KeyToKeyの実行に必要な.Net Frameworkのバージョンを<b>「4.6.2」</b>から<b>「4.8」</b>へと引き上げました。</p>
         </div>
+
+        <h2 class="px-2 my-5 text-center">21/01/23アップデート</h2>
+        <div class="mt-5 header-container">
+            <h4 class="px-2">新しい機能</h4>
+        </div>
+        <ul>
+            <li>メインウィンドウのレイアウトを変更し割り当ての一覧と実行状況を見れるようにしました。</li>
+            <li>メインウィンドウのコンテキストメニューに「自動切り替えの一時停止」を追加しました。</li>
+            <li>キー割り当てで仮想コントローラーを割り当てられるようにしました。</li>
+            <li>キー割り当ての割り当てる入力のオプションに「フェーズ 2 をスキップする」を追加しました。</li>
+            <li>環境設定のに「入力の監視方法」を追加しました。</li>
+            <li>入力記録（ファイル）で記録したデータをクイック再生できるようにしました。</li>
+            <li>検出できるコントローラーの種類を増やしました。</li>
+        </ul>
+
+        <div class="mt-5 header-container">
+            <h4 class="px-2">変更と修正</h4>
+        </div>
+        <ul>
+            <li>キー割り当ての割り当てる入力のオプションのレイアウトを変更しました。</li>
+            <li>アクション「キーボードフックを使用する」「マウスフックを使用する」を廃止しました。</li>
+            <li>環境設定のオプションから「キーボードフックを使用する」「マウスフックを使用する」を廃止しました。</li>
+            <li>テンプレート画像を選択した時にオリジナルサイズの表示が更新されない問題を修正しました。</li>
+            <li>アクションの「テンプレートマッチング&lt;開始&gt;」「マクロを定期的に実行&lt;開始&gt;」実行時にメインウィンドウに表示されるリストを廃止しました。</li>
+            <li>メインウィンドウの不透明度を廃止しました</li>
+            <li>「ツール」の「ログ」を「コンソール」に名称を変更しました。</li>
+        </ul>
+        <div class="mt-5 header-container">
+            <h4 class="px-2">テンプレートの追加</h4>
+        </div>
+        <p>以下のテンプレートをスクリプトエディタに追加しました。</p>
+        <table class="table table-striped table-dark my-4 table-bordered">
+            <thead class=" thead-dark">
+                <th>タイトル</th>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>範囲選択</td>
+                </tr>
+                <tr>
+                    <td>カーソルの位置を取得</td>
+                </tr>
+            </tbody>
+        </table>
+        <div class="mt-5 header-container">
+            <h4 class="px-2">C#スクリプトの変更</h4>
+        </div>
+        <p>C#スクリプトにいくつかの変更を行いました。</p>
+        <table class="table table-dark table- my-4 table-bordered table-triped">
+            <thead>
+                <tr>
+                    <th class="th-col-state">状態</th>
+                    <th style="text-align: center;">内容</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td class="text-success font-weight-bold">追加</td>
+                    <td>FindPointOnCircle(double radius, double angle, isClockwise = true)</td>
+                </tr>
+                <tr>
+                    <td class="text-success font-weight-bold">追加</td>
+                    <td>CallCount { get; set; }</td>
+                </tr>
+                <tr>
+                    <td class="text-success font-weight-bold">追加</td>
+                    <td>ToJson(object value, bool formatted)</td>
+                </tr>
+                <tr>
+                    <td class="text-success font-weight-bold">追加</td>
+                    <td>FromJson(string json)</td>
+                </tr>
+                <tr>
+                    <td class="text-success font-weight-bold">追加</td>
+                    <td>GlobalVariables, LocalVriables プロパティ に Craeted, Updated, Deleted イベントを追加しました。</td>
+                </tr>
+            </tbody>
+        </table>
+
         <h2 class="px-2 my-5 text-center">20/12/18アップデート</h2>
         <div class="mt-5 header-container">
             <h4 class="px-2">新しい機能</h4>
