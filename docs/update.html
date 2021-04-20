@@ -12,20 +12,96 @@
 <body>
 
     <div class="container py-5 mb-5">
-        <div class="alert alert-danger">
-            <h4 class="alert-heading">重要なお知らせ</h4>
-            <hr>
-            <p>20年10月05日のアップデートにおいて高 DPI 環境における、画像のキャプチャに関する不具合の修正を行いました。この修正はモニターの表示倍率を変更している方に影響があり、以下の設定に影響を与えます。</p>
-            <ul>
-                <li class="font-weight-bold">画像認識を行う座標設定</li>
-                <li class="font-weight-bold">アクション「画像を保存」の座標設定</li>
-            </ul>
+        <h2 class="px-2 my-5 text-center">21/04/21アップデート</h2>
+        <div class="mt-5 header-container">
+            <h4 class="px-2">新しい機能</h4>
         </div>
-        <div class="alert alert-danger">
-            <h4 class="alert-heading">重要なお知らせ</h4>
-            <hr>
-            <p>KeyToKeyの実行に必要な.Net Frameworkのバージョンを<b>「4.6.2」</b>から<b>「4.8」</b>へと引き上げました。</p>
+        <ul>
+            <li>設定ファイルを「Profiles」フォルダにまとめるようにしました。</li>
+            <li>ストアアプリのプロセス名（タイトル）を取得できるようにしました。</li>
+            <li>追加のXInputマッピングが正常に機能していない問題を修正しました。</li>
+        </ul>
+        <div class="mt-5 header-container">
+            <h4 class="px-2">修正と変更</h4>
         </div>
+        <ul>
+            <li>高 DPI 環境のアクション／マクロ選択画面、メソッド作成画面でフリーズする不具合に対する調整を行いました。</li>
+            <li>使用するコントローラーを選択する画面で同じのコントローラーが複数接続されているときに表示が一つになる問題を修正しました。</li>
+            <li>追加のXInputマッピングが正常に機能していない問題を修正しました。</li>
+        </ul>
+        <div class="mt-5 mb-4 header-container">
+            <h4 class="px-2">C#スクリプトの変更</h4>
+        </div>
+        <table class="table table-dark table- my-4 table-bordered table-triped">
+            <thead>
+                <tr>
+                    <th class="th-col-state">状態</th>
+                    <th style="text-align: center;">内容</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td class="text-success font-weight-bold">追加</td>
+                    <td>IWindowController MakeWindowController(IntPtr windowHandle)</td>
+                </tr>
+                <tr>
+                    <td class="text-success font-weight-bold">追加</td>
+                    <td>IWindowController FindWindow(string windowTitle)</td>
+                </tr>
+                <tr>
+                    <td class="text-success font-weight-bold">追加</td>
+                    <td>IWindowController FindWindow(string windowTitle, string className)</td>
+                </tr>
+                <tr>
+                    <td class="text-success font-weight-bold">追加</td>
+                    <td>IWindowController FindWindow(IntPtr windowHandle, string windowTitle, string className)</td>
+                </tr>
+                <tr>
+                    <td class="text-success font-weight-bold">追加</td>
+                    <td>IntPtr WindowFromPoint(int x, int y)</td>
+                </tr>
+                <tr>
+                    <td class="text-success font-weight-bold">追加</td>
+                    <td>IntPtr WindowFromPoint((int x， int y) point)</td>
+                </tr>
+                <tr>
+                    <td class="text-success font-weight-bold">追加</td>
+                    <td>Screen Screen { get; }</td>
+                </tr>
+                <tr>
+                    <td class="text-success font-weight-bold">追加</td>
+                    <td>Task&lt;Bitmap&gt; ScreenshotAsync(Bounds bounds)</td>
+                </tr>
+                <tr>
+                    <td class="text-success font-weight-bold">追加</td>
+                    <td>void GetScheduleState()</td>
+                </tr>
+                <tr>
+                    <td class="text-success font-weight-bold">追加</td>
+                    <td>void SetScheduleState()</td>
+                </tr>
+                <tr>
+                    <td class="text-success font-weight-bold">追加</td>
+                    <td>HookedEventArgs.IsRepeated { get; }</td>
+                </tr>
+                <tr>
+                    <td class="text-warning font-weight-bold">変更</td>
+                    <td>一部ウィンドウ関係のメソッドを Obsolete 扱いにしました</td>
+                </tr>
+                <tr>
+                    <td class="text-warning font-weight-bold">変更</td>
+                    <td>複数箇所で Wait 処理が同時に使用できるようになりました</td>
+                </tr>
+                <tr>
+                    <td class="text-warning font-weight-bold">変更</td>
+                    <td>
+                        <p>DirectInput コントローラーを使用したときの値の範囲を変更しました</p>
+                        <p>・Controller.LeftTrigger.Thumb</p>
+                        <p>・Controller.RightTrigger.Thumb</p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
 
 
         <h2 class="px-2 my-5 text-center">21/03/22アップデート</h2>
