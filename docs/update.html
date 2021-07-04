@@ -13,6 +13,61 @@
 
     <div class="container py-5 mb-5">
 
+        <h2 class="px-2 my-5 text-center">21/07/04アップデート</h2>
+        <div class="mt-5 header-container">
+            <h4 class="px-2">新しい機能</h4>
+        </div>
+        <ul>
+            <li>メインウィンドウに実行許可したアプリと使用している入力の監視方法を表示するようにしました。</li>
+        </ul>
+        <div class="mt-5 header-container">
+            <h4 class="px-2">修正と変更</h4>
+        </div>
+        <ul>
+            <li>C#スクリプトのヘルプの「ウインドウに透過／非アクティブ属性を付与する」の内容が違う問題を修正しました。</li>
+            <li>
+                拡張スクリプトの仕様を変更しました（古い仕様も使用することも可能です）
+                <ul>
+                    <li>メソッドにstaticを付ける必要がなくなりました。</li>
+                    <li>メソッドの第一引数にIGlobalsを指定する必要がなくなりました。</li>
+                    <li>IGlobalsを介してKeyToKey独自のメソッドやプロパティにいアクセスする必要がなくなりました。</li>
+                </ul>
+            </li>
+            <li>
+                「設定ファイルの自動切り替え」と「特定のアプリでのみ実行を許可」の仕様を変更しました。
+                <ul>
+                    <li>プロセス名だけでなくウィンドウタイトルを指定できるようにしました。</li>
+                    <li>「完全一致」か「部分一致」を選択できるようにしました。</li>
+                </ul>
+            </li>
+            <li>
+                スクリプトエディタに新しいテンプレートを追加しました。
+                <ul>
+                    <li>sumamry</li>
+                    <li>psummary</li>
+                    <li>load</li>
+                </ul>
+            </li>
+        </ul>
+        <div class="mt-5 mb-4 header-container">
+            <h4 class="px-2">C#スクリプトの変更</h4>
+        </div>
+        <table class="table table-dark table- my-4 table-bordered table-triped">
+            <thead>
+                <tr>
+                    <th class="th-col-state">状態</th>
+                    <th style="text-align: center;">内容</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td class="text-warning font-weight-bold">変更</td>
+                    <td>Screenプロパティの型をSystem.Windows.Forms.ScreenからIScreenに変更しました。</td>
+                </tr>
+            </tbody>
+        </table>
+
+
         <h2 class="px-2 my-5 text-center">21/06/07アップデート</h2>
         <div class="mt-5 header-container">
             <h4 class="px-2">新しい機能</h4>
