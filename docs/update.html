@@ -18,10 +18,114 @@
             <h4 class="px-2">新しい機能</h4>
         </div>
         <ul>
+            <li>画像認識の「座標と範囲」に「座標と範囲をディスプレイに設定」を追加しました。</li>
+            <li>画像認識の設定に「検出方法」と「グレースケール化して画像認識を行う」「重なりの許容範囲」を追加しました。</li>
+            <li>画像認識の設定の「テストを実行」方法を新しくしました。</li>
+            <li>画像認識の設定の「テンプレート画像の撮影」「座標と範囲を選択する」「テストを実行」において強制的に編集ウィンドウが最小化されるようにしました。</li>
+            <li>アクションマクロの画像認識テンプレートにおいて画像認識の設定を選択後にアクションを挿入できるようにしました。</li>
+        </ul>
+        <div class="mt-5 header-container">
+            <h4 class="px-2">変更と修正</h4>
+        </div>
+        <ul>
+            <li>画像認識の設定の非推奨だった設定項目を廃止しました。また、それに伴い関連するアクションを廃止しました。</li>
+            <li>画像認識の設定のプロセス名を指定したときに「座標と範囲を選択する」が正常に機能しない問題を修正しました。</li>
+            <li>画像認識に関係するメソッド（KeyToKey）の名前を一部変更しました。</li>
+            <li>TryMatch と TryMatches メソッドにおいて画像のサイズチェック処理が正常に機能していない問題を修正しました。</li>
+            <li>拡張スクリプトにおいて DLL を読み込むことが出来ない問題を修正しました。</li>
+            <li>拡張スクリプトのメソッドの引数に string を指定して初期値を設定した場合に文字列がエスケープされていないためアクション選択画面でエラーが発生する問題を修正しました。</li>
+            <li>「キーボード」と「入力」カテゴリのアクションを統合しました。</li>
+            <li>「自作マクロ」カテゴリーを「アクションマクロ」に変更しました。</li>
+        </ul>
+        <div class="mt-5 mb-4 header-container">
+            <h4 class="px-2">アクションの変更</h4>
+        </div>
+        <table class="table table-dark table- my-4 table-bordered table-triped">
+            <thead>
+                <tr>
+                    <th class="th-col-state">状態</th>
+                    <th style="text-align: center;">内容</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td class="text-danger font-weight-bold">廃止</td>
+                    <td>テンプレートマッチング&lt;距離&gt;</td>
+                </tr>
+                <tr>
+                    <td class="text-danger font-weight-bold">廃止</td>
+                    <td>テンプレートマッチング&lt;範囲&gt;</td>
+                </tr>
+                <tr>
+                    <td class="text-danger font-weight-bold">廃止</td>
+                    <td>マクロを定期的に実行&lt;開始&gt;</td>
+                </tr>
+                <tr>
+                    <td class="text-danger font-weight-bold">廃止</td>
+                    <td>マクロを定期的に実行&lt;停止&gt;</td>
+                </tr>
+                <tr>
+                    <td class="text-danger font-weight-bold">廃止</td>
+                    <td>テンプレートマッチング：フィルター&lt;停止&gt;</td>
+                </tr>
+                <tr>
+                    <td class="text-danger font-weight-bold">廃止</td>
+                    <td>テンプレートマッチング：フィルター&lt;開始&gt;</td>
+                </tr>
+                <tr>
+                    <td class="text-warning font-weight-bold">廃止（非表示）</td>
+                    <td>CallRefSource</td>
+                </tr>
+                <tr>
+                    <td class="text-warning font-weight-bold">廃止（非表示）</td>
+                    <td>PreloadCall</td>
+                </tr>
+                <tr>
+                    <td class="text-warning font-weight-bold">廃止（非表示）</td>
+                    <td>Call</td>
+                </tr>
+            </tbody>
+        </table>
+        <div class="mt-5 mb-4 header-container">
+            <h4 class="px-2">C#スクリプトの変更</h4>
+        </div>
+        <table class="table table-dark table- my-4 table-bordered table-triped">
+            <thead>
+                <tr>
+                    <th class="th-col-state">状態</th>
+                    <th style="text-align: center;">内容</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td class="text-danger font-weight-bold">変更</td>
+                    <td>ITemplateMatching.Filter</td>
+                </tr>
+                <tr>
+                    <td class="text-success font-weight-bold">追加</td>
+                    <td>FindWindowTitleStartsWith</td>
+                </tr>
+                <tr>
+                    <td class="text-success font-weight-bold">追加</td>
+                    <td>FindWindowTitleEndsWith</td>
+                </tr>
+                <tr>
+                    <td class="text-success font-weight-bold">追加</td>
+                    <td>FindWindowTitleContains</td>
+                </tr>
+            </tbody>
+        </table>
+
+
+        <h2 class="px-2 my-5 text-center">21/07/04アップデート</h2>
+        <div class="mt-5 header-container">
+            <h4 class="px-2">新しい機能</h4>
+        </div>
+        <ul>
             <li>メインウィンドウに実行許可したアプリと使用している入力の監視方法を表示するようにしました。</li>
         </ul>
         <div class="mt-5 header-container">
-            <h4 class="px-2">修正と変更</h4>
+            <h4 class="px-2">変更と修正</h4>
         </div>
         <ul>
             <li>C#スクリプトのヘルプの「ウインドウに透過／非アクティブ属性を付与する」の内容が違う問題を修正しました。</li>
@@ -80,7 +184,7 @@
             <li>スクリプトエディタのテンプレートに「opencv」を追加しました。</li>
         </ul>
         <div class="mt-5 header-container">
-            <h4 class="px-2">修正と変更</h4>
+            <h4 class="px-2">変更と修正</h4>
         </div>
         <ul>
             <li>アプリケーションの設定から「カテゴリの並び順」を廃止</li>
@@ -134,7 +238,7 @@
             <li>追加のXInputマッピングが正常に機能していない問題を修正しました。</li>
         </ul>
         <div class="mt-5 header-container">
-            <h4 class="px-2">修正と変更</h4>
+            <h4 class="px-2">変更と修正</h4>
         </div>
         <ul>
             <li>高 DPI 環境のアクション／マクロ選択画面、メソッド作成画面でフリーズする不具合に対する調整を行いました。</li>
@@ -218,7 +322,7 @@
 
         <h2 class="px-2 my-5 text-center">21/03/22アップデート</h2>
         <div class="mt-5 header-container">
-            <h4 class="px-2">修正と変更</h4>
+            <h4 class="px-2">変更と修正</h4>
         </div>
         <ul>
             <li>一部コントローラーが使用できない問題を修正しました。</li>
@@ -228,7 +332,7 @@
 
         <h2 class="px-2 my-5 text-center">21/03/12アップデート</h2>
         <div class="mt-5 header-container">
-            <h4 class="px-2">修正と変更</h4>
+            <h4 class="px-2">変更と修正</h4>
         </div>
         <ul>
             <li>マルチモニター間のマウス移動時に正常な位置に移動しない問題の一時的な対処として移動失敗時に再度移動を行うようにしました。この機能は「ApplicationConfig.conf」ファイルの「RetryMove」を「false」に設定することで無効にできます。</li>
@@ -244,7 +348,7 @@
 
         <h2 class="px-2 my-5 text-center">21/03/05アップデート</h2>
         <div class="mt-5 header-container">
-            <h4 class="px-2">修正と変更</h4>
+            <h4 class="px-2">変更と修正</h4>
         </div>
         <ul>
             <li>編集ウィンドウ上部のステータスがKeyToKeyのパフォーマンスに影響を与えていた可能性があったため廃止しました。</li>
