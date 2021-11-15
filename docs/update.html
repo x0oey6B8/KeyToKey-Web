@@ -13,7 +13,98 @@
 
     <div class="container py-5 mb-5">
 
-        <h2 class="px-2 my-5 text-center">21/07/04アップデート</h2>
+        <h2 class="px-2 my-5 text-center">21/11/15アップデート</h2>
+        <div class="mt-5 header-container">
+            <h4 class="px-2">新しい機能</h4>
+        </div>
+        <ul>
+            <li>環境設定の「設定ファイル読み込み時に実行するスクリプト」の名称を「スタートアップマクロ」に変更し、C#スクリプトファイル以外にアクションマクロ、拡張スクリプトを割り当てられるようにしました。なお C#スクリプトファイルは設定ファイルフォルダ直下のスクリプトのみ割り当てられるようになります。</li>
+            <li>メインウィンドウのコンソールに「クリア」を追加しました</li>
+        </ul>
+        <div class="mt-5 header-container">
+            <h4 class="px-2">変更と修正</h4>
+        </div>
+        <ul>
+            <li>キー割り当てにおいてトリガーの入力キャンセル設定を無効にしても一部入力がキャンセルされてしまう問題を修正しました。</li>
+            <li>C#スクリプトのマルチスレッド処理に関する不具合を修正しました。</li>
+            <li>メインウィンドウの「入力の監視方法」項目を削除しました。</li>
+            <li>アクション「設定ファイルの変更」で正しく設定が切り替わらない問題を修正しました。</li>
+            <li>NumpadEnter 入力時に T キーが入力されてしまう問題を修正しました。</li>
+            <li>環境設定の「外部ファイルのマクロ／設定を継承」を非推奨扱いにしました。</li>
+            <li>メニュー割り当てでスティックでメニューを選択できない問題を修正しました。</li>
+            <li>「自作マクロ」カテゴリーを「アクションマクロ」に変更しました。</li>
+        </ul>
+        <div class="mt-5 mb-4 header-container">
+            <h4 class="px-2">C#スクリプトの変更</h4>
+        </div>
+        <table class="table table-dark table- my-4 table-bordered table-triped">
+            <thead>
+                <tr>
+                    <th class="th-col-state">状態</th>
+                    <th style="text-align: center;">内容</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td class="text-warning font-weight-bold">修正</td>
+                    <td>マルチスレッドにおける「Down, Up, Tap」</td>
+                </tr>
+                <tr>
+                    <td class="text-success font-weight-bold">追加</td>
+                    <td>MouseMoving イベント</td>
+                </tr>
+                <tr>
+                    <td class="text-success font-weight-bold">追加</td>
+                    <td>ScriptConfig.AreEventsClearedAutomatically</td>
+                </tr>
+                <tr>
+                    <td class="text-success font-weight-bold">追加</td>
+                    <td>KeyStateChangedEventArgs.Convert(Keys from, Keys to, params Keys[] modifiers)</td>
+                </tr>
+                <tr>
+                    <td class="text-success font-weight-bold">追加</td>
+                    <td>KeyStateChangedEventArgs.Convert(Keys from, Keys to, Func&lt;bool&gt; condition)</td>
+                </tr>
+                <tr>
+                    <td class="text-success font-weight-bold">追加</td>
+                    <td>HookEventArgs.Convert(Keys from, Keys to, params Keys[] modifiers)</td>
+                </tr>
+                <tr>
+                    <td class="text-success font-weight-bold">追加</td>
+                    <td>HookEventArgs.Convert(Keys from, Keys to, Func&lt;bool&gt; condition)</td>
+                </tr>
+                <tr>
+                    <td class="text-success font-weight-bold">追加</td>
+                    <td>ControllerStateChangedEventArgs.Convert(ControllerButtons from, Keys to, params ControllerButtons[] modifiers)</td>
+                </tr>
+                <tr>
+                    <td class="text-success font-weight-bold">追加</td>
+                    <td>ControllerStateChangedEventArgs.Convert(ControllerButtons from, Keys to, Func&lt;bool&gt; condition)</td>
+                </tr>
+                <tr>
+                    <td class="text-success font-weight-bold">追加</td>
+                    <td>Bounds.CenterX</td>
+                </tr>
+                <tr>
+                    <td class="text-success font-weight-bold">追加</td>
+                    <td>Bounds.CenterY</td>
+                </tr>
+                <tr>
+                    <td class="text-success font-weight-bold">追加</td>
+                    <td>Bounds.Intersect(Bounds bounds)</td>
+                </tr>
+                <tr>
+                    <td class="text-success font-weight-bold">追加</td>
+                    <td>Bounds.IntersercsWith(Bounds bounds)</td>
+                </tr>
+                <tr>
+                    <td class="text-success font-weight-bold">追加</td>
+                    <td>Bounds.Union(Bounds bounds)</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <h2 class="px-2 my-5 text-center">21/08/11アップデート</h2>
         <div class="mt-5 header-container">
             <h4 class="px-2">新しい機能</h4>
         </div>
