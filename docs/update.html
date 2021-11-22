@@ -13,1018 +13,1033 @@
 
     <div class="container py-5 mb-5">
 
-        <h2 class="px-2 my-5 text-center">21/11/15アップデート</h2>
+        <h2 class="px-2 my-5 text-center">21/11/23アップデート</h2>
         <div class="mt-5 header-container">
             <h4 class="px-2">新しい機能</h4>
         </div>
         <ul>
-            <li>環境設定の「設定ファイル読み込み時に実行するスクリプト」の名称を「スタートアップマクロ」に変更し、C#スクリプトファイル以外にアクションマクロ、拡張スクリプトを割り当てられるようにしました。なお C#スクリプトファイルは設定ファイルフォルダ直下のスクリプトのみ割り当てられるようになります。</li>
-            <li>メインウィンドウのコンソールに「クリア」を追加しました</li>
+            <li>通知領域に KeyToKey を常駐させるようにしました。メインウィンドウに非表示ボタンを追加しました。</li>
         </ul>
         <div class="mt-5 header-container">
             <h4 class="px-2">変更と修正</h4>
         </div>
         <ul>
-            <li>キー割り当てにおいてトリガーの入力キャンセル設定を無効にしても一部入力がキャンセルされてしまう問題を修正しました。</li>
-            <li>C#スクリプトのマルチスレッド処理に関する不具合を修正しました。</li>
-            <li>メインウィンドウの「入力の監視方法」項目を削除しました。</li>
-            <li>アクション「設定ファイルの変更」で正しく設定が切り替わらない問題を修正しました。</li>
-            <li>NumpadEnter 入力時に T キーが入力されてしまう問題を修正しました。</li>
-            <li>環境設定の「外部ファイルのマクロ／設定を継承」を非推奨扱いにしました。</li>
-            <li>メニュー割り当てでスティックでメニューを選択できない問題を修正しました。</li>
-            <li>「自作マクロ」カテゴリーを「アクションマクロ」に変更しました。</li>
+            <li>停止マクロが正常に実行されない問題を修正しました。</li>
         </ul>
-        <div class="mt-5 mb-4 header-container">
-            <h4 class="px-2">C#スクリプトの変更</h4>
-        </div>
-        <table class="table table-dark table- my-4 table-bordered table-triped">
-            <thead>
-                <tr>
-                    <th class="th-col-state">状態</th>
-                    <th style="text-align: center;">内容</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td class="text-warning font-weight-bold">修正</td>
-                    <td>マルチスレッドにおける「Down, Up, Tap」</td>
-                </tr>
-                <tr>
-                    <td class="text-success font-weight-bold">追加</td>
-                    <td>MouseMoving イベント</td>
-                </tr>
-                <tr>
-                    <td class="text-success font-weight-bold">追加</td>
-                    <td>ScriptConfig.AreEventsClearedAutomatically</td>
-                </tr>
-                <tr>
-                    <td class="text-success font-weight-bold">追加</td>
-                    <td>KeyStateChangedEventArgs.Convert(Keys from, Keys to, params Keys[] modifiers)</td>
-                </tr>
-                <tr>
-                    <td class="text-success font-weight-bold">追加</td>
-                    <td>KeyStateChangedEventArgs.Convert(Keys from, Keys to, Func&lt;bool&gt; condition)</td>
-                </tr>
-                <tr>
-                    <td class="text-success font-weight-bold">追加</td>
-                    <td>HookEventArgs.Convert(Keys from, Keys to, params Keys[] modifiers)</td>
-                </tr>
-                <tr>
-                    <td class="text-success font-weight-bold">追加</td>
-                    <td>HookEventArgs.Convert(Keys from, Keys to, Func&lt;bool&gt; condition)</td>
-                </tr>
-                <tr>
-                    <td class="text-success font-weight-bold">追加</td>
-                    <td>ControllerStateChangedEventArgs.Convert(ControllerButtons from, Keys to, params ControllerButtons[] modifiers)</td>
-                </tr>
-                <tr>
-                    <td class="text-success font-weight-bold">追加</td>
-                    <td>ControllerStateChangedEventArgs.Convert(ControllerButtons from, Keys to, Func&lt;bool&gt; condition)</td>
-                </tr>
-                <tr>
-                    <td class="text-success font-weight-bold">追加</td>
-                    <td>Bounds.CenterX</td>
-                </tr>
-                <tr>
-                    <td class="text-success font-weight-bold">追加</td>
-                    <td>Bounds.CenterY</td>
-                </tr>
-                <tr>
-                    <td class="text-success font-weight-bold">追加</td>
-                    <td>Bounds.Intersect(Bounds bounds)</td>
-                </tr>
-                <tr>
-                    <td class="text-success font-weight-bold">追加</td>
-                    <td>Bounds.IntersercsWith(Bounds bounds)</td>
-                </tr>
-                <tr>
-                    <td class="text-success font-weight-bold">追加</td>
-                    <td>Bounds.Union(Bounds bounds)</td>
-                </tr>
-            </tbody>
-        </table>
+    </div>
 
-        <h2 class="px-2 my-5 text-center">21/08/11アップデート</h2>
-        <div class="mt-5 header-container">
-            <h4 class="px-2">新しい機能</h4>
-        </div>
-        <ul>
-            <li>画像認識の「座標と範囲」に「座標と範囲をディスプレイに設定」を追加しました。</li>
-            <li>画像認識の設定に「検出方法」と「グレースケール化して画像認識を行う」「重なりの許容範囲」を追加しました。</li>
-            <li>画像認識の設定の「テストを実行」方法を新しくしました。</li>
-            <li>画像認識の設定の「テンプレート画像の撮影」「座標と範囲を選択する」「テストを実行」において強制的に編集ウィンドウが最小化されるようにしました。</li>
-            <li>アクションマクロの画像認識テンプレートにおいて画像認識の設定を選択後にアクションを挿入できるようにしました。</li>
-        </ul>
-        <div class="mt-5 header-container">
-            <h4 class="px-2">変更と修正</h4>
-        </div>
-        <ul>
-            <li>画像認識の設定の非推奨だった設定項目を廃止しました。また、それに伴い関連するアクションを廃止しました。</li>
-            <li>画像認識の設定のプロセス名を指定したときに「座標と範囲を選択する」が正常に機能しない問題を修正しました。</li>
-            <li>画像認識に関係するメソッド（KeyToKey）の名前を一部変更しました。</li>
-            <li>TryMatch と TryMatches メソッドにおいて画像のサイズチェック処理が正常に機能していない問題を修正しました。</li>
-            <li>拡張スクリプトにおいて DLL を読み込むことが出来ない問題を修正しました。</li>
-            <li>拡張スクリプトのメソッドの引数に string を指定して初期値を設定した場合に文字列がエスケープされていないためアクション選択画面でエラーが発生する問題を修正しました。</li>
-            <li>「キーボード」と「入力」カテゴリのアクションを統合しました。</li>
-            <li>「自作マクロ」カテゴリーを「アクションマクロ」に変更しました。</li>
-        </ul>
-        <div class="mt-5 mb-4 header-container">
-            <h4 class="px-2">アクションの変更</h4>
-        </div>
-        <table class="table table-dark table- my-4 table-bordered table-triped">
-            <thead>
-                <tr>
-                    <th class="th-col-state">状態</th>
-                    <th style="text-align: center;">内容</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td class="text-danger font-weight-bold">廃止</td>
-                    <td>テンプレートマッチング&lt;距離&gt;</td>
-                </tr>
-                <tr>
-                    <td class="text-danger font-weight-bold">廃止</td>
-                    <td>テンプレートマッチング&lt;範囲&gt;</td>
-                </tr>
-                <tr>
-                    <td class="text-danger font-weight-bold">廃止</td>
-                    <td>マクロを定期的に実行&lt;開始&gt;</td>
-                </tr>
-                <tr>
-                    <td class="text-danger font-weight-bold">廃止</td>
-                    <td>マクロを定期的に実行&lt;停止&gt;</td>
-                </tr>
-                <tr>
-                    <td class="text-danger font-weight-bold">廃止</td>
-                    <td>テンプレートマッチング：フィルター&lt;停止&gt;</td>
-                </tr>
-                <tr>
-                    <td class="text-danger font-weight-bold">廃止</td>
-                    <td>テンプレートマッチング：フィルター&lt;開始&gt;</td>
-                </tr>
-                <tr>
-                    <td class="text-warning font-weight-bold">廃止</td>
-                    <td>CallRefSource（非表示）</td>
-                </tr>
-                <tr>
-                    <td class="text-warning font-weight-bold">廃止</td>
-                    <td>PreloadCall（非表示）</td>
-                </tr>
-                <tr>
-                    <td class="text-warning font-weight-bold">廃止</td>
-                    <td>Call（非表示）</td>
-                </tr>
-            </tbody>
-        </table>
-        <div class="mt-5 mb-4 header-container">
-            <h4 class="px-2">C#スクリプトの変更</h4>
-        </div>
-        <table class="table table-dark table- my-4 table-bordered table-triped">
-            <thead>
-                <tr>
-                    <th class="th-col-state">状態</th>
-                    <th style="text-align: center;">内容</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td class="text-danger font-weight-bold">廃止</td>
-                    <td>ITemplateMatching.Filter</td>
-                </tr>
-                <tr>
-                    <td class="text-success font-weight-bold">追加</td>
-                    <td>FindWindowTitleStartsWith</td>
-                </tr>
-                <tr>
-                    <td class="text-success font-weight-bold">追加</td>
-                    <td>FindWindowTitleEndsWith</td>
-                </tr>
-                <tr>
-                    <td class="text-success font-weight-bold">追加</td>
-                    <td>FindWindowTitleContains</td>
-                </tr>
-            </tbody>
-        </table>
+    <h2 class="px-2 my-5 text-center">21/11/15アップデート</h2>
+    <div class="mt-5 header-container">
+        <h4 class="px-2">新しい機能</h4>
+    </div>
+    <ul>
+        <li>環境設定の「設定ファイル読み込み時に実行するスクリプト」の名称を「スタートアップマクロ」に変更し、C#スクリプトファイル以外にアクションマクロ、拡張スクリプトを割り当てられるようにしました。なお C#スクリプトファイルは設定ファイルフォルダ直下のスクリプトのみ割り当てられるようになります。</li>
+        <li>メインウィンドウのコンソールに「クリア」を追加しました</li>
+    </ul>
+    <div class="mt-5 header-container">
+        <h4 class="px-2">変更と修正</h4>
+    </div>
+    <ul>
+        <li>キー割り当てにおいてトリガーの入力キャンセル設定を無効にしても一部入力がキャンセルされてしまう問題を修正しました。</li>
+        <li>C#スクリプトのマルチスレッド処理に関する不具合を修正しました。</li>
+        <li>メインウィンドウの「入力の監視方法」項目を削除しました。</li>
+        <li>アクション「設定ファイルの変更」で正しく設定が切り替わらない問題を修正しました。</li>
+        <li>NumpadEnter 入力時に T キーが入力されてしまう問題を修正しました。</li>
+        <li>環境設定の「外部ファイルのマクロ／設定を継承」を非推奨扱いにしました。</li>
+        <li>メニュー割り当てでスティックでメニューを選択できない問題を修正しました。</li>
+        <li>「自作マクロ」カテゴリーを「アクションマクロ」に変更しました。</li>
+    </ul>
+    <div class="mt-5 mb-4 header-container">
+        <h4 class="px-2">C#スクリプトの変更</h4>
+    </div>
+    <table class="table table-dark table- my-4 table-bordered table-triped">
+        <thead>
+            <tr>
+                <th class="th-col-state">状態</th>
+                <th style="text-align: center;">内容</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td class="text-warning font-weight-bold">修正</td>
+                <td>マルチスレッドにおける「Down, Up, Tap」</td>
+            </tr>
+            <tr>
+                <td class="text-success font-weight-bold">追加</td>
+                <td>MouseMoving イベント</td>
+            </tr>
+            <tr>
+                <td class="text-success font-weight-bold">追加</td>
+                <td>ScriptConfig.AreEventsClearedAutomatically</td>
+            </tr>
+            <tr>
+                <td class="text-success font-weight-bold">追加</td>
+                <td>KeyStateChangedEventArgs.Convert(Keys from, Keys to, params Keys[] modifiers)</td>
+            </tr>
+            <tr>
+                <td class="text-success font-weight-bold">追加</td>
+                <td>KeyStateChangedEventArgs.Convert(Keys from, Keys to, Func&lt;bool&gt; condition)</td>
+            </tr>
+            <tr>
+                <td class="text-success font-weight-bold">追加</td>
+                <td>HookEventArgs.Convert(Keys from, Keys to, params Keys[] modifiers)</td>
+            </tr>
+            <tr>
+                <td class="text-success font-weight-bold">追加</td>
+                <td>HookEventArgs.Convert(Keys from, Keys to, Func&lt;bool&gt; condition)</td>
+            </tr>
+            <tr>
+                <td class="text-success font-weight-bold">追加</td>
+                <td>ControllerStateChangedEventArgs.Convert(ControllerButtons from, Keys to, params ControllerButtons[] modifiers)</td>
+            </tr>
+            <tr>
+                <td class="text-success font-weight-bold">追加</td>
+                <td>ControllerStateChangedEventArgs.Convert(ControllerButtons from, Keys to, Func&lt;bool&gt; condition)</td>
+            </tr>
+            <tr>
+                <td class="text-success font-weight-bold">追加</td>
+                <td>Bounds.CenterX</td>
+            </tr>
+            <tr>
+                <td class="text-success font-weight-bold">追加</td>
+                <td>Bounds.CenterY</td>
+            </tr>
+            <tr>
+                <td class="text-success font-weight-bold">追加</td>
+                <td>Bounds.Intersect(Bounds bounds)</td>
+            </tr>
+            <tr>
+                <td class="text-success font-weight-bold">追加</td>
+                <td>Bounds.IntersercsWith(Bounds bounds)</td>
+            </tr>
+            <tr>
+                <td class="text-success font-weight-bold">追加</td>
+                <td>Bounds.Union(Bounds bounds)</td>
+            </tr>
+        </tbody>
+    </table>
 
-
-        <h2 class="px-2 my-5 text-center">21/07/04アップデート</h2>
-        <div class="mt-5 header-container">
-            <h4 class="px-2">新しい機能</h4>
-        </div>
-        <ul>
-            <li>メインウィンドウに実行許可したアプリと使用している入力の監視方法を表示するようにしました。</li>
-        </ul>
-        <div class="mt-5 header-container">
-            <h4 class="px-2">変更と修正</h4>
-        </div>
-        <ul>
-            <li>C#スクリプトのヘルプの「ウインドウに透過／非アクティブ属性を付与する」の内容が違う問題を修正しました。</li>
-            <li>
-                拡張スクリプトの仕様を変更しました（古い仕様も使用することも可能です）
-                <ul>
-                    <li>メソッドにstaticを付ける必要がなくなりました。</li>
-                    <li>メソッドの第一引数にIGlobalsを指定する必要がなくなりました。</li>
-                    <li>IGlobalsを介してKeyToKey独自のメソッドやプロパティにいアクセスする必要がなくなりました。</li>
-                </ul>
-            </li>
-            <li>
-                「設定ファイルの自動切り替え」と「特定のアプリでのみ実行を許可」の仕様を変更しました。
-                <ul>
-                    <li>プロセス名だけでなくウィンドウタイトルを指定できるようにしました。</li>
-                    <li>「完全一致」か「部分一致」を選択できるようにしました。</li>
-                </ul>
-            </li>
-            <li>
-                スクリプトエディタに新しいテンプレートを追加しました。
-                <ul>
-                    <li>sumamry</li>
-                    <li>psummary</li>
-                    <li>load</li>
-                </ul>
-            </li>
-        </ul>
-        <div class="mt-5 mb-4 header-container">
-            <h4 class="px-2">C#スクリプトの変更</h4>
-        </div>
-        <table class="table table-dark table- my-4 table-bordered table-triped">
-            <thead>
-                <tr>
-                    <th class="th-col-state">状態</th>
-                    <th style="text-align: center;">内容</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td class="text-warning font-weight-bold">変更</td>
-                    <td>Screenプロパティの型をSystem.Windows.Forms.ScreenからIScreenに変更しました。</td>
-                </tr>
-            </tbody>
-        </table>
+    <h2 class="px-2 my-5 text-center">21/08/11アップデート</h2>
+    <div class="mt-5 header-container">
+        <h4 class="px-2">新しい機能</h4>
+    </div>
+    <ul>
+        <li>画像認識の「座標と範囲」に「座標と範囲をディスプレイに設定」を追加しました。</li>
+        <li>画像認識の設定に「検出方法」と「グレースケール化して画像認識を行う」「重なりの許容範囲」を追加しました。</li>
+        <li>画像認識の設定の「テストを実行」方法を新しくしました。</li>
+        <li>画像認識の設定の「テンプレート画像の撮影」「座標と範囲を選択する」「テストを実行」において強制的に編集ウィンドウが最小化されるようにしました。</li>
+        <li>アクションマクロの画像認識テンプレートにおいて画像認識の設定を選択後にアクションを挿入できるようにしました。</li>
+    </ul>
+    <div class="mt-5 header-container">
+        <h4 class="px-2">変更と修正</h4>
+    </div>
+    <ul>
+        <li>画像認識の設定の非推奨だった設定項目を廃止しました。また、それに伴い関連するアクションを廃止しました。</li>
+        <li>画像認識の設定のプロセス名を指定したときに「座標と範囲を選択する」が正常に機能しない問題を修正しました。</li>
+        <li>画像認識に関係するメソッド（KeyToKey）の名前を一部変更しました。</li>
+        <li>TryMatch と TryMatches メソッドにおいて画像のサイズチェック処理が正常に機能していない問題を修正しました。</li>
+        <li>拡張スクリプトにおいて DLL を読み込むことが出来ない問題を修正しました。</li>
+        <li>拡張スクリプトのメソッドの引数に string を指定して初期値を設定した場合に文字列がエスケープされていないためアクション選択画面でエラーが発生する問題を修正しました。</li>
+        <li>「キーボード」と「入力」カテゴリのアクションを統合しました。</li>
+        <li>「自作マクロ」カテゴリーを「アクションマクロ」に変更しました。</li>
+    </ul>
+    <div class="mt-5 mb-4 header-container">
+        <h4 class="px-2">アクションの変更</h4>
+    </div>
+    <table class="table table-dark table- my-4 table-bordered table-triped">
+        <thead>
+            <tr>
+                <th class="th-col-state">状態</th>
+                <th style="text-align: center;">内容</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td class="text-danger font-weight-bold">廃止</td>
+                <td>テンプレートマッチング&lt;距離&gt;</td>
+            </tr>
+            <tr>
+                <td class="text-danger font-weight-bold">廃止</td>
+                <td>テンプレートマッチング&lt;範囲&gt;</td>
+            </tr>
+            <tr>
+                <td class="text-danger font-weight-bold">廃止</td>
+                <td>マクロを定期的に実行&lt;開始&gt;</td>
+            </tr>
+            <tr>
+                <td class="text-danger font-weight-bold">廃止</td>
+                <td>マクロを定期的に実行&lt;停止&gt;</td>
+            </tr>
+            <tr>
+                <td class="text-danger font-weight-bold">廃止</td>
+                <td>テンプレートマッチング：フィルター&lt;停止&gt;</td>
+            </tr>
+            <tr>
+                <td class="text-danger font-weight-bold">廃止</td>
+                <td>テンプレートマッチング：フィルター&lt;開始&gt;</td>
+            </tr>
+            <tr>
+                <td class="text-warning font-weight-bold">廃止</td>
+                <td>CallRefSource（非表示）</td>
+            </tr>
+            <tr>
+                <td class="text-warning font-weight-bold">廃止</td>
+                <td>PreloadCall（非表示）</td>
+            </tr>
+            <tr>
+                <td class="text-warning font-weight-bold">廃止</td>
+                <td>Call（非表示）</td>
+            </tr>
+        </tbody>
+    </table>
+    <div class="mt-5 mb-4 header-container">
+        <h4 class="px-2">C#スクリプトの変更</h4>
+    </div>
+    <table class="table table-dark table- my-4 table-bordered table-triped">
+        <thead>
+            <tr>
+                <th class="th-col-state">状態</th>
+                <th style="text-align: center;">内容</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td class="text-danger font-weight-bold">廃止</td>
+                <td>ITemplateMatching.Filter</td>
+            </tr>
+            <tr>
+                <td class="text-success font-weight-bold">追加</td>
+                <td>FindWindowTitleStartsWith</td>
+            </tr>
+            <tr>
+                <td class="text-success font-weight-bold">追加</td>
+                <td>FindWindowTitleEndsWith</td>
+            </tr>
+            <tr>
+                <td class="text-success font-weight-bold">追加</td>
+                <td>FindWindowTitleContains</td>
+            </tr>
+        </tbody>
+    </table>
 
 
-        <h2 class="px-2 my-5 text-center">21/06/07アップデート</h2>
-        <div class="mt-5 header-container">
-            <h4 class="px-2">新しい機能</h4>
-        </div>
-        <ul>
-            <li>拡張スクリプト機能を追加しました。</li>
-            <li>マクロ割り当てに新しいオプションを追加しました。</li>
-            <li>スクリプトエディタのテンプレートに「exaction」を追加しました。</li>
-            <li>スクリプトエディタのテンプレートに「exmethod」を追加しました。</li>
-            <li>スクリプトエディタのテンプレートに「opencv」を追加しました。</li>
-        </ul>
-        <div class="mt-5 header-container">
-            <h4 class="px-2">変更と修正</h4>
-        </div>
-        <ul>
-            <li>アプリケーションの設定から「カテゴリの並び順」を廃止</li>
-            <li>ITemplateMtaching インターフェースの廃止予定だったメンバを削除しました。</li>
-            <li>40ミリ秒以下の待機処理が強制的に高精度／高負荷な待機処理になっていた不具合を修正しました。</li>
-        </ul>
-
-        <h2 class="px-2 my-5 text-center">21/05/12アップデート</h2>
-        <div class="mt-5 header-container">
-            <h4 class="px-2">修正</h4>
-        </div>
-        <ul>
-            <li>コントローラーの可視化ウィンドウでスティックの状態が正常に反映されない問題を修正しました。</li>
-        </ul>
-
-        <h2 class="px-2 my-5 text-center">21/05/11アップデート</h2>
-        <div class="mt-5 header-container">
-            <h4 class="px-2">修正</h4>
-        </div>
-        <ul>
-            <li>ボタン型のトリガーを使用しているコントローラーが正常に動かない問題を修正しました。</li>
-        </ul>
-
-        <h2 class="px-2 my-5 text-center">21/05/10アップデート</h2>
-        <div class="mt-5 header-container">
-            <h4 class="px-2">修正</h4>
-        </div>
-        <ul>
-            <li>コントローラー切断時にフリーズ、強制終了が発生する問題を修正しました。</li>
-        </ul>
-
-
-        <h2 class="px-2 my-5 text-center">21/05/02アップデート</h2>
-        <div class="mt-5 header-container">
-            <h4 class="px-2">修正</h4>
-        </div>
-        <ul>
-            <li>設定の新規作成の際に、既存の設定をコピーして作成しようとするとエラーが発生する問題を修正しました。</li>
-            <li>C#スクリプトの待機処理にエラーが発生している問題に対する調整を行いました。</li>
-            <li>その他いくつか軽微な不具合を修正しました。</li>
-        </ul>
-
-
-        <h2 class="px-2 my-5 text-center">21/04/21アップデート</h2>
-        <div class="mt-5 header-container">
-            <h4 class="px-2">新しい機能</h4>
-        </div>
-        <ul>
-            <li>設定ファイルを「Profiles」フォルダにまとめるようにしました。</li>
-            <li>ストアアプリのプロセス名（タイトル）を取得できるようにしました。</li>
-            <li>追加のXInputマッピングが正常に機能していない問題を修正しました。</li>
-        </ul>
-        <div class="mt-5 header-container">
-            <h4 class="px-2">変更と修正</h4>
-        </div>
-        <ul>
-            <li>高 DPI 環境のアクション／マクロ選択画面、メソッド作成画面でフリーズする不具合に対する調整を行いました。</li>
-            <li>使用するコントローラーを選択する画面で同じのコントローラーが複数接続されているときに表示が一つになる問題を修正しました。</li>
-            <li>追加のXInputマッピングが正常に機能していない問題を修正しました。</li>
-        </ul>
-        <div class="mt-5 mb-4 header-container">
-            <h4 class="px-2">C#スクリプトの変更</h4>
-        </div>
-        <table class="table table-dark table- my-4 table-bordered table-triped">
-            <thead>
-                <tr>
-                    <th class="th-col-state">状態</th>
-                    <th style="text-align: center;">内容</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td class="text-success font-weight-bold">追加</td>
-                    <td>IWindowController MakeWindowController(IntPtr windowHandle)</td>
-                </tr>
-                <tr>
-                    <td class="text-success font-weight-bold">追加</td>
-                    <td>IWindowController FindWindow(string windowTitle)</td>
-                </tr>
-                <tr>
-                    <td class="text-success font-weight-bold">追加</td>
-                    <td>IWindowController FindWindow(string windowTitle, string className)</td>
-                </tr>
-                <tr>
-                    <td class="text-success font-weight-bold">追加</td>
-                    <td>IWindowController FindWindow(IntPtr windowHandle, string windowTitle, string className)</td>
-                </tr>
-                <tr>
-                    <td class="text-success font-weight-bold">追加</td>
-                    <td>IntPtr WindowFromPoint(int x, int y)</td>
-                </tr>
-                <tr>
-                    <td class="text-success font-weight-bold">追加</td>
-                    <td>IntPtr WindowFromPoint((int x， int y) point)</td>
-                </tr>
-                <tr>
-                    <td class="text-success font-weight-bold">追加</td>
-                    <td>Screen Screen { get; }</td>
-                </tr>
-                <tr>
-                    <td class="text-success font-weight-bold">追加</td>
-                    <td>Task&lt;Bitmap&gt; ScreenshotAsync(Bounds bounds)</td>
-                </tr>
-                <tr>
-                    <td class="text-success font-weight-bold">追加</td>
-                    <td>void GetScheduleState()</td>
-                </tr>
-                <tr>
-                    <td class="text-success font-weight-bold">追加</td>
-                    <td>void SetScheduleState()</td>
-                </tr>
-                <tr>
-                    <td class="text-success font-weight-bold">追加</td>
-                    <td>HookedEventArgs.IsRepeated { get; }</td>
-                </tr>
-                <tr>
-                    <td class="text-warning font-weight-bold">変更</td>
-                    <td>一部ウィンドウ関係のメソッドを Obsolete 扱いにしました</td>
-                </tr>
-                <tr>
-                    <td class="text-warning font-weight-bold">変更</td>
-                    <td>複数箇所で Wait 処理が同時に使用できるようになりました</td>
-                </tr>
-                <tr>
-                    <td class="text-warning font-weight-bold">変更</td>
-                    <td>
-                        <p>DirectInput コントローラーを使用したときの値の範囲を変更しました</p>
-                        <p>・Controller.LeftTrigger.Thumb</p>
-                        <p>・Controller.RightTrigger.Thumb</p>
-                    </td>
-                </tr>
-            </tbody>
-        </table>
+    <h2 class="px-2 my-5 text-center">21/07/04アップデート</h2>
+    <div class="mt-5 header-container">
+        <h4 class="px-2">新しい機能</h4>
+    </div>
+    <ul>
+        <li>メインウィンドウに実行許可したアプリと使用している入力の監視方法を表示するようにしました。</li>
+    </ul>
+    <div class="mt-5 header-container">
+        <h4 class="px-2">変更と修正</h4>
+    </div>
+    <ul>
+        <li>C#スクリプトのヘルプの「ウインドウに透過／非アクティブ属性を付与する」の内容が違う問題を修正しました。</li>
+        <li>
+            拡張スクリプトの仕様を変更しました（古い仕様も使用することも可能です）
+            <ul>
+                <li>メソッドにstaticを付ける必要がなくなりました。</li>
+                <li>メソッドの第一引数にIGlobalsを指定する必要がなくなりました。</li>
+                <li>IGlobalsを介してKeyToKey独自のメソッドやプロパティにいアクセスする必要がなくなりました。</li>
+            </ul>
+        </li>
+        <li>
+            「設定ファイルの自動切り替え」と「特定のアプリでのみ実行を許可」の仕様を変更しました。
+            <ul>
+                <li>プロセス名だけでなくウィンドウタイトルを指定できるようにしました。</li>
+                <li>「完全一致」か「部分一致」を選択できるようにしました。</li>
+            </ul>
+        </li>
+        <li>
+            スクリプトエディタに新しいテンプレートを追加しました。
+            <ul>
+                <li>sumamry</li>
+                <li>psummary</li>
+                <li>load</li>
+            </ul>
+        </li>
+    </ul>
+    <div class="mt-5 mb-4 header-container">
+        <h4 class="px-2">C#スクリプトの変更</h4>
+    </div>
+    <table class="table table-dark table- my-4 table-bordered table-triped">
+        <thead>
+            <tr>
+                <th class="th-col-state">状態</th>
+                <th style="text-align: center;">内容</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td class="text-warning font-weight-bold">変更</td>
+                <td>Screenプロパティの型をSystem.Windows.Forms.ScreenからIScreenに変更しました。</td>
+            </tr>
+        </tbody>
+    </table>
 
 
-        <h2 class="px-2 my-5 text-center">21/03/22アップデート</h2>
-        <div class="mt-5 header-container">
-            <h4 class="px-2">変更と修正</h4>
-        </div>
-        <ul>
-            <li>一部コントローラーが使用できない問題を修正しました。</li>
-            <li>許可されていないアプリ上においてキーの連続入力がキャンセルされないようにしました。</li>
-        </ul>
+    <h2 class="px-2 my-5 text-center">21/06/07アップデート</h2>
+    <div class="mt-5 header-container">
+        <h4 class="px-2">新しい機能</h4>
+    </div>
+    <ul>
+        <li>拡張スクリプト機能を追加しました。</li>
+        <li>マクロ割り当てに新しいオプションを追加しました。</li>
+        <li>スクリプトエディタのテンプレートに「exaction」を追加しました。</li>
+        <li>スクリプトエディタのテンプレートに「exmethod」を追加しました。</li>
+        <li>スクリプトエディタのテンプレートに「opencv」を追加しました。</li>
+    </ul>
+    <div class="mt-5 header-container">
+        <h4 class="px-2">変更と修正</h4>
+    </div>
+    <ul>
+        <li>アプリケーションの設定から「カテゴリの並び順」を廃止</li>
+        <li>ITemplateMtaching インターフェースの廃止予定だったメンバを削除しました。</li>
+        <li>40ミリ秒以下の待機処理が強制的に高精度／高負荷な待機処理になっていた不具合を修正しました。</li>
+    </ul>
+
+    <h2 class="px-2 my-5 text-center">21/05/12アップデート</h2>
+    <div class="mt-5 header-container">
+        <h4 class="px-2">修正</h4>
+    </div>
+    <ul>
+        <li>コントローラーの可視化ウィンドウでスティックの状態が正常に反映されない問題を修正しました。</li>
+    </ul>
+
+    <h2 class="px-2 my-5 text-center">21/05/11アップデート</h2>
+    <div class="mt-5 header-container">
+        <h4 class="px-2">修正</h4>
+    </div>
+    <ul>
+        <li>ボタン型のトリガーを使用しているコントローラーが正常に動かない問題を修正しました。</li>
+    </ul>
+
+    <h2 class="px-2 my-5 text-center">21/05/10アップデート</h2>
+    <div class="mt-5 header-container">
+        <h4 class="px-2">修正</h4>
+    </div>
+    <ul>
+        <li>コントローラー切断時にフリーズ、強制終了が発生する問題を修正しました。</li>
+    </ul>
 
 
-        <h2 class="px-2 my-5 text-center">21/03/12アップデート</h2>
-        <div class="mt-5 header-container">
-            <h4 class="px-2">変更と修正</h4>
-        </div>
-        <ul>
-            <li>マルチモニター間のマウス移動時に正常な位置に移動しない問題の一時的な対処として移動失敗時に再度移動を行うようにしました。この機能は「ApplicationConfig.conf」ファイルの「RetryMove」を「false」に設定することで無効にできます。</li>
-            <li>「＠ループ(@EasyFor)」「@ループ&lt;リスト&gt;(@ForEach)」使用時にグローバル変数が作成されてしまう問題を修正しました。</li>
-        </ul>
-        <div class="mt-5 header-container">
-            <h4 class="px-2">新しい機能</h4>
-        </div>
-        <ul>
-            <li>編集ウィンドウの上部に「ツール」メニューを追加しました。</li>
-            <li>アプリケーションの設定の「コンソール」カテゴリを廃止しメインウィンドウの「コンソール」ボタンにメニューを追加しました。</li>
-        </ul>
+    <h2 class="px-2 my-5 text-center">21/05/02アップデート</h2>
+    <div class="mt-5 header-container">
+        <h4 class="px-2">修正</h4>
+    </div>
+    <ul>
+        <li>設定の新規作成の際に、既存の設定をコピーして作成しようとするとエラーが発生する問題を修正しました。</li>
+        <li>C#スクリプトの待機処理にエラーが発生している問題に対する調整を行いました。</li>
+        <li>その他いくつか軽微な不具合を修正しました。</li>
+    </ul>
 
-        <h2 class="px-2 my-5 text-center">21/03/05アップデート</h2>
-        <div class="mt-5 header-container">
-            <h4 class="px-2">変更と修正</h4>
-        </div>
-        <ul>
-            <li>編集ウィンドウ上部のステータスがKeyToKeyのパフォーマンスに影響を与えていた可能性があったため廃止しました。</li>
-            <li>ジェスチャーパターンが正常に保存されない問題を修正しました。</li>
-        </ul>
-        <div class="mt-5 header-container">
-            <h4 class="px-2">新しい機能</h4>
-        </div>
-        <ul>
-            <li>スクリプトエディタのメニューに「スクリプトを実行」を追加しました。</li>
-            <li>スクリプトエディタのテンプレートに「マウスジェスチャーのテンプレート」を追加しました。</li>
-            <li>スクリプトエディタのテンプレートに「ジェスチャー定義の追加」を追加しました。</li>
-        </ul>
 
-        <h2 class="px-2 my-5 text-center">21/02/16アップデート</h2>
-        <div class="mt-5 header-container">
-            <h4 class="px-2">修正</h4>
-        </div>
-        <ul>
-            <li>KeyToKey内における一部キーの挙動を修正しました。</li>
-        </ul>
+    <h2 class="px-2 my-5 text-center">21/04/21アップデート</h2>
+    <div class="mt-5 header-container">
+        <h4 class="px-2">新しい機能</h4>
+    </div>
+    <ul>
+        <li>設定ファイルを「Profiles」フォルダにまとめるようにしました。</li>
+        <li>ストアアプリのプロセス名（タイトル）を取得できるようにしました。</li>
+        <li>追加のXInputマッピングが正常に機能していない問題を修正しました。</li>
+    </ul>
+    <div class="mt-5 header-container">
+        <h4 class="px-2">変更と修正</h4>
+    </div>
+    <ul>
+        <li>高 DPI 環境のアクション／マクロ選択画面、メソッド作成画面でフリーズする不具合に対する調整を行いました。</li>
+        <li>使用するコントローラーを選択する画面で同じのコントローラーが複数接続されているときに表示が一つになる問題を修正しました。</li>
+        <li>追加のXInputマッピングが正常に機能していない問題を修正しました。</li>
+    </ul>
+    <div class="mt-5 mb-4 header-container">
+        <h4 class="px-2">C#スクリプトの変更</h4>
+    </div>
+    <table class="table table-dark table- my-4 table-bordered table-triped">
+        <thead>
+            <tr>
+                <th class="th-col-state">状態</th>
+                <th style="text-align: center;">内容</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td class="text-success font-weight-bold">追加</td>
+                <td>IWindowController MakeWindowController(IntPtr windowHandle)</td>
+            </tr>
+            <tr>
+                <td class="text-success font-weight-bold">追加</td>
+                <td>IWindowController FindWindow(string windowTitle)</td>
+            </tr>
+            <tr>
+                <td class="text-success font-weight-bold">追加</td>
+                <td>IWindowController FindWindow(string windowTitle, string className)</td>
+            </tr>
+            <tr>
+                <td class="text-success font-weight-bold">追加</td>
+                <td>IWindowController FindWindow(IntPtr windowHandle, string windowTitle, string className)</td>
+            </tr>
+            <tr>
+                <td class="text-success font-weight-bold">追加</td>
+                <td>IntPtr WindowFromPoint(int x, int y)</td>
+            </tr>
+            <tr>
+                <td class="text-success font-weight-bold">追加</td>
+                <td>IntPtr WindowFromPoint((int x， int y) point)</td>
+            </tr>
+            <tr>
+                <td class="text-success font-weight-bold">追加</td>
+                <td>Screen Screen { get; }</td>
+            </tr>
+            <tr>
+                <td class="text-success font-weight-bold">追加</td>
+                <td>Task&lt;Bitmap&gt; ScreenshotAsync(Bounds bounds)</td>
+            </tr>
+            <tr>
+                <td class="text-success font-weight-bold">追加</td>
+                <td>void GetScheduleState()</td>
+            </tr>
+            <tr>
+                <td class="text-success font-weight-bold">追加</td>
+                <td>void SetScheduleState()</td>
+            </tr>
+            <tr>
+                <td class="text-success font-weight-bold">追加</td>
+                <td>HookedEventArgs.IsRepeated { get; }</td>
+            </tr>
+            <tr>
+                <td class="text-warning font-weight-bold">変更</td>
+                <td>一部ウィンドウ関係のメソッドを Obsolete 扱いにしました</td>
+            </tr>
+            <tr>
+                <td class="text-warning font-weight-bold">変更</td>
+                <td>複数箇所で Wait 処理が同時に使用できるようになりました</td>
+            </tr>
+            <tr>
+                <td class="text-warning font-weight-bold">変更</td>
+                <td>
+                    <p>DirectInput コントローラーを使用したときの値の範囲を変更しました</p>
+                    <p>・Controller.LeftTrigger.Thumb</p>
+                    <p>・Controller.RightTrigger.Thumb</p>
+                </td>
+            </tr>
+        </tbody>
+    </table>
 
-        <h2 class="px-2 my-5 text-center">21/02/13アップデート</h2>
-        <div class="mt-5 header-container">
-            <h4 class="px-2">修正</h4>
-        </div>
-        <ul>
-            <li>キー割り当てに関する不具合を修正しました。</li>
-        </ul>
 
-        <h2 class="px-2 my-5 text-center">21/02/12アップデート</h2>
-        <div class="mt-5 header-container">
-            <h4 class="px-2">変更と修正</h4>
-        </div>
-        <ul>
-            <li>キー割り当てに関する不具合を修正しました。</li>
-            <li>画像認識の処理を以前のものに戻しました。</li>
-            <li>マクロに関する不具合を修正しました。</li>
-        </ul>
+    <h2 class="px-2 my-5 text-center">21/03/22アップデート</h2>
+    <div class="mt-5 header-container">
+        <h4 class="px-2">変更と修正</h4>
+    </div>
+    <ul>
+        <li>一部コントローラーが使用できない問題を修正しました。</li>
+        <li>許可されていないアプリ上においてキーの連続入力がキャンセルされないようにしました。</li>
+    </ul>
 
-        <h2 class="px-2 my-5 text-center">21/02/11アップデート</h2>
-        <div class="mt-5 header-container">
-            <h4 class="px-2">変更と修正</h4>
-        </div>
-        <ul>
-            <li>キー割り当ての「連射」表記を「繰り返し」に変更しました。</li>
-        </ul>
-        <div class="mt-5 header-container">
-            <h4 class="px-2">新しい機能</h4>
-        </div>
-        <ul>
-            <li>繰り返しオプションに「繰り返し回数」と「繰り返し区間」を追加しました。</li>
-        </ul>
 
-        <h2 class="px-2 my-5 text-center">21/02/07アップデート</h2>
-        <div class="mt-5 header-container">
-            <h4 class="px-2">変更と修正</h4>
-        </div>
-        <ul>
-            <li>キー割り当てのオプション表記が適切でない問題を修正しました。</li>
-            <li>入力の可視化「コントローラー（アーケード）」での不具合を修正しました（未確認）</li>
-        </ul>
-        <div class="mt-5 header-container">
-            <h4 class="px-2">新しい機能</h4>
-        </div>
-        <ul>
-            <li>編集ウィンドウに「ジェスチャーパターンの作成」を追加しました。</li>
-            <li>環境設定に「設定ファイルロード時に実行するC#スクリプト」を追加しました。（メインウィンドウに「スタートアップスクリプト」として表示されるようにしました）</li>
-        </ul>
+    <h2 class="px-2 my-5 text-center">21/03/12アップデート</h2>
+    <div class="mt-5 header-container">
+        <h4 class="px-2">変更と修正</h4>
+    </div>
+    <ul>
+        <li>マルチモニター間のマウス移動時に正常な位置に移動しない問題の一時的な対処として移動失敗時に再度移動を行うようにしました。この機能は「ApplicationConfig.conf」ファイルの「RetryMove」を「false」に設定することで無効にできます。</li>
+        <li>「＠ループ(@EasyFor)」「@ループ&lt;リスト&gt;(@ForEach)」使用時にグローバル変数が作成されてしまう問題を修正しました。</li>
+    </ul>
+    <div class="mt-5 header-container">
+        <h4 class="px-2">新しい機能</h4>
+    </div>
+    <ul>
+        <li>編集ウィンドウの上部に「ツール」メニューを追加しました。</li>
+        <li>アプリケーションの設定の「コンソール」カテゴリを廃止しメインウィンドウの「コンソール」ボタンにメニューを追加しました。</li>
+    </ul>
 
-        <h2 class="px-2 my-5 text-center">21/02/02アップデート</h2>
-        <div class="mt-5 header-container">
-            <h4 class="px-2">変更と修正</h4>
-        </div>
-        <ul>
-            <li>軽微な不具合を修正しました。</li>
-        </ul>
+    <h2 class="px-2 my-5 text-center">21/03/05アップデート</h2>
+    <div class="mt-5 header-container">
+        <h4 class="px-2">変更と修正</h4>
+    </div>
+    <ul>
+        <li>編集ウィンドウ上部のステータスがKeyToKeyのパフォーマンスに影響を与えていた可能性があったため廃止しました。</li>
+        <li>ジェスチャーパターンが正常に保存されない問題を修正しました。</li>
+    </ul>
+    <div class="mt-5 header-container">
+        <h4 class="px-2">新しい機能</h4>
+    </div>
+    <ul>
+        <li>スクリプトエディタのメニューに「スクリプトを実行」を追加しました。</li>
+        <li>スクリプトエディタのテンプレートに「マウスジェスチャーのテンプレート」を追加しました。</li>
+        <li>スクリプトエディタのテンプレートに「ジェスチャー定義の追加」を追加しました。</li>
+    </ul>
 
-        <h2 class="px-2 my-5 text-center">21/01/27アップデート</h2>
-        <div class="mt-5 header-container">
-            <h4 class="px-2">変更と修正</h4>
-        </div>
-        <ul>
-            <li>キー割り当てにおいて仮想コントローラーの入力を割り当てたとき割り当てた入力のマッピングを一時停止するようにしました。</li>
-            <li>C#スクリプトの画像認識メソッドの不具合を修正しました。</li>
-            <li>同時押しの挙動の不具合を修正しました。</li>
-            <li>グローバル変数の値を変更した時に変更ステータスを更新していない問題を修正しました。</li>
-            <li>追加：マウスの入力ステータスが正常に取れない不具合を修正しました。</li>
-        </ul>
+    <h2 class="px-2 my-5 text-center">21/02/16アップデート</h2>
+    <div class="mt-5 header-container">
+        <h4 class="px-2">修正</h4>
+    </div>
+    <ul>
+        <li>KeyToKey内における一部キーの挙動を修正しました。</li>
+    </ul>
 
-        <h2 class="px-2 my-5 text-center">21/01/23アップデート</h2>
-        <div class="mt-5 header-container">
-            <h4 class="px-2">新しい機能</h4>
-        </div>
-        <ul>
-            <li>メインウィンドウのレイアウトを変更し割り当ての一覧と実行状況を見れるようにしました。</li>
-            <li>メインウィンドウのコンテキストメニューに「自動切り替えの一時停止」を追加しました。</li>
-            <li>キー割り当てで仮想コントローラーを割り当てられるようにしました。</li>
-            <li>キー割り当ての割り当てる入力のオプションに「フェーズ 2 をスキップする」を追加しました。</li>
-            <li>環境設定のに「入力の監視方法」を追加しました。</li>
-            <li>入力記録（ファイル）で記録したデータをクイック再生できるようにしました。</li>
-            <li>検出できるコントローラーの種類を増やしました。</li>
-        </ul>
+    <h2 class="px-2 my-5 text-center">21/02/13アップデート</h2>
+    <div class="mt-5 header-container">
+        <h4 class="px-2">修正</h4>
+    </div>
+    <ul>
+        <li>キー割り当てに関する不具合を修正しました。</li>
+    </ul>
 
-        <div class="mt-5 header-container">
-            <h4 class="px-2">変更と修正</h4>
-        </div>
-        <ul>
-            <li>キー割り当ての割り当てる入力のオプションのレイアウトを変更しました。</li>
-            <li>アクション「キーボードフックを使用する」「マウスフックを使用する」を廃止しました。</li>
-            <li>環境設定のオプションから「キーボードフックを使用する」「マウスフックを使用する」を廃止しました。</li>
-            <li>テンプレート画像を選択した時にオリジナルサイズの表示が更新されない問題を修正しました。</li>
-            <li>アクションの「テンプレートマッチング&lt;開始&gt;」「マクロを定期的に実行&lt;開始&gt;」実行時にメインウィンドウに表示されるリストを廃止しました。</li>
-            <li>メインウィンドウの不透明度を廃止しました</li>
-            <li>「ツール」の「ログ」を「コンソール」に名称を変更しました。</li>
-        </ul>
-        <div class="mt-5 header-container">
-            <h4 class="px-2">テンプレートの追加</h4>
-        </div>
-        <p>以下のテンプレートをスクリプトエディタに追加しました。</p>
-        <table class="table table-striped table-dark my-4 table-bordered">
-            <thead class=" thead-dark">
-                <th>タイトル</th>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>範囲選択</td>
-                </tr>
-                <tr>
-                    <td>カーソルの位置を取得</td>
-                </tr>
-            </tbody>
-        </table>
-        <div class="mt-5 header-container">
-            <h4 class="px-2">C#スクリプトの変更</h4>
-        </div>
-        <p>C#スクリプトにいくつかの変更を行いました。</p>
-        <table class="table table-dark table- my-4 table-bordered table-triped">
-            <thead>
-                <tr>
-                    <th class="th-col-state">状態</th>
-                    <th style="text-align: center;">内容</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td class="text-success font-weight-bold">追加</td>
-                    <td>FindPointOnCircle(double radius, double angle, isClockwise = true)</td>
-                </tr>
-                <tr>
-                    <td class="text-success font-weight-bold">追加</td>
-                    <td>CallCount { get; set; }</td>
-                </tr>
-                <tr>
-                    <td class="text-success font-weight-bold">追加</td>
-                    <td>ToJson(object value, bool formatted)</td>
-                </tr>
-                <tr>
-                    <td class="text-success font-weight-bold">追加</td>
-                    <td>FromJson(string json)</td>
-                </tr>
-                <tr>
-                    <td class="text-success font-weight-bold">追加</td>
-                    <td>GlobalVariables, LocalVriables プロパティ に Craeted, Updated, Deleted イベントを追加しました。</td>
-                </tr>
-            </tbody>
-        </table>
+    <h2 class="px-2 my-5 text-center">21/02/12アップデート</h2>
+    <div class="mt-5 header-container">
+        <h4 class="px-2">変更と修正</h4>
+    </div>
+    <ul>
+        <li>キー割り当てに関する不具合を修正しました。</li>
+        <li>画像認識の処理を以前のものに戻しました。</li>
+        <li>マクロに関する不具合を修正しました。</li>
+    </ul>
 
-        <h2 class="px-2 my-5 text-center">20/12/18アップデート</h2>
-        <div class="mt-5 header-container">
-            <h4 class="px-2">新しい機能</h4>
-        </div>
-        <ul>
-            <li>メインウィンドウのツールに「オンスクリーン」「コントローラー」を追加しました。</li>
-            <li>オンスクリーンコントローラーの入力でC#スクリプトの「ControllerStateChanged」イベントを発生させるようにしました。</li>
-            <li>「ControllerStateChangedEventArgs」に「IsVirtualPadEvent」プロパティを追加しました。</li>
-        </ul>
+    <h2 class="px-2 my-5 text-center">21/02/11アップデート</h2>
+    <div class="mt-5 header-container">
+        <h4 class="px-2">変更と修正</h4>
+    </div>
+    <ul>
+        <li>キー割り当ての「連射」表記を「繰り返し」に変更しました。</li>
+    </ul>
+    <div class="mt-5 header-container">
+        <h4 class="px-2">新しい機能</h4>
+    </div>
+    <ul>
+        <li>繰り返しオプションに「繰り返し回数」と「繰り返し区間」を追加しました。</li>
+    </ul>
 
-        <h2 class="px-2 my-5 text-center">20/12/14アップデート</h2>
-        <div class="mt-5 header-container">
-            <h4 class="px-2">不具合の修正</h4>
-        </div>
-        <ul>
-            <li>スクリプトやファイル名が一部正常に変更されない問題を修正しました。</li>
-            <li>アクション「XInput.スティック」において水平方向に値をセット出来ない問題を修正しました。</li>
-        </ul>
+    <h2 class="px-2 my-5 text-center">21/02/07アップデート</h2>
+    <div class="mt-5 header-container">
+        <h4 class="px-2">変更と修正</h4>
+    </div>
+    <ul>
+        <li>キー割り当てのオプション表記が適切でない問題を修正しました。</li>
+        <li>入力の可視化「コントローラー（アーケード）」での不具合を修正しました（未確認）</li>
+    </ul>
+    <div class="mt-5 header-container">
+        <h4 class="px-2">新しい機能</h4>
+    </div>
+    <ul>
+        <li>編集ウィンドウに「ジェスチャーパターンの作成」を追加しました。</li>
+        <li>環境設定に「設定ファイルロード時に実行するC#スクリプト」を追加しました。（メインウィンドウに「スタートアップスクリプト」として表示されるようにしました）</li>
+    </ul>
 
-        <h2 class="px-2 my-5 text-center">20/12/06アップデート</h2>
-        <div class="mt-5 header-container">
-            <h4 class="px-2">不具合の修正</h4>
-        </div>
-        <ul>
-            <li>C#スクリプトのUpメソッドに置いてマウスのボタンが正常に離されない問題を修正しました。</li>
-        </ul>
+    <h2 class="px-2 my-5 text-center">21/02/02アップデート</h2>
+    <div class="mt-5 header-container">
+        <h4 class="px-2">変更と修正</h4>
+    </div>
+    <ul>
+        <li>軽微な不具合を修正しました。</li>
+    </ul>
 
-        <h2 class="px-2 my-5 text-center">20/11/26アップデート</h2>
-        <div class="mt-5 header-container">
-            <h4 class="px-2">不具合の修正</h4>
-        </div>
-        <ul>
-            <li>CapsLockに割り当てたマクロ等が正常に実行されない問題を修正しました。</li>
-        </ul>
+    <h2 class="px-2 my-5 text-center">21/01/27アップデート</h2>
+    <div class="mt-5 header-container">
+        <h4 class="px-2">変更と修正</h4>
+    </div>
+    <ul>
+        <li>キー割り当てにおいて仮想コントローラーの入力を割り当てたとき割り当てた入力のマッピングを一時停止するようにしました。</li>
+        <li>C#スクリプトの画像認識メソッドの不具合を修正しました。</li>
+        <li>同時押しの挙動の不具合を修正しました。</li>
+        <li>グローバル変数の値を変更した時に変更ステータスを更新していない問題を修正しました。</li>
+        <li>追加：マウスの入力ステータスが正常に取れない不具合を修正しました。</li>
+    </ul>
 
-        <h2 class="px-2 my-5 text-center">20/11/25アップデート</h2>
-        <div class="mt-5 header-container">
-            <h4 class="px-2">不具合の修正</h4>
-        </div>
-        <ul>
-            <li>テンキーの入力が強制的に変換される問題を修正しました。</li>
-            <li>アクションリストのコンテキストメニューでショートカットキーが動かない問題を修正しました。</li>
-        </ul>
+    <h2 class="px-2 my-5 text-center">21/01/23アップデート</h2>
+    <div class="mt-5 header-container">
+        <h4 class="px-2">新しい機能</h4>
+    </div>
+    <ul>
+        <li>メインウィンドウのレイアウトを変更し割り当ての一覧と実行状況を見れるようにしました。</li>
+        <li>メインウィンドウのコンテキストメニューに「自動切り替えの一時停止」を追加しました。</li>
+        <li>キー割り当てで仮想コントローラーを割り当てられるようにしました。</li>
+        <li>キー割り当ての割り当てる入力のオプションに「フェーズ 2 をスキップする」を追加しました。</li>
+        <li>環境設定のに「入力の監視方法」を追加しました。</li>
+        <li>入力記録（ファイル）で記録したデータをクイック再生できるようにしました。</li>
+        <li>検出できるコントローラーの種類を増やしました。</li>
+    </ul>
 
-        <h2 class="px-2 my-5 text-center">20/11/24アップデート</h2>
-        <div class="mt-5 header-container">
-            <h4 class="px-2">変更と新しい機能</h4>
-        </div>
-        <ul>
-            <li>マクロの引数に「任意」の項目を追加した時、マクロの選択画面で正常に表示されない不具合を修正しました。</li>
-            <li>高 DPI 環境下における画像認識の位置範囲選択ウィンドウとテストウィンドウの不具合を修正しました。</li>
-            <li>スクリプトやフォルダの名前が一部正常に変更されない問題を修正しました。</li>
-            <li>環境設定のオプション「テンキーで入力されたキーを変更します」を廃止しました。</li>
-            <li>アプリケーションの設定の「その他」カテゴリに「テンキーの入力を変換する」を追加しました。</li>
-            <li>アプリケーションの設定の「割り当て」カテゴリに「デフォルトで事前コンパイルを有効にする」を追加しました。</li>
-            <li>スクリプトに関するヘルプを追加しました。</li>
-            <li>編集ウィンドウのホームに「支援する」ボタンを追加しました。</li>
-            <li>201124.1追加：一部不具合を修正しました。</li>
-        </ul>
-        <div class="mt-5 header-container">
-            <h4 class="px-2">ショートカットの追加</h4>
-        </div>
-        <p>以下のショートカットをエディタに追加しました。</p>
-        <table class="table table-striped table-dark my-4 table-bordered">
-            <thead class=" thead-dark">
-                <th>アクション</th>
-                <th>ショートカットキー</th>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>洗濯業の上に空行を挿入</td>
-                    <td><kbd>Ctrl + Enter</kbd></td>
-                </tr>
-                <tr>
-                    <td>コードのフォーマット（整形）</td>
-                    <td>
-                        <kbd>Ctrl + K</kbd> + <kbd>Ctrl + D</kbd>
-                    </td>
-                </tr>
-            </tbody>
-        </table>
-        <div class="mt-5 header-container">
-            <h4 class="px-2">テンプレートの追加</h4>
-        </div>
-        <p>以下のテンプレートをエディタに追加しました。</p>
-        <table class="table table-striped table-dark my-4 table-bordered">
-            <thead class=" thead-dark">
-                <th>タイトル</th>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>引数の挿入</td>
-                </tr>
-                <tr>
-                    <td>Keys 型の値を入力して挿入（Keys.値）</td>
-                </tr>
-                <tr>
-                    <td>型の値を入力して挿入（値のみ）</td>
-                </tr>
-                <tr>
-                    <td>キーを押す</td>
-                </tr>
-                <tr>
-                    <td>キーを離す</td>
-                </tr>
-                <tr>
-                    <td>キーを押して離す</td>
-                </tr>
-                <tr>
-                    <td>画像認識：単体（識別キーを選択）</td>
-                </tr>
-                <tr>
-                    <td>画像認識：複数（識別キーを選択）</td>
-                </tr>
-                <tr>
-                    <td>画像認識の識別キーを選択</td>
-                </tr>
-                <tr>
-                    <td>Hooked（メソッド）</td>
-                </tr>
-                <tr>
-                    <td>Hooked（ラムダ式）</td>
-                </tr>
-                <tr>
-                    <td>Disposing（メソッド）</td>
-                </tr>
-                <tr>
-                    <td>Disposing（ラムダ式）</td>
-                </tr>
-            </tbody>
-        </table>
-        <div class="mt-5 header-container">
-            <h4 class="px-2">C#スクリプトの変更</h4>
-        </div>
-        <p>C#スクリプトにいくつかの変更を行いました。</p>
-        <table class="table table-dark table- my-4 table-bordered table-triped">
-            <thead>
-                <tr>
-                    <th class="th-col-state">状態</th>
-                    <th style="text-align: center;">内容</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td class="text-danger font-weight-bold">削除</td>
-                    <td>GetVar()</td>
-                </tr>
-                <tr>
-                    <td class="text-danger font-weight-bold">削除</td>
-                    <td>SetVar()</td>
-                </tr>
-                <tr>
-                    <td class="text-warning font-weight-bold">変更</td>
-                    <td>
-                        実行不可なアプリだった場合に C#スクリプトを強制終了するように変更しました。
-                    </td>
-                </tr>
-                <tr>
-                    <td class="text-warning font-weight-bold">変更</td>
-                    <td>
-                        Hooked イベントでマウスの移動を検出できるようにしました。
-                    </td>
-                </tr>
-                <tr>
-                    <td class="text-warning font-weight-bold">変更</td>
-                    <td>
-                        LocalVariables と GlobalVriables プロパティの型を IVaraibleDictionary へと変更しました。
-                    </td>
-                </tr>
-                <tr>
-                    <td class="text-warning font-weight-bold">変更</td>
-                    <td>
-                        Offset を OffsetWithSteps に変更しました。
-                    </td>
-                </tr>
-                <tr>
-                    <td class="text-warning font-weight-bold">変更</td>
-                    <td>
-                        一部プロパティを Obsolete 扱いにしました（使用可能）
-                    </td>
-                </tr>
-                <tr>
-                    <td class="text-success font-weight-bold">追加</td>
-                    <td>event Polling <span class="text-danger">※試験的</span></td>
-                </tr>
-                <tr>
-                    <td class="text-success font-weight-bold">追加</td>
-                    <td>ScriptConfig { get; }</td>
-                </tr>
-                <tr>
-                    <td class="text-success font-weight-bold">追加</td>
-                    <td>WaitConfig { get; }</td>
-                </tr>
-                <tr>
-                    <td class="text-success font-weight-bold">追加</td>
-                    <td>CallNext(params Actions callbacks)</td>
-                </tr>
-                <tr>
-                    <td class="text-success font-weight-bold">追加</td>
-                    <td>Speech()</td>
-                </tr>
-                <tr>
-                    <td class="text-success font-weight-bold">追加</td>
-                    <td>SpeechAsync()</td>
-                </tr>
-                <tr>
-                    <td class="text-success font-weight-bold">追加</td>
-                    <td>bool Match(string identifier, Bounds bounds, out MatchResult result)</td>
-                </tr>
-                <tr>
-                    <td class="text-success font-weight-bold">追加</td>
-                    <td>bool Matches(string identifier, Bounds bounds, out IEnumerable&lt;MatchResult&gt; Results)</td>
-                </tr>
-            </tbody>
-        </table>
-        <h2 class="mt-5">20/10/08 追加変更点</h2>
-        <ul>
-            <li>マクロの引数の設定を変更しても反映されない問題を修正しました。</li>
-        </ul>
-        <h2 class="mt-5">20/10/07 追加変更点</h2>
-        <ul>
-            <li>コントローラーのトリガーに関する不具合を修正しました。</li>
-            <li>割り当て設定（コントローラー）において割り当て時の不具合を修正しました。</li>
-        </ul>
-        <h2 class="mt-5">変更点</h2>
-        <ul>
-            <li>C#スクリプトエディタでスクロールが出来ない問題を修正しました。</li>
-            <li>C#スクリプトエディタでテンプレートコードの挿入をできるようにしました。</li>
-            <li>C#スクリプトエディタでコンパイルテストをできるようにしました。</li>
-            <li>入力の記録で C#スクリプト用にデータをコピーできるようにしました。</li>
-            <li>割り当て設定（コントローラー）のリストを廃止し、コントローラーの画像で割り当てられるようにしました。</li>
-            <li><span class="text-success font-weight-bold">入力の可視化</span>に<span class="text-success font-weight-bold">現在押しているキー</span>を追加しました。</li>
-            <li><kbd>半角／全角</kbd>キーに割り当てをできるようにしました。</li>
-            <li>
-                各種割り当ての一部設定の変更を行いました。
-                <ul class="px-3 no-dot">
-                    <li><span class="text-danger font-weight-bold">削除</span>トリガーの連続入力をキャンセルする</li>
-                    <li><span class="text-danger font-weight-bold">削除</span>トリガーの最初の入力をキャンセルする</li>
-                    <li><span class="text-success">追加</span>トリガーの入力をキャンセルする</li>
-                </ul>
-            </li>
-            <li>円形メニューの挙動の調整を行いました。</li>
-            <li>引数やローカル変数のリストを折りたためられるようにしました。</li>
-            <li>アプリケーションの設定の<span class="text-success font-weight-bold">マクロの作成・設定／アクション</span>カテゴリに<span class="text-success font-weight-bold">起動時のタブ</span>を追加しました。</li>
-            <li>設定ファイルをコピーして作成するときにコピー元のスクリプトフォルダを新しい設定ファイル用にコピーするようにしました。</li>
-        </ul>
-        <h2 class="mt-5 mb-3">スクリプトエディタのショートカット</h2>
-        <p>以下のショートカットをエディタに追加しました。</p>
-        <table class="table table-striped table-dark my-4 table-bordered">
-            <thead class=" thead-dark">
-                <th>アクション</th>
-                <th>ショートカットキー</th>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>行の複製</td>
-                    <td><kbd>Ctrl + D</kbd></td>
-                </tr>
-                <tr>
-                    <td>行を上に移動</td>
-                    <td><kbd>Alt + ↑</kbd></td>
-                </tr>
-                <tr>
-                    <td>行を下にに移動</td>
-                    <td><kbd>Alt + ↓</kbd></td>
-                </tr>
-                <tr>
-                    <td>行をコメントアウト</td>
-                    <td><kbd>Ctrl + K</kbd>+<kbd>Ctrl + C</kbd></td>
-                </tr>
-                <tr>
-                    <td>行のコメントアウトを解除</td>
-                    <td><kbd>Ctrl + K</kbd>+<kbd>Ctrl + U</kbd></td>
-                </tr>
-                <tr>
-                    <td>テンプレートの挿入</td>
-                    <td><kbd>Ctrl + T</kbd></td>
-                </tr>
-                <tr>
-                    <td>行の削除</td>
-                    <td><kbd>Shift + Delete</kbd></td>
-                </tr>
-            </tbody>
-        </table>
-        <h2 class="mt-5 mb-3">C#スクリプトの変更点</h2>
+    <div class="mt-5 header-container">
+        <h4 class="px-2">変更と修正</h4>
+    </div>
+    <ul>
+        <li>キー割り当ての割り当てる入力のオプションのレイアウトを変更しました。</li>
+        <li>アクション「キーボードフックを使用する」「マウスフックを使用する」を廃止しました。</li>
+        <li>環境設定のオプションから「キーボードフックを使用する」「マウスフックを使用する」を廃止しました。</li>
+        <li>テンプレート画像を選択した時にオリジナルサイズの表示が更新されない問題を修正しました。</li>
+        <li>アクションの「テンプレートマッチング&lt;開始&gt;」「マクロを定期的に実行&lt;開始&gt;」実行時にメインウィンドウに表示されるリストを廃止しました。</li>
+        <li>メインウィンドウの不透明度を廃止しました</li>
+        <li>「ツール」の「ログ」を「コンソール」に名称を変更しました。</li>
+    </ul>
+    <div class="mt-5 header-container">
+        <h4 class="px-2">テンプレートの追加</h4>
+    </div>
+    <p>以下のテンプレートをスクリプトエディタに追加しました。</p>
+    <table class="table table-striped table-dark my-4 table-bordered">
+        <thead class=" thead-dark">
+            <th>タイトル</th>
+        </thead>
+        <tbody>
+            <tr>
+                <td>範囲選択</td>
+            </tr>
+            <tr>
+                <td>カーソルの位置を取得</td>
+            </tr>
+        </tbody>
+    </table>
+    <div class="mt-5 header-container">
+        <h4 class="px-2">C#スクリプトの変更</h4>
+    </div>
+    <p>C#スクリプトにいくつかの変更を行いました。</p>
+    <table class="table table-dark table- my-4 table-bordered table-triped">
+        <thead>
+            <tr>
+                <th class="th-col-state">状態</th>
+                <th style="text-align: center;">内容</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td class="text-success font-weight-bold">追加</td>
+                <td>FindPointOnCircle(double radius, double angle, isClockwise = true)</td>
+            </tr>
+            <tr>
+                <td class="text-success font-weight-bold">追加</td>
+                <td>CallCount { get; set; }</td>
+            </tr>
+            <tr>
+                <td class="text-success font-weight-bold">追加</td>
+                <td>ToJson(object value, bool formatted)</td>
+            </tr>
+            <tr>
+                <td class="text-success font-weight-bold">追加</td>
+                <td>FromJson(string json)</td>
+            </tr>
+            <tr>
+                <td class="text-success font-weight-bold">追加</td>
+                <td>GlobalVariables, LocalVriables プロパティ に Craeted, Updated, Deleted イベントを追加しました。</td>
+            </tr>
+        </tbody>
+    </table>
 
-        <table class="table table-dark table- my-4 table-bordered table-triped">
-            <thead>
-                <tr>
-                    <th class="th-col-state">状態</th>
-                    <th style="text-align: center;">内容</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td class="text-danger font-weight-bold">削除</td>
-                    <td>IME.Mode { get; }</td>
-                </tr>
-                <tr>
-                    <td class="text-danger font-weight-bold">削除</td>
-                    <td>IME.SetConversionMode { get; }</td>
-                </tr>
-                <tr>
-                    <td class="text-warning font-weight-bold">変更</td>
-                    <td>
-                        void CreateDirectory(string path) を
-                        string CreateDirectory(params string[] path)に変更しました。
-                    </td>
-                </tr>
-                <tr>
-                    <td class="text-warning font-weight-bold">変更</td>
-                    <td>
-                        Match()メソッドで画像認識に失敗した時も結果を取得できるようにしました。
-                    </td>
-                </tr>
-                <tr>
-                    <td class="text-success font-weight-bold">追加</td>
-                    <td>event Hooked</td>
-                </tr>
-                <tr>
-                    <td class="text-success font-weight-bold">追加</td>
-                    <td>IME.ConversinMode { get; set; }</td>
-                </tr>
-                <tr>
-                    <td class="text-success font-weight-bold">追加</td>
-                    <td>ActiveWindowClientBounds { get; }</td>
-                </tr>
-                <tr>
-                    <td class="text-success font-weight-bold">追加</td>
-                    <td>Controller.Trigger.ThumbAsByte { get; }</td>
-                </tr>
-                <tr>
-                    <td class="text-success font-weight-bold">追加</td>
-                    <td>Controller.Stick.ThumbAsShort { get; }</td>
-                </tr>
-                <tr>
-                    <td class="text-success font-weight-bold">追加</td>
-                    <td>TemplateMatching.Configs { get; }</td>
-                </tr>
-                <tr>
-                    <td class="text-success font-weight-bold">追加</td>
-                    <td>Parameters { get; }</td>
-                </tr>
-                <tr>
-                    <td class="text-success font-weight-bold">追加</td>
-                    <td>LocalVariables { get; }</td>
-                </tr>
-                <tr>
-                    <td class="text-success font-weight-bold">追加</td>
-                    <td>GlobalVariables { get; }</td>
-                </tr>
-                <tr>
-                    <td class="text-success font-weight-bold">追加</td>
-                    <td>GetDpiFromPoint(int x, int y)</td>
-                </tr>
-                <tr>
-                    <td class="text-success font-weight-bold">追加</td>
-                    <td>GetDpiFromPoint(Bounds bounds)</td>
-                </tr>
-                <tr>
-                    <td class="text-success font-weight-bold">追加</td>
-                    <td>GetDpiFromWindowHandle(IntPtr handle)</td>
-                </tr>
-                <tr>
-                    <td class="text-success font-weight-bold">追加</td>
-                    <td>GetBoundsByWindow(WindowPopLocation pop)</td>
-                </tr>
-                <tr>
-                    <td class="text-success font-weight-bold">追加</td>
-                    <td>Bounds.ToCenter()</td>
-                </tr>
-                <tr>
-                    <td class="text-success font-weight-bold">追加</td>
-                    <td>Bounds.ToEvenNumber()</td>
-                </tr>
-                <tr>
-                    <td class="text-success font-weight-bold">追加</td>
-                    <td>Bounds.ToOddNumber()</td>
-                </tr>
-                <tr>
-                    <td class="text-success font-weight-bold">追加</td>
-                    <td>Bounds.ToInsideOf(Bounds bounds)</td>
-                </tr>
-                <tr>
-                    <td class="text-success font-weight-bold">追加</td>
-                    <td>Angle(x1, y1, x2, y2, isClockwise)</td>
-                </tr>
-                <tr>
-                    <td class="text-success font-weight-bold">追加</td>
-                    <td>Distance(x1, y1, x2, y2)</td>
-                </tr>
-                <tr>
-                    <td class="text-success font-weight-bold">追加</td>
-                    <td>Clamp(min, max, value)</td>
-                </tr>
-                <tr>
-                    <td class="text-success font-weight-bold">追加</td>
-                    <td>Controller.GetThumbsAsShort()</td>
-                </tr>
-                <tr>
-                    <td class="text-success font-weight-bold">追加</td>
-                    <td>IsTrigger(Keys key)</td>
-                </tr>
-                <tr>
-                    <td class="text-success font-weight-bold">追加</td>
-                    <td>IsTrigger(ControllerButtons button)</td>
-                </tr>
-                <tr>
-                    <td class="text-success font-weight-bold">追加</td>
-                    <td>Abort()</td>
-                </tr>
-                <tr>
-                    <td class="text-success font-weight-bold">追加</td>
-                    <td>CreateWaiter(bool highPricisionWait = false)</td>
-                </tr>
-            </tbody>
-        </table>
+    <h2 class="px-2 my-5 text-center">20/12/18アップデート</h2>
+    <div class="mt-5 header-container">
+        <h4 class="px-2">新しい機能</h4>
+    </div>
+    <ul>
+        <li>メインウィンドウのツールに「オンスクリーン」「コントローラー」を追加しました。</li>
+        <li>オンスクリーンコントローラーの入力でC#スクリプトの「ControllerStateChanged」イベントを発生させるようにしました。</li>
+        <li>「ControllerStateChangedEventArgs」に「IsVirtualPadEvent」プロパティを追加しました。</li>
+    </ul>
+
+    <h2 class="px-2 my-5 text-center">20/12/14アップデート</h2>
+    <div class="mt-5 header-container">
+        <h4 class="px-2">不具合の修正</h4>
+    </div>
+    <ul>
+        <li>スクリプトやファイル名が一部正常に変更されない問題を修正しました。</li>
+        <li>アクション「XInput.スティック」において水平方向に値をセット出来ない問題を修正しました。</li>
+    </ul>
+
+    <h2 class="px-2 my-5 text-center">20/12/06アップデート</h2>
+    <div class="mt-5 header-container">
+        <h4 class="px-2">不具合の修正</h4>
+    </div>
+    <ul>
+        <li>C#スクリプトのUpメソッドに置いてマウスのボタンが正常に離されない問題を修正しました。</li>
+    </ul>
+
+    <h2 class="px-2 my-5 text-center">20/11/26アップデート</h2>
+    <div class="mt-5 header-container">
+        <h4 class="px-2">不具合の修正</h4>
+    </div>
+    <ul>
+        <li>CapsLockに割り当てたマクロ等が正常に実行されない問題を修正しました。</li>
+    </ul>
+
+    <h2 class="px-2 my-5 text-center">20/11/25アップデート</h2>
+    <div class="mt-5 header-container">
+        <h4 class="px-2">不具合の修正</h4>
+    </div>
+    <ul>
+        <li>テンキーの入力が強制的に変換される問題を修正しました。</li>
+        <li>アクションリストのコンテキストメニューでショートカットキーが動かない問題を修正しました。</li>
+    </ul>
+
+    <h2 class="px-2 my-5 text-center">20/11/24アップデート</h2>
+    <div class="mt-5 header-container">
+        <h4 class="px-2">変更と新しい機能</h4>
+    </div>
+    <ul>
+        <li>マクロの引数に「任意」の項目を追加した時、マクロの選択画面で正常に表示されない不具合を修正しました。</li>
+        <li>高 DPI 環境下における画像認識の位置範囲選択ウィンドウとテストウィンドウの不具合を修正しました。</li>
+        <li>スクリプトやフォルダの名前が一部正常に変更されない問題を修正しました。</li>
+        <li>環境設定のオプション「テンキーで入力されたキーを変更します」を廃止しました。</li>
+        <li>アプリケーションの設定の「その他」カテゴリに「テンキーの入力を変換する」を追加しました。</li>
+        <li>アプリケーションの設定の「割り当て」カテゴリに「デフォルトで事前コンパイルを有効にする」を追加しました。</li>
+        <li>スクリプトに関するヘルプを追加しました。</li>
+        <li>編集ウィンドウのホームに「支援する」ボタンを追加しました。</li>
+        <li>201124.1追加：一部不具合を修正しました。</li>
+    </ul>
+    <div class="mt-5 header-container">
+        <h4 class="px-2">ショートカットの追加</h4>
+    </div>
+    <p>以下のショートカットをエディタに追加しました。</p>
+    <table class="table table-striped table-dark my-4 table-bordered">
+        <thead class=" thead-dark">
+            <th>アクション</th>
+            <th>ショートカットキー</th>
+        </thead>
+        <tbody>
+            <tr>
+                <td>洗濯業の上に空行を挿入</td>
+                <td><kbd>Ctrl + Enter</kbd></td>
+            </tr>
+            <tr>
+                <td>コードのフォーマット（整形）</td>
+                <td>
+                    <kbd>Ctrl + K</kbd> + <kbd>Ctrl + D</kbd>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <div class="mt-5 header-container">
+        <h4 class="px-2">テンプレートの追加</h4>
+    </div>
+    <p>以下のテンプレートをエディタに追加しました。</p>
+    <table class="table table-striped table-dark my-4 table-bordered">
+        <thead class=" thead-dark">
+            <th>タイトル</th>
+        </thead>
+        <tbody>
+            <tr>
+                <td>引数の挿入</td>
+            </tr>
+            <tr>
+                <td>Keys 型の値を入力して挿入（Keys.値）</td>
+            </tr>
+            <tr>
+                <td>型の値を入力して挿入（値のみ）</td>
+            </tr>
+            <tr>
+                <td>キーを押す</td>
+            </tr>
+            <tr>
+                <td>キーを離す</td>
+            </tr>
+            <tr>
+                <td>キーを押して離す</td>
+            </tr>
+            <tr>
+                <td>画像認識：単体（識別キーを選択）</td>
+            </tr>
+            <tr>
+                <td>画像認識：複数（識別キーを選択）</td>
+            </tr>
+            <tr>
+                <td>画像認識の識別キーを選択</td>
+            </tr>
+            <tr>
+                <td>Hooked（メソッド）</td>
+            </tr>
+            <tr>
+                <td>Hooked（ラムダ式）</td>
+            </tr>
+            <tr>
+                <td>Disposing（メソッド）</td>
+            </tr>
+            <tr>
+                <td>Disposing（ラムダ式）</td>
+            </tr>
+        </tbody>
+    </table>
+    <div class="mt-5 header-container">
+        <h4 class="px-2">C#スクリプトの変更</h4>
+    </div>
+    <p>C#スクリプトにいくつかの変更を行いました。</p>
+    <table class="table table-dark table- my-4 table-bordered table-triped">
+        <thead>
+            <tr>
+                <th class="th-col-state">状態</th>
+                <th style="text-align: center;">内容</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td class="text-danger font-weight-bold">削除</td>
+                <td>GetVar()</td>
+            </tr>
+            <tr>
+                <td class="text-danger font-weight-bold">削除</td>
+                <td>SetVar()</td>
+            </tr>
+            <tr>
+                <td class="text-warning font-weight-bold">変更</td>
+                <td>
+                    実行不可なアプリだった場合に C#スクリプトを強制終了するように変更しました。
+                </td>
+            </tr>
+            <tr>
+                <td class="text-warning font-weight-bold">変更</td>
+                <td>
+                    Hooked イベントでマウスの移動を検出できるようにしました。
+                </td>
+            </tr>
+            <tr>
+                <td class="text-warning font-weight-bold">変更</td>
+                <td>
+                    LocalVariables と GlobalVriables プロパティの型を IVaraibleDictionary へと変更しました。
+                </td>
+            </tr>
+            <tr>
+                <td class="text-warning font-weight-bold">変更</td>
+                <td>
+                    Offset を OffsetWithSteps に変更しました。
+                </td>
+            </tr>
+            <tr>
+                <td class="text-warning font-weight-bold">変更</td>
+                <td>
+                    一部プロパティを Obsolete 扱いにしました（使用可能）
+                </td>
+            </tr>
+            <tr>
+                <td class="text-success font-weight-bold">追加</td>
+                <td>event Polling <span class="text-danger">※試験的</span></td>
+            </tr>
+            <tr>
+                <td class="text-success font-weight-bold">追加</td>
+                <td>ScriptConfig { get; }</td>
+            </tr>
+            <tr>
+                <td class="text-success font-weight-bold">追加</td>
+                <td>WaitConfig { get; }</td>
+            </tr>
+            <tr>
+                <td class="text-success font-weight-bold">追加</td>
+                <td>CallNext(params Actions callbacks)</td>
+            </tr>
+            <tr>
+                <td class="text-success font-weight-bold">追加</td>
+                <td>Speech()</td>
+            </tr>
+            <tr>
+                <td class="text-success font-weight-bold">追加</td>
+                <td>SpeechAsync()</td>
+            </tr>
+            <tr>
+                <td class="text-success font-weight-bold">追加</td>
+                <td>bool Match(string identifier, Bounds bounds, out MatchResult result)</td>
+            </tr>
+            <tr>
+                <td class="text-success font-weight-bold">追加</td>
+                <td>bool Matches(string identifier, Bounds bounds, out IEnumerable&lt;MatchResult&gt; Results)</td>
+            </tr>
+        </tbody>
+    </table>
+    <h2 class="mt-5">20/10/08 追加変更点</h2>
+    <ul>
+        <li>マクロの引数の設定を変更しても反映されない問題を修正しました。</li>
+    </ul>
+    <h2 class="mt-5">20/10/07 追加変更点</h2>
+    <ul>
+        <li>コントローラーのトリガーに関する不具合を修正しました。</li>
+        <li>割り当て設定（コントローラー）において割り当て時の不具合を修正しました。</li>
+    </ul>
+    <h2 class="mt-5">変更点</h2>
+    <ul>
+        <li>C#スクリプトエディタでスクロールが出来ない問題を修正しました。</li>
+        <li>C#スクリプトエディタでテンプレートコードの挿入をできるようにしました。</li>
+        <li>C#スクリプトエディタでコンパイルテストをできるようにしました。</li>
+        <li>入力の記録で C#スクリプト用にデータをコピーできるようにしました。</li>
+        <li>割り当て設定（コントローラー）のリストを廃止し、コントローラーの画像で割り当てられるようにしました。</li>
+        <li><span class="text-success font-weight-bold">入力の可視化</span>に<span class="text-success font-weight-bold">現在押しているキー</span>を追加しました。</li>
+        <li><kbd>半角／全角</kbd>キーに割り当てをできるようにしました。</li>
+        <li>
+            各種割り当ての一部設定の変更を行いました。
+            <ul class="px-3 no-dot">
+                <li><span class="text-danger font-weight-bold">削除</span>トリガーの連続入力をキャンセルする</li>
+                <li><span class="text-danger font-weight-bold">削除</span>トリガーの最初の入力をキャンセルする</li>
+                <li><span class="text-success">追加</span>トリガーの入力をキャンセルする</li>
+            </ul>
+        </li>
+        <li>円形メニューの挙動の調整を行いました。</li>
+        <li>引数やローカル変数のリストを折りたためられるようにしました。</li>
+        <li>アプリケーションの設定の<span class="text-success font-weight-bold">マクロの作成・設定／アクション</span>カテゴリに<span class="text-success font-weight-bold">起動時のタブ</span>を追加しました。</li>
+        <li>設定ファイルをコピーして作成するときにコピー元のスクリプトフォルダを新しい設定ファイル用にコピーするようにしました。</li>
+    </ul>
+    <h2 class="mt-5 mb-3">スクリプトエディタのショートカット</h2>
+    <p>以下のショートカットをエディタに追加しました。</p>
+    <table class="table table-striped table-dark my-4 table-bordered">
+        <thead class=" thead-dark">
+            <th>アクション</th>
+            <th>ショートカットキー</th>
+        </thead>
+        <tbody>
+            <tr>
+                <td>行の複製</td>
+                <td><kbd>Ctrl + D</kbd></td>
+            </tr>
+            <tr>
+                <td>行を上に移動</td>
+                <td><kbd>Alt + ↑</kbd></td>
+            </tr>
+            <tr>
+                <td>行を下にに移動</td>
+                <td><kbd>Alt + ↓</kbd></td>
+            </tr>
+            <tr>
+                <td>行をコメントアウト</td>
+                <td><kbd>Ctrl + K</kbd>+<kbd>Ctrl + C</kbd></td>
+            </tr>
+            <tr>
+                <td>行のコメントアウトを解除</td>
+                <td><kbd>Ctrl + K</kbd>+<kbd>Ctrl + U</kbd></td>
+            </tr>
+            <tr>
+                <td>テンプレートの挿入</td>
+                <td><kbd>Ctrl + T</kbd></td>
+            </tr>
+            <tr>
+                <td>行の削除</td>
+                <td><kbd>Shift + Delete</kbd></td>
+            </tr>
+        </tbody>
+    </table>
+    <h2 class="mt-5 mb-3">C#スクリプトの変更点</h2>
+
+    <table class="table table-dark table- my-4 table-bordered table-triped">
+        <thead>
+            <tr>
+                <th class="th-col-state">状態</th>
+                <th style="text-align: center;">内容</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td class="text-danger font-weight-bold">削除</td>
+                <td>IME.Mode { get; }</td>
+            </tr>
+            <tr>
+                <td class="text-danger font-weight-bold">削除</td>
+                <td>IME.SetConversionMode { get; }</td>
+            </tr>
+            <tr>
+                <td class="text-warning font-weight-bold">変更</td>
+                <td>
+                    void CreateDirectory(string path) を
+                    string CreateDirectory(params string[] path)に変更しました。
+                </td>
+            </tr>
+            <tr>
+                <td class="text-warning font-weight-bold">変更</td>
+                <td>
+                    Match()メソッドで画像認識に失敗した時も結果を取得できるようにしました。
+                </td>
+            </tr>
+            <tr>
+                <td class="text-success font-weight-bold">追加</td>
+                <td>event Hooked</td>
+            </tr>
+            <tr>
+                <td class="text-success font-weight-bold">追加</td>
+                <td>IME.ConversinMode { get; set; }</td>
+            </tr>
+            <tr>
+                <td class="text-success font-weight-bold">追加</td>
+                <td>ActiveWindowClientBounds { get; }</td>
+            </tr>
+            <tr>
+                <td class="text-success font-weight-bold">追加</td>
+                <td>Controller.Trigger.ThumbAsByte { get; }</td>
+            </tr>
+            <tr>
+                <td class="text-success font-weight-bold">追加</td>
+                <td>Controller.Stick.ThumbAsShort { get; }</td>
+            </tr>
+            <tr>
+                <td class="text-success font-weight-bold">追加</td>
+                <td>TemplateMatching.Configs { get; }</td>
+            </tr>
+            <tr>
+                <td class="text-success font-weight-bold">追加</td>
+                <td>Parameters { get; }</td>
+            </tr>
+            <tr>
+                <td class="text-success font-weight-bold">追加</td>
+                <td>LocalVariables { get; }</td>
+            </tr>
+            <tr>
+                <td class="text-success font-weight-bold">追加</td>
+                <td>GlobalVariables { get; }</td>
+            </tr>
+            <tr>
+                <td class="text-success font-weight-bold">追加</td>
+                <td>GetDpiFromPoint(int x, int y)</td>
+            </tr>
+            <tr>
+                <td class="text-success font-weight-bold">追加</td>
+                <td>GetDpiFromPoint(Bounds bounds)</td>
+            </tr>
+            <tr>
+                <td class="text-success font-weight-bold">追加</td>
+                <td>GetDpiFromWindowHandle(IntPtr handle)</td>
+            </tr>
+            <tr>
+                <td class="text-success font-weight-bold">追加</td>
+                <td>GetBoundsByWindow(WindowPopLocation pop)</td>
+            </tr>
+            <tr>
+                <td class="text-success font-weight-bold">追加</td>
+                <td>Bounds.ToCenter()</td>
+            </tr>
+            <tr>
+                <td class="text-success font-weight-bold">追加</td>
+                <td>Bounds.ToEvenNumber()</td>
+            </tr>
+            <tr>
+                <td class="text-success font-weight-bold">追加</td>
+                <td>Bounds.ToOddNumber()</td>
+            </tr>
+            <tr>
+                <td class="text-success font-weight-bold">追加</td>
+                <td>Bounds.ToInsideOf(Bounds bounds)</td>
+            </tr>
+            <tr>
+                <td class="text-success font-weight-bold">追加</td>
+                <td>Angle(x1, y1, x2, y2, isClockwise)</td>
+            </tr>
+            <tr>
+                <td class="text-success font-weight-bold">追加</td>
+                <td>Distance(x1, y1, x2, y2)</td>
+            </tr>
+            <tr>
+                <td class="text-success font-weight-bold">追加</td>
+                <td>Clamp(min, max, value)</td>
+            </tr>
+            <tr>
+                <td class="text-success font-weight-bold">追加</td>
+                <td>Controller.GetThumbsAsShort()</td>
+            </tr>
+            <tr>
+                <td class="text-success font-weight-bold">追加</td>
+                <td>IsTrigger(Keys key)</td>
+            </tr>
+            <tr>
+                <td class="text-success font-weight-bold">追加</td>
+                <td>IsTrigger(ControllerButtons button)</td>
+            </tr>
+            <tr>
+                <td class="text-success font-weight-bold">追加</td>
+                <td>Abort()</td>
+            </tr>
+            <tr>
+                <td class="text-success font-weight-bold">追加</td>
+                <td>CreateWaiter(bool highPricisionWait = false)</td>
+            </tr>
+        </tbody>
+    </table>
 
     </div>
 
