@@ -1,0 +1,694 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Blockly</title>
+    <script src="./node_modules/blockly/blockly_compressed.js"></script>
+    <script src="./node_modules/blockly/blocks_compressed.js"></script>
+    <script src="./node_modules/blockly/javascript_compressed.js"></script>
+    <script src="./node_modules/blockly/msg/ja.js"></script>
+    <!-- <script src="./node_modules/@blockly/continuous-toolbox/dist/index.js"></script> -->
+    <!-- <script src="./node_modules/blockly/core/xml.js"></script> -->
+    <script src="./myblock.js"></script>
+    <script src="./contextmenu.js"></script>
+    <style>
+        html,
+        body {
+            height: 100%;
+            margin: 0;
+            background: #212121;
+        }
+
+        body {
+            background-color: #212121;
+            font-family: sans-serif;
+            overflow: hidden;
+        }
+
+        /* table {
+            height: 100%;
+            width: 100%;
+        } */
+
+        #blocklyArea {
+            height: 100%;
+            width: 100%
+        }
+
+        .blocklyTreeSeparator {
+            border-bottom: solid #e5e5e540 1px;
+            margin: 14px 5px;
+        }
+
+        .blocklyTreeIcon {
+            color: white;
+        }
+
+        .toolbox {
+            width: 30%;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div id="blocklyArea"></div>
+
+    <div id="blocklyDiv" style="position: absolute; width: 200px;"></div>
+
+    <button id="button1" style="width: 200px; height: 35px; position: absolute;">abcdefg</button>
+
+    <xml xmlns="https://developers.google.com/blockly/xml" id="toolbox" style="display: none;" css-container="toolbox">
+        <category name="論理" categorystyle="logic_category">
+            <block type="controls_if"></block>
+            <block type="logic_compare"></block>
+            <block type="logic_operation"></block>
+            <block type="logic_negate"></block>
+            <block type="logic_boolean"></block>
+            <block type="logic_null" disabled="true"></block>
+            <block type="logic_ternary"></block>
+        </category>
+        <category name="ループ" categorystyle="loop_category">
+            <block type="controls_repeat_ext">
+                <value name="TIMES">
+                    <shadow type="math_number">
+                        <field name="NUM">10</field>
+                    </shadow>
+                </value>
+            </block>
+            <block type="controls_repeat" disabled="true"></block>
+            <block type="controls_whileUntil"></block>
+            <block type="controls_for">
+                <value name="FROM">
+                    <shadow type="math_number">
+                        <field name="NUM">1</field>
+                    </shadow>
+                </value>
+                <value name="TO">
+                    <shadow type="math_number">
+                        <field name="NUM">10</field>
+                    </shadow>
+                </value>
+                <value name="BY">
+                    <shadow type="math_number">
+                        <field name="NUM">1</field>
+                    </shadow>
+                </value>
+            </block>
+            <block type="controls_forEach"></block>
+            <block type="controls_flow_statements"></block>
+        </category>
+        <category name="数学" categorystyle="math_category">
+            <block type="math_number" gap="32">
+                <field name="NUM">123</field>
+            </block>
+            <block type="math_arithmetic">
+                <value name="A">
+                    <shadow type="math_number">
+                        <field name="NUM">1</field>
+                    </shadow>
+                </value>
+                <value name="B">
+                    <shadow type="math_number">
+                        <field name="NUM">1</field>
+                    </shadow>
+                </value>
+            </block>
+            <block type="math_single">
+                <value name="NUM">
+                    <shadow type="math_number">
+                        <field name="NUM">9</field>
+                    </shadow>
+                </value>
+            </block>
+            <block type="math_trig">
+                <value name="NUM">
+                    <shadow type="math_number">
+                        <field name="NUM">45</field>
+                    </shadow>
+                </value>
+            </block>
+            <block type="math_constant"></block>
+            <block type="math_number_property">
+                <value name="NUMBER_TO_CHECK">
+                    <shadow type="math_number">
+                        <field name="NUM">0</field>
+                    </shadow>
+                </value>
+            </block>
+            <block type="math_round">
+                <value name="NUM">
+                    <shadow type="math_number">
+                        <field name="NUM">3.1</field>
+                    </shadow>
+                </value>
+            </block>
+            <block type="math_on_list"></block>
+            <block type="math_modulo">
+                <value name="DIVIDEND">
+                    <shadow type="math_number">
+                        <field name="NUM">64</field>
+                    </shadow>
+                </value>
+                <value name="DIVISOR">
+                    <shadow type="math_number">
+                        <field name="NUM">10</field>
+                    </shadow>
+                </value>
+            </block>
+            <block type="math_constrain">
+                <value name="VALUE">
+                    <shadow type="math_number">
+                        <field name="NUM">50</field>
+                    </shadow>
+                </value>
+                <value name="LOW">
+                    <shadow type="math_number">
+                        <field name="NUM">1</field>
+                    </shadow>
+                </value>
+                <value name="HIGH">
+                    <shadow type="math_number">
+                        <field name="NUM">100</field>
+                    </shadow>
+                </value>
+            </block>
+            <block type="math_random_int">
+                <value name="FROM">
+                    <shadow type="math_number">
+                        <field name="NUM">1</field>
+                    </shadow>
+                </value>
+                <value name="TO">
+                    <shadow type="math_number">
+                        <field name="NUM">100</field>
+                    </shadow>
+                </value>
+            </block>
+            <block type="math_random_float"></block>
+            <block type="math_atan2">
+                <value name="X">
+                    <shadow type="math_number">
+                        <field name="NUM">1</field>
+                    </shadow>
+                </value>
+                <value name="Y">
+                    <shadow type="math_number">
+                        <field name="NUM">1</field>
+                    </shadow>
+                </value>
+            </block>
+        </category>
+        <category name="テキスト" categorystyle="text_category">
+            <block type="text"></block>
+            <block type="text_multiline"></block>
+            <block type="text_join"></block>
+            <block type="text_append">
+                <value name="TEXT">
+                    <shadow type="text"></shadow>
+                </value>
+            </block>
+            <block type="text_length">
+                <value name="VALUE">
+                    <shadow type="text">
+                        <field name="TEXT">abc</field>
+                    </shadow>
+                </value>
+            </block>
+            <block type="text_isEmpty">
+                <value name="VALUE">
+                    <shadow type="text">
+                        <field name="TEXT"></field>
+                    </shadow>
+                </value>
+            </block>
+            <block type="text_indexOf">
+                <value name="VALUE">
+                    <block type="variables_get">
+                        <field name="VAR">text</field>
+                    </block>
+                </value>
+                <value name="FIND">
+                    <shadow type="text">
+                        <field name="TEXT">abc</field>
+                    </shadow>
+                </value>
+            </block>
+            <block type="text_charAt">
+                <value name="VALUE">
+                    <block type="variables_get">
+                        <field name="VAR">text</field>
+                    </block>
+                </value>
+            </block>
+            <block type="text_getSubstring">
+                <value name="STRING">
+                    <block type="variables_get">
+                        <field name="VAR">text</field>
+                    </block>
+                </value>
+            </block>
+            <block type="text_changeCase">
+                <value name="TEXT">
+                    <shadow type="text">
+                        <field name="TEXT">abc</field>
+                    </shadow>
+                </value>
+            </block>
+            <block type="text_trim">
+                <value name="TEXT">
+                    <shadow type="text">
+                        <field name="TEXT">abc</field>
+                    </shadow>
+                </value>
+            </block>
+            <block type="text_count">
+                <value name="SUB">
+                    <shadow type="text"></shadow>
+                </value>
+                <value name="TEXT">
+                    <shadow type="text"></shadow>
+                </value>
+            </block>
+            <block type="text_replace">
+                <value name="FROM">
+                    <shadow type="text"></shadow>
+                </value>
+                <value name="TO">
+                    <shadow type="text"></shadow>
+                </value>
+                <value name="TEXT">
+                    <shadow type="text"></shadow>
+                </value>
+            </block>
+            <block type="text_reverse">
+                <value name="TEXT">
+                    <shadow type="text"></shadow>
+                </value>
+            </block>
+            <label text="Input/Output:" web-class="ioLabel"></label>
+            <block type="text_print">
+                <value name="TEXT">
+                    <shadow type="text">
+                        <field name="TEXT">abc</field>
+                    </shadow>
+                </value>
+            </block>
+            <block type="text_prompt_ext">
+                <value name="TEXT">
+                    <shadow type="text">
+                        <field name="TEXT">abc</field>
+                    </shadow>
+                </value>
+            </block>
+        </category>
+        <category name="リスト" categorystyle="list_category">
+            <block type="lists_create_with">
+                <mutation items="0"></mutation>
+            </block>
+            <block type="lists_create_with"></block>
+            <block type="lists_repeat">
+                <value name="NUM">
+                    <shadow type="math_number">
+                        <field name="NUM">5</field>
+                    </shadow>
+                </value>
+            </block>
+            <block type="lists_length"></block>
+            <block type="lists_isEmpty"></block>
+            <block type="lists_indexOf">
+                <value name="VALUE">
+                    <block type="variables_get">
+                        <field name="VAR">list</field>
+                    </block>
+                </value>
+            </block>
+            <block type="lists_getIndex">
+                <value name="VALUE">
+                    <block type="variables_get">
+                        <field name="VAR">list</field>
+                    </block>
+                </value>
+            </block>
+            <block type="lists_setIndex">
+                <value name="LIST">
+                    <block type="variables_get">
+                        <field name="VAR">list</field>
+                    </block>
+                </value>
+            </block>
+            <block type="lists_getSublist">
+                <value name="LIST">
+                    <block type="variables_get">
+                        <field name="VAR">list</field>
+                    </block>
+                </value>
+            </block>
+            <block type="lists_split">
+                <value name="DELIM">
+                    <shadow type="text">
+                        <field name="TEXT">,</field>
+                    </shadow>
+                </value>
+            </block>
+            <block type="lists_sort"></block>
+            <block type="lists_reverse"></block>
+        </category>
+        <category name="色" categorystyle="colour_category">
+            <block type="colour_picker"></block>
+            <block type="colour_random"></block>
+            <block type="colour_rgb">
+                <value name="RED">
+                    <shadow type="math_number">
+                        <field name="NUM">100</field>
+                    </shadow>
+                </value>
+                <value name="GREEN">
+                    <shadow type="math_number">
+                        <field name="NUM">50</field>
+                    </shadow>
+                </value>
+                <value name="BLUE">
+                    <shadow type="math_number">
+                        <field name="NUM">0</field>
+                    </shadow>
+                </value>
+            </block>
+            <block type="colour_blend">
+                <value name="COLOUR1">
+                    <shadow type="colour_picker">
+                        <field name="COLOUR">#ff0000</field>
+                    </shadow>
+                </value>
+                <value name="COLOUR2">
+                    <shadow type="colour_picker">
+                        <field name="COLOUR">#3333ff</field>
+                    </shadow>
+                </value>
+                <value name="RATIO">
+                    <shadow type="math_number">
+                        <field name="NUM">0.5</field>
+                    </shadow>
+                </value>
+            </block>
+        </category>
+        <sep></sep>
+        <category name="変数" categorystyle="variable_category" custom="VARIABLE">
+        </category>
+        <category name="関数" categorystyle="procedure_category" custom="PROCEDURE"></category>
+        <category name="カスタム">
+            <block type="entrypoint"></block>
+            <block type="events"></block>
+            <block type="action_tap"></block>
+            <block type="variable"></block>
+            <block type="statement_loop_by_num"></block>
+        </category>
+        <category name="テンプレート">
+            <statement name="SACK">
+                <block type="entrypoint">
+                    <next>
+                        <block type="events"></block>
+                    </next>
+                </block>
+            </statement>
+            <block type="action_tap"></block>
+            <block type="variable"></block>
+            <block type="statement_loop_by_num"></block>
+            <block type="text_print">
+                <value name="TEXT">
+                    <block type="text">
+                        <field name="TEXT">'Twas brillig, and the slithy toves</field>
+                    </block>
+                </value>
+                <next>
+                    <block type="text_print">
+                        <value name="TEXT">
+                            <block type="text">
+                                <field name="TEXT"> Did gyre and gimble in the wabe:</field>
+                            </block>
+                        </value>
+                        <next>
+                            <block type="text_print">
+                                <value name="TEXT">
+                                    <block type="text">
+                                        <field name="TEXT">All mimsy were the borogroves,</field>
+                                    </block>
+                                </value>
+                                <next>
+                                    <block type="text_print">
+                                        <value name="TEXT">
+                                            <block type="text">
+                                                <field name="TEXT"> And the mome raths outgrabe.</field>
+                                            </block>
+                                        </value>
+                                    </block>
+                                </next>
+                            </block>
+                        </next>
+                    </block>
+                </next>
+            </block>
+            <block type="controls_if" id="-i[bNHVL@N)p=l$Bd!p0" x="126" y="90">
+                <statement name="DO0">
+                    <block type="controls_repeat_ext" id="dg2`0eh)p[s48Km3bLlN">
+                        <value name="TIMES">
+                            <shadow type="math_number" id="WE;;nrs`.H,cm.2e?a+*">
+                                <field name="NUM">10</field>
+                            </shadow>
+                        </value>
+                        <statement name="DO">
+                            <block type="events" id="m@i~Mi0XK?TlRAwKK~02">
+                                <statement name="NAME">
+                                    <block type="action_tap" id="4Fce3aFs8O*)~$4jjtx9">
+                                        <field name="key">A</field>
+                                        <field name="wait1">0</field>
+                                        <field name="wait2">0</field>
+                                        <field name="NAME">TRUE</field>
+                                        <next>
+                                            <block type="action_tap" id="7SFS_LvVn|SFduhT1}UN">
+                                                <field name="key">A</field>
+                                                <field name="wait1">0</field>
+                                                <field name="wait2">0</field>
+                                                <field name="NAME">TRUE</field>
+                                                <next>
+                                                    <block type="action_tap" id="~F7qiYB2ztNTQp5bj9XA">
+                                                        <field name="key">A</field>
+                                                        <field name="wait1">0</field>
+                                                        <field name="wait2">0</field>
+                                                        <field name="NAME">TRUE</field>
+                                                    </block>
+                                                </next>
+                                            </block>
+                                        </next>
+                                    </block>
+                                </statement>
+                            </block>
+                        </statement>
+                    </block>
+                </statement>
+                <next>
+                    <block type="text_print" id="21:oC=z`{szruSfwuwG|">
+                        <value name="TEXT">
+                            <block type="text" id=";pir/uIEZo)8)jqDyGyK">
+                                <field name="TEXT">'Twas brillig, and the slithy toves</field>
+                            </block>
+                        </value>
+                        <next>
+                            <block type="text_print" id="pUyAKTC!*d[XDR:UphM3">
+                                <value name="TEXT">
+                                    <block type="text" id="k-m49,q~}Po]?,usR$Ln">
+                                        <field name="TEXT"> Did gyre and gimble in the wabe:</field>
+                                    </block>
+                                </value>
+                                <next>
+                                    <block type="text_print" id="HEnKrY8^)?._7lLCPo|9">
+                                        <value name="TEXT">
+                                            <block type="text" id="?@kExHQM?W.IpPOuTxSO">
+                                                <field name="TEXT">All mimsy were the borogroves,</field>
+                                            </block>
+                                        </value>
+                                        <next>
+                                            <block type="text_print" id="Ou/q^Na0`$^VR7T(5[1R">
+                                                <value name="TEXT">
+                                                    <block type="text" id="x`-kMSbMYFY%bouTGb%5">
+                                                        <field name="TEXT"> And the mome raths outgrabe.</field>
+                                                    </block>
+                                                </value>
+                                            </block>
+                                        </next>
+                                    </block>
+                                </next>
+                            </block>
+                        </next>
+                    </block>
+                </next>
+            </block>
+        </category>
+    </xml>
+
+    <script defer>
+
+        // ブロックとワークスペースのコンテキストメニュー
+        registerFirstContextMenuOptions();
+
+        // テーマ
+        Blockly.Themes.Classic = Blockly.Theme.defineTheme('myStyle', {
+            'base': Blockly.Themes.Classic,
+            'componentStyles': {
+                'workspaceBackgroundColour': '#212121',
+                'toolboxBackgroundColour': '#2d2e30',
+                'toolboxForegroundColour': '#fff',
+                'flyoutBackgroundColour': '#34343490',
+                'flyoutForegroundColour': '#ccc',
+                'flyoutOpacity': 1,
+                'scrollbarColour': '#43A047',
+                'insertionMarkerColour': '#fff',
+                'insertionMarkerOpacity': 0.3,
+                'scrollbarOpacity': 0.6,
+                'cursorColour': '#d0d0d0',
+                'blackBackground': '#333'
+            }
+        });
+
+        Blockly.HSV_SATURATION = 0.6; // ブロックの彩度
+        Blockly.HSV_VALUE = 0.66; // ブロックの明度
+
+        Blockly.BlockSvg.prototype.showHelp_ = function () {
+            console.log("hey");
+        };
+
+        /* Blocklyのワークスペース表示 */
+        var blocklyArea = document.getElementById('blocklyArea');
+        var blocklyDiv = document.getElementById('blocklyDiv');
+        var workspace = Blockly.inject(blocklyDiv,
+            {
+                media: './node_modules/blockly/media/',
+                toolbox: document.getElementById('toolbox'),
+                //theme: Blockly.Themes.halloween,
+                renderer: 'zelos',
+                collapse: true,
+                comments: true,
+                disable: true,
+                maxBlocks: Infinity,
+                trashcan: true,
+                horizontalLayout: false,
+                toolboxPosition: 'start',
+                css: true,
+                rtl: false,
+                scrollbars: true,
+                sounds: false,
+                oneBasedIndex: true,
+                grid: {
+                    spacing: 36,
+                    length: 2,
+                    colour: '#cccccc40',
+                    snap: true,
+                },
+                trashcan: true,
+                zoom: {
+                    controls: true,
+                    wheel: false,
+                    startScale: 0.87,
+                    maxScale: 3,
+                    minScale: 0.3,
+                    scaleSpeed: 1.2,
+                },
+                move: {
+                    drag: true,
+                    wheel: true
+                },
+                plugins: {
+                    // 'toolbox': ContinuousToolbox,
+                    // 'flyoutsVerticalToolbox': ContinuousFlyout,
+                    // 'metricsManager': ContinuousMetrics,
+                },
+            });
+
+        workspace.addChangeListener(updateEvent);
+
+        /* ワークスペースをリサイズできるようにする */
+        var onresize = function (e) {
+            // Compute the absolute coordinates and dimensions of blocklyArea.
+            var element = blocklyArea;
+            var x = 0;
+            var y = 0;
+            do {
+                x += element.offsetLeft;
+                y += element.offsetTop;
+                element = element.offsetParent;
+            } while (element);
+            // Position blocklyDiv over blocklyArea.
+            blocklyDiv.style.left = x + 'px';
+            blocklyDiv.style.top = y + 'px';
+            blocklyDiv.style.width = blocklyArea.offsetWidth + 'px';
+            blocklyDiv.style.height = blocklyArea.offsetHeight + 'px';
+            Blockly.svgResize(workspace);
+        };
+        window.addEventListener('resize', onresize, false);
+        onresize();
+        Blockly.svgResize(workspace);
+
+        /* TODO: Change toolbox XML ID if necessary. Can export toolbox XML from Workspace Factory. */
+        // var toolbox = document.getElementById("toolbox");
+
+        /* Inject your workspace */
+        // var workspace = Blockly.inject("blocklyArea", {});
+
+        /* Load Workspace Blocks from XML to workspace. Remove all code below if no blocks to load */
+
+        /* TODO: Change workspace blocks XML ID if necessary. Can export workspace blocks XML from Workspace Factory. */
+        // var workspaceBlocks = document.getElementById("workspaceBlocks");
+
+        /* Load blocks to workspace. */
+        //Blockly.Xml.domToWorkspace(workspaceBlocks, workspace);
+
+
+        /* 各カテゴリの下に余白を追加 */
+        // var elements = document.getElementsByClassName("blocklyTreeRow");
+        // console.log(elements.length);
+        // for (let index = 0; index < elements.length; index++) {
+        //     const element = elements[index];
+        //     element.style.paddingBottom = "7px";
+        //     console.log(element.style);
+        // }
+
+
+        var button = document.getElementById('button1');
+        button.onclick = test;
+
+        var blocklyFlyout = document.getElementsByClassName("blocklyFlyout");
+
+        function doCode() {
+            var code = Blockly.JavaScript.workspaceToCode(workspace);
+            if (code != "") {
+                console.log(code);
+                alert(code);
+            }
+
+            var xmlDom = Blockly.Xml.workspaceToDom(workspace);
+            var xmlText = Blockly.Xml.domToPrettyText(xmlDom);
+            console.log(xmlText);
+        }
+
+        function test() {
+            chrome.webview.hostObjects.class.MessageShow(JSON.stringify({
+                test: false,
+                id: 12
+            }));
+            chrome.webview.hostObjects.aaa.MessageShow(JSON.stringify({
+                test: true,
+                id: 2
+            }));
+        }
+
+        function updateEvent(event) {
+            console.log(event);
+            console.log(blocklyFlyout);
+        }
+
+    </script>
+
+</body>
+
+</html>

@@ -1,0 +1,22 @@
+[{
+  "type": "_____",
+  "message0": "左へ進む %1 押した後待機（ミリ秒） %2",
+  "args0": [
+    {
+      "type": "input_value",
+      "name": "テスト",
+      "check": "String",
+      "align": "RIGHT"
+    },
+    {
+      "type": "input_value",
+      "name": "NAME"
+    }
+  ],
+  "inputsInline": true,
+  "previousStatement": null,
+  "nextStatement": null,
+  "colour": 195,
+  "tooltip": "説明",
+  "helpUrl": "URL?"
+}]
