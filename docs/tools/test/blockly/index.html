@@ -32,8 +32,10 @@
         } */
 
         #blocklyArea {
+            /*height: 80%;
+            width: 80%;*/
             height: 100%;
-            width: 100%
+            width: 100%;
         }
 
         .blocklyTreeSeparator {
@@ -53,11 +55,13 @@
 
 <body>
 
+    <div style="display: flex;">
+        <button id="button1" style="width: 100%; height: 35px; ">Create Code</button>
+        <button id="button2" style="width: 100%; height: 35px; ">Create Xml</button>
+        <button id="button3" style="width: 100%; height: 35px; "></button>
+    </div>
     <div id="blocklyArea"></div>
-
-    <div id="blocklyDiv" style="position: absolute; width: 200px;"></div>
-
-    <button id="button1" style="width: 200px; height: 35px; position: absolute;">abcdefg</button>
+    <div id="blocklyDiv" style="position: absolute; width: 200px"></div>
 
     <xml xmlns="https://developers.google.com/blockly/xml" id="toolbox" style="display: none;" css-container="toolbox">
         <category name="論理" categorystyle="logic_category">
@@ -653,13 +657,12 @@
             console.log(element.style);
         }
 
-
         var button = document.getElementById('button1');
         button.onclick = test;
 
         var blocklyFlyout = document.getElementsByClassName("blocklyFlyout");
 
-        function doCode() {
+        function createCode() {
             var code = Blockly.JavaScript.workspaceToCode(workspace);
             if (code != "") {
                 console.log(code);
