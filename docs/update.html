@@ -18,6 +18,226 @@
             <h4 class="px-2">変更と修正</h4>
         </div>
         <ul>
+            <li>「設定」の名称を「プロファイル」に変更します。</li>
+            <li>割り当て設定（時間）の設定リストが更新されない不具合を修正しました。</li>
+            <li>拡張スクリプトの[Method]が機能してない問題を修正しました。</li>
+            <li>KeyToKeyの有効、無効を切り替えるショートカットの機能をメインプロファイルの有効、無効を切り替えるように変更しました。</li>
+            <li>アプリケーションの設定の「メインウィンドウに表示しないファイル」を削除しました。</li>
+            <li>プロファイル選択の横にあったボタンを削除しました。</li>
+            <li>編集ウィンドウの「編集を保存してメインウィンドウで選択中のファイルを更新する」を削除しました。</li>
+            <li>画像認識のテスト時に画像の表示順序が乱れていた問題を修正しました。</li>
+        </ul>
+
+        <div class="mt-5 header-container">
+            <h4 class="px-2">新しい機能</h4>
+        </div>
+        <ul>
+            <li>プロファイルを同時使用できるようにしました。</li>
+            <li>メインウィンドウにプロファイルのタブを追加しました。</li>
+            <li>メインウィンドウのタイトルバーに「有効／無効切り替え」ボタンを追加しました。</li>
+            <li>ショートカットキーの設定を環境設定とアプリケーションの設定から専用のページに移動させました。</li>
+            <li>新しいショートカット「現在使用している全てのプロファイルの有効、無効を切り替えます」を追加しました。</li>
+            <li>新しいショートカット「現在使用しているプロファイルの有効、無効を切り替えます」を追加しました。</li>
+            <li>環境設定に「メモ」を追加しました。</li>
+            <li>プロファイル編集時の設定が「Profiles\History」に自動出力されるようにしました。</li>
+            <li>メインウィンドウの位置とサイズが記録されるようにしました。</li>
+        </ul>
+
+        <div class="mt-5 mb-4 header-container">
+            <h4 class="px-2">C#スクリプトの変更</h4>
+        </div>
+        <table class="table table-dark table- my-4 table-bordered table-triped">
+            <thead>
+                <tr>
+                    <th class="th-col-state">状態</th>
+                    <th style="text-align: center;">内容</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td class="text-warning font-weight-bold">修正</td>
+                    <td>XInput.GetState</td>
+                </tr>
+                <tr>
+                    <td class="text-success font-weight-bold">追加</td>
+                    <td>MatchResult.FoundBounds</td>
+                </tr>
+                <tr>
+                    <td class="text-success font-weight-bold">追加</td>
+                    <td>MatchResult.Config</td>
+                </tr>
+                <tr>
+                    <td class="text-success font-weight-bold">追加</td>
+                    <td>void ChangeProfile(string profileName);</td>
+                </tr>
+                <tr>
+                    <td class="text-success font-weight-bold">追加</td>
+                    <td>void BlockKeys(params Keys[] keys);</td>
+                </tr>
+                <tr>
+                    <td class="text-success font-weight-bold">追加</td>
+                    <td>void BlockKeysWithout(params Keys[] keys);</td>
+                </tr>
+                <tr>
+                    <td class="text-success font-weight-bold">追加</td>
+                    <td>void BlockMouseMovement();</td>
+                </tr>
+                <tr>
+                    <td class="text-success font-weight-bold">追加</td>
+                    <td>void UnblockKeys(params Keys[] keys);</td>
+                </tr>
+                <tr>
+                    <td class="text-success font-weight-bold">追加</td>
+                    <td>void UnblockKeysWithout(params Keys[] keys);</td>
+                </tr>
+                <tr>
+                    <td class="text-success font-weight-bold">追加</td>
+                    <td>void UnblockAllKeys();</td>
+                </tr>
+                <tr>
+                    <td class="text-success font-weight-bold">追加</td>
+                    <td>void UnblockMouseMovement();</td>
+                </tr>
+                <tr>
+                    <td class="text-success font-weight-bold">追加</td>
+                    <td>bool IsKeyBlocked(params Keys[] keys);</td>
+                </tr>
+                <tr>
+                    <td class="text-success font-weight-bold">追加</td>
+                    <td>bool IsMouseMovementBlocked { get; }</td>
+                </tr>
+                <tr>
+                    <td class="text-success font-weight-bold">追加</td>
+                    <td>bool IsKeyboardHooked { get; }</td>
+                </tr>
+                <tr>
+                    <td class="text-success font-weight-bold">追加</td>
+                    <td>bool IsMouseHooked { get; }</td>
+                </tr>
+                <tr>
+                    <td class="text-success font-weight-bold">追加</td>
+                    <td>bool CanWorkOnActiveWindow { get; }</td>
+                </tr>
+                <tr>
+                    <td class="text-success font-weight-bold">追加</td>
+                    <td>TriggerPressed イベント</td>
+                </tr>
+                <tr>
+                    <td class="text-warning font-weight-bold">変更</td>
+                    <td>IsAvailable プロパティを非推奨扱いにしました。</td>
+                </tr>
+                <tr>
+                    <td class="text-warning font-weight-bold">変更</td>
+                    <td>IsAvailableChanged イベントを非推奨扱いにしました。</td>
+                </tr>
+                <tr>
+                    <td class="text-warning font-weight-bold">変更</td>
+                    <td>ChangeFile メソッドを非推奨扱いにしました。</td>
+                </tr>
+                <tr>
+                    <td class="text-danger font-weight-bold">削除</td>
+                    <td>Parametersプロパティ</td>
+                </tr>
+                <tr>
+                    <td class="text-danger font-weight-bold">削除</td>
+                    <td>Parametersプロパティ</td>
+                </tr>
+                <tr>
+                    <td class="text-danger font-weight-bold">削除</td>
+                    <td>Parametersプロパティ</td>
+                </tr>
+                <tr>
+                    <td class="text-danger font-weight-bold">削除</td>
+                    <td>Sound</td>
+                </tr>
+                <tr>
+                    <td class="text-danger font-weight-bold">削除</td>
+                    <td>PathSelector</td>
+                </tr>
+                <tr>
+                    <td class="text-danger font-weight-bold">削除</td>
+                    <td>Variable</td>
+                </tr>
+                <tr>
+                    <td class="text-danger font-weight-bold">削除</td>
+                    <td>Input</td>
+                </tr>
+                <tr>
+                    <td class="text-danger font-weight-bold">削除</td>
+                    <td>Keyboard</td>
+                </tr>
+                <tr>
+                    <td class="text-danger font-weight-bold">削除</td>
+                    <td>Activate</td>
+                </tr>
+                <tr>
+                    <td class="text-danger font-weight-bold">削除</td>
+                    <td>SetWindowLong</td>
+                </tr>
+                <tr>
+                    <td class="text-danger font-weight-bold">削除</td>
+                    <td>SetWindowPosition</td>
+                </tr>
+                <tr>
+                    <td class="text-danger font-weight-bold">削除</td>
+                    <td>SetWindowState</td>
+                </tr>
+                <tr>
+                    <td class="text-danger font-weight-bold">削除</td>
+                    <td>SetWindowTitle</td>
+                </tr>
+                <tr>
+                    <td class="text-danger font-weight-bold">削除</td>
+                    <td>SetForegroundWindow</td>
+                </tr>
+                <tr>
+                    <td class="text-danger font-weight-bold">削除</td>
+                    <td>GetWindowLocation</td>
+                </tr>
+                <tr>
+                    <td class="text-danger font-weight-bold">削除</td>
+                    <td>GetClientLocation</td>
+                </tr>
+                <tr>
+                    <td class="text-danger font-weight-bold">削除</td>
+                    <td>GetWindowSize</td>
+                </tr>
+                <tr>
+                    <td class="text-danger font-weight-bold">削除</td>
+                    <td>GetWindowTitlte</td>
+                </tr>
+                <tr>
+                    <td class="text-danger font-weight-bold">削除</td>
+                    <td>GetClassName</td>
+                </tr>
+                <tr>
+                    <td class="text-danger font-weight-bold">削除</td>
+                    <td>GetWindowLong</td>
+                </tr>
+                <tr>
+                    <td class="text-danger font-weight-bold">削除</td>
+                    <td>IsMinimized</td>
+                </tr>
+                <tr>
+                    <td class="text-danger font-weight-bold">削除</td>
+                    <td>IsMaximized</td>
+                </tr>
+                <tr>
+                    <td class="text-danger font-weight-bold">削除</td>
+                    <td>GetWindowClientBounds</td>
+                </tr>
+                <tr>
+                    <td class="text-danger font-weight-bold">削除</td>
+                    <td>GetWindowBounds</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <h2 class="px-2 my-5 text-center">21/12/05アップデート</h2>
+        <div class="mt-5 header-container">
+            <h4 class="px-2">変更と修正</h4>
+        </div>
+        <ul>
             <li>入力の監視方法の「ポーリング」に関する不具合の修正を行いました。</li>
         </ul>
 
