@@ -13,6 +13,45 @@
 
     <div class="container py-5 mb-5">
 
+        <h2 class="px-2 my-5 text-center">22/03/06アップデート</h2>
+        <div class="mt-5 header-container">
+            <h4 class="px-2">変更と修正</h4>
+        </div>
+        <ul>
+            <li>自動切り替えの条件が完全一致になっているにもかかわらず部分一致することでプロファイルが切り変わってしまう不具合を修正しました。</li>
+            <li>コントローラーの接続を切った場合に CPU 使用率が高くなる問題を修正しました。</li>
+            <li>KeyToKey が Alt+F4 で終了しない問題を修正しました。</li>
+        </ul>
+        <div class="mt-5 header-container">
+            <h4 class="px-2">新しい機能</h4>
+        </div>
+        <ul>
+            <li>環境設定に「クイックランチャー」を追加しました。</li>
+            <li>ショートカットの設定に「クイックランチャーを開きます」を追加しました。</li>
+        </ul>
+        <div class="mt-5 mb-4 header-container">
+            <h4 class="px-2">C#スクリプトの変更</h4>
+        </div>
+        <table class="table table-dark table- my-4 table-bordered table-triped">
+            <thead>
+                <tr>
+                    <th class="th-col-state">状態</th>
+                    <th style="text-align: center;">内容</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td class="text-success font-weight-bold">追加</td>
+                    <td>WindowController.SetBounds(Bounds bounds, WindowInsertAfter windowInsertAfter, WindowPositionFlags windowPositionFlags)</td>
+                </tr>
+                <tr>
+                    <td class="text-success font-weight-bold">追加</td>
+                    <td>WindowController.SetBounds(int left, int top, int width, int height, WindowInsertAfter windowInsertAfter, WindowPositionFlags windowPositionFlags)</td>
+                </tr>
+            </tbody>
+        </table>
+
+
         <h2 class="px-2 my-5 text-center">22/02/23アップデート</h2>
         <div class="mt-5 header-container">
             <h4 class="px-2">変更と修正</h4>
