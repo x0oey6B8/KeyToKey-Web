@@ -13,7 +13,50 @@
 
     <div class="container py-5 mb-5">
 
+        <!--
         <h3><a href="https://github.com/x0oey6B8/KeyToKey-Web/releases">更新内容はReleaseページに記載しています。</a></h3>
+        -->
+
+        <h2 class="px-2 my-5 text-center">22/03/31アップデート</h2>
+        <div class="mt-5 header-container">
+            <h4 class="px-2">変更と修正</h4>
+        </div>
+        <ul>
+            <li>アクションマクロからの拡張スクリプトの呼び出し速度を少し改善しました。</li>
+            <li>自動切り替えの対象となるプロファイルがメインタブ以外で選択されていた場合は切り替えを行わないようにしました。</li>
+            <li>クイックランチャーとスタートアップマクロにおいて引数ありのマクロを設定するとエラーが発生する問題を修正しました。</li>
+            <li>クイックランチャーのアイコンに適切でないものが表示されていた問題を修正しました。</li>
+        </ul>
+        <div class="mt-5 header-container">
+            <h4 class="px-2">新しい機能</h4>
+        </div>
+        <ul>
+            <li>新しいアクション「高精度／高負荷な待機処理を使用」を追加しました。</li>
+            <li>新しいアクション「高精度待機＜ミリ秒＞」を追加しました。</li>
+            <li>「アプリケーションの設定」に「高精度／高負荷な処理を使用するかどうかの設定アクションを追加」を追加しました。</li>
+            <li>キー割り当てでマウスの移動が出来るようになりました。</li>
+            <li>キー割り当てに高精度／後負荷な待機処理用の設定を追加しました。</li>
+            <li>スクリプトのエディタにコメントアウトとコメントアウト解除を切り替えるショートカットを追加しました。</li>
+            <li>アクション・マクロ選択画面において(Shift+)Tab キーで入力欄のフォーカスの切り替えが出来るようになりました。</li>
+            <li>メインウィンドウのコンテキストメニューに「「アプリによる入力」に対する処理をすべてスキップ」を追加しました。</li>
+        </ul>
+        <div class="mt-5 mb-4 header-container">
+            <h4 class="px-2">C#スクリプトの変更</h4>
+        </div>
+        <table class="table table-dark table- my-4 table-bordered table-triped">
+            <thead>
+                <tr>
+                    <th class="th-col-state">状態</th>
+                    <th style="text-align: center;">内容</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td class="text-success font-weight-bold">廃止</td>
+                    <td>Pollingイベント</td>
+                </tr>
+            </tbody>
+        </table>
 
         <details>
             <h2 class="px-2 my-5 text-center">22/03/06アップデート</h2>
