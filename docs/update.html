@@ -13,33 +13,22 @@
 
     <div class="container py-5 mb-5">
 
-        <!--
-        <h3><a href="https://github.com/x0oey6B8/KeyToKey-Web/releases">更新内容はReleaseページに記載しています。</a></h3>
-        -->
-
-        <h2 class="px-2 my-5 text-center">22/03/31アップデート</h2>
+        <h2 class="px-2 my-5 text-center">22/05/22アップデート</h2>
         <div class="mt-5 header-container">
             <h4 class="px-2">変更と修正</h4>
         </div>
         <ul>
-            <li>[追記]キー割り当てにおいてトリガーと同じキーを割り当てるとトリガー入力時に処理が正常に行われない問題を修正しました。</li>
-            <li>アクションマクロからの拡張スクリプトの呼び出し速度を少し改善しました。</li>
-            <li>自動切り替えの対象となるプロファイルがメインタブ以外で選択されていた場合は切り替えを行わないようにしました。</li>
-            <li>クイックランチャーとスタートアップマクロにおいて引数ありのマクロを設定するとエラーが発生する問題を修正しました。</li>
-            <li>クイックランチャーのアイコンに適切でないものが表示されていた問題を修正しました。</li>
+            <li>メインウィンドウからウィンドウを非表示にする際に確認を行うように変更しました。</li>
+            <li>「環境設定」にある「入力の監視」のマウスの初期設定を「フック」に変更しました。</li>
+            <li>スティックの斜め入力検知処理を改善しました。</li>
+            <li>マッピングの停止／再開に関する処理の改善を行いました。複数箇所からマッピングの停止を行ったとき、その全て箇所においてマッピングの再開が行われるまでマッピングは停止されたままになります。</li>
+            <li>キー割り当てで同一の仮想コントローラーの入力を 2 つ以上設定した場合にマッピングが正常に機能しなくなる問題を修正しました。</li>
         </ul>
         <div class="mt-5 header-container">
             <h4 class="px-2">新しい機能</h4>
         </div>
         <ul>
-            <li>新しいアクション「高精度／高負荷な待機処理を使用」を追加しました。</li>
-            <li>新しいアクション「高精度待機＜ミリ秒＞」を追加しました。</li>
-            <li>「アプリケーションの設定」に「高精度／高負荷な処理を使用するかどうかの設定アクションを追加」を追加しました。</li>
-            <li>キー割り当てでマウスの移動が出来るようになりました。</li>
-            <li>キー割り当てに高精度／後負荷な待機処理用の設定を追加しました。</li>
-            <li>スクリプトのエディタにコメントアウトとコメントアウト解除を切り替えるショートカットを追加しました。</li>
-            <li>アクション・マクロ選択画面において(Shift+)Tab キーで入力欄のフォーカスの切り替えが出来るようになりました。</li>
-            <li>メインウィンドウのコンテキストメニューに「「アプリによる入力」に対する処理をすべてスキップ」を追加しました。</li>
+            <li>コントローラーのオプションに「8 方向スティック」「斜め入力の幅」を追加しました。</li>
         </ul>
         <div class="mt-5 mb-4 header-container">
             <h4 class="px-2">C#スクリプトの変更</h4>
@@ -53,13 +42,200 @@
             </thead>
             <tbody>
                 <tr>
-                    <td class="text-success font-weight-bold">廃止</td>
-                    <td>Pollingイベント</td>
+                    <td class="text-success font-weight-bold">追加</td>
+                    <td>Key { get; }</td>
+                </tr>
+                <tr>
+                    <td class="text-success font-weight-bold">追加</td>
+                    <td>VirtualXInput.GetController()</td>
+                </tr>
+                <tr>
+                    <td class="text-success font-weight-bold">追加</td>
+                    <td>ReadQrCode(Bitmap bitmap)</td>
+                </tr>
+                <tr>
+                    <td class="text-success font-weight-bold">追加</td>
+                    <td>ReadQrCode(Bounds bounds)</td>
+                </tr>
+                <tr>
+                    <td class="text-success font-weight-bold">追加</td>
+                    <td>CreateQrCodeImage(string text, int width, int height, int margin)</td>
+                </tr>
+                <tr>
+                    <td class="text-success font-weight-bold">追加</td>
+                    <td>ShowImageAsync(Bitmap image, string title)</td>
+                </tr>
+                <tr>
+                    <td class="text-success font-weight-bold">追加</td>
+                    <td>ActiveWindow { get; }</td>
+                </tr>
+                <tr>
+                    <td class="text-success font-weight-bold">追加</td>
+                    <td>WindowUnderCursor { get; }</td>
+                </tr>
+                <tr>
+                    <td class="text-success font-weight-bold">追加</td>
+                    <td>WindowController.Exists { get; }</td>
+                </tr>
+                <tr>
+                    <td class="text-success font-weight-bold">追加</td>
+                    <td>WindowController.Maximize();</td>
+                </tr>
+                <tr>
+                    <td class="text-success font-weight-bold">追加</td>
+                    <td>WindowController.Minimze();</td>
+                </tr>
+                <tr>
+                    <td class="text-success font-weight-bold">追加</td>
+                    <td>WindowController.Restore();</td>
+                </tr>
+                <tr>
+                    <td class="text-success font-weight-bold">追加</td>
+                    <td>XInputState.NormalizedLeftStick { get; }</td>
+                </tr>
+                <tr>
+                    <td class="text-success font-weight-bold">追加</td>
+                    <td>XInputState.NormalizedRightStick { get; }</td>
+                </tr>
+                <tr>
+                    <td class="text-success font-weight-bold">追加</td>
+                    <td>XInputState.NormalizedLeftTrigger { get; }</td>
+                </tr>
+                <tr>
+                    <td class="text-success font-weight-bold">追加</td>
+                    <td>XInputState.NormalizedRightTrigger { get; }</td>
+                </tr>
+                <tr>
+                    <td class="text-success font-weight-bold">追加</td>
+                    <td>XInputState.DpadDirection { get; }</td>
+                </tr>
+                <tr>
+                    <td class="text-success font-weight-bold">追加</td>
+                    <td>XInputState その他ボタンのプロパティ</td>
+                </tr>
+                <tr>
+                    <td class="text-success font-weight-bold">追加</td>
+                    <td>Controller.NormalizedLeftStick { get; }</td>
+                </tr>
+                <tr>
+                    <td class="text-success font-weight-bold">追加</td>
+                    <td>Controller.NormalizedRightStick { get; }</td>
+                </tr>
+                <tr>
+                    <td class="text-success font-weight-bold">追加</td>
+                    <td>Controller.NormalizedLeftTrigger { get; }</td>
+                </tr>
+                <tr>
+                    <td class="text-success font-weight-bold">追加</td>
+                    <td>Controller.NormalizedRightTrigger { get; }</td>
+                </tr>
+                <tr>
+                    <td class="text-success font-weight-bold">追加</td>
+                    <td>Controller.DpadDirection { get; }</td>
+                </tr>
+                <tr>
+                    <td class="text-success font-weight-bold">追加</td>
+                    <td>Controller その他ボタンのプロパティ</td>
+                </tr>
+                <tr>
+                    <td class="text-warning font-weight-bold">非推奨</td>
+                    <td>XInput.LeftTrigger { get; }</td>
+                </tr>
+                <tr>
+                    <td class="text-warning font-weight-bold">非推奨</td>
+                    <td>XInput.RightTrigger { get; }</td>
+                </tr>
+                <tr>
+                    <td class="text-warning font-weight-bold">非推奨</td>
+                    <td>XInput.LeftStickX { get; }</td>
+                </tr>
+                <tr>
+                    <td class="text-warning font-weight-bold">非推奨</td>
+                    <td>XInput.RightStickX { get; }</td>
+                </tr>
+                <tr>
+                    <td class="text-warning font-weight-bold">非推奨</td>
+                    <td>XInput.RightStickX { get; }</td>
+                </tr>
+                <tr>
+                    <td class="text-warning font-weight-bold">非推奨</td>
+                    <td>XInput.RightStickY { get; }</td>
+                </tr>
+                <tr>
+                    <td class="text-warning font-weight-bold">非推奨</td>
+                    <td>Controller.GetThumbs()</td>
+                </tr>
+                <tr>
+                    <td class="text-warning font-weight-bold">非推奨</td>
+                    <td>Controller.GetThumbsAsShort()</td>
+                </tr>
+                <tr>
+                    <td class="text-warning font-weight-bold">非推奨</td>
+                    <td>Controller.GetDeadZones()</td>
+                </tr>
+                <tr>
+                    <td class="text-warning font-weight-bold">非推奨</td>
+                    <td>Controller.LeftTrigger { get; }</td>
+                </tr>
+                <tr>
+                    <td class="text-warning font-weight-bold">非推奨</td>
+                    <td>Controller.RightTrigger { get; }</td>
+                </tr>
+                <tr>
+                    <td class="text-warning font-weight-bold">非推奨</td>
+                    <td>Controller.LeftStick { get; }</td>
+                </tr>
+                <tr>
+                    <td class="text-warning font-weight-bold">非推奨</td>
+                    <td>Controller.RightStick { get; }</td>
                 </tr>
             </tbody>
         </table>
 
         <details>
+            <summary>過去の更新履歴</summary>
+            <h2 class="px-2 my-5 text-center">22/03/31アップデート</h2>
+            <div class="mt-5 header-container">
+                <h4 class="px-2">変更と修正</h4>
+            </div>
+            <ul>
+                <li>[追記]キー割り当てにおいてトリガーと同じキーを割り当てるとトリガー入力時に処理が正常に行われない問題を修正しました。</li>
+                <li>アクションマクロからの拡張スクリプトの呼び出し速度を少し改善しました。</li>
+                <li>自動切り替えの対象となるプロファイルがメインタブ以外で選択されていた場合は切り替えを行わないようにしました。</li>
+                <li>クイックランチャーとスタートアップマクロにおいて引数ありのマクロを設定するとエラーが発生する問題を修正しました。</li>
+                <li>クイックランチャーのアイコンに適切でないものが表示されていた問題を修正しました。</li>
+            </ul>
+            <div class="mt-5 header-container">
+                <h4 class="px-2">新しい機能</h4>
+            </div>
+            <ul>
+                <li>新しいアクション「高精度／高負荷な待機処理を使用」を追加しました。</li>
+                <li>新しいアクション「高精度待機＜ミリ秒＞」を追加しました。</li>
+                <li>「アプリケーションの設定」に「高精度／高負荷な処理を使用するかどうかの設定アクションを追加」を追加しました。</li>
+                <li>キー割り当てでマウスの移動が出来るようになりました。</li>
+                <li>キー割り当てに高精度／後負荷な待機処理用の設定を追加しました。</li>
+                <li>スクリプトのエディタにコメントアウトとコメントアウト解除を切り替えるショートカットを追加しました。</li>
+                <li>アクション・マクロ選択画面において(Shift+)Tab キーで入力欄のフォーカスの切り替えが出来るようになりました。</li>
+                <li>メインウィンドウのコンテキストメニューに「「アプリによる入力」に対する処理をすべてスキップ」を追加しました。</li>
+            </ul>
+            <div class="mt-5 mb-4 header-container">
+                <h4 class="px-2">C#スクリプトの変更</h4>
+            </div>
+            <table class="table table-dark table- my-4 table-bordered table-triped">
+                <thead>
+                    <tr>
+                        <th class="th-col-state">状態</th>
+                        <th style="text-align: center;">内容</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td class="text-success font-weight-bold">廃止</td>
+                        <td>Pollingイベント</td>
+                    </tr>
+                </tbody>
+            </table>
+
             <h2 class="px-2 my-5 text-center">22/03/06アップデート</h2>
             <div class="mt-5 header-container">
                 <h4 class="px-2">変更と修正</h4>
