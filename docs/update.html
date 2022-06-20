@@ -13,76 +13,33 @@
 
     <div class="container py-5 mb-5">
 
-        <h2 class="px-2 my-5 text-center">22/05/25アップデート</h2>
-        <div class="mt-5 mb-4 header-container">
-            <h4 class="px-2">C#スクリプトの変更</h4>
-        </div>
-        <table class="table table-dark table- my-4 table-bordered table-triped">
-            <thead>
-                <tr>
-                    <th class="th-col-state">状態</th>
-                    <th style="text-align: center;">内容</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td class="text-success font-weight-bold">修正</td>
-                    <td>IVirtualXInputStick.SetValueByAngle()</td>
-                </tr>
-            </tbody>
-        </table>
+        <h2 class="px-2 my-5 text-center">22/06/22アップデート</h2>
 
-        <h2 class="px-2 my-5 text-center">22/05/24アップデート</h2>
         <div class="mt-5 header-container">
             <h4 class="px-2">変更と修正</h4>
         </div>
         <ul>
-            <li>仮想DirectInputコントローラーと設定画面に関する不具合を修正しました。</li>
-            <li>メインウィンドウ非表示時にクイックランチャーを閉じるとアプリが終了してしまう問題を修正しました。</li>
+            <li>メインウィンドウの「「アプリによる入力」に対する処理をスキップする」を削除しました。</li>
+            <li>アクションの置換機能で置換後のテキストが入力できない不具合を修正しました。</li>
+            <li>C#スクリプトにおいて Disposing イベントが複数回発生する不具合を修正しました。</li>
+            <li>アクションや引数の一番最初の番号の表記を 0 から 1 に変更しました。</li>
+            <li>マクロ／アクション選択画面におけるマクロの並び順がより自然になるようにしました。</li>
+            <li>画像認識の設定の順番を変更しても状態が保存されない不具合を修正しました。</li>
+            <li>画像認識のテンプレート画像の読み込みに関する調整を行いました（うまく機能しない場合は ApplicationConfig.conf 内の「テンプレート画像の読み込みを以前の仕様に戻す」を True に設定することでアップデート前の状態に戻すことができます。）</li>
         </ul>
-        <h2 class="px-2 my-5 text-center">22/05/23アップデート</h2>
-        <div class="mt-5 header-container">
-            <h4 class="px-2">変更と修正</h4>
-        </div>
-        <ul>
-            <li>マウス可視化における軽微な不具合を修正しました。</li>
-        </ul>
-        <div class="mt-5 mb-4 header-container">
-            <h4 class="px-2">C#スクリプトの変更</h4>
-        </div>
-        <table class="table table-dark table- my-4 table-bordered table-triped">
-            <thead>
-                <tr>
-                    <th class="th-col-state">状態</th>
-                    <th style="text-align: center;">内容</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td class="text-success font-weight-bold">修正</td>
-                    <td>Controller.NormalizedLeft/RightStickにおいて正常な値が取得できなかった問題を修正しました。</td>
-                </tr>
-            </tbody>
-        </table>
 
-
-        <h2 class="px-2 my-5 text-center">22/05/22アップデート</h2>
-        <div class="mt-5 header-container">
-            <h4 class="px-2">変更と修正</h4>
-        </div>
-        <ul>
-            <li>メインウィンドウからウィンドウを非表示にする際に確認を行うように変更しました。</li>
-            <li>「環境設定」にある「入力の監視」のマウスの初期設定を「フック」に変更しました。</li>
-            <li>スティックの斜め入力検知処理を改善しました。</li>
-            <li>マッピングの停止／再開に関する処理の改善を行いました。複数箇所からマッピングの停止を行ったとき、その全て箇所においてマッピングの再開が行われるまでマッピングは停止されたままになります。</li>
-            <li>キー割り当てで同一の仮想コントローラーの入力を 2 つ以上設定した場合にマッピングが正常に機能しなくなる問題を修正しました。</li>
-        </ul>
         <div class="mt-5 header-container">
             <h4 class="px-2">新しい機能</h4>
         </div>
         <ul>
-            <li>コントローラーのオプションに「8 方向スティック」「斜め入力の幅」を追加しました。</li>
+            <li>環境設定に「「アプリによる入力」に対する処理をスキップする」を追加しました。</li>
+            <li>グローバル変数をメインウィンドウに表示する設定を追加しました。</li>
+            <li>プロファイル読み込み時にエラーが発生した場合、メインウィンドウの「コンソール」ボタンにバッジ通知を行うようにしました。</li>
+            <li>拡張スクリプトで例外が発生した時にスタックトレースにファイルのパスと行数が表示されるようになりました。</li>
+            <li>編集ウィンドウの上部にメインウィンドウで使用中のプロファイルをリロードすることができるボタンを追加しました。</li>
+            <li>新しいメソッド「ElapsedTime」を追加しました。</li>
         </ul>
+
         <div class="mt-5 mb-4 header-container">
             <h4 class="px-2">C#スクリプトの変更</h4>
         </div>
@@ -96,157 +53,299 @@
             <tbody>
                 <tr>
                     <td class="text-success font-weight-bold">追加</td>
-                    <td>Key { get; }</td>
+                    <td>IWindowController.Parent { get; }</td>
                 </tr>
                 <tr>
                     <td class="text-success font-weight-bold">追加</td>
-                    <td>VirtualXInput.GetController(int userIndex)</td>
+                    <td>Move((int x, int y), int)</td>
                 </tr>
                 <tr>
                     <td class="text-success font-weight-bold">追加</td>
-                    <td>ReadQrCode(Bitmap bitmap)</td>
+                    <td>Offset((int horizontal, int vertical), int)</td>
                 </tr>
                 <tr>
                     <td class="text-success font-weight-bold">追加</td>
-                    <td>ReadQrCode(Bounds bounds)</td>
+                    <td>Key.LButton</td>
                 </tr>
                 <tr>
                     <td class="text-success font-weight-bold">追加</td>
-                    <td>CreateQrCodeImage(string text, int width, int height, int margin)</td>
+                    <td>Key.MButton</td>
                 </tr>
                 <tr>
                     <td class="text-success font-weight-bold">追加</td>
-                    <td>ShowImageAsync(Bitmap image, string title)</td>
+                    <td>Key.RButton</td>
                 </tr>
                 <tr>
-                    <td class="text-success font-weight-bold">追加</td>
-                    <td>ActiveWindow { get; }</td>
+                    <td class="text-warning font-weight-bold">名前変更</td>
+                    <td>Key.Oem1 -&gt; Key.OemColon</td>
                 </tr>
                 <tr>
-                    <td class="text-success font-weight-bold">追加</td>
-                    <td>WindowUnderCursor { get; }</td>
+                    <td class="text-warning font-weight-bold">名前変更</td>
+                    <td>Key.Oem2 -&gt; Key.OemSlash</td>
                 </tr>
                 <tr>
-                    <td class="text-success font-weight-bold">追加</td>
-                    <td>WindowController.Exists { get; }</td>
+                    <td class="text-warning font-weight-bold">名前変更</td>
+                    <td>Key.Oem3 -&gt; Key.OemAt</td>
                 </tr>
                 <tr>
-                    <td class="text-success font-weight-bold">追加</td>
-                    <td>WindowController.Maximize();</td>
+                    <td class="text-warning font-weight-bold">名前変更</td>
+                    <td>Key.Oem4 -&gt; Key.OemOpeningBracket</td>
                 </tr>
                 <tr>
-                    <td class="text-success font-weight-bold">追加</td>
-                    <td>WindowController.Minimze();</td>
+                    <td class="text-warning font-weight-bold">名前変更</td>
+                    <td>Key.Oem5 -&gt; Key.OemBackSlash</td>
                 </tr>
                 <tr>
-                    <td class="text-success font-weight-bold">追加</td>
-                    <td>WindowController.Restore();</td>
+                    <td class="text-warning font-weight-bold">名前変更</td>
+                    <td>Key.Oem6 -&gt; Key.OemClosingBracket</td>
                 </tr>
                 <tr>
-                    <td class="text-success font-weight-bold">追加</td>
-                    <td>XInputState.NormalizedLeftStick { get; }</td>
+                    <td class="text-warning font-weight-bold">名前変更</td>
+                    <td>Key.Oem7 -&gt; Key.OemCaret</td>
                 </tr>
                 <tr>
-                    <td class="text-success font-weight-bold">追加</td>
-                    <td>XInputState.NormalizedRightStick { get; }</td>
-                </tr>
-                <tr>
-                    <td class="text-success font-weight-bold">追加</td>
-                    <td>XInputState.NormalizedLeftTrigger { get; }</td>
-                </tr>
-                <tr>
-                    <td class="text-success font-weight-bold">追加</td>
-                    <td>XInputState.NormalizedRightTrigger { get; }</td>
-                </tr>
-                <tr>
-                    <td class="text-success font-weight-bold">追加</td>
-                    <td>XInputState.DpadDirection { get; }</td>
-                </tr>
-                <tr>
-                    <td class="text-success font-weight-bold">追加</td>
-                    <td>XInputState その他ボタンのプロパティ</td>
-                </tr>
-                <tr>
-                    <td class="text-success font-weight-bold">追加</td>
-                    <td>Controller.NormalizedLeftStick { get; }</td>
-                </tr>
-                <tr>
-                    <td class="text-success font-weight-bold">追加</td>
-                    <td>Controller.NormalizedRightStick { get; }</td>
-                </tr>
-                <tr>
-                    <td class="text-success font-weight-bold">追加</td>
-                    <td>Controller.NormalizedLeftTrigger { get; }</td>
-                </tr>
-                <tr>
-                    <td class="text-success font-weight-bold">追加</td>
-                    <td>Controller.NormalizedRightTrigger { get; }</td>
-                </tr>
-                <tr>
-                    <td class="text-success font-weight-bold">追加</td>
-                    <td>Controller.DpadDirection { get; }</td>
-                </tr>
-                <tr>
-                    <td class="text-success font-weight-bold">追加</td>
-                    <td>Controller その他ボタンのプロパティ</td>
-                </tr>
-                <tr>
-                    <td class="text-warning font-weight-bold">非推奨</td>
-                    <td>XInput.LeftTrigger { get; }</td>
-                </tr>
-                <tr>
-                    <td class="text-warning font-weight-bold">非推奨</td>
-                    <td>XInput.RightTrigger { get; }</td>
-                </tr>
-                <tr>
-                    <td class="text-warning font-weight-bold">非推奨</td>
-                    <td>XInput.LeftStickX { get; }</td>
-                </tr>
-                <tr>
-                    <td class="text-warning font-weight-bold">非推奨</td>
-                    <td>XInput.RightStickX { get; }</td>
-                </tr>
-                <tr>
-                    <td class="text-warning font-weight-bold">非推奨</td>
-                    <td>XInput.RightStickX { get; }</td>
-                </tr>
-                <tr>
-                    <td class="text-warning font-weight-bold">非推奨</td>
-                    <td>XInput.RightStickY { get; }</td>
-                </tr>
-                <tr>
-                    <td class="text-warning font-weight-bold">非推奨</td>
-                    <td>Controller.GetThumbs()</td>
-                </tr>
-                <tr>
-                    <td class="text-warning font-weight-bold">非推奨</td>
-                    <td>Controller.GetThumbsAsShort()</td>
-                </tr>
-                <tr>
-                    <td class="text-warning font-weight-bold">非推奨</td>
-                    <td>Controller.GetDeadZones()</td>
-                </tr>
-                <tr>
-                    <td class="text-warning font-weight-bold">非推奨</td>
-                    <td>Controller.LeftTrigger { get; }</td>
-                </tr>
-                <tr>
-                    <td class="text-warning font-weight-bold">非推奨</td>
-                    <td>Controller.RightTrigger { get; }</td>
-                </tr>
-                <tr>
-                    <td class="text-warning font-weight-bold">非推奨</td>
-                    <td>Controller.LeftStick { get; }</td>
-                </tr>
-                <tr>
-                    <td class="text-warning font-weight-bold">非推奨</td>
-                    <td>Controller.RightStick { get; }</td>
+                    <td class="text-warning font-weight-bold">変更</td>
+                    <td>Keys.Oemcomma -&gt; Keys.OemComma</td>
                 </tr>
             </tbody>
         </table>
 
+
         <details>
             <summary>過去の更新履歴</summary>
+
+            <h2 class="px-2 my-5 text-center">22/05/25アップデート</h2>
+            <div class="mt-5 mb-4 header-container">
+                <h4 class="px-2">C#スクリプトの変更</h4>
+            </div>
+            <table class="table table-dark table- my-4 table-bordered table-triped">
+                <thead>
+                    <tr>
+                        <th class="th-col-state">状態</th>
+                        <th style="text-align: center;">内容</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td class="text-success font-weight-bold">修正</td>
+                        <td>IVirtualXInputStick.SetValueByAngle()</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <h2 class="px-2 my-5 text-center">22/05/24アップデート</h2>
+            <div class="mt-5 header-container">
+                <h4 class="px-2">変更と修正</h4>
+            </div>
+            <ul>
+                <li>仮想DirectInputコントローラーと設定画面に関する不具合を修正しました。</li>
+                <li>メインウィンドウ非表示時にクイックランチャーを閉じるとアプリが終了してしまう問題を修正しました。</li>
+            </ul>
+            <h2 class="px-2 my-5 text-center">22/05/23アップデート</h2>
+            <div class="mt-5 header-container">
+                <h4 class="px-2">変更と修正</h4>
+            </div>
+            <ul>
+                <li>マウス可視化における軽微な不具合を修正しました。</li>
+            </ul>
+            <div class="mt-5 mb-4 header-container">
+                <h4 class="px-2">C#スクリプトの変更</h4>
+            </div>
+            <table class="table table-dark table- my-4 table-bordered table-triped">
+                <thead>
+                    <tr>
+                        <th class="th-col-state">状態</th>
+                        <th style="text-align: center;">内容</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td class="text-success font-weight-bold">修正</td>
+                        <td>Controller.NormalizedLeft/RightStickにおいて正常な値が取得できなかった問題を修正しました。</td>
+                    </tr>
+                </tbody>
+            </table>
+
+
+            <h2 class="px-2 my-5 text-center">22/05/22アップデート</h2>
+            <div class="mt-5 header-container">
+                <h4 class="px-2">変更と修正</h4>
+            </div>
+            <ul>
+                <li>メインウィンドウからウィンドウを非表示にする際に確認を行うように変更しました。</li>
+                <li>「環境設定」にある「入力の監視」のマウスの初期設定を「フック」に変更しました。</li>
+                <li>スティックの斜め入力検知処理を改善しました。</li>
+                <li>マッピングの停止／再開に関する処理の改善を行いました。複数箇所からマッピングの停止を行ったとき、その全て箇所においてマッピングの再開が行われるまでマッピングは停止されたままになります。</li>
+                <li>キー割り当てで同一の仮想コントローラーの入力を 2 つ以上設定した場合にマッピングが正常に機能しなくなる問題を修正しました。</li>
+            </ul>
+            <div class="mt-5 header-container">
+                <h4 class="px-2">新しい機能</h4>
+            </div>
+            <ul>
+                <li>コントローラーのオプションに「8 方向スティック」「斜め入力の幅」を追加しました。</li>
+            </ul>
+            <div class="mt-5 mb-4 header-container">
+                <h4 class="px-2">C#スクリプトの変更</h4>
+            </div>
+            <table class="table table-dark table- my-4 table-bordered table-triped">
+                <thead>
+                    <tr>
+                        <th class="th-col-state">状態</th>
+                        <th style="text-align: center;">内容</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td class="text-success font-weight-bold">追加</td>
+                        <td>Key { get; }</td>
+                    </tr>
+                    <tr>
+                        <td class="text-success font-weight-bold">追加</td>
+                        <td>VirtualXInput.GetController(int userIndex)</td>
+                    </tr>
+                    <tr>
+                        <td class="text-success font-weight-bold">追加</td>
+                        <td>ReadQrCode(Bitmap bitmap)</td>
+                    </tr>
+                    <tr>
+                        <td class="text-success font-weight-bold">追加</td>
+                        <td>ReadQrCode(Bounds bounds)</td>
+                    </tr>
+                    <tr>
+                        <td class="text-success font-weight-bold">追加</td>
+                        <td>CreateQrCodeImage(string text, int width, int height, int margin)</td>
+                    </tr>
+                    <tr>
+                        <td class="text-success font-weight-bold">追加</td>
+                        <td>ShowImageAsync(Bitmap image, string title)</td>
+                    </tr>
+                    <tr>
+                        <td class="text-success font-weight-bold">追加</td>
+                        <td>ActiveWindow { get; }</td>
+                    </tr>
+                    <tr>
+                        <td class="text-success font-weight-bold">追加</td>
+                        <td>WindowUnderCursor { get; }</td>
+                    </tr>
+                    <tr>
+                        <td class="text-success font-weight-bold">追加</td>
+                        <td>WindowController.Exists { get; }</td>
+                    </tr>
+                    <tr>
+                        <td class="text-success font-weight-bold">追加</td>
+                        <td>WindowController.Maximize();</td>
+                    </tr>
+                    <tr>
+                        <td class="text-success font-weight-bold">追加</td>
+                        <td>WindowController.Minimze();</td>
+                    </tr>
+                    <tr>
+                        <td class="text-success font-weight-bold">追加</td>
+                        <td>WindowController.Restore();</td>
+                    </tr>
+                    <tr>
+                        <td class="text-success font-weight-bold">追加</td>
+                        <td>XInputState.NormalizedLeftStick { get; }</td>
+                    </tr>
+                    <tr>
+                        <td class="text-success font-weight-bold">追加</td>
+                        <td>XInputState.NormalizedRightStick { get; }</td>
+                    </tr>
+                    <tr>
+                        <td class="text-success font-weight-bold">追加</td>
+                        <td>XInputState.NormalizedLeftTrigger { get; }</td>
+                    </tr>
+                    <tr>
+                        <td class="text-success font-weight-bold">追加</td>
+                        <td>XInputState.NormalizedRightTrigger { get; }</td>
+                    </tr>
+                    <tr>
+                        <td class="text-success font-weight-bold">追加</td>
+                        <td>XInputState.DpadDirection { get; }</td>
+                    </tr>
+                    <tr>
+                        <td class="text-success font-weight-bold">追加</td>
+                        <td>XInputState その他ボタンのプロパティ</td>
+                    </tr>
+                    <tr>
+                        <td class="text-success font-weight-bold">追加</td>
+                        <td>Controller.NormalizedLeftStick { get; }</td>
+                    </tr>
+                    <tr>
+                        <td class="text-success font-weight-bold">追加</td>
+                        <td>Controller.NormalizedRightStick { get; }</td>
+                    </tr>
+                    <tr>
+                        <td class="text-success font-weight-bold">追加</td>
+                        <td>Controller.NormalizedLeftTrigger { get; }</td>
+                    </tr>
+                    <tr>
+                        <td class="text-success font-weight-bold">追加</td>
+                        <td>Controller.NormalizedRightTrigger { get; }</td>
+                    </tr>
+                    <tr>
+                        <td class="text-success font-weight-bold">追加</td>
+                        <td>Controller.DpadDirection { get; }</td>
+                    </tr>
+                    <tr>
+                        <td class="text-success font-weight-bold">追加</td>
+                        <td>Controller その他ボタンのプロパティ</td>
+                    </tr>
+                    <tr>
+                        <td class="text-warning font-weight-bold">非推奨</td>
+                        <td>XInput.LeftTrigger { get; }</td>
+                    </tr>
+                    <tr>
+                        <td class="text-warning font-weight-bold">非推奨</td>
+                        <td>XInput.RightTrigger { get; }</td>
+                    </tr>
+                    <tr>
+                        <td class="text-warning font-weight-bold">非推奨</td>
+                        <td>XInput.LeftStickX { get; }</td>
+                    </tr>
+                    <tr>
+                        <td class="text-warning font-weight-bold">非推奨</td>
+                        <td>XInput.RightStickX { get; }</td>
+                    </tr>
+                    <tr>
+                        <td class="text-warning font-weight-bold">非推奨</td>
+                        <td>XInput.RightStickX { get; }</td>
+                    </tr>
+                    <tr>
+                        <td class="text-warning font-weight-bold">非推奨</td>
+                        <td>XInput.RightStickY { get; }</td>
+                    </tr>
+                    <tr>
+                        <td class="text-warning font-weight-bold">非推奨</td>
+                        <td>Controller.GetThumbs()</td>
+                    </tr>
+                    <tr>
+                        <td class="text-warning font-weight-bold">非推奨</td>
+                        <td>Controller.GetThumbsAsShort()</td>
+                    </tr>
+                    <tr>
+                        <td class="text-warning font-weight-bold">非推奨</td>
+                        <td>Controller.GetDeadZones()</td>
+                    </tr>
+                    <tr>
+                        <td class="text-warning font-weight-bold">非推奨</td>
+                        <td>Controller.LeftTrigger { get; }</td>
+                    </tr>
+                    <tr>
+                        <td class="text-warning font-weight-bold">非推奨</td>
+                        <td>Controller.RightTrigger { get; }</td>
+                    </tr>
+                    <tr>
+                        <td class="text-warning font-weight-bold">非推奨</td>
+                        <td>Controller.LeftStick { get; }</td>
+                    </tr>
+                    <tr>
+                        <td class="text-warning font-weight-bold">非推奨</td>
+                        <td>Controller.RightStick { get; }</td>
+                    </tr>
+                </tbody>
+            </table>
+
             <h2 class="px-2 my-5 text-center">22/03/31アップデート</h2>
             <div class="mt-5 header-container">
                 <h4 class="px-2">変更と修正</h4>
