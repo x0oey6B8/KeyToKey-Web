@@ -14,32 +14,14 @@
     <div class="container py-5 mb-5">
 
         <!-- -->
-        <h2 class="px-2 my-5 text-center">22/06/21アップデート</h2>
+        <h2 class="px-2 my-5 text-center">22/07/06アップデート</h2>
 
         <div class="mt-5 header-container">
             <h4 class="px-2">変更と修正</h4>
         </div>
         <ul>
-            <li>[220621.1追記]同時押しが機能しない問題を修正しました。</li>
-            <li>メインウィンドウの「「アプリによる入力」に対する処理をスキップする」を削除しました。</li>
-            <li>アクションの置換機能で置換後のテキストが入力できない不具合を修正しました。</li>
-            <li>C#スクリプトにおいて Disposing イベントが複数回発生する不具合を修正しました。</li>
-            <li>アクションや引数の一番最初の番号の表記を 0 から 1 に変更しました。</li>
-            <li>マクロ／アクション選択画面におけるマクロの並び順がより自然になるようにしました。</li>
-            <li>画像認識の設定の順番を変更しても状態が保存されない不具合を修正しました。</li>
-            <li>画像認識のテンプレート画像の読み込みに関する調整を行いました（うまく機能しない場合は ApplicationConfig.conf 内の「テンプレート画像の読み込みを以前の仕様に戻す」を True に設定することでアップデート前の状態に戻すことができます。）</li>
-        </ul>
-
-        <div class="mt-5 header-container">
-            <h4 class="px-2">新しい機能</h4>
-        </div>
-        <ul>
-            <li>環境設定に「「アプリによる入力」に対する処理をスキップする」を追加しました。</li>
-            <li>グローバル変数をメインウィンドウに表示する設定を追加しました。</li>
-            <li>プロファイル読み込み時にエラーが発生した場合、メインウィンドウの「コンソール」ボタンにバッジ通知を行うようにしました。</li>
-            <li>拡張スクリプトで例外が発生した時にスタックトレースにファイルのパスと行数が表示されるようになりました。</li>
-            <li>編集ウィンドウの上部にメインウィンドウで使用中のプロファイルをリロードすることができるボタンを追加しました。</li>
-            <li>新しいメソッド「ElapsedTime」を追加しました。</li>
+            <li>DirectInput のマッピングに関する調整を行いました。</li>
+            <li>アクションのドラッグアンドドロップ移動の不具合を修正しました。</li>
         </ul>
 
         <div class="mt-5 mb-4 header-container">
@@ -55,66 +37,123 @@
             <tbody>
                 <tr>
                     <td class="text-success font-weight-bold">追加</td>
-                    <td>IWindowController.Parent { get; }</td>
+                    <td>vJoy { get; }</td>
                 </tr>
                 <tr>
                     <td class="text-success font-weight-bold">追加</td>
-                    <td>Move((int x, int y), int)</td>
+                    <td>Controller.FindController();</td>
                 </tr>
                 <tr>
                     <td class="text-success font-weight-bold">追加</td>
-                    <td>Offset((int horizontal, int vertical), int)</td>
-                </tr>
-                <tr>
-                    <td class="text-success font-weight-bold">追加</td>
-                    <td>Key.LButton</td>
-                </tr>
-                <tr>
-                    <td class="text-success font-weight-bold">追加</td>
-                    <td>Key.MButton</td>
-                </tr>
-                <tr>
-                    <td class="text-success font-weight-bold">追加</td>
-                    <td>Key.RButton</td>
-                </tr>
-                <tr>
-                    <td class="text-warning font-weight-bold">名前変更</td>
-                    <td>Key.Oem1 -&gt; Key.OemColon</td>
-                </tr>
-                <tr>
-                    <td class="text-warning font-weight-bold">名前変更</td>
-                    <td>Key.Oem2 -&gt; Key.OemSlash</td>
-                </tr>
-                <tr>
-                    <td class="text-warning font-weight-bold">名前変更</td>
-                    <td>Key.Oem3 -&gt; Key.OemAt</td>
-                </tr>
-                <tr>
-                    <td class="text-warning font-weight-bold">名前変更</td>
-                    <td>Key.Oem4 -&gt; Key.OemOpeningBracket</td>
-                </tr>
-                <tr>
-                    <td class="text-warning font-weight-bold">名前変更</td>
-                    <td>Key.Oem5 -&gt; Key.OemBackSlash</td>
-                </tr>
-                <tr>
-                    <td class="text-warning font-weight-bold">名前変更</td>
-                    <td>Key.Oem6 -&gt; Key.OemClosingBracket</td>
-                </tr>
-                <tr>
-                    <td class="text-warning font-weight-bold">名前変更</td>
-                    <td>Key.Oem7 -&gt; Key.OemCaret</td>
+                    <td>IVIrtualXInputButton.State { set; }</td>
                 </tr>
                 <tr>
                     <td class="text-warning font-weight-bold">変更</td>
-                    <td>Keys.Oemcomma -&gt; Keys.OemComma</td>
+                    <td>Screenshot()にピクセルの形式を設定できるようにしました。</td>
                 </tr>
             </tbody>
         </table>
 
-
         <details>
             <summary>過去の更新履歴</summary>
+
+            <h2 class="px-2 my-5 text-center">22/06/21アップデート</h2>
+
+            <div class="mt-5 header-container">
+                <h4 class="px-2">変更と修正</h4>
+            </div>
+            <ul>
+                <li>[220621.1追記]同時押しが機能しない問題を修正しました。</li>
+                <li>メインウィンドウの「「アプリによる入力」に対する処理をスキップする」を削除しました。</li>
+                <li>アクションの置換機能で置換後のテキストが入力できない不具合を修正しました。</li>
+                <li>C#スクリプトにおいて Disposing イベントが複数回発生する不具合を修正しました。</li>
+                <li>アクションや引数の一番最初の番号の表記を 0 から 1 に変更しました。</li>
+                <li>マクロ／アクション選択画面におけるマクロの並び順がより自然になるようにしました。</li>
+                <li>画像認識の設定の順番を変更しても状態が保存されない不具合を修正しました。</li>
+                <li>画像認識のテンプレート画像の読み込みに関する調整を行いました（うまく機能しない場合は ApplicationConfig.conf 内の「テンプレート画像の読み込みを以前の仕様に戻す」を True に設定することでアップデート前の状態に戻すことができます。）</li>
+            </ul>
+
+            <div class="mt-5 header-container">
+                <h4 class="px-2">新しい機能</h4>
+            </div>
+            <ul>
+                <li>環境設定に「「アプリによる入力」に対する処理をスキップする」を追加しました。</li>
+                <li>グローバル変数をメインウィンドウに表示する設定を追加しました。</li>
+                <li>プロファイル読み込み時にエラーが発生した場合、メインウィンドウの「コンソール」ボタンにバッジ通知を行うようにしました。</li>
+                <li>拡張スクリプトで例外が発生した時にスタックトレースにファイルのパスと行数が表示されるようになりました。</li>
+                <li>編集ウィンドウの上部にメインウィンドウで使用中のプロファイルをリロードすることができるボタンを追加しました。</li>
+                <li>新しいメソッド「ElapsedTime」を追加しました。</li>
+            </ul>
+
+            <div class="mt-5 mb-4 header-container">
+                <h4 class="px-2">C#スクリプトの変更</h4>
+            </div>
+            <table class="table table-dark table- my-4 table-bordered table-triped">
+                <thead>
+                    <tr>
+                        <th class="th-col-state">状態</th>
+                        <th style="text-align: center;">内容</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td class="text-success font-weight-bold">追加</td>
+                        <td>IWindowController.Parent { get; }</td>
+                    </tr>
+                    <tr>
+                        <td class="text-success font-weight-bold">追加</td>
+                        <td>Move((int x, int y), int)</td>
+                    </tr>
+                    <tr>
+                        <td class="text-success font-weight-bold">追加</td>
+                        <td>Offset((int horizontal, int vertical), int)</td>
+                    </tr>
+                    <tr>
+                        <td class="text-success font-weight-bold">追加</td>
+                        <td>Key.LButton</td>
+                    </tr>
+                    <tr>
+                        <td class="text-success font-weight-bold">追加</td>
+                        <td>Key.MButton</td>
+                    </tr>
+                    <tr>
+                        <td class="text-success font-weight-bold">追加</td>
+                        <td>Key.RButton</td>
+                    </tr>
+                    <tr>
+                        <td class="text-warning font-weight-bold">名前変更</td>
+                        <td>Key.Oem1 -&gt; Key.OemColon</td>
+                    </tr>
+                    <tr>
+                        <td class="text-warning font-weight-bold">名前変更</td>
+                        <td>Key.Oem2 -&gt; Key.OemSlash</td>
+                    </tr>
+                    <tr>
+                        <td class="text-warning font-weight-bold">名前変更</td>
+                        <td>Key.Oem3 -&gt; Key.OemAt</td>
+                    </tr>
+                    <tr>
+                        <td class="text-warning font-weight-bold">名前変更</td>
+                        <td>Key.Oem4 -&gt; Key.OemOpeningBracket</td>
+                    </tr>
+                    <tr>
+                        <td class="text-warning font-weight-bold">名前変更</td>
+                        <td>Key.Oem5 -&gt; Key.OemBackSlash</td>
+                    </tr>
+                    <tr>
+                        <td class="text-warning font-weight-bold">名前変更</td>
+                        <td>Key.Oem6 -&gt; Key.OemClosingBracket</td>
+                    </tr>
+                    <tr>
+                        <td class="text-warning font-weight-bold">名前変更</td>
+                        <td>Key.Oem7 -&gt; Key.OemCaret</td>
+                    </tr>
+                    <tr>
+                        <td class="text-warning font-weight-bold">変更</td>
+                        <td>Keys.Oemcomma -&gt; Keys.OemComma</td>
+                    </tr>
+                </tbody>
+            </table>
 
             <h2 class="px-2 my-5 text-center">22/05/25アップデート</h2>
             <div class="mt-5 mb-4 header-container">
