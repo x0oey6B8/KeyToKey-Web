@@ -7,80 +7,109 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous" />
     <link rel="stylesheet" href="styles/style.css">
     <title>KeyToKey Release Notes</title>
+
+    <style>
+        .gist {
+            border: none !important;
+        }
+
+        .gist-data {
+            border: none !important;
+        }
+
+        .gist-file {
+            border: none !important;
+        }
+
+        .gist-meta {
+            display: none !important;
+        }
+
+        h1 {
+            text-align: center;
+            border: none;
+        }
+    </style>
+
 </head>
 
 <body>
 
+    <script src="https://gist.github.com/x0oey6B8/e384eac172f723d0db7888beb1ce77cd.js"></script>
+
     <div class="container py-5 mb-5">
-
-        <!-- -->
-        <h2 class="px-2 my-5 text-center">22/12/26アップデート</h2>
-
-        <div class="mt-5 header-container">
-            <h4 class="px-2">変更と修正</h4>
-        </div>
-        <ul>
-            <li>プロファイルの自動切り替えの設定をアプリケーションの設定からメインウィンドウのプロファイル操作に移動しました。</li>
-            <li>「自動切り替え一時停止」をメインウィンドウのプロファイルの操作に移動しました。</li>
-            <li>編集ウィンドウ左側にあるドロワータイプのメニューを廃止しました。</li>
-            <li>編集ウィンドウ左側の使用方法アイコンは上部のヘルプへ移動しました。</li>
-            <li>「トリガーを押している間はマクロの終了を待機する」が有効になっているとき、CPU の負荷が高くなる問題を修正しました。</li>
-            <li>画像認識の検出方法を SAD に設定しているとテストの結果とスクリプトでの結果が異なる問題を修正しました。この修正は既存のコードに影響を与える可能性があります。</li>
-            <li>アクション割り当ての「繰り返し」の設定がメインウィンドウに反映されてない問題を修正しました。</li>
-            <li>編集ウィンドウ上部のリロードのプロファイル名が正しく表示されない問題を修正しました。</li>
-        </ul>
-
-        <div class="mt-5 header-container">
-            <h4 class="px-2">新しい機能</h4>
-        </div>
-        <ul>
-            <li>「ジェスチャー割り当て」を追加しました。</li>
-            <li>「キー割り当て」に「高精度／高負荷な待機処理をデフォルトで使用する」を追加しました。</li>
-            <li>メインウィンドウのコンソールボタンのメニューに「簡易編集を有効化」を追加しました（WindowsTerminal を使用している方で、マウススクロールがコンソールで出来ない場合は簡易編集を有効にすることで回避できます）</li>
-            <li>メニューの中央部分をクリックするとメニューを非表示にできるようにしました（少しマウスを動かす必要あり）</li>
-        </ul>
-
-        <div class="mt-5 mb-4 header-container">
-            <h4 class="px-2">C#スクリプトの変更</h4>
-        </div>
-        <table class="table table-dark table- my-4 table-bordered table-triped">
-            <thead>
-                <tr>
-                    <th class="th-col-state">状態</th>
-                    <th style="text-align: center;">内容</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td class="text-success font-weight-bold">追加</td>
-                    <td>Key.UpAll()</td>
-                </tr>
-                <tr>
-                    <td class="text-success font-weight-bold">追加</td>
-                    <td>event KeyPressed</td>
-                </tr>
-                <tr>
-                    <td class="text-success font-weight-bold">追加</td>
-                    <td>event KeyRelased</td>
-                </tr>
-                <tr>
-                    <td class="text-success font-weight-bold">追加</td>
-                    <td>Profile { get; }</td>
-                </tr>
-                <tr>
-                    <td class="text-success font-weight-bold">追加</td>
-                    <td>QuickLauncher { get; }</td>
-                </tr>
-                <tr>
-                    <td class="text-warning font-weight-bold">変更</td>
-                    <td>キー／マウス処理においてデフォルトで高精度高負荷な待機処理を使用するように変更しましたWaitConfig.Keyboard/Mouse.HighPrecision = true</td>
-                </tr>
-            </tbody>
-        </table>
-
 
         <details>
             <summary>過去の更新履歴</summary>
+
+
+            <!-- -->
+            <h2 class="px-2 my-5 text-center">22/12/26アップデート</h2>
+
+            <div class="mt-5 header-container">
+                <h4 class="px-2">変更と修正</h4>
+            </div>
+            <ul>
+                <li>プロファイルの自動切り替えの設定をアプリケーションの設定からメインウィンドウのプロファイル操作に移動しました。</li>
+                <li>「自動切り替え一時停止」をメインウィンドウのプロファイルの操作に移動しました。</li>
+                <li>編集ウィンドウ左側にあるドロワータイプのメニューを廃止しました。</li>
+                <li>編集ウィンドウ左側の使用方法アイコンは上部のヘルプへ移動しました。</li>
+                <li>「トリガーを押している間はマクロの終了を待機する」が有効になっているとき、CPU の負荷が高くなる問題を修正しました。</li>
+                <li>画像認識の検出方法を SAD に設定しているとテストの結果とスクリプトでの結果が異なる問題を修正しました。この修正は既存のコードに影響を与える可能性があります。</li>
+                <li>アクション割り当ての「繰り返し」の設定がメインウィンドウに反映されてない問題を修正しました。</li>
+                <li>編集ウィンドウ上部のリロードのプロファイル名が正しく表示されない問題を修正しました。</li>
+            </ul>
+
+            <div class="mt-5 header-container">
+                <h4 class="px-2">新しい機能</h4>
+            </div>
+            <ul>
+                <li>「ジェスチャー割り当て」を追加しました。</li>
+                <li>「キー割り当て」に「高精度／高負荷な待機処理をデフォルトで使用する」を追加しました。</li>
+                <li>メインウィンドウのコンソールボタンのメニューに「簡易編集を有効化」を追加しました（WindowsTerminal を使用している方で、マウススクロールがコンソールで出来ない場合は簡易編集を有効にすることで回避できます）</li>
+                <li>メニューの中央部分をクリックするとメニューを非表示にできるようにしました（少しマウスを動かす必要あり）</li>
+            </ul>
+
+            <div class="mt-5 mb-4 header-container">
+                <h4 class="px-2">C#スクリプトの変更</h4>
+            </div>
+            <table class="table my-4 table-bordered table-triped">
+                <thead>
+                    <tr>
+                        <th class="th-col-state">状態</th>
+                        <th style="text-align: center;">内容</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td class="text-success font-weight-bold">追加</td>
+                        <td>Key.UpAll()</td>
+                    </tr>
+                    <tr>
+                        <td class="text-success font-weight-bold">追加</td>
+                        <td>event KeyPressed</td>
+                    </tr>
+                    <tr>
+                        <td class="text-success font-weight-bold">追加</td>
+                        <td>event KeyRelased</td>
+                    </tr>
+                    <tr>
+                        <td class="text-success font-weight-bold">追加</td>
+                        <td>Profile { get; }</td>
+                    </tr>
+                    <tr>
+                        <td class="text-success font-weight-bold">追加</td>
+                        <td>QuickLauncher { get; }</td>
+                    </tr>
+                    <tr>
+                        <td class="text-warning font-weight-bold">変更</td>
+                        <td>キー／マウス処理においてデフォルトで高精度高負荷な待機処理を使用するように変更しましたWaitConfig.Keyboard/Mouse.HighPrecision = true</td>
+                    </tr>
+                </tbody>
+            </table>
+
+
+
 
 
             <h2 class="px-2 my-5 text-center">22/08/15アップデート</h2>
@@ -122,7 +151,7 @@
             <div class="mt-5 mb-4 header-container">
                 <h4 class="px-2">C#スクリプトの変更</h4>
             </div>
-            <table class="table table-dark table- my-4 table-bordered table-triped">
+            <table class="table my-4 table-bordered table-triped">
                 <thead>
                     <tr>
                         <th class="th-col-state">状態</th>
@@ -183,7 +212,7 @@
             <div class="mt-5 mb-4 header-container">
                 <h4 class="px-2">C#スクリプトの変更</h4>
             </div>
-            <table class="table table-dark table- my-4 table-bordered table-triped">
+            <table class="table my-4 table-bordered table-triped">
                 <thead>
                     <tr>
                         <th class="th-col-state">状態</th>
@@ -254,7 +283,7 @@
             <div class="mt-5 mb-4 header-container">
                 <h4 class="px-2">C#スクリプトの変更</h4>
             </div>
-            <table class="table table-dark table- my-4 table-bordered table-triped">
+            <table class="table my-4 table-bordered table-triped">
                 <thead>
                     <tr>
                         <th class="th-col-state">状態</th>
@@ -287,7 +316,7 @@
             <div class="mt-5 mb-4 header-container">
                 <h4 class="px-2">C#スクリプトの変更</h4>
             </div>
-            <table class="table table-dark table- my-4 table-bordered table-triped">
+            <table class="table my-4 table-bordered table-triped">
                 <thead>
                     <tr>
                         <th class="th-col-state">状態</th>
@@ -323,7 +352,7 @@
             <div class="mt-5 mb-4 header-container">
                 <h4 class="px-2">C#スクリプトの変更</h4>
             </div>
-            <table class="table table-dark table- my-4 table-bordered table-triped">
+            <table class="table my-4 table-bordered table-triped">
                 <thead>
                     <tr>
                         <th class="th-col-state">状態</th>
@@ -509,7 +538,7 @@
             <div class="mt-5 mb-4 header-container">
                 <h4 class="px-2">C#スクリプトの変更</h4>
             </div>
-            <table class="table table-dark table- my-4 table-bordered table-triped">
+            <table class="table my-4 table-bordered table-triped">
                 <thead>
                     <tr>
                         <th class="th-col-state">状態</th>
@@ -543,7 +572,7 @@
             <div class="mt-5 mb-4 header-container">
                 <h4 class="px-2">C#スクリプトの変更</h4>
             </div>
-            <table class="table table-dark table- my-4 table-bordered table-triped">
+            <table class="table my-4 table-bordered table-triped">
                 <thead>
                     <tr>
                         <th class="th-col-state">状態</th>
@@ -613,7 +642,7 @@
             <div class="mt-5 mb-4 header-container">
                 <h4 class="px-2">C#スクリプトの変更</h4>
             </div>
-            <table class="table table-dark table- my-4 table-bordered table-triped">
+            <table class="table my-4 table-bordered table-triped">
                 <thead>
                     <tr>
                         <th class="th-col-state">状態</th>
@@ -855,7 +884,7 @@
             <div class="mt-5 mb-4 header-container">
                 <h4 class="px-2">C#スクリプトの変更</h4>
             </div>
-            <table class="table table-dark table- my-4 table-bordered table-triped">
+            <table class="table my-4 table-bordered table-triped">
                 <thead>
                     <tr>
                         <th class="th-col-state">状態</th>
@@ -949,7 +978,7 @@
             <div class="mt-5 mb-4 header-container">
                 <h4 class="px-2">アクションの変更</h4>
             </div>
-            <table class="table table-dark table- my-4 table-bordered table-triped">
+            <table class="table my-4 table-bordered table-triped">
                 <thead>
                     <tr>
                         <th class="th-col-state">状態</th>
@@ -998,7 +1027,7 @@
             <div class="mt-5 mb-4 header-container">
                 <h4 class="px-2">C#スクリプトの変更</h4>
             </div>
-            <table class="table table-dark table- my-4 table-bordered table-triped">
+            <table class="table my-4 table-bordered table-triped">
                 <thead>
                     <tr>
                         <th class="th-col-state">状態</th>
@@ -1065,7 +1094,7 @@
             <div class="mt-5 mb-4 header-container">
                 <h4 class="px-2">C#スクリプトの変更</h4>
             </div>
-            <table class="table table-dark table- my-4 table-bordered table-triped">
+            <table class="table my-4 table-bordered table-triped">
                 <thead>
                     <tr>
                         <th class="th-col-state">状態</th>
@@ -1157,7 +1186,7 @@
             <div class="mt-5 mb-4 header-container">
                 <h4 class="px-2">C#スクリプトの変更</h4>
             </div>
-            <table class="table table-dark table- my-4 table-bordered table-triped">
+            <table class="table my-4 table-bordered table-triped">
                 <thead>
                     <tr>
                         <th class="th-col-state">状態</th>
@@ -1378,8 +1407,8 @@
                 <h4 class="px-2">テンプレートの追加</h4>
             </div>
             <p>以下のテンプレートをスクリプトエディタに追加しました。</p>
-            <table class="table table-striped table-dark my-4 table-bordered">
-                <thead class=" thead-dark">
+            <table class="table table-striped  my-4 table-bordered">
+                <thead>
                     <th>タイトル</th>
                 </thead>
                 <tbody>
@@ -1395,7 +1424,7 @@
                 <h4 class="px-2">C#スクリプトの変更</h4>
             </div>
             <p>C#スクリプトにいくつかの変更を行いました。</p>
-            <table class="table table-dark table- my-4 table-bordered table-triped">
+            <table class="table my-4 table-bordered table-triped">
                 <thead>
                     <tr>
                         <th class="th-col-state">状態</th>
@@ -1489,8 +1518,8 @@
                 <h4 class="px-2">ショートカットの追加</h4>
             </div>
             <p>以下のショートカットをエディタに追加しました。</p>
-            <table class="table table-striped table-dark my-4 table-bordered">
-                <thead class=" thead-dark">
+            <table class="table table-striped  my-4 table-bordered">
+                <thead>
                     <th>アクション</th>
                     <th>ショートカットキー</th>
                 </thead>
@@ -1511,8 +1540,8 @@
                 <h4 class="px-2">テンプレートの追加</h4>
             </div>
             <p>以下のテンプレートをエディタに追加しました。</p>
-            <table class="table table-striped table-dark my-4 table-bordered">
-                <thead class=" thead-dark">
+            <table class="table table-striped  my-4 table-bordered">
+                <thead>
                     <th>タイトル</th>
                 </thead>
                 <tbody>
@@ -1561,7 +1590,7 @@
                 <h4 class="px-2">C#スクリプトの変更</h4>
             </div>
             <p>C#スクリプトにいくつかの変更を行いました。</p>
-            <table class="table table-dark table- my-4 table-bordered table-triped">
+            <table class="table my-4 table-bordered table-triped">
                 <thead>
                     <tr>
                         <th class="th-col-state">状態</th>
@@ -1674,8 +1703,8 @@
             </ul>
             <h2 class="mt-5 mb-3">スクリプトエディタのショートカット</h2>
             <p>以下のショートカットをエディタに追加しました。</p>
-            <table class="table table-striped table-dark my-4 table-bordered">
-                <thead class=" thead-dark">
+            <table class="table table-striped  my-4 table-bordered">
+                <thead>
                     <th>アクション</th>
                     <th>ショートカットキー</th>
                 </thead>
@@ -1712,7 +1741,7 @@
             </table>
             <h2 class="mt-5 mb-3">C#スクリプトの変更点</h2>
 
-            <table class="table table-dark table- my-4 table-bordered table-triped">
+            <table class="table my-4 table-bordered table-triped">
                 <thead>
                     <tr>
                         <th class="th-col-state">状態</th>
